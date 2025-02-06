@@ -1,27 +1,53 @@
 version: 2.1
 
-# orbs:
-#   node: circleci/node@5.2.0
-
 jobs:
-  deploy:
+  prepare_dev:
     machine: true
-    resource_class: dothanhhau/sematic_search
+    resource_class: dothanhhau/semantic_search
+    environment:
+      WORK_DIR: /home/circleci/nckh2025_<< pipeline.git.branch >>_pre
     working_directory: ~/semantic_search/
     steps:
       - checkout
       - run:
-          name: Deploy to EC2
+          name: Thiết lập môi trường Python
+          shell: /bin/bash
           command: |
-            echo $(ip addr)
-            # ssh -oStrictHostKeyChecking=no -v $USER@$DNS "./deploy.sh"
+
+            echo "VNCORE=$VNCORE" >> .env
+            echo "PHO_BERT=$PHO_BERT" > .env
+            echo "TESSERACT=$TESSERACT" >> .env
+            echo "URL_MILVUS=$URL_MILVUS" >> .env
+            echo "POPPLER_PDF=$POPPLER_PDF" >> .env
+            echo "TOKEN_MILVUS=$TOKEN_MILVUS" >> .env
+            echo "UPLOAD_FOLDER=$UPLOAD_FOLDER" >> .env
+
+            old_requirements=${WORK_DIR}/requirements.txt
+            new_requirements=requirements.txt
+
+            if cmp -s ${old_requirements} ${new_requirements}; then
+              echo 'Tái sử dụng thư viện từ workspace cũ'
+              sudo mv ${WORK_DIR}/venv ./venv
+            else
+              echo 'Cài đặt từ requirements.txt mới'
+              pip install -r requirements.txt
+            fi
+
+            # Dọn dẹp workspace cũ
+            if [ -d "${WORK_DIR}" ]; then sudo rm -Rf ${WORK_DIR}; fi
+            mkdir $WORK_DIR
+            shopt -s dotglob
+            sudo mv * $WORK_DIR
+
+            python3 -m venv venv
+            source venv/bin/activate
+            gunicorn -w 3 run:app
 
 workflows:
   deploy-to-ec2:
     jobs:
-      - deploy:
+      - prepare_dev:
           filters:
             branches:
               only:
                 - main
-#            ssh -oStrictHostKeyChecking=no -v $USER@$DNS "./deploy.sh"
