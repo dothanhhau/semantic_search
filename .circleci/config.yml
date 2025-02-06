@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   prepare_dev:
     machine: true
-    resource_class: dothanhhau/semantic_search
+    resource_class: dothanhhau/sematic_search
     environment:
       WORK_DIR: /home/circleci/nckh2025_<< pipeline.git.branch >>_pre
     working_directory: ~/semantic_search/
