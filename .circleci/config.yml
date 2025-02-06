@@ -13,8 +13,8 @@ jobs:
           name: Thiết lập môi trường Python
           shell: /bin/bash
           command: |
-
-            sudo rm .env
+            echo "Current directory: $PWD"
+            if [ -f .env ]; then sudo rm .env; fi
             # Thiết lập biến môi trường vào file .env
             echo "VNCORE=$VNCORE" >> .env
             echo "PHO_BERT=$PHO_BERT" >> .env
@@ -32,23 +32,27 @@ jobs:
             source venv/bin/activate
 
             # So sánh file requirements cũ và mới
-            if cmp -s ${old_requirements} ${new_requirements}; then
-              echo 'Tái sử dụng thư viện từ workspace cũ'
-              sudo mv ${WORK_DIR}/venv ./venv
+            if [ -f "${old_requirements}" ] && [ -f "${new_requirements}" ]; then
+              if cmp -s ${old_requirements} ${new_requirements}; then
+                echo 'Tái sử dụng thư viện từ workspace cũ'
+                sudo mv ${WORK_DIR}/venv ./venv
+              else
+                echo 'Cài đặt từ requirements.txt mới'
+                pip install -r requirements.txt
+              fi
             else
-              echo 'Cài đặt từ requirements.txt mới'
-              pip install -r requirements.txt
+              echo 'File requirements.txt không tồn tại'
             fi
+
+            # Chạy ứng dụng với Gunicorn
+            gunicorn -w 3 run:app  # Kiểm tra lại đường dẫn và ứng dụng
 
             # Dọn dẹp workspace cũ
             if [ -d "${WORK_DIR}" ]; then sudo rm -Rf ${WORK_DIR}; fi
             mkdir $WORK_DIR
             shopt -s dotglob
-            rsync -a * $WORK_DIR
+            rsync -a . $WORK_DIR
 
-            # Chạy ứng dụng với Gunicorn
-            gunicorn -w 3 run:app  # Kiểm tra lại đường dẫn và ứng dụng
-          
 workflows:
   deploy-to-ec2:
     jobs:
