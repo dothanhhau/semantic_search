@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   prepare_dev:
     machine: true
-    resource_class: dothanhhau/sematic_search
+    resource_class: dothanhhau/sematic_search  # Kiểm tra lại resource class này
     environment:
       WORK_DIR: /home/circleci/nckh2025_<< pipeline.git.branch >>_pre
     working_directory: ~/semantic_search/
@@ -13,9 +13,9 @@ jobs:
           name: Thiết lập môi trường Python
           shell: /bin/bash
           command: |
-
+            # Thiết lập biến môi trường vào file .env
             echo "VNCORE=$VNCORE" >> .env
-            echo "PHO_BERT=$PHO_BERT" > .env
+            echo "PHO_BERT=$PHO_BERT" >> .env
             echo "TESSERACT=$TESSERACT" >> .env
             echo "URL_MILVUS=$URL_MILVUS" >> .env
             echo "POPPLER_PDF=$POPPLER_PDF" >> .env
@@ -25,6 +25,11 @@ jobs:
             old_requirements=${WORK_DIR}/requirements.txt
             new_requirements=requirements.txt
 
+            # Tạo và kích hoạt môi trường ảo Python
+            python3 -m venv venv
+            source venv/bin/activate
+
+            # So sánh file requirements cũ và mới
             if cmp -s ${old_requirements} ${new_requirements}; then
               echo 'Tái sử dụng thư viện từ workspace cũ'
               sudo mv ${WORK_DIR}/venv ./venv
@@ -39,10 +44,9 @@ jobs:
             shopt -s dotglob
             sudo mv * $WORK_DIR
 
-            python3 -m venv venv
-            source venv/bin/activate
-            gunicorn -w 3 run:app
-
+            # Chạy ứng dụng với Gunicorn
+            gunicorn -w 3 run:app  # Kiểm tra lại đường dẫn và ứng dụng
+          
 workflows:
   deploy-to-ec2:
     jobs:
