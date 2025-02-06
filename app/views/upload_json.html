@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Upload JSON or Enter Text</title>
+    <style>
+
+      body {
+        display: flex;
+        justify-content: center;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      .main {
+        margin-top: 70px;
+      }
+
+      .up_file,
+      .up_text {
+        display: inline-block;
+      }
+
+      .content {
+        display: flex;
+      }
+
+      button {
+        padding: 6px 38px;
+        cursor: pointer;
+        display: block;
+        margin: 40px auto;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <h1>Upload JSON or Enter Text</h1>
+      <form action="/upload/json" method="post" enctype="multipart/form-data">
+        <div class="content">
+          <div class="up_file">
+            <h3>Upload JSON File</h3>
+            <input type="file" name="file" accept=".json" />
+          </div>
+
+          <div class="up_text">
+            <h3>Submit JSON Text</h3>
+            <textarea
+              name="text"
+              rows="10"
+              cols="50"
+              placeholder="Paste JSON here"
+            ></textarea>
+          </div>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

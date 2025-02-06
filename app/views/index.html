@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tìm kiếm ngữ nghĩa</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: #f4f7f6;
+        padding: 20px;
+        color: #333;
+      }
+
+      .container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      }
+
+      h1 {
+        text-align: center;
+        color: #0066cc;
+        font-size: 28px;
+        margin-bottom: 30px;
+      }
+
+      .upload-links {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-bottom: 30px;
+      }
+
+      a {
+        padding: 10px 20px;
+        color: #ffffff;
+        background-color: #007bff;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: bold;
+        transition: background-color 0.3s;
+      }
+
+      a:hover {
+        background-color: #0056b3;
+      }
+
+      .search-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px 0;
+      }
+
+      .form-group {
+        width: 100%;
+        max-width: 600px;
+        display: flex;
+        gap: 10px;
+        margin-bottom: 20px;
+      }
+
+      select,
+      input[type="text"],
+      button {
+        padding: 10px;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+        font-size: 16px;
+      }
+
+      input[type="text"] {
+        flex: 1;
+      }
+
+      button {
+        background-color: #28a745;
+        color: #ffffff;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+
+      button:hover {
+        background-color: #218838;
+      }
+
+      .result,
+      .frequent-questions {
+        margin-top: 30px;
+      }
+
+      .result-item {
+        background-color: #f9f9f9;
+        padding: 15px;
+        border-radius: 8px;
+        margin-bottom: 15px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      .result-item strong {
+        color: #555;
+      }
+
+      .frequent-questions ul {
+        list-style-type: disc;
+        padding-left: 40px;
+      }
+
+      .frequent-questions li {
+        margin: 30px 0 30px 0;
+      }
+
+      .frequent-questions a {
+        background-color: #fff;
+        color: #333;
+        font-weight: 500;
+        border: 1px solid #ccc;
+        text-decoration: none;
+        cursor: pointer;
+        transition: color 0.3s;
+        border-radius: 20px;
+      }
+
+      .frequent-questions a:hover {
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Tìm kiếm ngữ nghĩa nội dung quy chế sinh viên<br />Trường Đại học Quy Nhơn</h1>
+
+      <div class="upload-links">
+        <a href="/upload/json">Upload JSON</a>
+        <a href="/upload/pdf">Upload PDF</a>
+      </div>
+
+      <div class="search-section">
+        <form action="/" method="GET" class="form-group">
+          <select name="partition">
+            <option value="">Chọn Partition</option>
+            <option value="partition_1">Partition 1</option>
+            <option value="partition_2">Partition 2</option>
+            <option value="partition_3">Partition 3</option>
+          </select>
+          <input type="text" name="search" placeholder="Nhập từ khóa cần tìm..." />
+          <button type="submit">Tìm kiếm</button>
+        </form>
+      </div>
+
+      <div class="result">
+        <h3>Kết quả tìm kiếm:</h3>
+        <div class="result-item">
+          <strong>ID:</strong> 1<br />
+          <strong>Khoảng cách:</strong> 0.1<br />
+          <strong>Nội dung:</strong> Quy chế đăng ký học phần
+        </div>
+        <div class="result-item">
+          <strong>ID:</strong> 2<br />
+          <strong>Khoảng cách:</strong> 0.2<br />
+          <strong>Nội dung:</strong> Quy định bảo lưu kết quả học tập
+        </div>
+      </div>
+
+      <div class="frequent-questions">
+        <h3>Câu hỏi thường gặp:</h3>
+        <ul>
+          <li>
+            <a href="?search=Làm sao để bảo lưu kết quả học tập?">
+              Làm sao để bảo lưu kết quả học tập?
+            </a>
+          </li>
+          <li>
+            <a href="?search=Quy trình đăng ký học lại là gì?">
+              Quy trình đăng ký học lại là gì?
+            </a>
+          </li>
+          <li>
+            <a href="?search=Khi nào có thể nộp đơn xin chuyển ngành học?">
+              Khi nào có thể nộp đơn xin chuyển ngành học?
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
