@@ -1,0 +1,27 @@
+version: 2.1
+
+# orbs:
+#   node: circleci/node@5.2.0
+
+jobs:
+  deploy:
+    machine: true
+    resource_class: dothanhhau/sematic_search
+    working_directory: ~/semantic_search/
+    steps:
+      - checkout
+      - run:
+          name: Deploy to EC2
+          command: |
+            echo $(ip addr)
+            # ssh -oStrictHostKeyChecking=no -v $USER@$DNS "./deploy.sh"
+
+workflows:
+  deploy-to-ec2:
+    jobs:
+      - deploy:
+          filters:
+            branches:
+              only:
+                - main
+#            ssh -oStrictHostKeyChecking=no -v $USER@$DNS "./deploy.sh"
