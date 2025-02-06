@@ -13,6 +13,8 @@ jobs:
           name: Thiết lập môi trường Python
           shell: /bin/bash
           command: |
+
+            sudo rm .env
             # Thiết lập biến môi trường vào file .env
             echo "VNCORE=$VNCORE" >> .env
             echo "PHO_BERT=$PHO_BERT" >> .env
@@ -42,7 +44,7 @@ jobs:
             if [ -d "${WORK_DIR}" ]; then sudo rm -Rf ${WORK_DIR}; fi
             mkdir $WORK_DIR
             shopt -s dotglob
-            sudo mv * $WORK_DIR
+            rsync -a * $WORK_DIR
 
             # Chạy ứng dụng với Gunicorn
             gunicorn -w 3 run:app  # Kiểm tra lại đường dẫn và ứng dụng
