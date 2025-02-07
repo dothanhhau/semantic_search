@@ -45,7 +45,8 @@ jobs:
             mkdir $WORK_DIR
             shopt -s dotglob
             rsync -a . $WORK_DIR
-            
+            rsync -a . /home/ubuntu/semantic_search
+            cd /home/ubuntu/semantic_search
             # Chạy ứng dụng với Gunicorn
             # gunicorn -b 0.0.0.0:8000 run:app # Kiểm tra lại đường dẫn và ứng dụng
 
