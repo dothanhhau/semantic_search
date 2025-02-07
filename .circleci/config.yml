@@ -31,17 +31,12 @@ jobs:
             python3 -m venv venv
             source venv/bin/activate
 
-            # So sánh file requirements cũ và mới
-            if [ -f "${old_requirements}" ] && [ -f "${new_requirements}" ]; then
-              if cmp -s ${old_requirements} ${new_requirements}; then
-                echo 'Tái sử dụng thư viện từ workspace cũ'
-                mv ${WORK_DIR}/venv ./venv
-              else
-                echo 'Cài đặt từ requirements.txt mới'
-                pip install -r requirements.txt
-              fi
+            if cmp -s ${old_requirements} ${new_requirements}; then
+              echo 'Tái sử dụng thư viện từ workspace cũ'
+              mv ${WORK_DIR}/venv ./venv
             else
-              echo 'File requirements.txt không tồn tại'
+              echo 'Cài đặt từ requirements.txt mới'
+              pip install -r requirements.txt
             fi
             
             # Dọn dẹp workspace cũ
