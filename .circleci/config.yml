@@ -47,7 +47,7 @@ jobs:
             rsync -a . $WORK_DIR
             
             # Chạy ứng dụng với Gunicorn
-            gunicorn -w 3 run:app  # Kiểm tra lại đường dẫn và ứng dụng
+            gunicorn -D run:app  # Kiểm tra lại đường dẫn và ứng dụng
 
 workflows:
   deploy-to-ec2:
