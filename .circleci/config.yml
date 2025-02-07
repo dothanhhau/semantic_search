@@ -43,18 +43,15 @@ jobs:
             
             # Dọn dẹp workspace cũ
             if [ -d "${WORK_DIR}" ]; then rm -Rf ${WORK_DIR}; fi
-            if [ -d "${WORK_DIR2}" ]; then rm -Rf ${WORK_DIR2}; fi
             mkdir $WORK_DIR
-            mkdir $WORK_DIR2
             shopt -s dotglob
             rsync -a . $WORK_DIR
-            rsync -a . $WORK_DIR2
 
-            cd $WORK_DIR2
+            cd $WORK_DIR
             source venv/bin/activate
-            
+
             # Chạy ứng dụng với Gunicorn
-            # gunicorn -b 0.0.0.0:8000 run:app # Kiểm tra lại đường dẫn và ứng dụng
+            gunicorn -b 0.0.0.0:8000 run:app # Kiểm tra lại đường dẫn và ứng dụng
 
 workflows:
   deploy-to-ec2:
