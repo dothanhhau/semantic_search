@@ -6,6 +6,7 @@ jobs:
     resource_class: dothanhhau/sematic_search  # Kiểm tra lại resource class này
     environment:
       WORK_DIR: /home/circleci/nckh2025_<< pipeline.git.branch >>_pre
+      WORK_DIR2: /home/circleci/nckh2025_<< pipeline.git.branch >>_main
     working_directory: /home/circleci/semantic_search/
     steps:
       - checkout
@@ -42,11 +43,16 @@ jobs:
             
             # Dọn dẹp workspace cũ
             if [ -d "${WORK_DIR}" ]; then rm -Rf ${WORK_DIR}; fi
+            if [ -d "${WORK_DIR2}" ]; then rm -Rf ${WORK_DIR2}; fi
             mkdir $WORK_DIR
+            mkdir $WORK_DIR2
             shopt -s dotglob
             rsync -a . $WORK_DIR
-            rsync -a . /home/ubuntu/semantic_search
-            cd /home/ubuntu/semantic_search
+            rsync -a . $WORK_DIR2
+
+            cd $WORK_DIR2
+            source venv/bin/activate
+            
             # Chạy ứng dụng với Gunicorn
             # gunicorn -b 0.0.0.0:8000 run:app # Kiểm tra lại đường dẫn và ứng dụng
 
