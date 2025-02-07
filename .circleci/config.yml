@@ -33,6 +33,7 @@ jobs:
             rsync -a . $WORK_DIR
 
             cd $WORK_DIR
+            source venv/bin/activate
 
             # old_requirements=${WORK_DIR}/requirements.txt
             # new_requirements=requirements.txt
@@ -60,12 +61,12 @@ jobs:
             # source venv/bin/activate
 
 
-            python3 -m venv venv
-            source venv/bin/activate
-            pip install -r requirements.txt
+            # python3 -m venv venv
+            # source venv/bin/activate
+            # pip install -r requirements.txt
 
             # Chạy ứng dụng với Gunicorn
-            nohup gunicorn -b 0.0.0.0:8000 run:app & # Kiểm tra lại đường dẫn và ứng dụng
+            gunicorn -b 0.0.0.0:8000 run:app # Kiểm tra lại đường dẫn và ứng dụng
 
 workflows:
   deploy-to-ec2:

@@ -1,10 +1,10 @@
 import os
-from flask import Flask
 from dotenv import load_dotenv
 from pymilvus import MilvusClient
 import pytesseract
 from transformers import AutoModel, AutoTokenizer
 import py_vncorenlp
+from flask import Flask
 
 load_dotenv()
 
