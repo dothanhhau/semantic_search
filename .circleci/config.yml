@@ -46,8 +46,8 @@ jobs:
             fi
             
             # Chạy ứng dụng với Gunicorn
-            sudo systemctl restart semantic_search # Kiểm tra lại đường dẫn và ứng dụng
-
+            gunicorn -b 127.0.0.1:8000 run:app 
+            
 workflows:
   deploy-to-ec2:
     jobs:
