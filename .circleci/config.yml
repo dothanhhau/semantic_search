@@ -14,7 +14,7 @@ jobs:
           shell: /bin/bash
           command: |
             echo "Current directory: $PWD"
-            if [ -f .env ]; then sudo rm .env; fi
+            if [ -f .env ]; then rm .env; fi
             # Thiết lập biến môi trường vào file .env
             echo "VNCORE=$VNCORE" >> .env
             echo "PHO_BERT=$PHO_BERT" >> .env
@@ -35,7 +35,7 @@ jobs:
             if [ -f "${old_requirements}" ] && [ -f "${new_requirements}" ]; then
               if cmp -s ${old_requirements} ${new_requirements}; then
                 echo 'Tái sử dụng thư viện từ workspace cũ'
-                sudo mv ${WORK_DIR}/venv ./venv
+                mv ${WORK_DIR}/venv ./venv
               else
                 echo 'Cài đặt từ requirements.txt mới'
                 pip install -r requirements.txt
@@ -45,7 +45,7 @@ jobs:
             fi
             
             # Dọn dẹp workspace cũ
-            if [ -d "${WORK_DIR}" ]; then sudo rm -Rf ${WORK_DIR}; fi
+            if [ -d "${WORK_DIR}" ]; then rm -Rf ${WORK_DIR}; fi
             mkdir $WORK_DIR
             shopt -s dotglob
             rsync -a . $WORK_DIR
