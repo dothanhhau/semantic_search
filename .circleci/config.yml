@@ -43,15 +43,15 @@ jobs:
             else
               echo 'File requirements.txt không tồn tại'
             fi
-
-            # Chạy ứng dụng với Gunicorn
-            gunicorn -w 3 run:app  # Kiểm tra lại đường dẫn và ứng dụng
-
+            
             # Dọn dẹp workspace cũ
             if [ -d "${WORK_DIR}" ]; then sudo rm -Rf ${WORK_DIR}; fi
             mkdir $WORK_DIR
             shopt -s dotglob
             rsync -a . $WORK_DIR
+            
+            # Chạy ứng dụng với Gunicorn
+            gunicorn -w 3 run:app  # Kiểm tra lại đường dẫn và ứng dụng
 
 workflows:
   deploy-to-ec2:
