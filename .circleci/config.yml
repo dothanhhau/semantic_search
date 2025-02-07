@@ -25,6 +25,15 @@ jobs:
             echo "TOKEN_MILVUS=$TOKEN_MILVUS" >> .env
             echo "UPLOAD_FOLDER=$UPLOAD_FOLDER" >> .env
 
+            if [ ! -d "${WORK_DIR}" ]; then
+              mkdir -p ${WORK_DIR}
+            fi
+
+            shopt -s dotglob
+            rsync -a . $WORK_DIR
+
+            cd $WORK_DIR
+
             # old_requirements=${WORK_DIR}/requirements.txt
             # new_requirements=requirements.txt
 
@@ -49,7 +58,6 @@ jobs:
 
             # cd $WORK_DIR
             # source venv/bin/activate
-
 
 
             python3 -m venv venv
