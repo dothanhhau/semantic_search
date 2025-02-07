@@ -15,7 +15,7 @@ try:
     )
 except Exception as e:
     print(e)
-
+print(str(os.getenv("PHO_BERT")))
 phoBert = AutoModel.from_pretrained(str(os.getenv("PHO_BERT")))
 # vncorenlp = py_vncorenlp.VnCoreNLP(annotators=["wseg"], save_dir=str(os.getenv("VNCORE")))
 phoBertTokenizer = AutoTokenizer.from_pretrained(str(os.getenv("PHO_BERT")))
