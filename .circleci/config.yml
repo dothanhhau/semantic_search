@@ -29,44 +29,24 @@ jobs:
               mkdir -p ${WORK_DIR}
             fi
 
+            old_requirements=${WORK_DIR}/requirements.txt
+            new_requirements=requirements.txt
+
             shopt -s dotglob
             rsync -a . $WORK_DIR
 
             cd $WORK_DIR
             source venv/bin/activate
 
-            # old_requirements=${WORK_DIR}/requirements.txt
-            # new_requirements=requirements.txt
-
-            # # Tạo và kích hoạt môi trường ảo Python
-
-            # if cmp -s ${old_requirements} ${new_requirements}; then
-            #   echo 'Tái sử dụng thư viện từ workspace cũ'
-            #   mv ${WORK_DIR}/venv ./venv
-            #   source venv/bin/activate
-            # else
-            #   echo 'Cài đặt từ requirements.txt mới'
-            #   python3 -m venv venv
-            #   source venv/bin/activate
-            #   pip install -r requirements.txt
-            # fi
+            if cmp -s ${old_requirements} ${new_requirements}; then
+              echo 'Tái sử dụng thư viện từ workspace cũ'
+            else
+              echo 'Cài đặt từ requirements.txt mới'
+              pip install -r requirements.txt
+            fi
             
-            # # Dọn dẹp workspace cũ
-            # if [ -d "${WORK_DIR}" ]; then rm -Rf ${WORK_DIR}; fi
-            # mkdir $WORK_DIR
-            # shopt -s dotglob
-            # rsync -a . $WORK_DIR
-
-            # cd $WORK_DIR
-            # source venv/bin/activate
-
-
-            # python3 -m venv venv
-            # source venv/bin/activate
-            # pip install -r requirements.txt
-
             # Chạy ứng dụng với Gunicorn
-            gunicorn -b 0.0.0.0:8000 run:app # Kiểm tra lại đường dẫn và ứng dụng
+            systemctl restart gunicorn # Kiểm tra lại đường dẫn và ứng dụng
 
 workflows:
   deploy-to-ec2:
