@@ -6,7 +6,7 @@ jobs:
     resource_class: dothanhhau/sematic_search  # Kiểm tra lại resource class này
     environment:
       WORK_DIR: /home/circleci/nckh2025_<< pipeline.git.branch >>_pre
-    working_directory: ~/semantic_search/
+    # working_directory: ~/semantic_search/
     steps:
       - checkout
       - run:
