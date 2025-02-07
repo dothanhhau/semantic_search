@@ -6,7 +6,7 @@ jobs:
     resource_class: dothanhhau/sematic_search  # Kiểm tra lại resource class này
     environment:
       WORK_DIR: /home/circleci/nckh2025_<< pipeline.git.branch >>_pre
-    # working_directory: ~/semantic_search/
+    working_directory: /home/circleci/semantic_search/
     steps:
       - checkout
       - run:
@@ -28,14 +28,15 @@ jobs:
             new_requirements=requirements.txt
 
             # Tạo và kích hoạt môi trường ảo Python
-            python3 -m venv venv
-            source venv/bin/activate
 
             if cmp -s ${old_requirements} ${new_requirements}; then
               echo 'Tái sử dụng thư viện từ workspace cũ'
               mv ${WORK_DIR}/venv ./venv
+              source venv/bin/activate
             else
               echo 'Cài đặt từ requirements.txt mới'
+              python3 -m venv venv
+              source venv/bin/activate
               pip install -r requirements.txt
             fi
             
