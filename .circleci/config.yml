@@ -7,7 +7,7 @@ jobs:
     environment:
       WORK_DIR: /home/circleci/nckh2025_<< pipeline.git.branch >>_pre
       WORK_DIR2: /home/circleci/nckh2025_<< pipeline.git.branch >>_main
-    working_directory: /home/ubuntu/semantic_search/
+    working_directory: /home/circleci/semantic_search/
     steps:
       - checkout
       - run:
@@ -57,7 +57,7 @@ jobs:
             pip install -r requirements.txt
 
             # Chạy ứng dụng với Gunicorn
-            gunicorn -b 0.0.0.0:8000 run:app # Kiểm tra lại đường dẫn và ứng dụng
+            nohup gunicorn -b 0.0.0.0:8000 run:app & # Kiểm tra lại đường dẫn và ứng dụng
 
 workflows:
   deploy-to-ec2:
