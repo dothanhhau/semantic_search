@@ -105,6 +105,7 @@
         border-radius: 8px;
         margin-bottom: 15px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        line-height: 1.5;
       }
 
       .result-item strong {
@@ -154,23 +155,24 @@
             <option value="partition_2">Partition 2</option>
             <option value="partition_3">Partition 3</option>
           </select>
-          <input type="text" name="search" placeholder="Nhập từ khóa cần tìm..." />
+          <input type="text" name="search" value="{{ message }}" placeholder="Nhập từ khóa cần tìm..." />
           <button type="submit">Tìm kiếm</button>
         </form>
       </div>
 
       <div class="result">
-        <h3>Kết quả tìm kiếm:</h3>
-        <div class="result-item">
-          <strong>ID:</strong> 1<br />
-          <strong>Khoảng cách:</strong> 0.2<br />
-          <strong>Nội dung:</strong> Quy chế đăng ký học phần
-        </div>
-        <div class="result-item">
-          <strong>ID:</strong> 3<br />
-          <strong>Khoảng cách:</strong> 0.5<br />
-          <strong>Nội dung:</strong> Quy định bảo lưu kết quả học tập
-        </div>
+
+        {% for x in res %} 
+          <h3>Kết quả tìm kiếm:</h3>
+          {% for y in x %}
+            <div class="result-item">
+              <strong>ID:</strong> {{ y.id }}<br />
+              <strong>Khoảng cách:</strong> {{ y.distance }}<br />
+              <strong>Nội dung:</strong> {{ y.entity.content }}
+            </div>
+          {% endfor %} 
+        {% endfor %}
+
       </div>
 
       <div class="frequent-questions">
