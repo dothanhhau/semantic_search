@@ -14,8 +14,10 @@ class DocumentParts:
                 client.load_collection(
                     collection_name=DocumentParts.name
                 )
+            return True
         except Exception as e:
             print(f"Error loading collection: {e}")
+            return False
 
     @staticmethod
     def release_collection():
@@ -27,8 +29,10 @@ class DocumentParts:
                 client.release_collection(
                     collection_name=DocumentParts.name
                 )
+            return True
         except Exception as e:
             print(f"Error releasing collection: {e}")
+            return False
 
     @staticmethod
     def search_all(vector, k):
