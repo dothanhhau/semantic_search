@@ -151,10 +151,11 @@
       <div class="search-section">
         <form action="/" method="GET" class="form-group">
           <select name="partition">
-            <option value="">Chọn Partition</option>
-            <option value="partition_1">Partition 1</option>
-            <option value="partition_2">Partition 2</option>
-            <option value="partition_3">Partition 3</option>
+            <option value="">Chọn tài liệu để tìm kiếm: </option>
+            
+            {% for x in partitions %}
+              <option value="{{ x.id }}">{{ x.name }}</option>
+            {% endfor %}
           </select>
           <input type="text" name="search" value="{{ message }}" placeholder="Nhập từ khóa cần tìm..." />
           <button type="submit">Tìm kiếm</button>
