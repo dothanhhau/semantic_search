@@ -4,6 +4,7 @@ from datetime import datetime
 import uuid
 from flask import Blueprint, render_template, request
 from app.models.document_parts_model import DocumentParts
+from app.models.document_model import Document
 from app.services.ocr_service import extract_text
 from app.services.tokenizer_service import vectorize_text
 from app.utils.file_util import is_pdf_file, is_json_file, is_txt_file
@@ -45,31 +46,22 @@ def upload_pdf():
 
                     doc_id = str(uuid.uuid4())
                     doc_name = TextProcessor.clean(document_name)
-                    doc_vector = vectorize_sentence(doc_name)
+                    doc_vector = vectorize_text(doc_name)
 
-                    # save vào document
-                    # get id document
-                    # create partition
-                    # upload to partion
+                    if Document.load_collection():
+                        Document.insert_one({
+                            "id": doc_id,
+                            "name": doc_name,
+                            "vector": doc_vector,
+                            "file_name": filename
+                        })
+                        Document.release_collection()
 
-                    processed_parts_data = DataProcessingService.preprocess_for_storage(data, vectorizer, "DOCUMENT_PARTS")
-                    for part_data in processed_parts_data:
-                        part_data["doc_id"] = doc_id
-                        
-                    if milvusDocumentRepository.add(Document(doc_id, doc_name, doc_vector, filename + '.pdf', processed_parts_data), "DOCUMENT_PARTS"):
-                        print(f"Successful add {doc_name} to DOCUMENT_PARTS")
-                    else:
-                        print(f"Unsucessful add {doc_name} to DOCUMENT_PARTS")                                      
-                # convert to arr
+                        if DocumentParts.load_collection():
+                            DocumentParts.create_partition(doc_id)
+                            DocumentParts.insert_many([], doc_id)
+                            DocumentParts.release_collection()
 
-                # convert qua json
-                # ghi ra file
-
-                # xử lý thêm vector
-
-                # ghi vào csdl
-
-                # pdf_to_database(filePath)
                 message = 'Save db success'
             except Exception as e:
                 message = e
@@ -88,7 +80,27 @@ def upload_json():
                 if validate_json_structure(content):
                     filename = f"{datetime.now().strftime('%Y%m%d_%H%M%S')}_{file.filename}"
                     file_path = save_json_content(content, filename)
-                    json_to_database(file_path)
+                    
+                    doc_id = str(uuid.uuid4())
+                    doc_name = TextProcessor.clean(filename)
+                    doc_vector = vectorize_text(doc_name)
+
+                    # Xử lý dữ liệu để insert vào db
+
+                    if Document.load_collection():
+                        Document.insert_one({
+                            "id": doc_id,
+                            "name": doc_name,
+                            "vector": doc_vector,
+                            "file_name": filename
+                        })
+                        Document.release_collection()
+
+                        if DocumentParts.load_collection():
+                            DocumentParts.create_partition(doc_id)
+                            DocumentParts.insert_many([], doc_id)
+                            DocumentParts.release_collection()
+
                     return f'JSON file is valid and saved as {filename}'
                 else:
                     return 'Invalid JSON structure!'
@@ -101,9 +113,28 @@ def upload_json():
             try:
                 data = json.loads(content)
                 if validate_json_structure(data):
-                    filename = f"valid_text_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
-                    file_path = save_json_content(data, filename)
+                    
                     json_to_database(file_path)
+
+                    doc_id = str(uuid.uuid4())
+                    doc_name = TextProcessor.clean(request.form["doc_name"])
+                    doc_vector = vectorize_text(doc_name)
+                    file_name = f"{doc_name}.json"
+                    file_path = save_json_content(content, file_name)
+
+                    if Document.load_collection():
+                        Document.insert_one({
+                            "id": doc_id,
+                            "name": doc_name,
+                            "vector": doc_vector,
+                            "file_name": file_name
+                        })
+                        Document.release_collection()
+
+                        if DocumentParts.load_collection():
+                            DocumentParts.create_partition(doc_id)
+                            DocumentParts.insert_many([], doc_id)
+                            DocumentParts.release_collection()
 
                     return f'JSON text is valid and saved as {filename}'
                 else:
