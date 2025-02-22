@@ -1,0 +1,1683 @@
+[
+    {
+        "id": "412f6252-e902-4869-beb2-60187e763784",
+        "rank": 1,
+        "content": "Chương I: NHỮNG QUY ĐỊNH CHUNG",
+        "childs": [
+            {
+                "id": "7a603a4a-817e-4ebb-afe0-5dff63331778",
+                "rank": 3,
+                "page": 1,
+                "content": "Điều 1. Phạm vi điều chỉnh và đối tượng áp dụng",
+                "childs": [
+                    {
+                        "id": "7ff9f264-eb75-4fd8-8b23-b47b65543447",
+                        "rank": 5,
+                        "content": "1. Quy định này quy định về công tác sinh viên đối với chương trình đào tạo đại học hệ chính quy, bao gồm: Nhiệm vụ và quyền của sinh viên; khen thưởng và kỷ luật sinh viên; nội dung công tác sinh viên; hệ thống tổ chức, quản lý công tác sinh viên và tổ chức thực hiện."
+                    },
+                    {
+                        "id": "c8ef65b5-dbb7-4779-a15f-a7a8bae167ce",
+                        "rank": 5,
+                        "content": "2. Quy định này áp dụng đối với các đơn vị chức năng, hội, đoàn thể và các cá nhân có liên quan trong nhà trường."
+                    }
+                ],
+                "child_ids": [
+                    "7ff9f264-eb75-4fd8-8b23-b47b65543447",
+                    "c8ef65b5-dbb7-4779-a15f-a7a8bae167ce"
+                ]
+            },
+            {
+                "id": "bd3e74da-dc46-4b0c-9750-21206a1c1540",
+                "rank": 3,
+                "page": 1,
+                "content": "Điều 2. Sinh viên",
+                "childs": [
+                    {
+                        "id": "92f6705f-12b3-4608-a9aa-7251d0ffaea0",
+                        "rank": 5,
+                        "content": "1. Sinh viên được quy định tại quy chế này là người đang học chương trình đào tạo trình độ đại học hệ chính quy tại trường."
+                    },
+                    {
+                        "id": "88b2358c-90e3-4dd2-9b29-61a93892d269",
+                        "rank": 5,
+                        "content": "2. Sinh viên là trung tâm của các hoạt động giáo dục và đào tạo trong nhà trường, được bảo đảm điều kiện thực hiện đầy đủ nhiệm vụ và quyền trong quá trình học tập và rèn luyện tại trường."
+                    }
+                ],
+                "child_ids": [
+                    "92f6705f-12b3-4608-a9aa-7251d0ffaea0",
+                    "88b2358c-90e3-4dd2-9b29-61a93892d269"
+                ]
+            },
+            {
+                "id": "2cec6c21-9d67-4859-84a0-4caa764db0eb",
+                "rank": 3,
+                "page": 1,
+                "content": "Điều 3. Công tác sinh viên",
+                "childs": [
+                    {
+                        "id": "71df239c-704f-4abb-8e11-65f9a2186c5b",
+                        "rank": 5,
+                        "content": "1. Công tác sinh viên là một trong những công tác trọng tâm của nhà trường, bao gồm tổng thể các hoạt động giáo dục, tuyên truyền; quản lý; hỗ trợ và dịch vụ đối với sinh viên nhằm đảm bảo các mục tiêu của giáo dục đại học."
+                    },
+                    {
+                        "id": "cb2d1800-8093-41c1-9cfb-377a66b4d705",
+                        "rank": 5,
+                        "content": "2. Công tác sinh viên phải thực hiện đúng chủ trương, đường lối của Đảng, chính sách, pháp luật của Nhà nước và các quy định của Bộ Giáo dục và Đào tạo."
+                    },
+                    {
+                        "id": "656273c9-e997-4293-8ee0-92d03f7ebd23",
+                        "rank": 5,
+                        "content": "3. Công tác sinh viên phải bảo đảm dân chủ, khách quan, công bằng, công khai, minh bạch trong các vấn đề có liên quan đến sinh viên."
+                    }
+                ],
+                "child_ids": [
+                    "71df239c-704f-4abb-8e11-65f9a2186c5b",
+                    "cb2d1800-8093-41c1-9cfb-377a66b4d705",
+                    "656273c9-e997-4293-8ee0-92d03f7ebd23"
+                ]
+            }
+        ],
+        "child_ids": [
+            "7a603a4a-817e-4ebb-afe0-5dff63331778",
+            "bd3e74da-dc46-4b0c-9750-21206a1c1540",
+            "2cec6c21-9d67-4859-84a0-4caa764db0eb"
+        ]
+    },
+    {
+        "id": "4c652f4a-a062-4704-86b0-c141cc8dabab",
+        "rank": 1,
+        "content": "Chương II: NHIỆM VỤ VÀ QUYỀN CỦA SINH VIÊN",
+        "childs": [
+            {
+                "id": "2b8a6ce9-4b8b-4487-abf7-b4983c36f82c",
+                "rank": 3,
+                "page": 1,
+                "content": "Điều 4. Nhiệm vụ của sinh viên",
+                "childs": [
+                    {
+                        "id": "2b054d8e-36e4-4353-af9a-cc155acade34",
+                        "rank": 5,
+                        "content": "1. Chấp hành chủ trương, đường lối của Đảng, chính sách, pháp luật của Nhà nước, Điều lệ trường đại học và các nội quy, quy định của nhà trường."
+                    },
+                    {
+                        "id": "89cb5622-1e69-44e0-a8bd-5f0bcb29b70b",
+                        "rank": 5,
+                        "content": "2. Học tập, rèn luyện theo chương trình, kế hoạch giáo dục, đào tạo của nhà trường; chủ động, tích cực tự học, nghiên cứu, sáng tạo và rèn luyện đạo đức, lối sống."
+                    },
+                    {
+                        "id": "1e514cb4-f45d-4081-b244-e676d147ece2",
+                        "rank": 5,
+                        "content": "3. Tôn trọng nhà giáo, cán bộ quản lý, viên chức và nhân viên của nhà trường; đoàn kết, giúp đỡ lẫn nhau trong quá trình học tập và rèn luyện; thực hiện tốt nếp sống văn hóa trong trường học."
+                    },
+                    {
+                        "id": "a19e61eb-e011-46e5-9c40-5d7f3f5424eb",
+                        "rank": 5,
+                        "content": "4. Giữ gìn và bảo vệ tài sản; tích cực hành động góp phần bảo vệ, xây dựng và phát huy truyền thống của nhà trường."
+                    },
+                    {
+                        "id": "9d5c098f-4808-405d-805f-1957b66024f2",
+                        "rank": 5,
+                        "content": "5. Thực hiện đầy đủ quy định về việc khám sức khỏe đầu khóa và khám sức khỏe định kỳ trong thời gian học tập theo quy định của nhà trường."
+                    },
+                    {
+                        "id": "54899bc7-f38a-4ebb-8077-d9027d1eb1b6",
+                        "rank": 5,
+                        "content": "6. Đóng học phí, bảo hiểm y tế đầy đủ, đúng thời hạn."
+                    },
+                    {
+                        "id": "be972d6b-3bb9-43c2-b9a2-b7f29ec01a3a",
+                        "rank": 5,
+                        "content": "7. Tham gia lao động công ích, hoạt động tình nguyện, hoạt động xã hội vì cộng đồng phù hợp với năng lực và sức khỏe theo yêu cầu của các đơn vị, hội, đoàn thể trong nhà trường."
+                    },
+                    {
+                        "id": "b546c2a6-68c3-4611-ba2d-130b43e61336",
+                        "rank": 5,
+                        "content": "8. Chấp hành nghĩa vụ làm việc có thời hạn theo sự điều động của Nhà nước khi được hưởng học bổng, chi phí đào tạo do Nhà nước cấp hoặc do nước ngoài tài trợ theo Hiệp định ký kết với Nhà nước. Nếu không chấp hành, phải bồi hoàn học bổng, chi phí đào tạo theo quy định của Chính phủ."
+                    },
+                    {
+                        "id": "ec26c269-e79b-4503-b15c-5a2704705429",
+                        "rank": 5,
+                        "content": "9. Tham gia phòng, chống tiêu cực, gian lận trong học tập, thi cử và các hoạt động khác của sinh viên; kịp thời báo cáo với khoa, phòng chức năng, hoặc các cơ quan có thẩm quyền khi phát hiện những hành vi tiêu cực, gian lận trong học tập, thi cử hoặc những hành vi vi phạm pháp luật, vi phạm nội quy, quy chế khác của sinh viên, cán bộ, nhà giáo trong nhà trường."
+                    },
+                    {
+                        "id": "19edecf4-1610-4e2d-81f8-2c3e21851d87",
+                        "rank": 5,
+                        "content": "10. Tham gia công tác bảo đảm an ninh, trật tự, an toàn giao thông, phòng chống tội phạm, tệ nạn xã hội trong trường học, gia đình và cộng đồng."
+                    },
+                    {
+                        "id": "d64734a0-07f4-4ce5-a0b4-0c6471bff2ab",
+                        "rank": 5,
+                        "content": "11. Thực hiện các nhiệm vụ khác có liên quan theo quy định của pháp luật và của các đơn vị, hội, đoàn thể trong nhà trường."
+                    }
+                ],
+                "child_ids": [
+                    "2b054d8e-36e4-4353-af9a-cc155acade34",
+                    "89cb5622-1e69-44e0-a8bd-5f0bcb29b70b",
+                    "1e514cb4-f45d-4081-b244-e676d147ece2",
+                    "a19e61eb-e011-46e5-9c40-5d7f3f5424eb",
+                    "9d5c098f-4808-405d-805f-1957b66024f2",
+                    "54899bc7-f38a-4ebb-8077-d9027d1eb1b6",
+                    "be972d6b-3bb9-43c2-b9a2-b7f29ec01a3a",
+                    "b546c2a6-68c3-4611-ba2d-130b43e61336",
+                    "ec26c269-e79b-4503-b15c-5a2704705429",
+                    "19edecf4-1610-4e2d-81f8-2c3e21851d87",
+                    "d64734a0-07f4-4ce5-a0b4-0c6471bff2ab"
+                ]
+            },
+            {
+                "id": "2368dec9-d443-492d-972b-303fbabea019",
+                "rank": 3,
+                "page": 2,
+                "content": "Điều 5. Quyền của sinh viên",
+                "childs": [
+                    {
+                        "id": "fec36b56-95ea-4170-9018-ee29d345651d",
+                        "rank": 5,
+                        "content": "1. Được nhận vào học đúng ngành, nghề đã đăng ký dự tuyển nếu đủ các điều kiện trúng tuyển theo quy định của Bộ Giáo dục và Đào tạo và nhà trường."
+                    },
+                    {
+                        "id": "e0fb1d99-92a6-422c-8ff3-b7c01e07e1db",
+                        "rank": 5,
+                        "content": "2. Được tôn trọng và đối xử bình đẳng: được cung cấp đầy đủ thông tin cá nhân về việc học tập, rèn luyện theo quy định của nhà trường; được phổ biến nội quy, quy chế về đào tạo, rèn luyện và các chế độ, chính sách của Nhà nước có liên quan đến sinh viên."
+                    },
+                    {
+                        "id": "c881c4e0-2c61-4fdf-bd47-7a22aecd6689",
+                        "rank": 5,
+                        "content": "3. Được tạo điều kiện trong học tập, nghiên cứu khoa học và rèn luyện, bao gồm:",
+                        "childs": [
+                            {
+                                "id": "4a35bfe4-8c45-4f11-a31c-1eb7ab442d96",
+                                "rank": 7,
+                                "content": "a) Sử dụng hệ thống thư viện, các trang thiết bị và phương tiện phục vụ các hoạt động học tập, nghiên cứu khoa học, văn hóa, văn nghệ, thể dục, thể thao;"
+                            },
+                            {
+                                "id": "9779e82f-e9c7-4d8e-b5d7-06cfcac54934",
+                                "rank": 7,
+                                "content": "b) Tham gia nghiên cứu khoa học, thi sinh viên giỏi, thi Olympic các môn học, thi sáng tạo khoa học, kỹ thuật;"
+                            },
+                            {
+                                "id": "a38d536a-d4fb-4545-96bd-fce58aef5394",
+                                "rank": 7,
+                                "content": "c) Chăm sóc, bảo vệ sức khỏe theo quy định hiện hành của Nhà nước;"
+                            },
+                            {
+                                "id": "cc110dc0-d638-4012-b895-310403c75421",
+                                "rank": 7,
+                                "content": "d) Đăng ký dự tuyển đi học, tham gia các hoạt động giao lưu, trao đổi sinh viên ở nước ngoài; học chuyển tiếp ở các trình độ đào tạo cao hơn theo quy định hiện hành;"
+                            },
+                            {
+                                "id": "125e9c4a-b106-43a2-b3f4-644237225a04",
+                                "rank": 7,
+                                "content": "e) Tham gia hoạt động trong tổ chức Đảng Cộng sản Việt Nam, Đoàn TNCS Hồ Chí Minh, Hội Sinh viên Việt Nam; tham gia các tổ chức tự quản của sinh viên, các hoạt động xã hội có liên quan ở trong và ngoài trường học theo quy định của pháp luật; các hoạt động văn hóa, văn nghệ, thể thao lành mạnh, phù hợp với mục tiêu đào tạo của nhà trường;"
+                            },
+                            {
+                                "id": "7b27a471-c567-4189-bc8a-8f69a1c163da",
+                                "rank": 7,
+                                "content": "f) Sử dụng các dịch vụ công tác xã hội hiện có của nhà trường (bao gồm các dịch vụ về hướng nghiệp, tư vấn việc làm, hỗ trợ sinh viên có hoàn cảnh đặc biệt...);"
+                            },
+                            {
+                                "id": "2e502aa1-3daf-4172-9d9d-32613832fc50",
+                                "rank": 7,
+                                "content": "g) Nghỉ học tạm thời, tạm ngừng học, học theo tiến độ chậm, tiến độ nhanh, học cùng lúc hai chương trình, chuyển trường theo quy định của quy chế về đào tạo của Bộ Giáo dục và Đào tạo; được nghỉ hè, nghỉ tết, nghỉ lễ theo quy định."
+                            }
+                        ],
+                        "child_ids": [
+                            "4a35bfe4-8c45-4f11-a31c-1eb7ab442d96",
+                            "9779e82f-e9c7-4d8e-b5d7-06cfcac54934",
+                            "a38d536a-d4fb-4545-96bd-fce58aef5394",
+                            "cc110dc0-d638-4012-b895-310403c75421",
+                            "125e9c4a-b106-43a2-b3f4-644237225a04",
+                            "7b27a471-c567-4189-bc8a-8f69a1c163da",
+                            "2e502aa1-3daf-4172-9d9d-32613832fc50"
+                        ]
+                    },
+                    {
+                        "id": "165da766-fb3a-49f6-aef0-4f62f4642495",
+                        "rank": 5,
+                        "content": "4. Được hưởng các chế độ, chính sách, được xét nhận học bổng khuyến khích học tập, học bổng do các tổ chức, cá nhân trong và ngoài nước tài trợ theo quy định hiện hành; được miễn giảm phí khi sử dụng các dịch vụ công cộng về giao thông, giải trí, tham quan bảo tàng, di tích lịch sử, công trình văn hóa theo quy định của Nhà nước."
+                    },
+                    {
+                        "id": "ced3b693-6e70-4c55-9505-b257098d8b38",
+                        "rank": 5,
+                        "content": "5. Được góp ý kiến, tham gia quản lý và giám sát hoạt động giáo dục và các điều kiện đảm bảo chất lượng giáo dục; trực tiếp hoặc thông qua đại diện hợp pháp của mình kiến nghị các giải pháp góp phần xây dựng và phát triển nhà trường, đề đạt nguyện vọng và khiếu nại lên Hiệu trưởng giải quyết các vấn đề có liên quan đến quyền, lợi ích chính đáng của sinh viên."
+                    },
+                    {
+                        "id": "3168b028-4e68-4ea9-80c3-42f1c0bd2763",
+                        "rank": 5,
+                        "content": "6. Được xét tiếp nhận vào ký túc xá và ưu tiên khi sắp xếp vào ở ký túc xá theo quy định."
+                    },
+                    {
+                        "id": "08540d59-0da4-465e-9233-9544a337bb30",
+                        "rank": 5,
+                        "content": "7. Sinh viên đủ điều kiện công nhận tốt nghiệp được cấp bằng tốt nghiệp, chứng chỉ, bảng điểm học tập và rèn luyện, các giấy tờ liên quan và giải quyết các thủ tục hành chính khác."
+                    }
+                ],
+                "child_ids": [
+                    "fec36b56-95ea-4170-9018-ee29d345651d",
+                    "e0fb1d99-92a6-422c-8ff3-b7c01e07e1db",
+                    "c881c4e0-2c61-4fdf-bd47-7a22aecd6689",
+                    "165da766-fb3a-49f6-aef0-4f62f4642495",
+                    "ced3b693-6e70-4c55-9505-b257098d8b38",
+                    "3168b028-4e68-4ea9-80c3-42f1c0bd2763",
+                    "08540d59-0da4-465e-9233-9544a337bb30"
+                ]
+            },
+            {
+                "id": "4be263d1-3a55-4bba-a9b9-a3fb501641c2",
+                "rank": 3,
+                "page": 3,
+                "content": "Điều 6. Các hành vi sinh viên không được làm",
+                "childs": [
+                    {
+                        "id": "011e8c71-7fd4-4941-9607-f3260d4f2ec8",
+                        "rank": 5,
+                        "content": "1. Xúc phạm nhân phẩm, danh dự, xâm phạm thân thể nhà giáo, cán bộ quản lý, viên chức, nhân viên, người học của nhà trường và người khác."
+                    },
+                    {
+                        "id": "0993b46e-9633-4fdb-b0e2-72b4c6dcb3bf",
+                        "rank": 5,
+                        "content": "2. Gian lận trong học tập, kiểm tra, thi cử như: quay cóp, mang tài liệu vào phòng thi, xin điểm; học, thi, thực tập, trực hộ người khác hoặc nhờ người khác học, thi, thực tập, trực hộ; sao chép, nhờ hoặc làm hộ tiểu luận, đồ án, khóa luận tốt nghiệp; tổ chức hoặc tham gia tổ chức thi hộ hoặc các hành vi gian lận khác."
+                    },
+                    {
+                        "id": "17d47f93-f309-41e4-8df6-9fe89a7c123f",
+                        "rank": 5,
+                        "content": "3. Hút thuốc, uống rượu, bia trong trường học; say rượu, bia khi đến lớp học."
+                    },
+                    {
+                        "id": "d80e24cf-1f71-4874-ab78-170d139820e2",
+                        "rank": 5,
+                        "content": "4. Tổ chức hoặc tham gia tụ tập đông người, biểu tình, khiếu kiện trái pháp luật; tham gia tệ nạn xã hội, gây rối an ninh, trật tự an toàn trong nhà trường hoặc ngoài xã hội."
+                    },
+                    {
+                        "id": "91131e16-0318-4bf3-bcbf-880417a95235",
+                        "rank": 5,
+                        "content": "5. Tổ chức hoặc tham gia đua xe, cổ vũ đua xe trái phép."
+                    },
+                    {
+                        "id": "36a973c1-999a-4aac-8c21-7dedaa2fe3bd",
+                        "rank": 5,
+                        "content": "6. Tổ chức hoặc tham gia đánh bạc dưới mọi hình thức."
+                    },
+                    {
+                        "id": "e9150181-7e9e-42ea-8a85-1c7e59e259a5",
+                        "rank": 5,
+                        "content": "7. Sản xuất, buôn bán, vận chuyển, phát tán, tàng trữ, sử dụng hoặc lôi kéo người khác sử dụng vũ khí, chất nổ, các chất ma túy, các loại dược phẩm, hóa chất cấm sử dụng; các tài liệu, ấn phẩm, thông tin phản động, đồi trụy và các tài liệu cấm khác theo quy định của Nhà nước; tổ chức, tham gia, truyền bá các hoạt động mê tín dị đoan, các hoạt động tôn giáo trong nhà trường và các hành vi vi phạm đạo đức khác."
+                    },
+                    {
+                        "id": "1d3edfce-a094-409d-ab65-7d3a9b3dbe58",
+                        "rank": 5,
+                        "content": "8. Thành lập, tham gia các hoạt động mang tính chất chính trị trái pháp luật; tổ chức, tham gia các hoạt động tập thể mang danh nghĩa nhà trường khi chưa được Hiệu trưởng nhà trường cho phép."
+                    },
+                    {
+                        "id": "cc82aab4-f5bd-4f57-a240-cec40a564da2",
+                        "rank": 5,
+                        "content": "9. Đăng tải, bình luận, chia sẻ bài viết, hình ảnh có nội dung dung tục, bạo lực, đồi trụy, xâm phạm an ninh quốc gia, chống phá Đảng và Nhà nước, xuyên tạc, vu khống, xúc phạm uy tín của tổ chức, danh dự và nhân phẩm của cá nhân trên mạng Internet."
+                    },
+                    {
+                        "id": "e8fe3f4e-96a0-4d3c-821d-edc460d6da25",
+                        "rank": 5,
+                        "content": "10. Tổ chức hoặc tham gia các hoạt động vi phạm pháp luật khác."
+                    }
+                ],
+                "child_ids": [
+                    "011e8c71-7fd4-4941-9607-f3260d4f2ec8",
+                    "0993b46e-9633-4fdb-b0e2-72b4c6dcb3bf",
+                    "17d47f93-f309-41e4-8df6-9fe89a7c123f",
+                    "d80e24cf-1f71-4874-ab78-170d139820e2",
+                    "91131e16-0318-4bf3-bcbf-880417a95235",
+                    "36a973c1-999a-4aac-8c21-7dedaa2fe3bd",
+                    "e9150181-7e9e-42ea-8a85-1c7e59e259a5",
+                    "1d3edfce-a094-409d-ab65-7d3a9b3dbe58",
+                    "cc82aab4-f5bd-4f57-a240-cec40a564da2",
+                    "e8fe3f4e-96a0-4d3c-821d-edc460d6da25"
+                ]
+            }
+        ],
+        "child_ids": [
+            "2b8a6ce9-4b8b-4487-abf7-b4983c36f82c",
+            "2368dec9-d443-492d-972b-303fbabea019",
+            "4be263d1-3a55-4bba-a9b9-a3fb501641c2"
+        ]
+    },
+    {
+        "id": "15fa02ac-26db-4e1f-991b-534394e88e3e",
+        "rank": 1,
+        "content": "Chương III: KHEN THƯỞNG VÀ KỶ LUẬT SINH VIÊN",
+        "childs": [
+            {
+                "id": "1981cb65-abd4-428c-b903-af010596d16c",
+                "rank": 3,
+                "page": 4,
+                "content": "Điều 7. Nội dung, hình thức khen thưởng",
+                "childs": [
+                    {
+                        "id": "78559d75-cdf2-406d-b8ca-c313fa290a32",
+                        "rank": 5,
+                        "content": "1. Khen thưởng thường xuyên, kịp thời đối với cá nhân và tập thể lớp sinh viên đạt thành tích xứng đáng để biểu dương, khen thưởng. Cụ thể:",
+                        "childs": [
+                            {
+                                "id": "c713952c-e1cd-450b-885c-cf4ee62c01e3",
+                                "rank": 7,
+                                "content": "a) Đoạt giải trong các cuộc thi Olympic các môn học, thi nghiên cứu khoa học, các cuộc thi sáng tạo kỹ thuật, học thuật, văn hóa, văn nghệ, thể thao;"
+                            },
+                            {
+                                "id": "af498442-66cc-40af-9e3e-24d2b4d62753",
+                                "rank": 7,
+                                "content": "b) Đóng góp có hiệu quả trong công tác Đảng, Đoàn Thanh niên, Hội Sinh viên, trong hoạt động thanh niên xung kích, sinh viên tình nguyện, giữ gìn an ninh trật tự, các hoạt động trong lớp, khoa, trong ký túc xá, hoạt động xã hội, văn hóa, văn nghệ, thể thao;"
+                            },
+                            {
+                                "id": "22ea350e-7008-4ba9-87b7-c897ab14f385",
+                                "rank": 7,
+                                "content": "c) Có thành tích trong việc thực hiện phong trào toàn dân bảo vệ an ninh tổ quốc, bảo đảm an ninh, trật tự trường học, phòng chống tội phạm, tệ nạn xã hội, dũng cảm cứu người bị nạn, chống tiêu cực, tham nhũng;"
+                            },
+                            {
+                                "id": "ff364b95-fe8b-4289-9ebd-081e90afee1e",
+                                "rank": 7,
+                                "content": "d) Các thành tích đặc biệt khác.",
+                                "childs": [
+                                    {
+                                        "id": "a8054c9c-a7cc-4f9f-9565-b74659f88956",
+                                        "rank": 1000,
+                                        "content": "Nội dung, hình thức và mức khen thưởng thường xuyên do Hiệu trưởng nhà trường quy định."
+                                    }
+                                ],
+                                "child_ids": [
+                                    "a8054c9c-a7cc-4f9f-9565-b74659f88956"
+                                ]
+                            }
+                        ],
+                        "child_ids": [
+                            "c713952c-e1cd-450b-885c-cf4ee62c01e3",
+                            "af498442-66cc-40af-9e3e-24d2b4d62753",
+                            "22ea350e-7008-4ba9-87b7-c897ab14f385",
+                            "ff364b95-fe8b-4289-9ebd-081e90afee1e"
+                        ]
+                    },
+                    {
+                        "id": "9d049b11-a392-4f3d-b26c-d4cdc185ae5d",
+                        "rank": 5,
+                        "content": "2. Thi đua, khen thưởng toàn diện, định kỳ đối với cá nhân và tập thể lớp sinh viên được tiến hành vào cuối năm học, khóa học. Cụ thể:",
+                        "childs": [
+                            {
+                                "id": "ecd0430f-1f3e-48e4-a8dc-12b79f2ce4f9",
+                                "rank": 7,
+                                "content": "a) Đối với cá nhân:",
+                                "childs": [
+                                    {
+                                        "id": "b4047824-355e-493b-a7c1-701fe90f9db5",
+                                        "rank": 1000,
+                                        "content": "- Danh hiệu cá nhân gồm 3 loại: Khá, Giỏi, Xuất sắc."
+                                    },
+                                    {
+                                        "id": "18d0afbc-1971-4596-be59-d5e848251b79",
+                                        "rank": 1000,
+                                        "content": "- Tiêu chuẩn xếp loại:"
+                                    },
+                                    {
+                                        "id": "afc58a19-389e-4612-ac38-306ce1e3dc22",
+                                        "rank": 1000,
+                                        "content": "+ Đạt danh hiệu sinh viên Khá: Xếp loại học tập và rèn luyện từ khá trở lên;"
+                                    },
+                                    {
+                                        "id": "213bc552-e8a3-4fa4-a7ac-7556384348ba",
+                                        "rank": 1000,
+                                        "content": "+ Đạt danh hiệu sinh viên Giỏi: Xếp loại học tập từ giỏi trở lên và xếp loại rèn luyện từ tốt trở lên;"
+                                    },
+                                    {
+                                        "id": "0eb62a58-43cd-4702-86b1-b0f8320645ab",
+                                        "rank": 1000,
+                                        "content": "+ Đạt danh hiệu sinh viên Xuất sắc: Xếp loại học tập và rèn luyện loại xuất sắc. (Điểm xếp loại học tập tính theo thang điểm 10)."
+                                    },
+                                    {
+                                        "id": "3387e78d-8e75-444e-a9ee-4f73a4aa9732",
+                                        "rank": 1000,
+                                        "content": "- Danh hiệu cá nhân được lưu vào hồ sơ quản lý sinh viên."
+                                    },
+                                    {
+                                        "id": "e2691b82-3f03-430a-8bcc-b7b39a5d2039",
+                                        "rank": 1000,
+                                        "content": "- Không xét khen thưởng đối với sinh viên bị kỷ luật hoặc có điểm kết thúc học phần trong năm học đó dưới mức trung bình."
+                                    }
+                                ],
+                                "child_ids": [
+                                    "b4047824-355e-493b-a7c1-701fe90f9db5",
+                                    "18d0afbc-1971-4596-be59-d5e848251b79",
+                                    "afc58a19-389e-4612-ac38-306ce1e3dc22",
+                                    "213bc552-e8a3-4fa4-a7ac-7556384348ba",
+                                    "0eb62a58-43cd-4702-86b1-b0f8320645ab",
+                                    "3387e78d-8e75-444e-a9ee-4f73a4aa9732",
+                                    "e2691b82-3f03-430a-8bcc-b7b39a5d2039"
+                                ]
+                            },
+                            {
+                                "id": "4accd65a-184f-4bba-917b-954902a0a041",
+                                "rank": 7,
+                                "content": "b) Đối với tập thể lớp sinh viên:",
+                                "childs": [
+                                    {
+                                        "id": "fc51f166-f7e9-408a-a0a8-e583f0be45d4",
+                                        "rank": 1000,
+                                        "content": "- Danh hiệu tập thể lớp sinh viên gồm 2 loại: Lớp sinh viên Tiên tiến và Lớp sinh viên Xuất sắc. Cụ thể như sau:"
+                                    },
+                                    {
+                                        "id": "bfceb9f5-41b1-4a4a-9c2a-8fb2af51576d",
+                                        "rank": 1000,
+                                        "content": "b1. Danh hiệu Lớp sinh viên Tiên tiến"
+                                    },
+                                    {
+                                        "id": "1a613fcb-e69e-4cea-85b0-bed80fdc3c2c",
+                                        "rank": 1000,
+                                        "content": "Tiêu chuẩn:"
+                                    },
+                                    {
+                                        "id": "d0379280-5658-4ebc-a85a-476b8a9e11d8",
+                                        "rank": 1000,
+                                        "content": "+ Có từ 25% sinh viên đạt danh hiệu sinh viên Khá trở lên;"
+                                    },
+                                    {
+                                        "id": "2251aa3d-b3d2-470c-92a6-15aef28bebf0",
+                                        "rank": 1000,
+                                        "content": "+ Có cá nhân đạt danh hiệu sinh viên Giỏi trở lên;"
+                                    },
+                                    {
+                                        "id": "e8cb1b94-f4fc-42f4-ba24-441085d198ea",
+                                        "rank": 1000,
+                                        "content": "+ Không có cá nhân xếp loại học tập kém hoặc rèn luyện kém, bị kỷ luật từ mức cảnh cáo trở lên;"
+                                    },
+                                    {
+                                        "id": "ca36257c-2c6c-43c1-ac1f-a3eaa110c384",
+                                        "rank": 1000,
+                                        "content": "+ Tập thể đoàn kết, giúp đỡ lẫn nhau trong học tập, rèn luyện, tổ chức nhiều hoạt động thi đua và tích cực hưởng ứng phong trào thi đua trong nhà trường."
+                                    },
+                                    {
+                                        "id": "4458976a-2ef5-4715-9146-fac330d0f7e9",
+                                        "rank": 1000,
+                                        "content": "b2. Danh hiệu Lớp sinh viên Xuất sắc"
+                                    },
+                                    {
+                                        "id": "f1d732dc-62bc-4864-8e84-cbea0580a5df",
+                                        "rank": 1000,
+                                        "content": "Tiêu chuẩn:"
+                                    },
+                                    {
+                                        "id": "e1966afa-94bc-4b33-afcd-5bfe77f00f93",
+                                        "rank": 1000,
+                                        "content": "+ Đạt các tiêu chuẩn của danh hiệu tập thể Tiên tiến;"
+                                    },
+                                    {
+                                        "id": "439708ba-79b5-4445-9366-bdc88fe211da",
+                                        "rank": 1000,
+                                        "content": "+ Có từ 10% sinh viên đạt danh hiệu sinh viên Giỏi trở lên;"
+                                    },
+                                    {
+                                        "id": "2407c020-15ad-4feb-a353-20115fe8a4c9",
+                                        "rank": 1000,
+                                        "content": "+ Có cá nhân đạt danh hiệu sinh viên Xuất sắc."
+                                    }
+                                ],
+                                "child_ids": [
+                                    "fc51f166-f7e9-408a-a0a8-e583f0be45d4",
+                                    "bfceb9f5-41b1-4a4a-9c2a-8fb2af51576d",
+                                    "1a613fcb-e69e-4cea-85b0-bed80fdc3c2c",
+                                    "d0379280-5658-4ebc-a85a-476b8a9e11d8",
+                                    "2251aa3d-b3d2-470c-92a6-15aef28bebf0",
+                                    "e8cb1b94-f4fc-42f4-ba24-441085d198ea",
+                                    "ca36257c-2c6c-43c1-ac1f-a3eaa110c384",
+                                    "4458976a-2ef5-4715-9146-fac330d0f7e9",
+                                    "f1d732dc-62bc-4864-8e84-cbea0580a5df",
+                                    "e1966afa-94bc-4b33-afcd-5bfe77f00f93",
+                                    "439708ba-79b5-4445-9366-bdc88fe211da",
+                                    "2407c020-15ad-4feb-a353-20115fe8a4c9"
+                                ]
+                            }
+                        ],
+                        "child_ids": [
+                            "ecd0430f-1f3e-48e4-a8dc-12b79f2ce4f9",
+                            "4accd65a-184f-4bba-917b-954902a0a041"
+                        ]
+                    }
+                ],
+                "child_ids": [
+                    "78559d75-cdf2-406d-b8ca-c313fa290a32",
+                    "9d049b11-a392-4f3d-b26c-d4cdc185ae5d"
+                ]
+            },
+            {
+                "id": "a9f8b54d-5ac1-4366-83ca-4f9ca77ae62f",
+                "rank": 3,
+                "page": 5,
+                "content": "Điều 8. Trình tự, thủ tục xét khen thưởng",
+                "childs": [
+                    {
+                        "id": "78eab2f6-f55c-4a35-8ea9-942284a38ae7",
+                        "rank": 5,
+                        "content": "1. Vào đầu năm học, nhà trường tổ chức cho sinh viên, các lớp sinh viên đăng ký danh hiệu thi đua cá nhân và tập thể lớp sinh viên."
+                    },
+                    {
+                        "id": "7cc631e6-1147-4ba4-a4d8-a4ca66855bc8",
+                        "rank": 5,
+                        "content": "2. Thủ tục xét khen thưởng:",
+                        "childs": [
+                            {
+                                "id": "f5696424-b01c-478a-8631-9774327fe6ee",
+                                "rank": 7,
+                                "content": "a) Căn cứ vào thành tích đạt được trong học tập và rèn luyện của sinh viên, các lớp sinh viên tiến hành lập danh sách kèm theo bản thành tích cá nhân và tập thể lớp, có xác nhận của chủ nhiệm lớp (CVHT), đề nghị khoa xem xét;"
+                            },
+                            {
+                                "id": "68c496ed-ae6f-4957-8c8f-a0a7d53df7dd",
+                                "rank": 7,
+                                "content": "b) Khoa tổ chức họp, xét và đề nghị Hội đồng khen thưởng và kỷ luật sinh viên của nhà trường xét duyệt;"
+                            },
+                            {
+                                "id": "917ba9f1-a7be-46ba-bbb5-347f1921b768",
+                                "rank": 7,
+                                "content": "c) Căn cứ vào đề nghị của khoa, Hội đồng khen thưởng và kỷ luật sinh viên của nhà trường tổ chức xét và đề nghị Hiệu trưởng công nhận danh hiệu đối với cá nhân và tập thể lớp sinh viên."
+                            }
+                        ],
+                        "child_ids": [
+                            "f5696424-b01c-478a-8631-9774327fe6ee",
+                            "68c496ed-ae6f-4957-8c8f-a0a7d53df7dd",
+                            "917ba9f1-a7be-46ba-bbb5-347f1921b768"
+                        ]
+                    }
+                ],
+                "child_ids": [
+                    "78eab2f6-f55c-4a35-8ea9-942284a38ae7",
+                    "7cc631e6-1147-4ba4-a4d8-a4ca66855bc8"
+                ]
+            },
+            {
+                "id": "ae4013d3-0017-4061-a7d0-0a9494405bde",
+                "rank": 3,
+                "page": 5,
+                "content": "Điều 9. Hình thức kỷ luật và nội dung vi phạm",
+                "childs": [
+                    {
+                        "id": "0c287b28-257f-4277-91c6-83a064c743c5",
+                        "rank": 5,
+                        "content": "1. Những sinh viên có hành vi vi phạm thì tùy tính chất, mức độ, hậu quả của hành vi vi phạm có thể được nhắc nhở, phê bình hoặc phải chịu một trong các hình thức kỷ luật sau:",
+                        "childs": [
+                            {
+                                "id": "5512544a-93d0-44ba-b63c-9df5546b0ab1",
+                                "rank": 7,
+                                "content": "a) Khiển trách: áp dụng đối với sinh viên có hành vi vi phạm lần đầu nhưng ở mức độ nhẹ;"
+                            },
+                            {
+                                "id": "fef6a947-4c18-4720-8244-2f2e18b393fe",
+                                "rank": 7,
+                                "content": "b) Cảnh cáo: áp dụng đối với sinh viên đã bị khiển trách mà tái phạm hoặc vi phạm ở mức độ nhẹ nhưng hành vi vi phạm có tính chất thường xuyên hoặc mới vi phạm lần đầu nhưng mức độ tương đối nghiêm trọng;"
+                            },
+                            {
+                                "id": "515390f2-dc2d-449f-bec9-462d5f31ae34",
+                                "rank": 7,
+                                "content": "c) Đình chỉ học tập có thời hạn: áp dụng đối với những sinh viên đang trong thời gian bị cảnh cáo mà vẫn vi phạm kỷ luật hoặc vi phạm nghiêm trọng các hành vi sinh viên không được làm; sinh viên vi phạm pháp luật bị xử phạt tù nhưng cho hưởng án treo. Tùy từng trường hợp cụ thể, Hiệu trưởng nhà trường căn cứ vào quy chế đào tạo để quyết định thời hạn đình chỉ học tập theo các mức: đình chỉ một học kỳ, đình chỉ một năm học hoặc đình chỉ theo thời gian sinh viên bị xử phạt tù nhưng cho hưởng án treo."
+                            },
+                            {
+                                "id": "8bce2d3c-af06-4af0-9667-71d4ab58d46a",
+                                "rank": 7,
+                                "content": "d) Buộc thôi học: áp dụng đối với sinh viên đang trong thời gian bị đình chỉ học tập mà vẫn tiếp tục vi phạm kỷ luật hoặc vi phạm lần đầu nhưng có tính chất và mức độ vi phạm đặc biệt nghiêm trọng, gây ảnh hưởng xấu đến nhà trường và xã hội; vi phạm pháp luật bị xử phạt tù giam."
+                            }
+                        ],
+                        "child_ids": [
+                            "5512544a-93d0-44ba-b63c-9df5546b0ab1",
+                            "fef6a947-4c18-4720-8244-2f2e18b393fe",
+                            "515390f2-dc2d-449f-bec9-462d5f31ae34",
+                            "8bce2d3c-af06-4af0-9667-71d4ab58d46a"
+                        ]
+                    },
+                    {
+                        "id": "dba3bbc1-6351-43c7-a6df-a6fbb1d20a3a",
+                        "rank": 5,
+                        "content": "2. Hình thức kỷ luật của sinh viên từ cảnh cáo trở lên phải được lưu vào hồ sơ quản lý sinh viên và thông báo cho gia đình sinh viên. Trường hợp sinh viên bị kỷ luật mức đình chỉ học tập có thời hạn hoặc buộc thôi học, nhà trường sẽ gửi thông báo cho địa phương và gia đình sinh viên biết để phối hợp quản lý, giáo dục."
+                    },
+                    {
+                        "id": "2f4c74aa-ecb0-478c-92fa-2e21283dd4b1",
+                        "rank": 5,
+                        "content": "3. Nội dung vi phạm và khung xử lý kỷ luật thực hiện theo quy định tại Phụ lục kèm theo Quy định này."
+                    }
+                ],
+                "child_ids": [
+                    "0c287b28-257f-4277-91c6-83a064c743c5",
+                    "dba3bbc1-6351-43c7-a6df-a6fbb1d20a3a",
+                    "2f4c74aa-ecb0-478c-92fa-2e21283dd4b1"
+                ]
+            },
+            {
+                "id": "9536f089-eef7-4813-8418-9b626086acbe",
+                "rank": 3,
+                "page": 5,
+                "content": "Điều 10. Trình tự, thủ tục và hồ sơ xét kỷ luật",
+                "childs": [
+                    {
+                        "id": "799784af-2c2f-4c12-bae2-06f04598d06d",
+                        "rank": 5,
+                        "content": "1. Thủ tục xét kỷ luật:",
+                        "childs": [
+                            {
+                                "id": "92d091f0-8512-46c0-b961-b376f2d7e0fb",
+                                "rank": 7,
+                                "content": "a) Sinh viên có hành vi vi phạm phải làm bản tự kiểm điểm và tự nhận hình thức kỷ luật. Trong trường hợp sinh viên không chấp hành làm bản tự kiểm điểm thì Hội đồng khen thưởng và kỷ luật sinh viên vẫn họp để xử lý trên cơ sở các chứng cứ thu thập được;"
+                            },
+                            {
+                                "id": "7a85dcab-7404-43f8-8add-d208f7342dd1",
+                                "rank": 7,
+                                "content": "b) Chủ nhiệm lớp sinh viên (CVHT) chủ trì họp với tập thể lớp sinh viên, phân tích và đề nghị hình thức kỷ luật gửi khoa;"
+                            },
+                            {
+                                "id": "586b13be-d523-4c98-bd49-3e821353cec9",
+                                "rank": 7,
+                                "content": "c) Khoa xem xét, đề nghị lên Hội đồng khen thưởng và kỷ luật sinh viên của Trường;"
+                            },
+                            {
+                                "id": "5720fc49-dea7-4568-bbf8-c2bbb72adb7f",
+                                "rank": 7,
+                                "content": "d) Hội đồng khen thưởng và kỷ luật sinh viên Trường tổ chức họp để xét kỷ luật, thành phần bao gồm: các thành viên của Hội đồng, đại diện tập thể lớp sinh viên có sinh viên vi phạm và sinh viên có hành vi vi phạm. Sinh viên vi phạm kỷ luật đã được mời mà không đến dự (nếu không có lý do chính đáng), không có bản tự kiểm điểm thì Hội đồng vẫn tiến hành họp và xét thêm khuyết điểm thiếu ý thức tổ chức kỷ luật.",
+                                "childs": [
+                                    {
+                                        "id": "8ffcb24b-1522-4093-afec-613ed5c6d6bd",
+                                        "rank": 1000,
+                                        "content": "Hội đồng kiến nghị áp dụng hình thức kỷ luật, đề nghị Hiệu trưởng ra quyết định kỷ luật bằng văn bản."
+                                    }
+                                ],
+                                "child_ids": [
+                                    "8ffcb24b-1522-4093-afec-613ed5c6d6bd"
+                                ]
+                            }
+                        ],
+                        "child_ids": [
+                            "92d091f0-8512-46c0-b961-b376f2d7e0fb",
+                            "7a85dcab-7404-43f8-8add-d208f7342dd1",
+                            "586b13be-d523-4c98-bd49-3e821353cec9",
+                            "5720fc49-dea7-4568-bbf8-c2bbb72adb7f"
+                        ]
+                    },
+                    {
+                        "id": "b3114de7-5dbc-4a52-b1ae-a5ccb0fa3494",
+                        "rank": 5,
+                        "content": "2. Hồ sơ xử lý kỷ luật của sinh viên:",
+                        "childs": [
+                            {
+                                "id": "85faec08-9719-4989-8a93-bb98dcd11440",
+                                "rank": 7,
+                                "content": "a) Bản tự kiểm điểm (nếu có);"
+                            },
+                            {
+                                "id": "5e364350-9851-4f8b-b8ff-e2f57d4a5e6d",
+                                "rank": 7,
+                                "content": "b) Biên bản của tập thể lớp sinh viên họp kiểm điểm sinh viên có hành vi vi phạm;"
+                            },
+                            {
+                                "id": "d7029258-b8f5-4df9-bf68-5a2b8422d3fc",
+                                "rank": 7,
+                                "content": "c) Biên bản của khoa hoặc đơn vị phụ trách công tác sinh viên;"
+                            },
+                            {
+                                "id": "ff49d718-2995-4f41-bd13-f283263d3d53",
+                                "rank": 7,
+                                "content": "d) Các tài liệu có liên quan."
+                            }
+                        ],
+                        "child_ids": [
+                            "85faec08-9719-4989-8a93-bb98dcd11440",
+                            "5e364350-9851-4f8b-b8ff-e2f57d4a5e6d",
+                            "d7029258-b8f5-4df9-bf68-5a2b8422d3fc",
+                            "ff49d718-2995-4f41-bd13-f283263d3d53"
+                        ]
+                    }
+                ],
+                "child_ids": [
+                    "799784af-2c2f-4c12-bae2-06f04598d06d",
+                    "b3114de7-5dbc-4a52-b1ae-a5ccb0fa3494"
+                ]
+            },
+            {
+                "id": "07595e08-e46c-44b7-8664-8218f779bfee",
+                "rank": 3,
+                "page": 6,
+                "content": "Điều 11. Chấm dứt hiệu lực của quyết định kỷ luật",
+                "childs": [
+                    {
+                        "id": "58c993a5-99d9-40d2-84f3-689dd3d94833",
+                        "rank": 5,
+                        "content": "1. Đối với sinh viên bị kỷ luật khiển trách: sau 03 tháng kể từ ngày có quyết định kỷ luật, nếu sinh viên không tái phạm hoặc không có những vi phạm đến mức phải xử lý kỷ luật thì đương nhiên được chấm dứt hiệu lực của quyết định kỷ luật và được hưởng quyền lợi của sinh viên kể từ ngày quyết định kỷ luật chấm dứt hiệu lực."
+                    },
+                    {
+                        "id": "98ddcbb6-df59-41f3-8b9d-187e7734fada",
+                        "rank": 5,
+                        "content": "2. Đối với sinh viên bị kỷ luật cảnh cáo: sau 06 tháng kể từ ngày có quyết định kỷ luật, nếu sinh viên không tái phạm hoặc không có những vi phạm đến mức phải xử lý kỷ luật thì đương nhiên được chấm dứt hiệu lực của quyết định kỷ luật và được hưởng quyền lợi của sinh viên kể từ ngày quyết định kỷ luật chấm dứt hiệu lực."
+                    },
+                    {
+                        "id": "7e893001-a942-4e11-92d0-4ca8cae92dea",
+                        "rank": 5,
+                        "content": "3. Đối với trường hợp đình chỉ học tập có thời hạn: khi hết thời hạn đình chỉ, sinh viên phải xuất trình chứng nhận của địa phương (cấp xã, phường, thị trấn) nơi cư trú về việc chấp hành tốt nghĩa vụ công dân tại địa phương; chứng nhận của cơ quan có thẩm quyền về việc đã chấp hành xong hình phạt tù nhưng cho hưởng án treo để nhà trường xem xét, tiếp nhận vào học tiếp nếu đủ điều kiện."
+                    },
+                    {
+                        "id": "7d687141-3801-4758-aa76-20c7a4037763",
+                        "rank": 5,
+                        "content": "4. Cấp có thẩm quyền quyết định kỷ luật phải có điều khoản ghi rõ thời gian sinh viên bị thi hành kỷ luật, tính từ khi ban hành quyết định kỷ luật đến thời điểm hết thời hạn bị kỷ luật theo quy định."
+                    }
+                ],
+                "child_ids": [
+                    "58c993a5-99d9-40d2-84f3-689dd3d94833",
+                    "98ddcbb6-df59-41f3-8b9d-187e7734fada",
+                    "7e893001-a942-4e11-92d0-4ca8cae92dea",
+                    "7d687141-3801-4758-aa76-20c7a4037763"
+                ]
+            },
+            {
+                "id": "76a7dec4-a471-44a6-ae14-63a7c46a6c8d",
+                "rank": 3,
+                "page": 6,
+                "content": "Điều 12. Cơ cấu tổ chức và nhiệm vụ của Hội đồng khen thưởng và kỷ luật sinh viên",
+                "childs": [
+                    {
+                        "id": "4fbe4756-f05c-4b88-999c-037f6c436054",
+                        "rank": 5,
+                        "content": "1. Cơ cấu tổ chức Hội đồng khen thưởng và kỷ luật sinh viên:",
+                        "childs": [
+                            {
+                                "id": "b94361d6-051a-43d5-b55c-d213daff7654",
+                                "rank": 7,
+                                "content": "a) Chủ tịch Hội đồng: là Hiệu trưởng hoặc Phó Hiệu trưởng nhà trường do Hiệu trưởng ủy quyền."
+                            },
+                            {
+                                "id": "e3be81a6-e250-4794-85ca-d34d8bd12e77",
+                                "rank": 7,
+                                "content": "b) Thường trực Hội đồng: là Trưởng phòng Công tác sinh viên."
+                            },
+                            {
+                                "id": "b03fc9e8-6958-44c4-9ed4-d6d5336c3c81",
+                                "rank": 7,
+                                "content": "c) Các ủy viên: là đại diện các khoa, phòng, ban có liên quan; Đoàn TNCS Hồ Chí Minh, Hội Sinh viên nhà trường. Hội đồng có thể mời đại diện lớp sinh viên, giáo viên chủ nhiệm (CVHT). Các thành phần này được tham gia phát biểu ý kiến, đề xuất mức khen thưởng hoặc kỷ luật nhưng không được quyền biểu quyết."
+                            }
+                        ],
+                        "child_ids": [
+                            "b94361d6-051a-43d5-b55c-d213daff7654",
+                            "e3be81a6-e250-4794-85ca-d34d8bd12e77",
+                            "b03fc9e8-6958-44c4-9ed4-d6d5336c3c81"
+                        ]
+                    },
+                    {
+                        "id": "409d2a09-638e-448c-8e07-5ba4e111dfba",
+                        "rank": 5,
+                        "content": "2. Hiệu trưởng nhà trường ra quyết định thành lập và quy định cụ thể về chức năng, nhiệm vụ, tổ chức và hoạt động của Hội đồng khen thưởng và kỷ luật sinh viên."
+                    }
+                ],
+                "child_ids": [
+                    "4fbe4756-f05c-4b88-999c-037f6c436054",
+                    "409d2a09-638e-448c-8e07-5ba4e111dfba"
+                ]
+            },
+            {
+                "id": "7f12986d-e90b-4caf-8e0f-40a0fd66373f",
+                "rank": 3,
+                "page": 7,
+                "content": "Điều 13. Quyền khiếu nại về khen thưởng, kỷ luật",
+                "childs": [
+                    {
+                        "id": "0068ecfd-c20a-4405-8d3d-5b9c9aedc68e",
+                        "rank": 1000,
+                        "content": "Cá nhân và tập thể sinh viên nếu xét thấy các hình thức khen thưởng và kỷ luật không thỏa đáng, có quyền khiếu nại lên các phòng, ban chức năng hoặc Hiệu trưởng nhà trường; nếu nhà trường đã xem xét lại mà chưa thỏa đáng có thể khiếu nại lên cấp có thẩm quyền theo quy định của pháp luật về khiếu nại, tố cáo."
+                    }
+                ],
+                "child_ids": [
+                    "0068ecfd-c20a-4405-8d3d-5b9c9aedc68e"
+                ]
+            }
+        ],
+        "child_ids": [
+            "1981cb65-abd4-428c-b903-af010596d16c",
+            "a9f8b54d-5ac1-4366-83ca-4f9ca77ae62f",
+            "ae4013d3-0017-4061-a7d0-0a9494405bde",
+            "9536f089-eef7-4813-8418-9b626086acbe",
+            "07595e08-e46c-44b7-8664-8218f779bfee",
+            "76a7dec4-a471-44a6-ae14-63a7c46a6c8d",
+            "7f12986d-e90b-4caf-8e0f-40a0fd66373f"
+        ]
+    },
+    {
+        "id": "d8b7feef-11d0-469b-aead-2a1e86570e6f",
+        "rank": 1,
+        "content": "Chương IV: NỘI DUNG CÔNG TÁC SINH VIÊN",
+        "childs": [
+            {
+                "id": "8db9ca23-92b9-4e5d-9345-76bd583db514",
+                "rank": 3,
+                "page": 7,
+                "content": "Điều 14. Tổ chức các hoạt động giáo dục, tuyên truyền",
+                "childs": [
+                    {
+                        "id": "9bc16e03-9557-445c-bb54-3578896be43a",
+                        "rank": 5,
+                        "content": "1. Giáo dục tư tưởng chính trị",
+                        "childs": [
+                            {
+                                "id": "10499d0e-c140-471c-9c9c-757990ca1d56",
+                                "rank": 7,
+                                "content": "a) Giáo dục, tuyên truyền để sinh viên nắm vững và thực hiện đúng chủ trương, đường lối của Đảng, hình thành bản lĩnh chính trị, yêu Tổ quốc Việt Nam xã hội chủ nghĩa, cảnh giác và biết phê phán những luận điểm xuyên tạc, hành động chống phá Đảng và Nhà nước."
+                            },
+                            {
+                                "id": "9c039c97-6476-438c-a3ca-e065371c0d15",
+                                "rank": 7,
+                                "content": "b) Phối hợp với Đoàn TNCS Hồ Chí Minh, Hội Sinh viên và các tổ chức chính trị - xã hội khác có liên quan trong các hoạt động rèn luyện của sinh viên. Tạo môi trường để sinh viên rèn luyện phấn đấu, được xét kết nạp vào Đảng."
+                            }
+                        ],
+                        "child_ids": [
+                            "10499d0e-c140-471c-9c9c-757990ca1d56",
+                            "9c039c97-6476-438c-a3ca-e065371c0d15"
+                        ]
+                    },
+                    {
+                        "id": "9080d495-7cda-4c38-aa02-79d3c89fc4c8",
+                        "rank": 5,
+                        "content": "2. Giáo dục đạo đức, lối sống",
+                        "childs": [
+                            {
+                                "id": "02008251-85ee-473b-803b-bdd494d3dffb",
+                                "rank": 7,
+                                "content": "a) Giáo dục, tuyên truyền cho sinh viên những giá trị, truyền thống đạo đức tốt đẹp của dân tộc Việt Nam, những chuẩn mực đạo đức chung của xã hội và đạo đức nghề nghiệp; biết phê phán những hành vi không phù hợp với chuẩn mực đạo đức;"
+                            },
+                            {
+                                "id": "a167988e-544b-43b8-bf41-b227e1cd70a0",
+                                "rank": 7,
+                                "content": "b) Định hướng, giáo dục lối sống lành mạnh, văn minh, tiến bộ phù hợp với bản sắc văn hóa dân tộc Việt Nam; giáo dục ý thức trách nhiệm của cá nhân sinh viên đối với tập thể và cộng đồng."
+                            }
+                        ],
+                        "child_ids": [
+                            "02008251-85ee-473b-803b-bdd494d3dffb",
+                            "a167988e-544b-43b8-bf41-b227e1cd70a0"
+                        ]
+                    },
+                    {
+                        "id": "208183de-cb55-443f-9eda-542f0490ef7a",
+                        "rank": 5,
+                        "content": "3. Giáo dục, tuyên truyền phổ biến pháp luật",
+                        "childs": [
+                            {
+                                "id": "b0dc6016-94ad-413b-8380-9d9770862af2",
+                                "rank": 7,
+                                "content": "a) Giáo dục, tuyên truyền nâng cao nhận thức và ý thức tuân thủ pháp luật, thói quen sống và làm việc theo pháp luật;"
+                            },
+                            {
+                                "id": "d477bf6c-d61c-47e0-9f6a-b541b177592a",
+                                "rank": 7,
+                                "content": "b) Nội dung giáo dục pháp luật đối với sinh viên tập trung vào các quy chế, quy định về học tập và rèn luyện; pháp luật về phòng chống tội phạm, tệ nạn xã hội; đảm bảo trật tự an toàn giao thông và các Luật khác có liên quan."
+                            }
+                        ],
+                        "child_ids": [
+                            "b0dc6016-94ad-413b-8380-9d9770862af2",
+                            "d477bf6c-d61c-47e0-9f6a-b541b177592a"
+                        ]
+                    },
+                    {
+                        "id": "8a8baf99-cdab-45eb-b431-fe83b97fa9f6",
+                        "rank": 5,
+                        "content": "4. Giáo dục kỹ năng: Kỹ năng sống, kỹ năng nghề nghiệp, việc làm...."
+                    },
+                    {
+                        "id": "f927d813-a202-4770-88c3-12e4761e7269",
+                        "rank": 5,
+                        "content": "5. Giáo dục thể chất",
+                        "childs": [
+                            {
+                                "id": "1f85d583-4422-4d7f-a2f5-d56d5d8545d6",
+                                "rank": 7,
+                                "content": "a) Giáo dục, hướng dẫn sinh viên về kỹ thuật, phương pháp luyện tập và tổ chức cho sinh viên tham gia các hoạt động thể dục, thể thao theo quy định của Bộ Giáo dục và Đào tạo;"
+                            },
+                            {
+                                "id": "a5701d28-cbc1-4aab-be3c-22f636d3880d",
+                                "rank": 7,
+                                "content": "b) Phổ biến, tuyên truyền nâng cao nhận thức cho sinh viên về ăn uống đảm bảo dinh dưỡng, vệ sinh an toàn thực phẩm, sinh hoạt điều độ, không lạm dụng rượu, bia, sử dụng chất kích thích, gây nghiện; kiến thức và kỹ năng chăm sóc sức khỏe, phòng chống dịch, bệnh, tai nạn thương tích,...; Tổ chức và triển khai hoạt động của Trạm Y tế trong nhà trường theo quy định của Bộ Giáo dục và Đào tạo."
+                            }
+                        ],
+                        "child_ids": [
+                            "1f85d583-4422-4d7f-a2f5-d56d5d8545d6",
+                            "a5701d28-cbc1-4aab-be3c-22f636d3880d"
+                        ]
+                    },
+                    {
+                        "id": "756b7dfe-1576-40e6-9dd4-20bd3ad73b20",
+                        "rank": 5,
+                        "content": "6. Giáo dục thẩm mỹ",
+                        "childs": [
+                            {
+                                "id": "f3e66fac-2129-483f-89e1-cf1153de49ff",
+                                "rank": 7,
+                                "content": "a) Giáo dục kiến thức, kỹ năng để sinh viên biết yêu và cảm thụ cái đẹp trong tự nhiên, cuộc sống xã hội và trong nghệ thuật."
+                            },
+                            {
+                                "id": "0b830020-e542-47a2-b4c3-1cdc280066db",
+                                "rank": 7,
+                                "content": "b) Hình thành năng lực phán đoán và đánh giá thẩm mỹ; hình thành thị hiếu, lý tưởng thẩm mỹ đúng đắn; hình thành năng lực sáng tạo nghệ thuật, lòng ham muốn và khả năng chuyển tải cái đẹp vào đời sống học tập, lao động và ứng xử. Có thái độ phê phán cái xấu, phản thẩm mỹ trong tâm hồn, trong hành vi ứng xử, hình dáng, trang phục,..."
+                            }
+                        ],
+                        "child_ids": [
+                            "f3e66fac-2129-483f-89e1-cf1153de49ff",
+                            "0b830020-e542-47a2-b4c3-1cdc280066db"
+                        ]
+                    }
+                ],
+                "child_ids": [
+                    "9bc16e03-9557-445c-bb54-3578896be43a",
+                    "9080d495-7cda-4c38-aa02-79d3c89fc4c8",
+                    "208183de-cb55-443f-9eda-542f0490ef7a",
+                    "8a8baf99-cdab-45eb-b431-fe83b97fa9f6",
+                    "f927d813-a202-4770-88c3-12e4761e7269",
+                    "756b7dfe-1576-40e6-9dd4-20bd3ad73b20"
+                ]
+            },
+            {
+                "id": "b42ed937-3bda-499f-8e65-841b712d8092",
+                "rank": 3,
+                "page": 8,
+                "content": "Điều 15. Công tác quản lý sinh viên",
+                "childs": [
+                    {
+                        "id": "f46bbd9b-c4bf-460d-8b3c-935e9338cf9b",
+                        "rank": 5,
+                        "content": "1. Công tác hành chính",
+                        "childs": [
+                            {
+                                "id": "4fac5153-e2bc-4fd2-ad83-a905079f82aa",
+                                "rank": 7,
+                                "content": "a) Tổ chức tiếp nhận thí sinh trúng tuyển, sắp xếp, bố trí sinh viên vào các lớp; chỉ định Ban cán sự lớp (lớp trưởng, lớp phó) lâm thời, làm thẻ sinh viên, thẻ thư viện; quản lý, tổ chức cấp phát văn bằng, chứng chỉ của sinh viên;"
+                            },
+                            {
+                                "id": "7c1335e1-02e5-4168-a1a5-b74bed365d94",
+                                "rank": 7,
+                                "content": "b) Thống kê, tổng hợp dữ liệu và quản lý, lưu trữ hồ sơ liên quan đến sinh viên; giải quyết các công việc hành chính có liên quan đến sinh viên."
+                            }
+                        ],
+                        "child_ids": [
+                            "4fac5153-e2bc-4fd2-ad83-a905079f82aa",
+                            "7c1335e1-02e5-4168-a1a5-b74bed365d94"
+                        ]
+                    },
+                    {
+                        "id": "415d09ce-e6a8-445d-a67f-42e8a1e51c25",
+                        "rank": 5,
+                        "content": "2. Công tác khen thưởng và kỷ luật",
+                        "childs": [
+                            {
+                                "id": "37ab7a4b-9a44-47bf-9c72-fa1ed8928605",
+                                "rank": 7,
+                                "content": "a) Theo dõi, đánh giá ý thức học tập; tổ chức đánh giá kết quả rèn luyện của sinh viên; phân loại, xếp loại sinh viên cuối mỗi học kỳ, năm học, khóa học theo Quy chế của Bộ Giáo dục và Đào tạo;"
+                            },
+                            {
+                                "id": "1c89f0ae-4774-4608-9a84-dff155960bd3",
+                                "rank": 7,
+                                "content": "b) Phát động, tổ chức các phong trào thi đua trong sinh viên; Tổ chức đánh giá, bình bầu và khen thưởng cho tập thể, cá nhân sinh viên đạt thành tích cao trong học tập và rèn luyện; tổ chức cho sinh viên nghiên cứu khoa học, thi Olympic các môn học, thi sáng tạo tài năng trẻ và các hoạt động khuyến khích học tập khác;"
+                            },
+                            {
+                                "id": "65752d87-ef4f-494f-99a5-8f998df03ded",
+                                "rank": 7,
+                                "content": "c) Hướng dẫn, kiểm tra, giám sát việc thực hiện các quy chế, quy định về học tập và rèn luyện đối với sinh viên;"
+                            },
+                            {
+                                "id": "8800c38a-48da-4a87-adfa-de2938b7570c",
+                                "rank": 7,
+                                "content": "d) Tham mưu, theo dõi và tổng hợp việc xử lý kỷ luật sinh viên vi phạm theo quy định."
+                            }
+                        ],
+                        "child_ids": [
+                            "37ab7a4b-9a44-47bf-9c72-fa1ed8928605",
+                            "1c89f0ae-4774-4608-9a84-dff155960bd3",
+                            "65752d87-ef4f-494f-99a5-8f998df03ded",
+                            "8800c38a-48da-4a87-adfa-de2938b7570c"
+                        ]
+                    },
+                    {
+                        "id": "9d85c535-a412-4424-bb0a-502c77e97fd7",
+                        "rank": 5,
+                        "content": "3. Công tác sinh viên nội trú, ngoại trú",
+                        "childs": [
+                            {
+                                "id": "dddd3f53-b08a-4e3a-b135-3afa62ecbda6",
+                                "rank": 1000,
+                                "content": "Tổ chức thực hiện các nội dung, biện pháp công tác sinh viên nội trú, ngoại trú theo quy định của Bộ Giáo dục và Đào tạo."
+                            }
+                        ],
+                        "child_ids": [
+                            "dddd3f53-b08a-4e3a-b135-3afa62ecbda6"
+                        ]
+                    },
+                    {
+                        "id": "a18e2868-50c1-44a1-ac41-d04b49a67ac0",
+                        "rank": 5,
+                        "content": "4. Công tác bảo đảm an ninh, trật tự trường học",
+                        "childs": [
+                            {
+                                "id": "bd764e58-6335-4ce7-b554-6ea7a28bba11",
+                                "rank": 7,
+                                "content": "a) Ban hành nội quy, quy định, xây dựng kế hoạch, tổ chức kiểm tra, giám sát việc thực hiện các văn bản chỉ đạo, văn bản quy phạm pháp luật của Đảng, Nhà nước về công tác bảo đảm an ninh, trật tự an toàn xã hội, phòng chống tội phạm, tệ nạn xã hội trong sinh viên. Phối hợp với công an địa phương thực hiện các biện pháp bảo đảm an ninh, trật tự trường học;"
+                            },
+                            {
+                                "id": "87a88564-0267-44be-b2d9-51334791168c",
+                                "rank": 7,
+                                "content": "b) Xây dựng môi trường giáo dục lành mạnh, đảm bảo an toàn cho các hoạt động học tập, rèn luyện của sinh viên. Theo dõi, nắm bắt diễn biến tư tưởng, hành vi của sinh viên để có sự định hướng, giáo dục; phối hợp ngăn chặn việc kích động, lôi kéo sinh viên tham gia các hoạt động chống phá Đảng, Nhà nước, tham gia các tệ nạn xã hội, truyền đạo trái phép và các hành vi vi phạm pháp luật; phối hợp xử lý các vụ việc về an ninh, trật tự trường học và các vụ việc liên quan đến sinh viên ở trong và ngoài nhà trường."
+                            }
+                        ],
+                        "child_ids": [
+                            "bd764e58-6335-4ce7-b554-6ea7a28bba11",
+                            "87a88564-0267-44be-b2d9-51334791168c"
+                        ]
+                    },
+                    {
+                        "id": "b9a64575-0206-47dc-bd66-5290a0fa7d89",
+                        "rank": 5,
+                        "content": "5. Thực hiện các chế độ, chính sách đối với sinh viên",
+                        "childs": [
+                            {
+                                "id": "d1d621c2-507e-4c8e-8442-613391b8c60a",
+                                "rank": 1000,
+                                "content": "Tuyên truyền, hướng dẫn, theo dõi, tổng hợp và giải quyết các chế độ, chính sách của Nhà nước liên quan đến sinh viên theo quy định."
+                            }
+                        ],
+                        "child_ids": [
+                            "d1d621c2-507e-4c8e-8442-613391b8c60a"
+                        ]
+                    }
+                ],
+                "child_ids": [
+                    "f46bbd9b-c4bf-460d-8b3c-935e9338cf9b",
+                    "415d09ce-e6a8-445d-a67f-42e8a1e51c25",
+                    "9d85c535-a412-4424-bb0a-502c77e97fd7",
+                    "a18e2868-50c1-44a1-ac41-d04b49a67ac0",
+                    "b9a64575-0206-47dc-bd66-5290a0fa7d89"
+                ]
+            },
+            {
+                "id": "0c0afce6-1284-4151-92ed-63822017a065",
+                "rank": 3,
+                "page": 9,
+                "content": "Điều 16. Hỗ trợ và dịch vụ sinh viên",
+                "childs": [
+                    {
+                        "id": "da02503f-ed80-4925-aa58-6e85d295e5ca",
+                        "rank": 5,
+                        "content": "1. Tư vấn học tập",
+                        "childs": [
+                            {
+                                "id": "4acded89-8734-465c-92a0-43d2cf25401f",
+                                "rank": 1000,
+                                "content": "Tư vấn, hỗ trợ sinh viên xây dựng kế hoạch, phương pháp học tập phù hợp với mục tiêu và năng lực; cung cấp thông tin về chương trình đào tạo, hướng dẫn sinh viên tiếp cận các nguồn lực (về học thuật, tài chính, kỹ thuật...) nhằm nâng cao khả năng, học tập hiệu quả."
+                            }
+                        ],
+                        "child_ids": [
+                            "4acded89-8734-465c-92a0-43d2cf25401f"
+                        ]
+                    },
+                    {
+                        "id": "52996e19-8fdf-4aa5-b44e-0fe8e2f2902c",
+                        "rank": 5,
+                        "content": "2. Công tác hướng nghiệp, tư vấn việc làm",
+                        "childs": [
+                            {
+                                "id": "833a04de-9209-4edb-aee5-9201484f3155",
+                                "rank": 1000,
+                                "content": "Tổ chức thực hiện các nội dung, biện pháp công tác tư vấn hướng nghiệp, việc làm theo quy định của Bộ Giáo dục và Đào tạo."
+                            }
+                        ],
+                        "child_ids": [
+                            "833a04de-9209-4edb-aee5-9201484f3155"
+                        ]
+                    },
+                    {
+                        "id": "e73253e1-2b0f-4533-89ae-5adca9a95b3e",
+                        "rank": 5,
+                        "content": "3. Tư vấn tâm lý, chăm sóc sức khỏe",
+                        "childs": [
+                            {
+                                "id": "680c1680-4037-4b2c-b0d2-bf634764b865",
+                                "rank": 7,
+                                "content": "a) Tư vấn, hỗ trợ sinh viên khi gặp phải các vấn đề về tâm lý - xã hội; phối hợp tổ chức các dịch vụ tư vấn, chăm sóc sức khỏe để có sự hỗ trợ, can thiệp cần thiết khi sinh viên gặp phải các vấn đề ảnh hưởng đến thể chất và tinh thần;"
+                            },
+                            {
+                                "id": "1564f4c8-9be8-4642-a7ab-fcf1e0fddd03",
+                                "rank": 7,
+                                "content": "b) Tổ chức khám sức khỏe đầu vào và định kỳ cho sinh viên; tư vấn, tổ chức cho sinh viên thực hiện Luật bảo hiểm y tế; sơ, cấp cứu, khám chữa bệnh ban đầu cho sinh viên."
+                            }
+                        ],
+                        "child_ids": [
+                            "680c1680-4037-4b2c-b0d2-bf634764b865",
+                            "1564f4c8-9be8-4642-a7ab-fcf1e0fddd03"
+                        ]
+                    },
+                    {
+                        "id": "628e8fb3-ac35-4608-9be3-e9cdd903462e",
+                        "rank": 5,
+                        "content": "4. Hỗ trợ tài chính",
+                        "childs": [
+                            {
+                                "id": "ba0c3f01-9bfb-4ee6-a6dd-6b5e57ae8ca9",
+                                "rank": 1000,
+                                "content": "Phối hợp với các tổ chức, cá nhân hảo tâm xây dựng, quản lý các quỹ học bổng; tổ chức trao học bổng tài trợ cho sinh viên xuất sắc, sinh viên có hoàn cảnh gia đình khó khăn."
+                            }
+                        ],
+                        "child_ids": [
+                            "ba0c3f01-9bfb-4ee6-a6dd-6b5e57ae8ca9"
+                        ]
+                    },
+                    {
+                        "id": "54398d2a-6740-40cb-8d4a-33a80a83768d",
+                        "rank": 5,
+                        "content": "5. Hỗ trợ đặc biệt",
+                        "childs": [
+                            {
+                                "id": "3c2bc01e-0e3e-4277-ab52-af9063ce3e66",
+                                "rank": 1000,
+                                "content": "Triển khai dịch vụ công tác xã hội trong trường học, tạo điều kiện giúp đỡ sinh viên khuyết tật, sinh viên diện chính sách, có hoàn cảnh đặc biệt khó khăn."
+                            }
+                        ],
+                        "child_ids": [
+                            "3c2bc01e-0e3e-4277-ab52-af9063ce3e66"
+                        ]
+                    },
+                    {
+                        "id": "671466fb-d61e-45cb-b371-29c6cf52b29c",
+                        "rank": 5,
+                        "content": "6. Tổ chức, quản lý các dịch vụ sinh viên",
+                        "childs": [
+                            {
+                                "id": "88576f5f-0a47-402a-84ca-dcac2d1f23f9",
+                                "rank": 1000,
+                                "content": "Tổ chức dịch vụ cho sinh viên như: Internet, điện thoại, nhà ăn, căng tin, trông giữ xe, sân chơi, bãi tập, thiết chế văn hóa...."
+                            }
+                        ],
+                        "child_ids": [
+                            "88576f5f-0a47-402a-84ca-dcac2d1f23f9"
+                        ]
+                    }
+                ],
+                "child_ids": [
+                    "da02503f-ed80-4925-aa58-6e85d295e5ca",
+                    "52996e19-8fdf-4aa5-b44e-0fe8e2f2902c",
+                    "e73253e1-2b0f-4533-89ae-5adca9a95b3e",
+                    "628e8fb3-ac35-4608-9be3-e9cdd903462e",
+                    "54398d2a-6740-40cb-8d4a-33a80a83768d",
+                    "671466fb-d61e-45cb-b371-29c6cf52b29c"
+                ]
+            }
+        ],
+        "child_ids": [
+            "8db9ca23-92b9-4e5d-9345-76bd583db514",
+            "b42ed937-3bda-499f-8e65-841b712d8092",
+            "0c0afce6-1284-4151-92ed-63822017a065"
+        ]
+    },
+    {
+        "id": "c2891426-c39f-4b2b-8862-b51e6b6f9745",
+        "rank": 1,
+        "content": "Chương V: HỆ THỐNG TỔ CHỨC, QUẢN LÝ",
+        "childs": [
+            {
+                "id": "5dac6f8e-67df-448d-ac75-7f58813133c0",
+                "rank": 3,
+                "page": 9,
+                "content": "Điều 17. Hệ thống tổ chức, quản lý công tác sinh viên",
+                "childs": [
+                    {
+                        "id": "67c925c1-49c7-4ea9-8323-41e8cedb15f5",
+                        "rank": 1000,
+                        "content": "Hệ thống tổ chức, quản lý công tác sinh viên của nhà trường gồm: Hiệu trưởng nhà trường, phòng Công tác sinh viên, khoa, chủ nhiệm lớp sinh viên (CVHT) và lớp sinh viên."
+                    }
+                ],
+                "child_ids": [
+                    "67c925c1-49c7-4ea9-8323-41e8cedb15f5"
+                ]
+            },
+            {
+                "id": "5215b5d0-88c5-41cb-b61f-e2a40538b34c",
+                "rank": 3,
+                "page": 9,
+                "content": "Điều 18. Hiệu trưởng nhà trường",
+                "childs": [
+                    {
+                        "id": "22b6ee59-f0de-49a6-a4e8-f1e4b56637fa",
+                        "rank": 5,
+                        "content": "1. Chỉ đạo, tổ chức quản lý các hoạt động của công tác sinh viên. Bố trí các nguồn lực nhằm bảo đảm thực hiện tốt các nội dung của công tác sinh viên."
+                    },
+                    {
+                        "id": "038a1ee4-0fb1-4c68-9788-606da6e40c1a",
+                        "rank": 5,
+                        "content": "2. Xây dựng kế hoạch và tổ chức thực hiện các chủ trương, đường lối của Đảng, chính sách, pháp luật của Nhà nước, các quy định của Bộ Giáo dục và Đào tạo, ngành và địa phương trong công tác sinh viên; tạo điều kiện cho sinh viên thực hiện đầy đủ quyền và nhiệm vụ của mình."
+                    },
+                    {
+                        "id": "80bd00be-49f3-4ea9-9462-e6643710eb1f",
+                        "rank": 5,
+                        "content": "3. Chỉ đạo tổ chức “Tuần Sinh hoạt công dân - sinh viên” đầu khóa, đầu năm và cuối khóa học theo hướng dẫn của Bộ Giáo dục và Đào tạo; hàng năm, tổ chức đối thoại với sinh viên để cung cấp thông tin cần thiết cho sinh viên, nắm bắt tâm tư, nguyện vọng và giải quyết kịp thời những thắc mắc, nhu cầu chính đáng của sinh viên."
+                    },
+                    {
+                        "id": "9cf71d8d-8992-4c76-aa2f-1770821509cb",
+                        "rank": 5,
+                        "content": "4. Đảm bảo các điều kiện để phát huy hiệu quả vai trò của tổ chức Đoàn TNCS Hồ Chí Minh và Hội Sinh viên trong công tác sinh viên; chú trọng công tác giáo dục tư tưởng chính trị, đạo đức, lối sống cho sinh viên."
+                    },
+                    {
+                        "id": "25791403-cedc-4fe9-8ce6-ae473f2c2394",
+                        "rank": 5,
+                        "content": "5. Quyết định sự tham gia của sinh viên mang tính chất đại diện cho nhà trường khi có sự huy động của địa phương, các cấp, các ngành hoặc các tổ chức khác."
+                    }
+                ],
+                "child_ids": [
+                    "22b6ee59-f0de-49a6-a4e8-f1e4b56637fa",
+                    "038a1ee4-0fb1-4c68-9788-606da6e40c1a",
+                    "80bd00be-49f3-4ea9-9462-e6643710eb1f",
+                    "9cf71d8d-8992-4c76-aa2f-1770821509cb",
+                    "25791403-cedc-4fe9-8ce6-ae473f2c2394"
+                ]
+            },
+            {
+                "id": "f362c720-1bb3-45d0-9a0b-e7e5ca4f265d",
+                "rank": 3,
+                "page": 10,
+                "content": "Điều 19. Các đơn vị, cá nhân phụ trách công tác sinh viên",
+                "childs": [
+                    {
+                        "id": "a347338f-955a-40cd-870b-9cead70d6f98",
+                        "rank": 5,
+                        "content": "1. Phòng Công tác sinh viên là đơn vị giữ vai trò đầu mối, chủ trì tham mưu, tổng hợp giúp Hiệu trưởng về công tác sinh viên của nhà trường. Các khoa có trách nhiệm trực tiếp tổ chức, quản lý và triển khai thực hiện công tác sinh viên tại đơn vị."
+                    },
+                    {
+                        "id": "652169a9-9c73-4c23-8cf3-39482eb48c3f",
+                        "rank": 5,
+                        "content": "2. Chủ nhiệm lớp sinh viên",
+                        "childs": [
+                            {
+                                "id": "2c1aca91-dbfe-4ede-a793-f3f323f3ace3",
+                                "rank": 1000,
+                                "content": "Căn cứ điều kiện cụ thể, Trưởng khoa phân công giảng viên làm công tác chủ nhiệm lớp sinh viên để hỗ trợ quản lý, hướng dẫn các hoạt động học tập và rèn luyện của lớp sinh viên."
+                            }
+                        ],
+                        "child_ids": [
+                            "2c1aca91-dbfe-4ede-a793-f3f323f3ace3"
+                        ]
+                    },
+                    {
+                        "id": "45762e42-62e0-4715-bfbf-6ed3aee53751",
+                        "rank": 5,
+                        "content": "3. Cố vấn học tập",
+                        "childs": [
+                            {
+                                "id": "75c34ae2-fabd-433f-8c99-e71686bd8710",
+                                "rank": 1000,
+                                "content": "Căn cứ điều kiện cụ thể, Trưởng khoa phân công giảng viên kiêm nhiệm công tác cố vấn học tập cho sinh viên để tư vấn, hướng dẫn sinh viên thực hiện tốt quy chế, quy định về đào tạo; có thể phân công một giảng viên kiêm nhiệm công tác cố vấn học tập và chủ nhiệm lớp sinh viên."
+                            }
+                        ],
+                        "child_ids": [
+                            "75c34ae2-fabd-433f-8c99-e71686bd8710"
+                        ]
+                    }
+                ],
+                "child_ids": [
+                    "a347338f-955a-40cd-870b-9cead70d6f98",
+                    "652169a9-9c73-4c23-8cf3-39482eb48c3f",
+                    "45762e42-62e0-4715-bfbf-6ed3aee53751"
+                ]
+            },
+            {
+                "id": "443034ac-4439-421c-8dce-f33ed9acf515",
+                "rank": 3,
+                "page": 10,
+                "content": "Điều 20. Lớp sinh viên",
+                "childs": [
+                    {
+                        "id": "df77f6e8-63f2-46e6-a44a-62dd05d7dd2a",
+                        "rank": 5,
+                        "content": "1. Lớp sinh viên: bao gồm những sinh viên cùng ngành, cùng khóa học. Lớp sinh viên được duy trì ổn định trong cả khóa học, là nơi để nhà trường tổ chức, quản lý về thực hiện các nhiệm vụ học tập, rèn luyện, các hoạt động đoàn thể, các hoạt động xã hội, thi đua, khen thưởng, kỷ luật."
+                    },
+                    {
+                        "id": "8ccecf82-a2d7-408c-9563-6983d9646bf5",
+                        "rank": 5,
+                        "content": "2. Ban cán sự lớp sinh viên:",
+                        "childs": [
+                            {
+                                "id": "21e14e04-7056-4529-8ee8-ac38c6e0b273",
+                                "rank": 7,
+                                "content": "a) Lớp trưởng và các lớp phó do tập thể sinh viên trong lớp bầu, Trưởng khoa ra quyết định công nhận. Nhiệm kỳ ban cán sự lớp sinh viên theo năm học."
+                            },
+                            {
+                                "id": "f20d254e-6db4-429d-a4be-0c3ea4a94393",
+                                "rank": 7,
+                                "content": "b) Nhiệm vụ của ban cán sự lớp sinh viên:",
+                                "childs": [
+                                    {
+                                        "id": "d89ad7c2-13f6-4bb1-9d13-c3cd17dab481",
+                                        "rank": 1000,
+                                        "content": "- Tổ chức thực hiện các nhiệm vụ học tập, rèn luyện, các hoạt động sinh hoạt, đời sống và các hoạt động xã hội theo kế hoạch của nhà trường và các đơn vị, hội, đoàn thể trong nhà trường."
+                                    },
+                                    {
+                                        "id": "b8242ffb-f840-4610-bedc-8c504baf0f0a",
+                                        "rank": 1000,
+                                        "content": "- Đôn đốc sinh viên trong lớp chấp hành nghiêm chỉnh nội quy, quy chế về học tập, rèn luyện. Xây dựng nền nếp tự quản trong lớp."
+                                    },
+                                    {
+                                        "id": "acf47e8c-8720-4e9a-9226-1ccf6e2dabb6",
+                                        "rank": 1000,
+                                        "content": "- Tổ chức, động viên giúp đỡ những sinh viên gặp khó khăn trong học tập, rèn luyện. Thay mặt cho sinh viên của lớp liên hệ với chủ nhiệm lớp (CVHT) và các giảng viên bộ môn; đề nghị các khoa, phòng chức năng và lãnh đạo nhà trường giải quyết những vấn đề có liên quan đến nhiệm vụ và quyền của sinh viên trong lớp."
+                                    },
+                                    {
+                                        "id": "a6579744-bb20-4579-ab6f-51ca21bce011",
+                                        "rank": 1000,
+                                        "content": "- Phối hợp chặt chẽ và thường xuyên với tổ chức Đoàn TNCS Hồ Chí Minh và Hội Sinh viên trong hoạt động của lớp."
+                                    },
+                                    {
+                                        "id": "8adc234a-04c6-4bac-a1f5-1c871695a55b",
+                                        "rank": 1000,
+                                        "content": "- Báo cáo đầy đủ, chính xác tình hình học tập, rèn luyện theo học kỳ, năm học và những việc đột xuất của lớp với khoa hoặc phòng Công tác sinh viên."
+                                    }
+                                ],
+                                "child_ids": [
+                                    "d89ad7c2-13f6-4bb1-9d13-c3cd17dab481",
+                                    "b8242ffb-f840-4610-bedc-8c504baf0f0a",
+                                    "acf47e8c-8720-4e9a-9226-1ccf6e2dabb6",
+                                    "a6579744-bb20-4579-ab6f-51ca21bce011",
+                                    "8adc234a-04c6-4bac-a1f5-1c871695a55b"
+                                ]
+                            },
+                            {
+                                "id": "e4b98729-1c4d-4acc-a15e-e46d946c7a06",
+                                "rank": 7,
+                                "content": "c) Quyền lợi của ban cán sự lớp sinh viên:",
+                                "childs": [
+                                    {
+                                        "id": "229f27b5-9f6c-4ba1-bf0a-5293bdb8b530",
+                                        "rank": 1000,
+                                        "content": "Được ưu tiên cộng điểm rèn luyện và các chế độ khác theo quy định của trường."
+                                    }
+                                ],
+                                "child_ids": [
+                                    "229f27b5-9f6c-4ba1-bf0a-5293bdb8b530"
+                                ]
+                            }
+                        ],
+                        "child_ids": [
+                            "21e14e04-7056-4529-8ee8-ac38c6e0b273",
+                            "f20d254e-6db4-429d-a4be-0c3ea4a94393",
+                            "e4b98729-1c4d-4acc-a15e-e46d946c7a06"
+                        ]
+                    }
+                ],
+                "child_ids": [
+                    "df77f6e8-63f2-46e6-a44a-62dd05d7dd2a",
+                    "8ccecf82-a2d7-408c-9563-6983d9646bf5"
+                ]
+            },
+            {
+                "id": "a8930c34-c265-495c-a3fb-16071850c51c",
+                "rank": 3,
+                "page": 11,
+                "content": "Điều 21. Lớp học phần",
+                "childs": [
+                    {
+                        "id": "6b2e0d00-ba06-4d0c-ac74-57b81df8c5eb",
+                        "rank": 5,
+                        "content": "1. Lớp học phần: bao gồm những sinh viên đăng ký cùng học một học phần. Lớp học phần được tổ chức theo thời gian học một học phần, là nơi để nhà trường theo dõi, quản lý về học tập và ý thức kỷ luật của sinh viên trong giờ học."
+                    },
+                    {
+                        "id": "1b004382-4a96-4182-8484-cee2669f2079",
+                        "rank": 5,
+                        "content": "2. Ban cán sự lớp học phần gồm lớp trưởng và các lớp phó do giảng viên bộ môn chỉ định. Nhiệm kỳ của ban cán sự lớp học phần theo thời gian học của học phần. Ban cán sự lớp học phần có trách nhiệm báo cáo việc chấp hành nội quy, quy chế của sinh viên trong lớp với khoa, phòng Công tác sinh viên. Ban cán sự lớp học phần được ưu tiên cộng điểm rèn luyện và các chế độ khác theo quy định của nhà trường."
+                    }
+                ],
+                "child_ids": [
+                    "6b2e0d00-ba06-4d0c-ac74-57b81df8c5eb",
+                    "1b004382-4a96-4182-8484-cee2669f2079"
+                ]
+            }
+        ],
+        "child_ids": [
+            "5dac6f8e-67df-448d-ac75-7f58813133c0",
+            "5215b5d0-88c5-41cb-b61f-e2a40538b34c",
+            "f362c720-1bb3-45d0-9a0b-e7e5ca4f265d",
+            "443034ac-4439-421c-8dce-f33ed9acf515",
+            "a8930c34-c265-495c-a3fb-16071850c51c"
+        ]
+    },
+    {
+        "id": "b346b6cc-4abb-4860-9a69-e37767ae3b99",
+        "rank": 1,
+        "content": "Chương VI: TỔ CHỨC THỰC HIỆN",
+        "childs": [
+            {
+                "id": "92596d17-e900-47c1-b851-e2b9e7097c9e",
+                "rank": 3,
+                "page": 11,
+                "content": "Điều 22. Trách nhiệm của nhà trường",
+                "childs": [
+                    {
+                        "id": "39cca147-fc56-411d-88c3-fa40f6a8b04a",
+                        "rank": 5,
+                        "content": "1. Chủ động phối hợp chặt chẽ với các tổ chức đoàn thể, gia đình sinh viên, các cơ quan có liên quan trên địa bàn để tổ chức thực hiện tốt công tác sinh viên."
+                    },
+                    {
+                        "id": "45df766d-b5d9-4a72-bc4d-78531f76bdc1",
+                        "rank": 5,
+                        "content": "2. Tổ chức tổng kết, đánh giá công tác sinh viên, báo cáo Bộ Giáo dục và Đào tạo vào cuối năm học; gửi báo cáo đột xuất về Bộ Giáo dục và Đào tạo và các cơ quan quản lý trực tiếp về những vụ việc phức tạp, nghiêm trọng xảy ra có liên quan đến sinh viên."
+                    }
+                ],
+                "child_ids": [
+                    "39cca147-fc56-411d-88c3-fa40f6a8b04a",
+                    "45df766d-b5d9-4a72-bc4d-78531f76bdc1"
+                ]
+            },
+            {
+                "id": "0b0cbfc5-e57d-4967-8fe8-8388ed135afe",
+                "rank": 3,
+                "page": 11,
+                "content": "Điều 23. Công tác thanh tra, kiểm tra, khen thưởng, kỷ luật",
+                "childs": [
+                    {
+                        "id": "3dd39d53-a887-49ba-86c9-9a00d359728b",
+                        "rank": 5,
+                        "content": "1. Bộ Giáo dục và Đào tạo, Hiệu trưởng nhà trường theo thẩm quyền tổ chức thanh tra, kiểm tra việc thực hiện công tác sinh viên trong nhà trường."
+                    },
+                    {
+                        "id": "28f79e27-abc1-44db-895a-7314892daa38",
+                        "rank": 5,
+                        "content": "2. Các đơn vị, cá nhân có thành tích trong công tác sinh viên được xét khen thưởng theo quy định."
+                    },
+                    {
+                        "id": "ac55be34-178d-4838-9f56-5b3b83930ff6",
+                        "rank": 5,
+                        "content": "3. Các cá nhân vi phạm quy định về công tác sinh viên tùy theo mức độ sẽ bị xử lý theo quy định."
+                    }
+                ],
+                "child_ids": [
+                    "3dd39d53-a887-49ba-86c9-9a00d359728b",
+                    "28f79e27-abc1-44db-895a-7314892daa38",
+                    "ac55be34-178d-4838-9f56-5b3b83930ff6"
+                ]
+            }
+        ],
+        "child_ids": [
+            "92596d17-e900-47c1-b851-e2b9e7097c9e",
+            "0b0cbfc5-e57d-4967-8fe8-8388ed135afe"
+        ]
+    },
+    {
+        "id": "abe439ef-080d-42e7-8fe8-3c4b35c18930",
+        "rank": 1,
+        "content": "Chương phụ lục: MỘT SỐ NỘI DUNG VI PHẠM VÀ KHUNG XỬ LÝ KHI VI PHẠM LUẬT SINH VIÊN ",
+        "childs": [
+            {
+                "id": "69f7e993-58c6-4794-9d7b-32a2bd112f38",
+                "rank": 3,
+                "page": 13,
+                "content": "Điều 24. MỘT SỐ NỘI DUNG VI PHẠM VÀ KHUNG XỬ LÝ KHI VI PHẠM LUẬT SINH VIÊN",
+                "childs": [
+                    {
+                        "id": "1ae4b24f-bc19-4086-a2a4-95705f0e41ec",
+                        "rank": 5,
+                        "content": "1. Đến muộn giờ học, giờ thực tập; nghỉ học không phép hoặc quá phép: \nNhà trường quy định cụ thể."
+                    },
+                    {
+                        "id": "1080e0dc-3024-46ec-8ece-945a0883a5c3",
+                        "rank": 5,
+                        "content": "2. Mất trật tự, làm việc riêng trong giờ học, giờ thực tập và tự học: \nNhà trường quy định cụ thể."
+                    },
+                    {
+                        "id": "4ee65045-99e9-49db-a2b2-1f1ea51c00bc",
+                        "rank": 5,
+                        "content": "3. Vô lễ với thầy, cô giáo và CBVC nhà trường: \nTùy theo mức độ, xử lý từ khiển trách đến buộc thôi học."
+                    },
+                    {
+                        "id": "d41d0f8b-f0ea-41a1-a2fd-461efcf37375",
+                        "rank": 5,
+                        "content": "4. Học thay hoặc nhờ người khác học thay: \nTùy theo mức độ, xử lý từ khiển trách đến buộc thôi học."
+                    },
+                    {
+                        "id": "7a36d331-c560-41b2-9906-d6cff8ca5378",
+                        "rank": 5,
+                        "content": "5. Thi, kiểm tra thay, hoặc nhờ thi, kiểm tra thay; làm thay, nhờ làm hoặc sao chép tiểu luận, đồ án, khóa luận tốt nghiệp:  \nLần 1: Đình chỉ có thời hạn.  \nLần 2: Buộc thôi học."
+                    },
+                    {
+                        "id": "d9f5bae1-df06-4f63-ba44-79fa8cef59d9",
+                        "rank": 5,
+                        "content": "6. Tổ chức học thi, kiểm tra thay; tổ chức làm thay tiểu luận, đồ án, khóa luận tốt nghiệp: \nTùy theo mức độ, có thể giao cho cơ quan chức năng xử lý theo quy định của pháp luật."
+                    },
+                    {
+                        "id": "36887378-6589-4b04-9663-140190e079fe",
+                        "rank": 5,
+                        "content": "7. Mang tài liệu vào phòng thi, đưa đề thi ra ngoài nhờ làm thay, ném tài liệu vào phòng thi, vi phạm quy chế thi; thi không có lý do chính đáng hoặc hình thức gian lận khác trong học tập, thi cử, kiểm tra: \nXử lý theo quy chế đào tạo."
+                    },
+                    {
+                        "id": "011ab372-5603-45d3-9a8a-33afffd45c44",
+                        "rank": 5,
+                        "content": "8. Có hành vi chậm nộp hoặc không nộp học phí, bảo hiểm y tế theo quy định của nhà trường mà không có lý do chính đáng: \nTùy theo mức độ, xử lý từ nhắc nhở, khiển trách đến buộc thôi học."
+                    },
+                    {
+                        "id": "7321721f-29cd-4b2a-8589-3b805cef4ef0",
+                        "rank": 5,
+                        "content": "9. Làm hư hỏng tài sản trong KTX và các tài sản khác của trường: \nTùy mức độ xử lý từ khiển trách đến buộc thôi học và phải bồi thường thiệt hại."
+                    },
+                    {
+                        "id": "370be73c-f95b-4c5b-afb6-c21c490a513a",
+                        "rank": 5,
+                        "content": "10. Uống rượu, bia trong giờ học:  \nLần 1: Khiển trách  \nLần 2: Cảnh cáo  \nLần 3: Đình chỉ có thời hạn  \nLần 4: Buộc thôi học  "
+                    },
+                    {
+                        "id": "74f32c4a-72ae-4846-acfc-67c2544f17ae",
+                        "rank": 5,
+                        "content": "11. Hút thuốc lá trong giờ học, phòng học, phòng thí nghiệm và nơi cấm hút thuốc theo quy định:  \nLần 1: Khiển trách  \nLần 2: Cảnh cáo  \nLần 3: Đình chỉ có thời hạn  \nLần 4: Buộc thôi học  "
+                    },
+                    {
+                        "id": "7814c5bb-d420-4154-ae5d-a25413bd3c95",
+                        "rank": 5,
+                        "content": "12. Đánh bạc dưới mọi hình thức:  \nLần 1: Khiển trách  \nLần 2: Cảnh cáo  \nLần 3: Đình chỉ có thời hạn  \nLần 4: Buộc thôi học và giao cho cơ quan chức năng xử lý theo quy định pháp luật  "
+                    },
+                    {
+                        "id": "ed72bc6d-8ece-494a-8c0f-9afacb4bc600",
+                        "rank": 5,
+                        "content": "13. Tàng trữ, lưu hành, truy cập, sử dụng sản phẩm văn hóa đồi trụy hoặc tham gia các hoạt động mê tín dị đoan, hoạt động tôn giáo trái phép:  \nLần 1: Khiển trách  \nLần 2: Cảnh cáo  \nLần 3: Đình chỉ có thời hạn  \nLần 4: Buộc thôi học và giao cho cơ quan chức năng xử lý theo quy định pháp luật  "
+                    },
+                    {
+                        "id": "8f4d7deb-7b87-462e-9314-cc5451c4ae78",
+                        "rank": 5,
+                        "content": "14. Buôn bán, vận chuyển, tàng trữ, lôi kéo người khác sử dụng ma túy:  \nXử lý nghiêm, giao cho cơ quan chức năng xử lý theo quy định pháp luật  "
+                    },
+                    {
+                        "id": "e402f68d-83c6-47c9-852f-3fcfd055e3bf",
+                        "rank": 5,
+                        "content": "15. Sử dụng ma túy:  \nBuộc thôi học và xử lý theo quy định về sinh viên liên quan đến ma túy  "
+                    },
+                    {
+                        "id": "b8ce6817-c16f-4263-96d4-ab3428b18c9f",
+                        "rank": 5,
+                        "content": "16. Chứa chấp, môi giới mại dâm:  \nBuộc thôi học và giao cho cơ quan chức năng xử lý theo quy định pháp luật  "
+                    },
+                    {
+                        "id": "a8350a74-25ff-48c7-8c9a-92709a9839a2",
+                        "rank": 5,
+                        "content": "17. Hoạt động mại dâm:  \nLần 1: Khiển trách  \nLần 2: Cảnh cáo  \nLần 3: Đình chỉ có thời hạn  \nLần 4: Buộc thôi học và xử lý theo quy định pháp luật  "
+                    },
+                    {
+                        "id": "e852f817-3239-464f-b9ae-6a5ef5fd86e4",
+                        "rank": 5,
+                        "content": "18. Lấy cắp tài sản, chứa chấp, tiêu thụ tài sản do lấy cắp mà có:  \nTùy mức độ vi phạm:  \nLần 1: Khiển trách  \nLần 2: Cảnh cáo  \nLần 3: Đình chỉ có thời hạn  \nLần 4: Buộc thôi học và giao cho cơ quan chức năng xử lý nếu nghiêm trọng  "
+                    },
+                    {
+                        "id": "186d176b-b206-40ab-be3b-8fbc4a1588c6",
+                        "rank": 5,
+                        "content": "19. Chứa chấp, buôn bán vũ khí, chất nổ và hàng cấm theo quy định của Nhà nước:  \nBuộc thôi học và giao cho cơ quan chức năng xử lý theo quy định pháp luật  "
+                    },
+                    {
+                        "id": "8a2f9b37-f888-4404-a8a9-7833bf464558",
+                        "rank": 5,
+                        "content": "20. Đưa phản vật vào trong trường, ký túc xá ảnh hưởng xấu đến an ninh, trật tự trong nhà trường:  \nTùy mức độ vi phạm:  \nLần 1: Khiển trách  \nLần 2: Cảnh cáo  \nLần 3: Đình chỉ có thời hạn  \nLần 4: Buộc thôi học  "
+                    },
+                    {
+                        "id": "f30e13a4-5597-4198-a6d8-56fb94275fcd",
+                        "rank": 5,
+                        "content": "21. Đánh nhau, lôi kéo hoặc tham gia tổ chức đánh nhau:  \nLần 1: Khiển trách  \nLần 2: Cảnh cáo  \nLần 3: Đình chỉ có thời hạn  \nLần 4: Buộc thôi học và giao cho cơ quan chức năng xử lý nếu nghiêm trọng  "
+                    },
+                    {
+                        "id": "9e0949c6-fd07-4b2b-be70-b052d41f0cb8",
+                        "rank": 5,
+                        "content": "22. Kích động, lôi kéo người khác đánh nhau hoặc gây rối an ninh, trật tự:  \nLần 1: Khiển trách  \nLần 2: Cảnh cáo  \nLần 3: Đình chỉ có thời hạn  \nLần 4: Buộc thôi học và giao cho cơ quan chức năng xử lý nếu nghiêm trọng  \n \n23. Tham gia biểu tình, tụ tập đông người, khiếu kiện trái quy định của pháp luật:  \nLần 1: Khiển trách  \nLần 2: Cảnh cáo  \nLần 3: Đình chỉ có thời hạn  \nLần 4: Buộc thôi học và giao cho cơ quan chức năng xử lý theo quy định của pháp luật  "
+                    },
+                    {
+                        "id": "c81c0e43-8324-48de-84c6-e690a8514de6",
+                        "rank": 5,
+                        "content": "24. Đăng tải, bình luận, chia sẻ bài viết, hình ảnh có nội dung dung tục, bạo lực, đồi trụy, xâm phạm an ninh quốc gia, chống phá Đảng và Nhà nước, xuyên tạc, vu khống, xúc phạm uy tín của tổ chức, danh dự và nhân phẩm của cá nhân trên mạng Internet:  \nTùy theo mức độ vi phạm, xử lý từ khiển trách đến buộc thôi học. Nếu nghiêm trọng, giao cho cơ quan chức năng xử lý theo quy định của pháp luật.  "
+                    },
+                    {
+                        "id": "38ff946b-107c-4a8a-aa52-37bb9ea11234",
+                        "rank": 5,
+                        "content": "25. Có hành động quấy rối, dâm ô, xâm phạm nhân phẩm, đời tư của người khác:  \nTùy theo mức độ vi phạm, xử lý từ khiển trách đến buộc thôi học. Nếu nghiêm trọng, giao cho cơ quan chức năng xử lý theo quy định của pháp luật.  "
+                    },
+                    {
+                        "id": "dffc2e6e-02cf-42fc-883f-1ba16258c073",
+                        "rank": 5,
+                        "content": "26. Vi phạm các quy định về an toàn giao thông:  \nTùy theo mức độ vi phạm, xử lý từ khiển trách đến buộc thôi học.  "
+                    },
+                    {
+                        "id": "b6039551-e6f1-40ce-96cc-3b872e4c1fc6",
+                        "rank": 5,
+                        "content": "27. Các vi phạm khác:  \nTùy theo mức độ vi phạm, nhà trường xem xét, nhắc nhở, phê bình, trừ điểm rèn luyện hoặc xử lý kỷ luật từ khiển trách đến buộc thôi học.  ",
+                        "childs": [
+                            {
+                                "id": "fc8370da-0642-4e53-84e1-bc032e4cf923",
+                                "rank": 1000,
+                                "content": "\n"
+                            }
+                        ],
+                        "child_ids": [
+                            "fc8370da-0642-4e53-84e1-bc032e4cf923"
+                        ]
+                    }
+                ],
+                "child_ids": [
+                    "1ae4b24f-bc19-4086-a2a4-95705f0e41ec",
+                    "1080e0dc-3024-46ec-8ece-945a0883a5c3",
+                    "4ee65045-99e9-49db-a2b2-1f1ea51c00bc",
+                    "d41d0f8b-f0ea-41a1-a2fd-461efcf37375",
+                    "7a36d331-c560-41b2-9906-d6cff8ca5378",
+                    "d9f5bae1-df06-4f63-ba44-79fa8cef59d9",
+                    "36887378-6589-4b04-9663-140190e079fe",
+                    "011ab372-5603-45d3-9a8a-33afffd45c44",
+                    "7321721f-29cd-4b2a-8589-3b805cef4ef0",
+                    "370be73c-f95b-4c5b-afb6-c21c490a513a",
+                    "74f32c4a-72ae-4846-acfc-67c2544f17ae",
+                    "7814c5bb-d420-4154-ae5d-a25413bd3c95",
+                    "ed72bc6d-8ece-494a-8c0f-9afacb4bc600",
+                    "8f4d7deb-7b87-462e-9314-cc5451c4ae78",
+                    "e402f68d-83c6-47c9-852f-3fcfd055e3bf",
+                    "b8ce6817-c16f-4263-96d4-ab3428b18c9f",
+                    "a8350a74-25ff-48c7-8c9a-92709a9839a2",
+                    "e852f817-3239-464f-b9ae-6a5ef5fd86e4",
+                    "186d176b-b206-40ab-be3b-8fbc4a1588c6",
+                    "8a2f9b37-f888-4404-a8a9-7833bf464558",
+                    "f30e13a4-5597-4198-a6d8-56fb94275fcd",
+                    "9e0949c6-fd07-4b2b-be70-b052d41f0cb8",
+                    "c81c0e43-8324-48de-84c6-e690a8514de6",
+                    "38ff946b-107c-4a8a-aa52-37bb9ea11234",
+                    "dffc2e6e-02cf-42fc-883f-1ba16258c073",
+                    "b6039551-e6f1-40ce-96cc-3b872e4c1fc6"
+                ]
+            }
+        ],
+        "child_ids": [
+            "69f7e993-58c6-4794-9d7b-32a2bd112f38"
+        ]
+    }
+]

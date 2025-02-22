@@ -1,0 +1,747 @@
+[
+    {
+        "id": "d8990020-0cb3-4122-b86f-1ce059900df7",
+        "rank": 1,
+        "content": "Chương I: NHỮNG QUY ĐỊNH CHUNG",
+        "childs": [
+            {
+                "id": "0f0fd3ef-e1d9-4a0d-b3d4-e059f7d2f855",
+                "rank": 3,
+                "page": 1,
+                "content": "Điều 1. Phạm vi điều chỉnh và đối tượng áp dụng",
+                "childs": [
+                    {
+                        "id": "d6fea32b-8621-4bc8-add1-300b1100b604",
+                        "rank": 5,
+                        "content": "1. Nghị định này quy định về chính sách hỗ trợ tiền đóng học phí, chi phí sinh hoạt đối với sinh viên học các ngành đào tạo giáo viên tại các đại học, học viện, trường đại học, trường cao đẳng được phép đào tạo giáo viên (sau đây gọi chung là cơ sở đào tạo giáo viên) thực hiện theo phương thức giao nhiệm vụ, đặt hàng hoặc đấu thầu và đào tạo theo nhu cầu xã hội."
+                    },
+                    {
+                        "id": "05464abe-5726-4abc-a821-27133d6dbc96",
+                        "rank": 5,
+                        "content": "2. Nghị định này áp dụng đối với:",
+                        "childs": [
+                            {
+                                "id": "00f12e24-49cd-462e-a334-12d4e55d3576",
+                                "rank": 7,
+                                "content": "a) Sinh viên học trình độ đại học, cao đẳng các ngành đào tạo giáo viên theo hình thức đào tạo chính quy, liên thông chính quy và sinh viên học văn bằng thứ 2 theo hình thức đào tạo chính quy trình độ đại học, cao đẳng các ngành đào tạo giáo viên có kết quả học lực văn bằng thứ 1 đạt loại giỏi (sau đây gọi chung là sinh viên sư phạm)."
+                            },
+                            {
+                                "id": "91a41e96-98f8-4a7e-949d-02292aec5065",
+                                "rank": 7,
+                                "content": "b) Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương (sau đây gọi chung là Ủy ban nhân dân cấp tỉnh) hoặc cơ quan trực thuộc được ủy quyền giao nhiệm vụ, đặt hàng hoặc đấu thầu đào tạo sinh viên sư phạm (sau đây gọi chung là cơ quan giao nhiệm vụ, đặt hàng hoặc đấu thầu); các cơ sở đào tạo giáo viên và các tổ chức, cá nhân có nhu cầu đào tạo."
+                            }
+                        ],
+                        "child_ids": [
+                            "00f12e24-49cd-462e-a334-12d4e55d3576",
+                            "91a41e96-98f8-4a7e-949d-02292aec5065"
+                        ]
+                    },
+                    {
+                        "id": "827fbeee-8c31-4219-b0b2-6d4c7fdd30bc",
+                        "rank": 5,
+                        "content": "3. Nghị định này không áp dụng đối với giáo viên được cử đi đào tạo, bồi dưỡng để nâng trình độ chuẩn được đào tạo theo quy định tại Nghị định số 71/2020/NĐ-CP ngày 30 tháng 6 năm 2020 của Chính phủ quy định lộ trình thực hiện nâng trình độ chuẩn được đào tạo của giáo viên mầm non, tiểu học, trung học cơ sở."
+                    }
+                ],
+                "child_ids": [
+                    "d6fea32b-8621-4bc8-add1-300b1100b604",
+                    "05464abe-5726-4abc-a821-27133d6dbc96",
+                    "827fbeee-8c31-4219-b0b2-6d4c7fdd30bc"
+                ]
+            },
+            {
+                "id": "7abe0c79-eb55-418f-a945-93a3199d7a15",
+                "rank": 3,
+                "page": 2,
+                "content": "Điều 2. Giải thích từ ngữ",
+                "childs": [
+                    {
+                        "id": "e6129cf3-2e6d-4810-85a4-8fb9ea2c1449",
+                        "rank": 1000,
+                        "content": "Trong Nghị định này, các từ ngữ dưới đây được hiểu như sau:"
+                    },
+                    {
+                        "id": "f48df18c-0c69-4a38-98bf-c8829a1772e2",
+                        "rank": 5,
+                        "content": "1. Số tháng làm tròn khi tính thời gian làm việc trong ngành giáo dục được xác định như sau: Số ngày làm việc trong tháng từ 15 ngày trở lên được tính là một tháng."
+                    },
+                    {
+                        "id": "38d8b24a-236e-45a7-99e3-32f27855dc26",
+                        "rank": 5,
+                        "content": "2. Sinh viên sư phạm sau khi tốt nghiệp công tác trong ngành giáo dục, bao gồm:",
+                        "childs": [
+                            {
+                                "id": "abf10c93-a3d7-4aa3-bd17-d9834604571e",
+                                "rank": 7,
+                                "content": "a) Giáo viên, giảng viên làm nhiệm vụ giảng dạy, nghiên cứu hoặc chuyên môn, viên chức làm công tác quản lý trong các cơ sở giáo dục thuộc hệ thống giáo dục quốc dân, các cơ sở giáo dục khác được cấp có thẩm quyền cho phép thành lập, các cơ quan nghiên cứu khoa học về giáo dục và đào tạo;"
+                            },
+                            {
+                                "id": "182d064c-df58-48fa-8873-dabd292200ba",
+                                "rank": 7,
+                                "content": "b) Công chức, viên chức làm việc tại các cơ quan quản lý nhà nước về giáo dục theo quy định của Nghị định quy định trách nhiệm quản lý nhà nước về giáo dục."
+                            }
+                        ],
+                        "child_ids": [
+                            "abf10c93-a3d7-4aa3-bd17-d9834604571e",
+                            "182d064c-df58-48fa-8873-dabd292200ba"
+                        ]
+                    },
+                    {
+                        "id": "78105119-5a8b-4d1c-8657-ef3510f8de8f",
+                        "rank": 5,
+                        "content": "3. Thẩm quyền xác nhận thời gian làm việc trong ngành giáo dục là thủ trưởng các cơ quan, đơn vị quy định tại khoản 2 Điều này."
+                    }
+                ],
+                "child_ids": [
+                    "e6129cf3-2e6d-4810-85a4-8fb9ea2c1449",
+                    "f48df18c-0c69-4a38-98bf-c8829a1772e2",
+                    "38d8b24a-236e-45a7-99e3-32f27855dc26",
+                    "78105119-5a8b-4d1c-8657-ef3510f8de8f"
+                ]
+            },
+            {
+                "id": "7f90b6ea-deb5-4033-ae8e-d6cf51cc3b33",
+                "rank": 3,
+                "page": 2,
+                "content": "Điều 3. Xác định nhu cầu đào tạo, giao nhiệm vụ, đặt hàng hoặc đấu thầu",
+                "childs": [
+                    {
+                        "id": "082e5f35-c033-4ae8-895f-8f402b2fdff4",
+                        "rank": 5,
+                        "content": "1. Hằng năm, Ủy ban nhân dân cấp tỉnh rà soát tính toán và xác định nhu cầu tuyển dụng và đào tạo giáo viên tại địa phương của từng trình độ, cấp học, ngành học, môn học cho năm tuyển sinh gửi Bộ Giáo dục và Đào tạo trước ngày 31 tháng 01 hằng năm và công khai trên các phương tiện thông tin, truyền thông. Trên cơ sở nhu cầu tuyển dụng giáo viên theo trình độ, ngành đào tạo của địa phương và nhu cầu xã hội, điều kiện bảo đảm chất lượng và năng lực đào tạo của cơ sở đào tạo giáo viên, Bộ Giáo dục và Đào tạo xác định và thông báo chỉ tiêu cho các cơ sở đào tạo giáo viên để thực hiện tuyển sinh."
+                    },
+                    {
+                        "id": "5c413f33-d01b-41be-804e-b112bd93d3dd",
+                        "rank": 5,
+                        "content": "2. Căn cứ chỉ tiêu được Bộ Giáo dục và Đào tạo thông báo, cơ sở đào tạo giáo viên thông báo công khai rộng rãi cho các địa phương, tổ chức, cá nhân có nhu cầu đào tạo giáo viên và thông báo lên cổng thông tin điện tử của Bộ Giáo dục và Đào tạo, trang thông tin điện tử của cơ sở đào tạo giáo viên."
+                    },
+                    {
+                        "id": "f99961c1-b2f9-4bc3-bc4c-22f8082f6a58",
+                        "rank": 5,
+                        "content": "3. Căn cứ vào chỉ tiêu được thông báo của các cơ sở đào tạo giáo viên và nhu cầu đào tạo giáo viên của địa phương, cơ quan giao nhiệm vụ, đặt hàng hoặc đấu thầu có nhu cầu quyết định thực hiện giao nhiệm vụ, đặt hàng hoặc đấu thầu đào tạo giáo viên với cơ sở đào tạo giáo viên theo một trong các hình thức sau:",
+                        "childs": [
+                            {
+                                "id": "c5c6e899-c389-475c-b537-338e132ad614",
+                                "rank": 7,
+                                "content": "a) Thực hiện giao nhiệm vụ đào tạo giáo viên cho cơ sở đào tạo giáo viên trực thuộc;"
+                            },
+                            {
+                                "id": "aad1bce3-cbe3-4141-808c-4b2e352e6897",
+                                "rank": 7,
+                                "content": "b) Đặt hàng đào tạo giáo viên cho cơ sở đào tạo giáo viên;"
+                            },
+                            {
+                                "id": "cd359640-3389-4e72-8da1-9ab875cfab52",
+                                "rank": 7,
+                                "content": "c) Đấu thầu lựa chọn cơ sở đào tạo giáo viên cung cấp dịch vụ đào tạo giáo viên."
+                            }
+                        ],
+                        "child_ids": [
+                            "c5c6e899-c389-475c-b537-338e132ad614",
+                            "aad1bce3-cbe3-4141-808c-4b2e352e6897",
+                            "cd359640-3389-4e72-8da1-9ab875cfab52"
+                        ]
+                    },
+                    {
+                        "id": "22a3b223-20f4-404d-8154-cc2a2a821393",
+                        "rank": 5,
+                        "content": "4. Quyết định giao nhiệm vụ, hợp đồng đào tạo giáo viên giữa cơ quan giao nhiệm vụ, đặt hàng hoặc đấu thầu với các cơ sở đào tạo giáo viên phải căn cứ trên cơ sở nhu cầu và kế hoạch đào tạo giáo viên theo từng năm, phù hợp với lộ trình kế hoạch phát triển giáo dục, kế hoạch đào tạo đội ngũ giáo viên hằng năm và dài hạn của địa phương."
+                    },
+                    {
+                        "id": "5a2367b3-713a-45e3-b235-3dd7dc27b897",
+                        "rank": 5,
+                        "content": "5. Đơn giá thực hiện giao nhiệm vụ, đặt hàng hoặc đấu thầu đào tạo giáo viên được xác định theo quy định tại Điều 4 Nghị định này."
+                    },
+                    {
+                        "id": "357f2a89-dcc2-435c-a34b-7a763a681f43",
+                        "rank": 5,
+                        "content": "6. Các quy định khác về giao nhiệm vụ, đặt hàng hoặc đấu thầu chưa được quy định cụ thể tại Nghị định này thì thực hiện theo quy định tại Nghị định số 32/2019/NĐ-CP ngày 10 tháng 4 năm 2019 của Chính phủ quy định giao nhiệm vụ, đặt hàng hoặc đấu thầu cung cấp sản phẩm, dịch vụ công sử dụng ngân sách nhà nước."
+                    }
+                ],
+                "child_ids": [
+                    "082e5f35-c033-4ae8-895f-8f402b2fdff4",
+                    "5c413f33-d01b-41be-804e-b112bd93d3dd",
+                    "f99961c1-b2f9-4bc3-bc4c-22f8082f6a58",
+                    "22a3b223-20f4-404d-8154-cc2a2a821393",
+                    "5a2367b3-713a-45e3-b235-3dd7dc27b897",
+                    "357f2a89-dcc2-435c-a34b-7a763a681f43"
+                ]
+            }
+        ],
+        "child_ids": [
+            "0f0fd3ef-e1d9-4a0d-b3d4-e059f7d2f855",
+            "7abe0c79-eb55-418f-a945-93a3199d7a15",
+            "7f90b6ea-deb5-4033-ae8e-d6cf51cc3b33"
+        ]
+    },
+    {
+        "id": "cd41df0f-5c44-4799-8dfb-eeee264ce0fc",
+        "rank": 1,
+        "content": "Chương II: CHÍNH SÁCH HỖ TRỢ TIỀN ĐÓNG HỌC PHÍ, CHI PHÍ SINH HOẠT VÀ BỒI HOÀN KINH PHÍ HỖ TRỢ",
+        "childs": [
+            {
+                "id": "fd66a509-b09e-4a6c-b0f3-843a075d077d",
+                "rank": 3,
+                "page": 3,
+                "content": "Điều 4. Mức hỗ trợ và thời gian hỗ trợ",
+                "childs": [
+                    {
+                        "id": "d227793e-a1c9-4d82-bf20-07670eed4426",
+                        "rank": 5,
+                        "content": "1. Mức hỗ trợ:",
+                        "childs": [
+                            {
+                                "id": "d774d5ad-bb1d-4893-85fd-4e4287229a2f",
+                                "rank": 7,
+                                "content": "a) Sinh viên sư phạm được nhà nước hỗ trợ tiền đóng học phí bằng mức thu học phí của cơ sở đào tạo giáo viên nơi theo học;"
+                            },
+                            {
+                                "id": "238f5f8a-6251-482f-8347-8836a9690a64",
+                                "rank": 7,
+                                "content": "b) Sinh viên sư phạm được nhà nước hỗ trợ 3,63 triệu đồng/tháng để chi trả chi phí sinh hoạt trong thời gian học tập tại trường."
+                            }
+                        ],
+                        "child_ids": [
+                            "d774d5ad-bb1d-4893-85fd-4e4287229a2f",
+                            "238f5f8a-6251-482f-8347-8836a9690a64"
+                        ]
+                    },
+                    {
+                        "id": "fc5d5bd2-af19-4cad-80fe-8624cc48be43",
+                        "rank": 5,
+                        "content": "2. Thời gian hỗ trợ tiền đóng học phí và chi phí sinh hoạt được xác định theo số tháng thực tế học tập tại trường theo quy định, nhưng không quá 10 tháng/năm học. Trong trường hợp tổ chức giảng dạy theo học chế tín chỉ, cơ sở đào tạo giáo viên có thể quy đổi mức hỗ trợ cho phù hợp với học chế tín chỉ. Tổng kinh phí hỗ trợ của cả khóa học theo học chế tín chỉ không vượt quá mức hỗ trợ quy định cho khóa học theo năm học."
+                    }
+                ],
+                "child_ids": [
+                    "d227793e-a1c9-4d82-bf20-07670eed4426",
+                    "fc5d5bd2-af19-4cad-80fe-8624cc48be43"
+                ]
+            },
+            {
+                "id": "39ecd664-5260-49ff-9732-ab7ce0efddb0",
+                "rank": 3,
+                "page": 4,
+                "content": "Điều 5. Lập dự toán, chỉ trả kinh phí hỗ trợ",
+                "childs": [
+                    {
+                        "id": "6cc0ac77-2f7f-4578-8d54-53b0a494c3d4",
+                        "rank": 5,
+                        "content": "1. Lập dự toán:",
+                        "childs": [
+                            {
+                                "id": "616456c6-961d-4ad5-81bf-8194c67c6539",
+                                "rank": 7,
+                                "content": "a) Đối với sinh viên sư phạm đào tạo theo phương thức giao nhiệm vụ, đặt hàng hoặc đấu thầu (sau đây gọi chung là thuộc đối tượng giao nhiệm vụ, đặt hàng hoặc đấu thầu): Căn cứ vào nhu cầu đào tạo giáo viên của địa phương và các định mức hỗ trợ quy định tại Điều 4 Nghị định này, hằng năm cơ quan giao nhiệm vụ, đặt hàng hoặc đấu thầu lập dự toán kinh phí đào tạo giáo viên báo cáo cơ quan có thẩm quyền phê duyệt kinh phí để chỉ trả hỗ trợ tiền đóng học phí và chi phí sinh hoạt cho sinh viên sư phạm qua cơ sở đào tạo giáo viên;"
+                            },
+                            {
+                                "id": "3338c8a9-3201-49cd-ba10-156deb63d6c4",
+                                "rank": 7,
+                                "content": "b) Đối với sinh viên sư phạm đào tạo theo nhu cầu xã hội (không thuộc đối tượng giao nhiệm vụ, đặt hàng hoặc đấu thầu): Căn cứ vào số chỉ tiêu còn lại trong phạm vi chỉ tiêu của Bộ Giáo dục và Đào tạo thông báo sau khi trừ đi chỉ tiêu giao nhiệm vụ, đặt hàng hoặc đấu thầu, hằng năm cơ sở đào tạo giáo viên lập dự toán kinh phí và gửi cơ quan cấp trên tổng hợp báo cáo cơ quan tài chính bố trí dự toán theo quy định của Luật Ngân sách nhà nước. Kinh phí hỗ trợ tiền đóng học phí và chi phí sinh hoạt cho sinh viên sư phạm đào tạo theo nhu cầu xã hội được cấp cho cơ sở đào tạo giáo viên theo hình thức giao dự toán theo quy định."
+                            }
+                        ],
+                        "child_ids": [
+                            "616456c6-961d-4ad5-81bf-8194c67c6539",
+                            "3338c8a9-3201-49cd-ba10-156deb63d6c4"
+                        ]
+                    },
+                    {
+                        "id": "0f36d8ee-eef6-40a6-8819-ac99c1723c09",
+                        "rank": 5,
+                        "content": "2. Chỉ trả kinh phí hỗ trợ từ ngân sách nhà nước:",
+                        "childs": [
+                            {
+                                "id": "7acdcc12-d9dd-4da8-87d6-8d775de672f3",
+                                "rank": 7,
+                                "content": "a) Kinh phí hỗ trợ tiền đóng học phí và chi phí sinh hoạt cho sinh viên sư phạm được bố trí trong dự toán ngân sách nhà nước hằng năm chi cho giáo dục, đào tạo tại các địa phương, bộ, ngành theo các quy định hiện hành;"
+                            },
+                            {
+                                "id": "3e898be8-c715-47f5-88f3-4657e5a19b79",
+                                "rank": 7,
+                                "content": "b) Cơ quan giao nhiệm vụ, đặt hàng hoặc đấu thầu chỉ trả trực tiếp cho cơ sở đào tạo giáo viên kinh phí hỗ trợ tiền đóng học phí và chi phí sinh hoạt của sinh viên sư phạm theo cơ chế Nhà nước giao nhiệm vụ, đặt hàng hoặc đấu thầu đối với các sinh viên sư phạm thuộc đối tượng giao nhiệm vụ, đặt hàng hoặc đấu thầu.",
+                                "childs": [
+                                    {
+                                        "id": "ce677f62-0478-4c2e-8c89-7d1fa6b265bb",
+                                        "rank": 1000,
+                                        "content": "Đối với kinh phí hỗ trợ tiền đóng học phí và chi phí sinh hoạt cho sinh viên sư phạm trong chỉ tiêu Bộ Giáo dục và Đào tạo thông báo nhưng không thuộc đối tượng giao nhiệm vụ, đặt hàng hoặc đấu thầu, được bố trí trong dự toán hằng năm của cơ sở đào tạo giáo viên được cấp có thẩm quyền giao theo quy định của Luật Ngân sách nhà nước;"
+                                    }
+                                ],
+                                "child_ids": [
+                                    "ce677f62-0478-4c2e-8c89-7d1fa6b265bb"
+                                ]
+                            },
+                            {
+                                "id": "e6d35f6a-01ee-441d-b0e9-9351aec8c4c8",
+                                "rank": 7,
+                                "content": "c) Cơ sở đào tạo giáo viên có trách nhiệm chỉ trả tiền hỗ trợ chi phí sinh hoạt cho sinh viên sư phạm thông qua tài khoản tiền gửi của sinh viên tại ngân hàng."
+                            }
+                        ],
+                        "child_ids": [
+                            "7acdcc12-d9dd-4da8-87d6-8d775de672f3",
+                            "3e898be8-c715-47f5-88f3-4657e5a19b79",
+                            "e6d35f6a-01ee-441d-b0e9-9351aec8c4c8"
+                        ]
+                    },
+                    {
+                        "id": "b90dc0b2-1f03-4520-9d7a-9e9fc301ac99",
+                        "rank": 5,
+                        "content": "3. Việc lập dự toán, chấp hành dự toán và thanh quyết toán kinh phí thực hiện chính sách hỗ trợ tiền đóng học phí, chi phí sinh hoạt đối với sinh viên sư phạm tại Nghị định này thực hiện theo quy định tại Luật Ngân sách nhà nước và các văn bản hướng dẫn thực hiện."
+                    }
+                ],
+                "child_ids": [
+                    "6cc0ac77-2f7f-4578-8d54-53b0a494c3d4",
+                    "0f36d8ee-eef6-40a6-8819-ac99c1723c09",
+                    "b90dc0b2-1f03-4520-9d7a-9e9fc301ac99"
+                ]
+            },
+            {
+                "id": "5fa12266-8155-4e9d-a1c8-2848252a4588",
+                "rank": 3,
+                "page": 5,
+                "content": "Điều 6. Bồi hoàn kinh phí hỗ trợ",
+                "childs": [
+                    {
+                        "id": "42fda9fe-e956-487c-8bda-950edd6bc563",
+                        "rank": 5,
+                        "content": "1. Đối tượng phải bồi hoàn kinh phí hỗ trợ tiền đóng học phí và chi phí sinh hoạt gồm:",
+                        "childs": [
+                            {
+                                "id": "41a73945-7648-4339-b66d-d4d60795718f",
+                                "rank": 7,
+                                "content": "a) Sinh viên sư phạm đã hưởng chính sách không công tác trong ngành giáo dục sau 02 năm kể từ ngày có quyết định công nhận tốt nghiệp;"
+                            },
+                            {
+                                "id": "4d55678f-bfd9-4851-8731-245700387c45",
+                                "rank": 7,
+                                "content": "b) Sinh viên sư phạm đã hưởng chính sách và công tác trong ngành giáo dục nhưng không đủ thời gian công tác theo quy định tại điểm a khoản 2 Điều này;"
+                            },
+                            {
+                                "id": "4f4a5abf-54e3-4972-81ea-5c76c3b6663b",
+                                "rank": 7,
+                                "content": "c) Sinh viên sư phạm được hưởng chính sách đang trong thời gian đào tạo nhưng chuyển sang ngành đào tạo khác, tự thôi học, không hoàn thành chương trình đào tạo hoặc bị kỷ luật buộc thôi học."
+                            }
+                        ],
+                        "child_ids": [
+                            "41a73945-7648-4339-b66d-d4d60795718f",
+                            "4d55678f-bfd9-4851-8731-245700387c45",
+                            "4f4a5abf-54e3-4972-81ea-5c76c3b6663b"
+                        ]
+                    },
+                    {
+                        "id": "c011d926-c87e-4cce-a8a3-edc621dcbe12",
+                        "rank": 5,
+                        "content": "2. Đối tượng không phải bồi hoàn kinh phí hỗ trợ tiền đóng học phí và chi phí sinh hoạt gồm:",
+                        "childs": [
+                            {
+                                "id": "a5074750-8e75-4f29-b05a-a46d07ad511d",
+                                "rank": 7,
+                                "content": "a) Trong thời hạn 02 năm kể từ ngày có quyết định công nhận tốt nghiệp, sinh viên sư phạm công tác trong ngành giáo dục và có thời gian công tác tối thiểu gấp hai lần thời gian đào tạo tính từ ngày được tuyển dụng;"
+                            },
+                            {
+                                "id": "9462d7b1-77db-41a5-84a5-26e6d21cdd7a",
+                                "rank": 7,
+                                "content": "b) Sinh viên sư phạm sau khi tốt nghiệp đang công tác trong ngành giáo dục, nhưng chưa đủ thời gian theo quy định tại điểm a khoản 2 Điều này và được cơ quan nhà nước có thẩm quyền điều động bố trí công tác ngoài ngành giáo dục;"
+                            },
+                            {
+                                "id": "de4fa1c1-834b-445b-9195-cf71d15c3de3",
+                                "rank": 7,
+                                "content": "c) Sinh viên sư phạm sau khi tốt nghiệp tiếp tục được cơ quan đặt hàng, giao nhiệm vụ hoặc đấu thầu cử đi đào tạo giáo viên trình độ cao hơn và tiếp tục công tác trong ngành giáo dục đủ thời gian quy định tại điểm a khoản 2 Điều này."
+                            }
+                        ],
+                        "child_ids": [
+                            "a5074750-8e75-4f29-b05a-a46d07ad511d",
+                            "9462d7b1-77db-41a5-84a5-26e6d21cdd7a",
+                            "de4fa1c1-834b-445b-9195-cf71d15c3de3"
+                        ]
+                    },
+                    {
+                        "id": "e27de1b3-709f-42f4-a63f-0f3b309ccb26",
+                        "rank": 5,
+                        "content": "3. Sinh viên sư phạm nghỉ học tạm thời, bị đình chỉ học tập tạm thời sẽ không được hưởng chính sách hỗ trợ trong thời gian nghỉ học hoặc bị đình chỉ học."
+                    },
+                    {
+                        "id": "d31581f9-9762-486e-85db-8bc76cfac258",
+                        "rank": 5,
+                        "content": "4. Sinh viên sư phạm dừng học do ốm đau, tai nạn, học lại, lưu ban (không quá một lần) hoặc dừng học vì lý do khác không do kỷ luật hoặc tự thôi học, được cơ sở đào tạo giáo viên xem xét cho tiếp tục học tập theo quy định, thì tiếp tục được hưởng chính sách hỗ trợ quy định tại Nghị định này nhưng thời gian hưởng không vượt quá thời gian tối đa hoàn thành chương trình đào tạo."
+                    }
+                ],
+                "child_ids": [
+                    "42fda9fe-e956-487c-8bda-950edd6bc563",
+                    "c011d926-c87e-4cce-a8a3-edc621dcbe12",
+                    "e27de1b3-709f-42f4-a63f-0f3b309ccb26",
+                    "d31581f9-9762-486e-85db-8bc76cfac258"
+                ]
+            },
+            {
+                "id": "8131ecaf-e59d-405f-91f6-d0f8188b0985",
+                "rank": 3,
+                "page": 6,
+                "content": "Điều 7. Thủ tục đăng ký hỗ trợ tiền đóng học phí và chi phí sinh hoạt",
+                "childs": [
+                    {
+                        "id": "54434755-3f90-4684-b016-5eaef641d7e6",
+                        "rank": 5,
+                        "content": "1. Hằng năm, căn cứ vào chỉ tiêu được Bộ Giáo dục và Đào tạo thông báo, cơ sở đào tạo giáo viên thông báo cho các thí sinh trúng tuyển vào các ngành đào tạo giáo viên để đăng ký theo đối tượng giao nhiệm vụ, đặt hàng hoặc đấu thầu hoặc đào tạo theo nhu cầu xã hội trong phạm vi chỉ tiêu được Bộ Giáo dục và Đào tạo thông báo."
+                    },
+                    {
+                        "id": "623afedf-6f2a-42f7-b61e-60bfae181821",
+                        "rank": 5,
+                        "content": "2. Trong thời hạn 30 ngày kể từ ngày nhận được thông báo trúng tuyển, sinh viên sư phạm nộp Đơn đề nghị hưởng và cam kết bồi hoàn học phí, chi phí sinh hoạt đến cơ sở đào tạo giáo viên (Mẫu SỐ 01 tại Phụ lục ban hành kèm theo Nghị định này) theo hình thức nộp trực tiếp hoặc qua bưu điện hoặc trực tuyến (nếu có). Sinh viên chỉ nộp 01 bộ hồ sơ cho 01 lần đầu đề nghị hỗ trợ trong cả thời gian học tại cơ sở đào tạo giáo viên."
+                    },
+                    {
+                        "id": "bdc0c8f6-5e7f-47ec-8b30-0b778d635934",
+                        "rank": 5,
+                        "content": "3. Các cơ sở đào tạo giáo viên tổng hợp và thông báo cho các địa phương đã giao nhiệm vụ, đặt hàng hoặc đấu thầu để thống nhất xét hỗ trợ cho sinh viên sư phạm thuộc đối tượng giao nhiệm vụ, đặt hàng hoặc đấu thầu."
+                    },
+                    {
+                        "id": "795a51a3-5857-4dec-956d-48dcc599d0df",
+                        "rank": 5,
+                        "content": "4. Cơ quan giao nhiệm vụ, đặt hàng hoặc đấu thầu xây dựng tiêu chí tuyển chọn sinh viên sư phạm đã trúng tuyển, phối hợp với cơ sở đào tạo giáo viên xét chọn bảo đảm công bằng, công khai, minh bạch."
+                    },
+                    {
+                        "id": "7e0b21b8-9842-400a-a9b5-56ee59b84a5c",
+                        "rank": 5,
+                        "content": "5. Trong thời hạn 15 ngày kể từ ngày kết thúc nhận đơn đăng ký, cơ sở đào tạo giáo viên thống nhất với cơ quan giao nhiệm vụ, đặt hàng hoặc đấu thầu để xác nhận và thông báo cho sinh viên sư phạm được hưởng chính sách hỗ trợ thuộc đối tượng giao nhiệm vụ, đặt hàng hoặc đấu thầu và xét duyệt các đối tượng hưởng chính sách hỗ trợ đối với sinh viên sư phạm trong phạm vi chỉ tiêu Bộ Giáo dục và Đào tạo thông báo và không thuộc chỉ tiêu đặt hàng."
+                    },
+                    {
+                        "id": "df5ec9de-b2c8-41fa-bb9e-d8c4f51e4bcc",
+                        "rank": 5,
+                        "content": "6. Danh sách sinh viên sư phạm được hưởng chính sách hỗ trợ học phí và chi phí sinh hoạt được công khai trên trang thông tin điện tử của cơ sở đào tạo giáo viên đồng thời gửi cơ quan giao nhiệm vụ, đặt hàng hoặc đấu thầu để thực hiện."
+                    }
+                ],
+                "child_ids": [
+                    "54434755-3f90-4684-b016-5eaef641d7e6",
+                    "623afedf-6f2a-42f7-b61e-60bfae181821",
+                    "bdc0c8f6-5e7f-47ec-8b30-0b778d635934",
+                    "795a51a3-5857-4dec-956d-48dcc599d0df",
+                    "7e0b21b8-9842-400a-a9b5-56ee59b84a5c",
+                    "df5ec9de-b2c8-41fa-bb9e-d8c4f51e4bcc"
+                ]
+            },
+            {
+                "id": "c5fa515f-e300-431a-ac14-fadf5122d400",
+                "rank": 3,
+                "page": 6,
+                "content": "Điều 8. Chi phí bồi hoàn và cách tính chi phí bồi hoàn",
+                "childs": [
+                    {
+                        "id": "952569c7-d006-48ce-90ff-137d90513d30",
+                        "rank": 5,
+                        "content": "1. Chi phí bồi hoàn bao gồm kinh phí hỗ trợ tiền đóng học phí và chi phí sinh hoạt đã được ngân sách nhà nước hỗ trợ cho người học."
+                    },
+                    {
+                        "id": "dc42be61-fc8a-45bc-abfc-356c32301b6f",
+                        "rank": 5,
+                        "content": "2. Sinh viên sư phạm thuộc đối tượng quy định tại điểm a và điểm c khoản 1 Điều 6 của Nghị định này phải bồi hoàn toàn bộ kinh phí đã được ngân sách nhà nước hỗ trợ."
+                    },
+                    {
+                        "id": "d7053db0-758e-4aa4-a0ed-61b3ee7fc4ba",
+                        "rank": 5,
+                        "content": "3. Sinh viên sư phạm thuộc đối tượng quy định tại điểm b khoản 1 Điều 6 của Nghị định này phải bồi hoàn một phần kinh phí hỗ trợ. Cách tính chi phí bồi hoàn theo công thức sau:\nS = (F / T1) × (T1 - T2)\nTrong đó:\nS là chi phí bồi hoàn.\nF là khoản học phí và chi phí sinh hoạt được nhà nước hỗ trợ.\nT1 là tổng thời gian làm việc trong ngành giáo dục theo quy định, tính bằng số tháng làm tròn.\nT2 là thời gian đã làm việc trong ngành giáo dục, tính bằng số tháng làm tròn."
+                    }
+                ],
+                "child_ids": [
+                    "952569c7-d006-48ce-90ff-137d90513d30",
+                    "dc42be61-fc8a-45bc-abfc-356c32301b6f",
+                    "d7053db0-758e-4aa4-a0ed-61b3ee7fc4ba"
+                ]
+            },
+            {
+                "id": "da531e9c-97c4-42f2-a5c3-24d1c246cb2b",
+                "rank": 3,
+                "page": 7,
+                "content": "Điều 9. Thu hồi chi phí bồi hoàn",
+                "childs": [
+                    {
+                        "id": "103d1a4a-a25d-4e27-989e-e85193de8a4f",
+                        "rank": 5,
+                        "content": "1. Hằng năm, căn cứ vào kết quả rèn luyện, học tập của sinh viên sư phạm, cơ sở đào tạo giáo viên thông báo danh sách sinh viên thuộc đối tượng quy định tại điểm c khoản 1 Điều 6 Nghị định này cho Ủy ban nhân dân cấp tỉnh để thông báo thu hồi kinh phí đã hỗ trợ cho sinh viên sư phạm và gia đình theo quy định tại khoản 2 Điều 8 Nghị định này."
+                    },
+                    {
+                        "id": "2988a818-7e7e-471a-aa8b-326af1ca3e7a",
+                        "rank": 5,
+                        "content": "2. Đối với sinh viên sư phạm thuộc đối tượng phải bồi hoàn kinh phí theo quy định tại điểm a và điểm b khoản 1 Điều 6 Nghị định này, Ủy ban nhân dân cấp tỉnh ra thông báo thu hồi kinh phí hỗ trợ để sinh viên sư phạm hoặc gia đình thực hiện nộp trả đầy đủ khoản tiền phải bồi hoàn theo quy định tại Điều 8 Nghị định này."
+                    },
+                    {
+                        "id": "1a9ddf26-eb5a-4aa3-a12b-c68eea05900e",
+                        "rank": 5,
+                        "content": "3. Trong thời hạn 30 ngày, kể từ ngày nhận được quyết định của cơ quan nhà nước có thẩm quyền, sinh viên hoặc gia đình phải có trách nhiệm liên hệ với cơ quan thu hồi kinh phí bồi hoàn để làm thủ tục bồi hoàn.\nThời hạn phải thực hiện nghĩa vụ bồi hoàn kinh phí hỗ trợ tối đa là 4 năm, kể từ khi sinh viên sư phạm nhận được thông báo bồi hoàn kinh phí.\nTrường hợp sinh viên hoặc gia đình chậm thực hiện nghĩa vụ bồi hoàn quá thời hạn quy định thì phải chịu lãi suất tối đa áp dụng đối với tiền gửi không kỳ hạn do Ngân hàng Nhà nước Việt Nam quy định đối với khoản tiền chậm bồi hoàn. Trường hợp Ngân hàng Nhà nước không quy định lãi suất tối đa áp dụng đối với tiền gửi không kỳ hạn thì phải chịu lãi suất áp dụng đối với tiền gửi không kỳ hạn của Ngân hàng Thương mại cổ phần Công thương Việt Nam tại thời điểm thực hiện nghĩa vụ bồi hoàn."
+                    },
+                    {
+                        "id": "13aa405a-e253-4b72-b9a8-8a3bb6347a8a",
+                        "rank": 5,
+                        "content": "4. Sinh viên sư phạm phải bồi hoàn kinh phí theo quy định tại khoản 1 Điều 6 Nghị định này, nếu thuộc đối tượng chính sách, khó khăn thì căn cứ vào điều kiện cụ thể, đặc thù của sinh viên sư phạm, Ủy ban nhân dân cấp tỉnh quyết định phương thức thu hồi, chính sách miễn, giảm hoặc xóa kinh phí bồi hoàn."
+                    },
+                    {
+                        "id": "8ce9fe4a-72a2-4efb-af72-fa7838f10151",
+                        "rank": 5,
+                        "content": "5. Số tiền thu hồi từ chi phí bồi hoàn của sinh viên sư phạm được nộp vào ngân sách nhà nước theo phân cấp quản lý ngân sách hiện hành và theo quy định của Luật Ngân sách nhà nước về quản lý khoản thu hồi nộp ngân sách."
+                    },
+                    {
+                        "id": "0cb64beb-b2a0-4093-a0e3-9cf3a4b0d170",
+                        "rank": 5,
+                        "content": "6. Sinh viên sư phạm hoặc gia đình không thực hiện nghĩa vụ bồi hoàn thì cơ quan thu hồi kinh phí bồi hoàn có quyền khởi kiện tại Tòa án theo quy định pháp luật."
+                    }
+                ],
+                "child_ids": [
+                    "103d1a4a-a25d-4e27-989e-e85193de8a4f",
+                    "2988a818-7e7e-471a-aa8b-326af1ca3e7a",
+                    "1a9ddf26-eb5a-4aa3-a12b-c68eea05900e",
+                    "13aa405a-e253-4b72-b9a8-8a3bb6347a8a",
+                    "8ce9fe4a-72a2-4efb-af72-fa7838f10151",
+                    "0cb64beb-b2a0-4093-a0e3-9cf3a4b0d170"
+                ]
+            }
+        ],
+        "child_ids": [
+            "fd66a509-b09e-4a6c-b0f3-843a075d077d",
+            "39ecd664-5260-49ff-9732-ab7ce0efddb0",
+            "5fa12266-8155-4e9d-a1c8-2848252a4588",
+            "8131ecaf-e59d-405f-91f6-d0f8188b0985",
+            "c5fa515f-e300-431a-ac14-fadf5122d400",
+            "da531e9c-97c4-42f2-a5c3-24d1c246cb2b"
+        ]
+    },
+    {
+        "id": "84168293-a994-4a0f-a309-8a2581b814a5",
+        "rank": 1,
+        "content": "Chương III: TỔ CHỨC THỰC HIỆN",
+        "childs": [
+            {
+                "id": "cbc7b113-4357-476d-a9e2-2f4ab3ddbaf0",
+                "rank": 3,
+                "page": 8,
+                "content": "Điều 10. Trách nhiệm của các bộ, ngành",
+                "childs": [
+                    {
+                        "id": "b60ade7a-b57b-4b80-bc48-fe4004d57e9a",
+                        "rank": 5,
+                        "content": "1. Bộ Giáo dục và Đào tạo:",
+                        "childs": [
+                            {
+                                "id": "ab62f6e8-c4fc-4fa9-9c08-6009319bf064",
+                                "rank": 7,
+                                "content": "a) Chủ trì, phối hợp với các bộ, ngành liên quan chỉ đạo, hướng dẫn các địa phương triển khai thực hiện các nội dung quy định tại Nghị định này;"
+                            },
+                            {
+                                "id": "86fc1fb5-fe56-41ab-b6e1-89dd016c6f31",
+                                "rank": 7,
+                                "content": "b) Xác định và thông báo chỉ tiêu tuyển sinh đối với các ngành đào tạo giáo viên cho các cơ sở đào tạo giáo viên;"
+                            },
+                            {
+                                "id": "3c6ff348-3d41-405e-ba5b-a373094a730b",
+                                "rank": 7,
+                                "content": "c) Tổ chức kiểm tra, đánh giá việc thực hiện Nghị định này đối với các cơ sở đào tạo giáo viên theo quy định;"
+                            },
+                            {
+                                "id": "3bfbb68b-78aa-49eb-8a6e-94adb47c333d",
+                                "rank": 7,
+                                "content": "d) Chỉ đạo các cơ sở đào tạo giáo viên phối hợp với Ủy ban nhân dân cấp tỉnh, các bộ, ngành liên quan thực hiện chính sách hỗ trợ cho sinh viên sư phạm hiệu quả."
+                            }
+                        ],
+                        "child_ids": [
+                            "ab62f6e8-c4fc-4fa9-9c08-6009319bf064",
+                            "86fc1fb5-fe56-41ab-b6e1-89dd016c6f31",
+                            "3c6ff348-3d41-405e-ba5b-a373094a730b",
+                            "3bfbb68b-78aa-49eb-8a6e-94adb47c333d"
+                        ]
+                    },
+                    {
+                        "id": "c915518a-6080-425b-8450-8c47824d2459",
+                        "rank": 5,
+                        "content": "2. Các bộ, ngành liên quan: Trong phạm vi chức năng, nhiệm vụ được giao phối hợp với Bộ Giáo dục và Đào tạo triển khai thực hiện các nội dung quy định tại Nghị định này."
+                    }
+                ],
+                "child_ids": [
+                    "b60ade7a-b57b-4b80-bc48-fe4004d57e9a",
+                    "c915518a-6080-425b-8450-8c47824d2459"
+                ]
+            },
+            {
+                "id": "3c4d0a3d-f5db-4b3c-942f-d244d2c7bc7d",
+                "rank": 3,
+                "page": 8,
+                "content": "Điều 11. Trách nhiệm của Ủy ban nhân dân cấp tỉnh",
+                "childs": [
+                    {
+                        "id": "f7111d90-3ed8-4441-82a4-6460aeb6a9c2",
+                        "rank": 5,
+                        "content": "1. Hằng năm, căn cứ thực trạng thừa thiếu giáo viên để xác định nhu cầu đào tạo, bố trí ngân sách thực hiện giao nhiệm vụ, đặt hàng hoặc đấu thầu với cơ sở đào tạo giáo viên, xây dựng tiêu chí tuyển chọn sinh viên sư phạm phù hợp nhu cầu sử dụng."
+                    },
+                    {
+                        "id": "ad9f842e-8388-48b4-a62a-ad5a3dcd38dd",
+                        "rank": 5,
+                        "content": "2. Thực hiện công khai nhu cầu đào tạo giáo viên, kết quả giao nhiệm vụ, đặt hàng hoặc đấu thầu với các cơ sở đào tạo giáo viên, kế hoạch tuyển dụng và bố trí vị trí việc làm trong các cơ sở giáo dục."
+                    },
+                    {
+                        "id": "221a1f75-dc72-41fc-84c7-20d39caec1ba",
+                        "rank": 5,
+                        "content": "3. Chi trả kinh phí thực hiện quyết định giao nhiệm vụ, hợp đồng đào tạo giáo viên với các cơ sở đào tạo giáo viên theo đúng định mức quy định tại Điều 4 Nghị định này."
+                    },
+                    {
+                        "id": "507c8fc5-119f-4bbf-a7b8-0fc116c138d9",
+                        "rank": 5,
+                        "content": "4. Chỉ đạo, hướng dẫn tổ chức thực hiện chính sách hỗ trợ sinh viên sư phạm theo quy định của Nghị định này tại địa phương; kiểm tra, giám sát việc thực hiện và báo cáo tình hình thực hiện định kỳ hằng năm với Bộ Giáo dục và Đào tạo, Bộ Tài chính."
+                    },
+                    {
+                        "id": "bb06c05d-6eb0-4e6f-960f-1ba2e3d070d1",
+                        "rank": 5,
+                        "content": "5. Thực hiện hoặc phân cấp thực hiện việc tuyển dụng sinh viên sư phạm tốt nghiệp thuộc đối tượng giao nhiệm vụ, đặt hàng hoặc đấu thầu và bố trí vị trí việc làm phù hợp với chuyên ngành đào tạo trong các cơ sở giáo dục theo quy định hiện hành về tuyển dụng, sử dụng viên chức."
+                    },
+                    {
+                        "id": "d438049e-7cd3-447a-a0ce-8bd3cd76ceae",
+                        "rank": 5,
+                        "content": "6. Hướng dẫn thủ tục theo dõi, đôn đốc và thu hồi tiền bồi hoàn kinh phí hỗ trợ tiền đóng học phí, chi phí sinh hoạt đối với các trường hợp phải bồi hoàn theo quy định tại khoản 1 Điều 6 Nghị định này và xử lý các trường hợp không thực hiện việc bồi hoàn theo quy định của pháp luật."
+                    },
+                    {
+                        "id": "31209064-0ab4-4fe2-a679-b1a1154d2731",
+                        "rank": 5,
+                        "content": "7. Hằng năm, báo cáo kết quả thực hiện quyết định giao nhiệm vụ, hợp đồng đào tạo giáo viên, kinh phí hỗ trợ, tình hình tuyển dụng giáo viên của địa phương với Bộ Giáo dục và Đào tạo, Bộ Tài chính."
+                    }
+                ],
+                "child_ids": [
+                    "f7111d90-3ed8-4441-82a4-6460aeb6a9c2",
+                    "ad9f842e-8388-48b4-a62a-ad5a3dcd38dd",
+                    "221a1f75-dc72-41fc-84c7-20d39caec1ba",
+                    "507c8fc5-119f-4bbf-a7b8-0fc116c138d9",
+                    "bb06c05d-6eb0-4e6f-960f-1ba2e3d070d1",
+                    "d438049e-7cd3-447a-a0ce-8bd3cd76ceae",
+                    "31209064-0ab4-4fe2-a679-b1a1154d2731"
+                ]
+            },
+            {
+                "id": "ac37a9ad-3068-4d94-80d8-edcda2a1a223",
+                "rank": 3,
+                "page": 9,
+                "content": "Điều 12. Trách nhiệm của cơ sở đào tạo giáo viên",
+                "childs": [
+                    {
+                        "id": "f8cf2d4b-7eec-49b3-b750-8112cfd060a1",
+                        "rank": 5,
+                        "content": "1. Căn cứ chỉ tiêu đào tạo được thông báo, thực hiện tuyển sinh, đào tạo giáo viên theo đúng quy định hiện hành."
+                    },
+                    {
+                        "id": "0e7145e6-1b87-47da-8858-80090ac13c4b",
+                        "rank": 5,
+                        "content": "2. Thực hiện đầy đủ các chế độ, chính sách đối với sinh viên sư phạm theo quy định."
+                    },
+                    {
+                        "id": "55294a19-5a90-4cf3-b73c-17050d7b3889",
+                        "rank": 5,
+                        "content": "3. Định kỳ hằng năm thông báo cho cơ quan thu hồi kinh phí bồi hoàn về kết quả học tập, rèn luyện và thời gian tốt nghiệp của sinh viên sư phạm, danh sách sinh viên đang học tại trường vi phạm phải bồi hoàn kinh phí hỗ trợ tiền đóng học phí và chi phí sinh hoạt theo quy định tại khoản 1 Điều 6 Nghị định này."
+                    },
+                    {
+                        "id": "f0070246-419d-4c8d-9036-a47179f9709d",
+                        "rank": 5,
+                        "content": "4. Có trách nhiệm công khai mức thu học phí theo từng năm học và học phí dự kiến cả khóa học, chi phí đào tạo, chuẩn đầu ra, kết quả học tập, tổ chức tuyển chọn và thực hiện đào tạo giáo viên theo phương thức giao nhiệm vụ, đặt hàng, đấu thầu với địa phương có nhu cầu theo quy định."
+                    },
+                    {
+                        "id": "e7462877-85c7-4a05-af62-37c8d5c73fad",
+                        "rank": 5,
+                        "content": "5. Thực hiện thanh quyết toán kinh phí đào tạo giáo viên theo quy định."
+                    },
+                    {
+                        "id": "7ee4e3fc-631e-4f78-b3b7-7e6b18325b2e",
+                        "rank": 5,
+                        "content": "6. Bảo đảm chất lượng đào tạo và chịu trách nhiệm trước cơ quan quản lý cấp trên về chất lượng đào tạo do đơn vị thực hiện."
+                    },
+                    {
+                        "id": "01bc6c18-a933-46ed-ae99-e4cb37a12a1f",
+                        "rank": 5,
+                        "content": "7. Định kỳ hằng năm báo cáo kết quả đào tạo, kinh phí hỗ trợ đào tạo giáo viên với Bộ Giáo dục và Đào tạo, Bộ Tài chính."
+                    }
+                ],
+                "child_ids": [
+                    "f8cf2d4b-7eec-49b3-b750-8112cfd060a1",
+                    "0e7145e6-1b87-47da-8858-80090ac13c4b",
+                    "55294a19-5a90-4cf3-b73c-17050d7b3889",
+                    "f0070246-419d-4c8d-9036-a47179f9709d",
+                    "e7462877-85c7-4a05-af62-37c8d5c73fad",
+                    "7ee4e3fc-631e-4f78-b3b7-7e6b18325b2e",
+                    "01bc6c18-a933-46ed-ae99-e4cb37a12a1f"
+                ]
+            },
+            {
+                "id": "9f58cee0-eec1-4e97-a060-0316cf933f1e",
+                "rank": 3,
+                "page": 10,
+                "content": "Điều 13. Trách nhiệm của gia đình và người được cử đi đào tạo",
+                "childs": [
+                    {
+                        "id": "9c3c8060-3e39-44ca-b7ca-2bdb26387143",
+                        "rank": 5,
+                        "content": "1. Chấp hành các quy định của pháp luật và nội quy, quy chế của các cơ sở đào tạo giáo viên; hoàn thành chương trình đào tạo theo ngành được cử đi học.\nSau khi tốt nghiệp, sinh viên thông báo cho cơ quan giao nhiệm vụ, đặt hàng hoặc đấu thầu về kết quả học tập để được tư vấn, hỗ trợ về định hướng việc làm trong ngành giáo dục theo quy định tại khoản 2 Điều 2 Nghị định này."
+                    },
+                    {
+                        "id": "f8263fcd-0d92-4c53-a027-4c406b717c80",
+                        "rank": 5,
+                        "content": "2. Sau khi có quyết định công nhận tốt nghiệp, định kỳ trước ngày 31 tháng 12 hằng năm của năm tiếp theo cho đến năm đủ thời gian không phải thực hiện nghĩa vụ bồi hoàn kinh phí hỗ trợ quy định tại điểm a khoản 2 Điều 6, báo cáo tình hình việc làm của bản thân (Mẫu số 02 tại Phụ lục ban hành kèm theo Nghị định này) tới cơ quan thu hồi kinh phí bồi hoàn để thông báo xóa hoặc thu hồi khoản kinh phí hỗ trợ."
+                    },
+                    {
+                        "id": "b17e8d9c-c392-4704-9b15-24462c9148b6",
+                        "rank": 5,
+                        "content": "3. Sinh viên sư phạm thuộc đối tượng quy định tại khoản 1 Điều 6 Nghị định này hoặc gia đình có trách nhiệm nộp trả kinh phí đã được hỗ trợ cho cơ quan thu hồi kinh phí bồi hoàn theo quy định tại Điều 9 Nghị định này để nộp trả ngân sách nhà nước."
+                    }
+                ],
+                "child_ids": [
+                    "9c3c8060-3e39-44ca-b7ca-2bdb26387143",
+                    "f8263fcd-0d92-4c53-a027-4c406b717c80",
+                    "b17e8d9c-c392-4704-9b15-24462c9148b6"
+                ]
+            }
+        ],
+        "child_ids": [
+            "cbc7b113-4357-476d-a9e2-2f4ab3ddbaf0",
+            "3c4d0a3d-f5db-4b3c-942f-d244d2c7bc7d",
+            "ac37a9ad-3068-4d94-80d8-edcda2a1a223",
+            "9f58cee0-eec1-4e97-a060-0316cf933f1e"
+        ]
+    },
+    {
+        "id": "d1fc5333-3462-4cad-b2da-c9e22cea9cfc",
+        "rank": 1,
+        "content": "Chương IV: ĐIỀU KHOẢN THI HÀNH",
+        "childs": [
+            {
+                "id": "b34d8ff2-67c5-4dd0-a1fb-1ed134400447",
+                "rank": 3,
+                "page": 10,
+                "content": "Điều 14. Quy định chuyển tiếp",
+                "childs": [
+                    {
+                        "id": "38c0855f-c706-4eb0-9527-938371aa1672",
+                        "rank": 1000,
+                        "content": "Sinh viên sư phạm đã trúng tuyển và đào tạo từ năm học 2020 - 2021 trở về trước thì tiếp tục thực hiện theo quy định tại Điều 6 của Nghị định số 86/2015/NĐ-CP ngày 02 tháng 10 năm 2015 của Chính phủ quy định về cơ chế thu, quản lý học phí đối với cơ sở giáo dục thuộc hệ thống giáo dục quốc dân và chính sách miễn, giảm học phí, hỗ trợ chi phí học tập từ năm học 2015 - 2016 đến năm học 2020 - 2021 cho đến khi tốt nghiệp."
+                    }
+                ],
+                "child_ids": [
+                    "38c0855f-c706-4eb0-9527-938371aa1672"
+                ]
+            },
+            {
+                "id": "cfbe7c88-bcff-4977-a30c-ee33ce941b02",
+                "rank": 3,
+                "page": 10,
+                "content": "Điều 15. Hiệu lực và trách nhiệm thi hành",
+                "childs": [
+                    {
+                        "id": "6e675183-1480-4ac7-b81e-2391a70eee09",
+                        "rank": 5,
+                        "content": "1. Nghị định này có hiệu lực thi hành từ ngày 15 tháng 11 năm 2020 và áp dụng bắt đầu từ khóa tuyển sinh năm học 2021 - 2022."
+                    },
+                    {
+                        "id": "3cb27dc1-16dc-43e4-b570-e8827bd0efe3",
+                        "rank": 5,
+                        "content": "2. Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương và các cơ quan, tổ chức liên quan chịu trách nhiệm thi hành Nghị định này..."
+                    }
+                ],
+                "child_ids": [
+                    "6e675183-1480-4ac7-b81e-2391a70eee09",
+                    "3cb27dc1-16dc-43e4-b570-e8827bd0efe3"
+                ]
+            }
+        ],
+        "child_ids": [
+            "b34d8ff2-67c5-4dd0-a1fb-1ed134400447",
+            "cfbe7c88-bcff-4977-a30c-ee33ce941b02"
+        ]
+    }
+]

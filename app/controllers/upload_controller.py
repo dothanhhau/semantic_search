@@ -26,6 +26,7 @@ def upload_pdf():
             try:
                 file.save(filePath)
 
+
                 # lấy text
                 filename = file.filename
                 text = extract_text(filePath)

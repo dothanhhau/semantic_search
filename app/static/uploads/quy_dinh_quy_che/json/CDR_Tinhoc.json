@@ -1,0 +1,124 @@
+[
+    {
+        "id": "c8d9478e-e73a-4504-9c97-89c24c466463",
+        "rank": 3,
+        "page": 2,
+        "content": "Điều 1. Phạm vi và đối tượng áp dụng",
+        "childs": [
+            {
+                "id": "209b5bf3-cc2b-4787-bb2f-65f28888c430",
+                "rank": 5,
+                "content": "1. Văn bản này quy định Chuẩn đầu ra tin học đối với sinh viên đại học hệ chính quy Trường Đại học Quy Nhơn"
+            },
+            {
+                "id": "8b84f81c-b626-4c71-9467-2fe96f4b3af6",
+                "rank": 5,
+                "content": "2. Quy định này áp dụng từ khóa tuyển sinh năm 2015 (khóa 38) trở đi."
+            },
+            {
+                "id": "fbc9492f-80d7-4ea8-887c-a7f62d437087",
+                "rank": 5,
+                "content": "3. Quy định này không áp dụng đối với sinh viên ngành Sư phạm Tin học, Công nghệ thông tin."
+            }
+        ],
+        "child_ids": [
+            "209b5bf3-cc2b-4787-bb2f-65f28888c430",
+            "8b84f81c-b626-4c71-9467-2fe96f4b3af6",
+            "fbc9492f-80d7-4ea8-887c-a7f62d437087"
+        ]
+    },
+    {
+        "id": "c2c393b9-f7b4-4ac6-905e-3c5844c1604d",
+        "rank": 3,
+        "page": 2,
+        "content": "Điều 2. Chuẩn đầu ra tin học",
+        "childs": [
+            {
+                "id": "296b76ce-0ced-4930-92b6-475d75e300b0",
+                "rank": 5,
+                "content": "1. Chuẩn đầu ra tin học được xác định theo Chuẩn kỹ năng sử dụng công nghệ thông tin quy định tại Thông tư số 03/2014/TT-BTTTT ngày 11/03/2014 của Bộ Thông tin và Truyền thông."
+            },
+            {
+                "id": "a3643ab8-5045-4dc7-b037-50038b2a1ea0",
+                "rank": 5,
+                "content": "2. Chuẩn đầu ra tin học là điều kiện để xét công nhận tốt nghiệp."
+            },
+            {
+                "id": "39d89e7e-9de3-495f-b355-5dfdb0229331",
+                "rank": 5,
+                "content": "3. Trước khi xét tốt nghiệp, sinh viên phải đạt một trong các chứng chỉ sau đây:",
+                "childs": [
+                    {
+                        "id": "f012c5c4-d0a2-47ad-bad8-5a36d936ff9b",
+                        "rank": 7,
+                        "content": "a) Chứng chỉ ứng dụng công nghệ thông tin cơ bản do Trường Đại học Quy Nhơn cấp."
+                    },
+                    {
+                        "id": "8766c527-f627-4b35-9e4e-56aa05ad3758",
+                        "rank": 7,
+                        "content": "b) Chứng chỉ tin học quốc tế IC3 (Internet and Computing Core Certification)."
+                    },
+                    {
+                        "id": "8a04d4d7-9a5d-40b5-bc47-4eced7def0b9",
+                        "rank": 7,
+                        "content": "c) Chứng chỉ tin học quốc tế ICDL (International Computer Driving Licence) - đạt ít nhất 6 mô đun sau: ICDL.01, ICDL.02, ICDL.03, ICDL.04, ICDL.05, ICDL.08."
+                    },
+                    {
+                        "id": "6b88871d-7489-4bbf-aa1c-67386fb22247",
+                        "rank": 7,
+                        "content": "d) Chứng chỉ tin học quốc tế MOS (Microsoft Office Specialist) - đạt 3 chứng chỉ Word/Excel/PowerPoint."
+                    }
+                ],
+                "child_ids": [
+                    "f012c5c4-d0a2-47ad-bad8-5a36d936ff9b",
+                    "8766c527-f627-4b35-9e4e-56aa05ad3758",
+                    "8a04d4d7-9a5d-40b5-bc47-4eced7def0b9",
+                    "6b88871d-7489-4bbf-aa1c-67386fb22247"
+                ]
+            },
+            {
+                "id": "a2218249-e774-4d47-9a13-3e0e96756ad3",
+                "rank": 5,
+                "content": "4. Các trường hợp đặc biệt do Hiệu trưởng quyết định."
+            }
+        ],
+        "child_ids": [
+            "296b76ce-0ced-4930-92b6-475d75e300b0",
+            "a3643ab8-5045-4dc7-b037-50038b2a1ea0",
+            "39d89e7e-9de3-495f-b355-5dfdb0229331",
+            "a2218249-e774-4d47-9a13-3e0e96756ad3"
+        ]
+    },
+    {
+        "id": "1c2e5bed-48f2-4f17-9313-0df14c14f88b",
+        "rank": 3,
+        "page": 2,
+        "content": "Điều 3. Tổ chức thực hiện",
+        "childs": [
+            {
+                "id": "c0251284-0f79-4616-9692-811c55f5aae0",
+                "rank": 5,
+                "content": "1. Các ông (bà) Trưởng phòng Khảo thí và Đảm bảo chất lượng, Đào tạo đại học, Công tác sinh viên và các Trưởng đơn vị có liên quan chịu trách nhiệm triển khai và hướng dẫn thực hiện Quy định này."
+            },
+            {
+                "id": "4c7a2578-20fb-41a9-86aa-d03b099d4bf6",
+                "rank": 5,
+                "content": "2. Trung tâm tin học Trường Đại học Quy Nhơn phối hợp với các đơn vị liên quan tổ chức thi và cấp chứng chỉ Chuẩn đầu ra tin học cho sinh viên.",
+                "childs": [
+                    {
+                        "id": "223079eb-46d6-4b36-b99d-88a714e6f728",
+                        "rank": 1000,
+                        "content": "Trong quá trình thực hiện, nếu có vấn đề chưa phù hợp, các đơn vị đề xuất với Nhà trường (qua Phòng Khảo thí và Đảm bảo chất lượng) để bổ sung, điều chỉnh."
+                    }
+                ],
+                "child_ids": [
+                    "223079eb-46d6-4b36-b99d-88a714e6f728"
+                ]
+            }
+        ],
+        "child_ids": [
+            "c0251284-0f79-4616-9692-811c55f5aae0",
+            "4c7a2578-20fb-41a9-86aa-d03b099d4bf6"
+        ]
+    }
+]

@@ -1,0 +1,742 @@
+[
+    {
+        "id": "05e81833-86e5-4fd2-9cd3-2b560771c1f5",
+        "rank": 1,
+        "content": "Chương I: QUY ĐỊNH CHUNG",
+        "childs": [
+            {
+                "id": "6f91b610-e0c1-4cc0-b064-2c2adc45c181",
+                "rank": 3,
+                "page": 1,
+                "content": "Điều 1. Phạm vi điều chỉnh và đối tượng áp dụng",
+                "childs": [
+                    {
+                        "id": "c11373b9-184b-4675-bdaa-e8a2cc6c58bc",
+                        "rank": 5,
+                        "content": "1. Quy định này quy định về công tác sinh viên nội trú, bao gồm: quyền và nghĩa vụ của sinh viên (SV) nội trú; nội dung công tác SV nội trú; hệ thống tổ chức, quản lý."
+                    },
+                    {
+                        "id": "034524b1-320f-48b2-8e08-cd74dbef6f83",
+                        "rank": 5,
+                        "content": "2. Quy định này áp dụng đối với SV ở trong khu nội trú (sau đây gọi chung là SV nội trú) của nhà trường; các tổ chức, đơn vị và cá nhân có liên quan."
+                    }
+                ],
+                "child_ids": [
+                    "c11373b9-184b-4675-bdaa-e8a2cc6c58bc",
+                    "034524b1-320f-48b2-8e08-cd74dbef6f83"
+                ]
+            },
+            {
+                "id": "96083a08-b928-4a2b-96a6-5194ef877512",
+                "rank": 3,
+                "page": 1,
+                "content": "Điều 2. Yêu cầu của công tác SV nội trú",
+                "childs": [
+                    {
+                        "id": "0a2b1a38-a10a-4a6a-b41f-1dcb9fc21840",
+                        "rank": 5,
+                        "content": "1. Thực hiện đúng chủ trương, đường lối của Đảng, chính sách, pháp luật của Nhà nước, quy chế của Bộ Giáo dục và Đào tạo, nội quy của nhà trường."
+                    },
+                    {
+                        "id": "9a5d507c-bba3-4a97-87c5-3cd6b1b63342",
+                        "rank": 5,
+                        "content": "2. Đảm bảo sự phối hợp chặt chẽ, thường xuyên giữa nhà trường với công an, chính quyền địa phương và gia đình SV; kịp thời giải quyết các vụ việc có liên quan đến SV và bảo đảm an ninh trật tự, an toàn, văn hoá trong khu nội trú."
+                    },
+                    {
+                        "id": "469a81a4-5e88-4c26-a10e-967736c04584",
+                        "rank": 5,
+                        "content": "3. Khu nội trú hoặc ký túc xá (sau đây gọi chung là ký túc xá) phải có các điều kiện, tiện nghi tối thiểu bảo đảm nhu cầu ở, học tập, sinh hoạt của SV nội trú; thiết bị phòng cháy, chữa cháy và bảo vệ môi trường."
+                    }
+                ],
+                "child_ids": [
+                    "0a2b1a38-a10a-4a6a-b41f-1dcb9fc21840",
+                    "9a5d507c-bba3-4a97-87c5-3cd6b1b63342",
+                    "469a81a4-5e88-4c26-a10e-967736c04584"
+                ]
+            },
+            {
+                "id": "302d394e-5969-43c6-a9ed-3f64c84b38fe",
+                "rank": 3,
+                "page": 1,
+                "content": "Điều 3. Ký túc xá",
+                "childs": [
+                    {
+                        "id": "ac44d679-e49e-4a7f-b144-055c12489a54",
+                        "rank": 5,
+                        "content": "1. Ký túc xá là nơi để SV tạm trú trong thời gian học tại trường, do nhà trường tổ chức quản lý."
+                    },
+                    {
+                        "id": "87f90ab1-1a81-495c-9fec-ca1ea567e7f9",
+                        "rank": 5,
+                        "content": "2. Ký túc xá phải có biển tên được đặt tại cổng chính, trên đó ghi rõ tên gọi và địa chỉ đầy đủ bằng tiếng Việt."
+                    },
+                    {
+                        "id": "90d7e6c9-e049-456c-aec3-00e7435dc542",
+                        "rank": 5,
+                        "content": "3. Ký túc xá phải có nội quy đặt ở nơi dễ quan sát; có phòng trực, văn phòng làm việc của Bộ phận quản lý ký túc xá; có các phương tiện để phục vụ thông tin, phát thanh tuyên truyền cho SV trong ký túc xá."
+                    },
+                    {
+                        "id": "ff23346c-e7d0-4e71-a8f0-9285598e007b",
+                        "rank": 5,
+                        "content": "4. Nhà, phòng ở, phòng sinh hoạt chung phải có biển tên nhà, số phòng, biển tên các phòng sinh hoạt chung."
+                    },
+                    {
+                        "id": "1fb634bd-19ca-431a-87ea-f483c4fb9fb0",
+                        "rank": 5,
+                        "content": "5. Không được tổ chức hoạt động mê tín, dị đoan và các sinh hoạt tôn giáo dưới bất cứ hình thức nào trong ký túc xá."
+                    },
+                    {
+                        "id": "0cfe2ac3-29d1-45e6-87f3-44ef1a7f2c2a",
+                        "rank": 5,
+                        "content": "6. Có khu trông, giữ các phương tiện giao thông của SV, bảo đảm an toàn, thuận tiện."
+                    },
+                    {
+                        "id": "f2b802d1-5869-4163-9cf7-b3f033e62ac4",
+                        "rank": 5,
+                        "content": "7. Có các loại hình dịch vụ và các điều kiện đảm bảo sinh hoạt của SV nội trú."
+                    }
+                ],
+                "child_ids": [
+                    "ac44d679-e49e-4a7f-b144-055c12489a54",
+                    "87f90ab1-1a81-495c-9fec-ca1ea567e7f9",
+                    "90d7e6c9-e049-456c-aec3-00e7435dc542",
+                    "ff23346c-e7d0-4e71-a8f0-9285598e007b",
+                    "1fb634bd-19ca-431a-87ea-f483c4fb9fb0",
+                    "0cfe2ac3-29d1-45e6-87f3-44ef1a7f2c2a",
+                    "f2b802d1-5869-4163-9cf7-b3f033e62ac4"
+                ]
+            },
+            {
+                "id": "77162f69-7c91-4808-8f14-4bc1bd57df2b",
+                "rank": 3,
+                "page": 1,
+                "content": "Điều 4. Đối tượng ưu tiên tiếp nhận ở nội trú",
+                "childs": [
+                    {
+                        "id": "4e2acfbd-9fdb-44c1-a6cb-bca0846f32d3",
+                        "rank": 1000,
+                        "content": "Khi tiếp nhận SV vào ở nội trú, trong trường hợp số người có nguyện vọng vào ở nội trú lớn hơn khả năng tiếp nhận của ký túc xá thì thứ tự ưu tiên theo đối tượng SV như sau:"
+                    },
+                    {
+                        "id": "40a3b126-f83f-408d-baae-08b3edbe5998",
+                        "rank": 5,
+                        "content": "1. Anh hùng lực lượng vũ trang Nhân dân, anh hùng lao động, thương binh, bệnh binh, người hưởng chính sách như thương binh, SV khuyết tật."
+                    },
+                    {
+                        "id": "84a0ddf1-904c-417d-a6c8-cbf2688a54ac",
+                        "rank": 5,
+                        "content": "2. Con liệt sỹ, con thương binh, con bệnh binh, con của người hưởng chính sách như thương binh, con của người có công."
+                    },
+                    {
+                        "id": "b19367a9-25f2-4e66-8ce7-661a15cbe5ee",
+                        "rank": 5,
+                        "content": "3. SV có hộ khẩu thường trú tại vùng cao, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn."
+                    },
+                    {
+                        "id": "872421ed-f29c-4953-bfa9-c9f1867fe9d8",
+                        "rank": 5,
+                        "content": "4. Người có cha hoặc mẹ là người dân tộc thiểu số."
+                    },
+                    {
+                        "id": "f8822218-9bb2-44bc-a094-35affa885ee8",
+                        "rank": 5,
+                        "content": "5. Con mồ côi cả cha và mẹ."
+                    },
+                    {
+                        "id": "40345e4e-216a-4020-92ae-90d8d20026bb",
+                        "rank": 5,
+                        "content": "6. SV là con hộ nghèo, cận nghèo theo quy định hiện hành của Nhà nước."
+                    },
+                    {
+                        "id": "b4e869b4-907c-4902-8eb4-0843fa76ef03",
+                        "rank": 5,
+                        "content": "7. SV nữ."
+                    },
+                    {
+                        "id": "903823f5-4ce9-4310-8307-2e77d45ed14f",
+                        "rank": 5,
+                        "content": "8. SV tích cực tham gia các hoạt động do nhà trường, Đoàn TNCS Hồ Chí Minh, Hội Sinh viên, khu nội trú hoặc các tổ chức xã hội tổ chức."
+                    }
+                ],
+                "child_ids": [
+                    "4e2acfbd-9fdb-44c1-a6cb-bca0846f32d3",
+                    "40a3b126-f83f-408d-baae-08b3edbe5998",
+                    "84a0ddf1-904c-417d-a6c8-cbf2688a54ac",
+                    "b19367a9-25f2-4e66-8ce7-661a15cbe5ee",
+                    "872421ed-f29c-4953-bfa9-c9f1867fe9d8",
+                    "f8822218-9bb2-44bc-a094-35affa885ee8",
+                    "40345e4e-216a-4020-92ae-90d8d20026bb",
+                    "b4e869b4-907c-4902-8eb4-0843fa76ef03",
+                    "903823f5-4ce9-4310-8307-2e77d45ed14f"
+                ]
+            }
+        ],
+        "child_ids": [
+            "6f91b610-e0c1-4cc0-b064-2c2adc45c181",
+            "96083a08-b928-4a2b-96a6-5194ef877512",
+            "302d394e-5969-43c6-a9ed-3f64c84b38fe",
+            "77162f69-7c91-4808-8f14-4bc1bd57df2b"
+        ]
+    },
+    {
+        "id": "c005a687-e26a-43c9-8c89-3c05f888db39",
+        "rank": 1,
+        "content": "Chương II: QUYỀN VÀ NGHĨA VỤ CỦA SINH VIÊN NỘI TRÚ",
+        "childs": [
+            {
+                "id": "56b8220d-4da1-4629-af5e-bf5a58e3dbe0",
+                "rank": 3,
+                "page": 2,
+                "content": "Điều 5. Quyền của sinh viên nội trú",
+                "childs": [
+                    {
+                        "id": "3cf592fe-d6af-46af-beff-5f467e3424ce",
+                        "rank": 5,
+                        "content": "1. Được tôn trọng và đối xử bình đẳng; được ở và sử dụng các trang thiết bị trong ký túc xá theo hợp đồng nội trú đã ký với Giám đốc Trung tâm Hỗ trợ sinh viên và Quan hệ doanh nghiệp (TT HTSV&QHDN) để phục vụ học tập và sinh hoạt."
+                    },
+                    {
+                        "id": "fbc723ff-294e-40a8-bf01-8767e81e83ec",
+                        "rank": 5,
+                        "content": "2. Được tham gia các hoạt động phục vụ đời sống văn hoá, tinh thần do nhà trường tổ chức trong ký túc xá."
+                    },
+                    {
+                        "id": "bf20be51-baef-4b88-b21e-6f1606274335",
+                        "rank": 5,
+                        "content": "3. Được đảm bảo an ninh, trật tự, an toàn và vệ sinh môi trường trong ký túc xá."
+                    },
+                    {
+                        "id": "96cd9f3b-5581-4ac9-b577-c3ec3b3f96d1",
+                        "rank": 5,
+                        "content": "4. Được kiến nghị với Giám đốc TT HTSV&QHDN và nhà trường các giải pháp để góp phần xây dựng ký túc xá văn minh, sạch đẹp, an toàn; được đề đạt nguyện vọng và khiếu nại lên Giám đốc TT HTSV&QHDN và nhà trường để giải quyết các vấn đề có liên quan đến quyền, lợi ích chính đáng của SV trong ký túc xá."
+                    }
+                ],
+                "child_ids": [
+                    "3cf592fe-d6af-46af-beff-5f467e3424ce",
+                    "fbc723ff-294e-40a8-bf01-8767e81e83ec",
+                    "bf20be51-baef-4b88-b21e-6f1606274335",
+                    "96cd9f3b-5581-4ac9-b577-c3ec3b3f96d1"
+                ]
+            },
+            {
+                "id": "a059b5b3-eacd-41f9-92e0-aae5d044585c",
+                "rank": 3,
+                "page": 2,
+                "content": "Điều 6. Nghĩa vụ của sinh viên nội trú",
+                "childs": [
+                    {
+                        "id": "2fa7fbd8-d0ef-49a0-8e97-1fbfe650dd05",
+                        "rank": 5,
+                        "content": "1. Thực hiện đăng ký tạm trú theo đúng quy định của Luật Cư trú hiện hành. Nếu vắng mặt tại ký túc xá quá 01 ngày phải báo với Bộ phận quản lý ký túc xá."
+                    },
+                    {
+                        "id": "e058de31-1527-4981-8550-b8de857d4fbe",
+                        "rank": 5,
+                        "content": "2. Chấp hành các quy định của ký túc xá về việc tiếp khách trong phòng ở, giờ tự học, tổ chức các sinh hoạt văn hóa, văn nghệ, không gây ảnh hưởng đến việc học tập, sinh hoạt của SV khác trong phòng ở và ký túc xá. Đoàn kết thực hiện nếp sống văn minh, văn hóa trong ký túc xá."
+                    },
+                    {
+                        "id": "1efc0d54-e976-464e-aae4-f71700a6bbb2",
+                        "rank": 5,
+                        "content": "3. Tiết kiệm điện, nước, phòng chống cháy nổ, có ý thức giữ gìn và bảo vệ tài sản chung trong ký túc xá."
+                    },
+                    {
+                        "id": "299e2a68-aa7d-48fb-848a-2c45ee38c3ec",
+                        "rank": 5,
+                        "content": "4. Nộp đủ và đúng hạn phí nội trú theo quy định trong hợp đồng."
+                    },
+                    {
+                        "id": "c2c42fdf-f399-4c17-b846-1f1caf0051be",
+                        "rank": 5,
+                        "content": "5. Nếu làm hư hỏng, mất mát tài sản của ký túc xá phải bồi thường theo quy định của của nhà trường."
+                    },
+                    {
+                        "id": "f9af1bc7-e34a-44f0-ba27-9b5201d9f110",
+                        "rank": 5,
+                        "content": "6. Phản ánh kịp thời các vụ việc xảy ra trong ký túc xá liên quan đến SV vi phạm nội quy, quy chế và các đề xuất, kiến nghị chính đáng với Bộ phận quản lý ký túc xá."
+                    },
+                    {
+                        "id": "f70817ea-d17a-4439-a3d6-9192a728a76e",
+                        "rank": 5,
+                        "content": "7. Tích cực tham gia các hoạt động văn hóa, văn nghệ, thể dục thể thao, phòng chống ma túy, phòng chống tội phạm và các tệ nạn xã hội, các hoạt động khác do nhà trường hoặc TT HTSV&QHDN tổ chức; tích cực tham gia xây dựng ký túc xá văn minh, sạch đẹp, an toàn."
+                    }
+                ],
+                "child_ids": [
+                    "2fa7fbd8-d0ef-49a0-8e97-1fbfe650dd05",
+                    "e058de31-1527-4981-8550-b8de857d4fbe",
+                    "1efc0d54-e976-464e-aae4-f71700a6bbb2",
+                    "299e2a68-aa7d-48fb-848a-2c45ee38c3ec",
+                    "c2c42fdf-f399-4c17-b846-1f1caf0051be",
+                    "f9af1bc7-e34a-44f0-ba27-9b5201d9f110",
+                    "f70817ea-d17a-4439-a3d6-9192a728a76e"
+                ]
+            },
+            {
+                "id": "3bec34d5-52a3-4721-a249-1249eb00ee4e",
+                "rank": 3,
+                "page": 3,
+                "content": "Điều 7. Các hành vi SV nội trú không được làm",
+                "childs": [
+                    {
+                        "id": "c3882c7a-acd5-4fcd-8676-6961e6443013",
+                        "rank": 5,
+                        "content": "1. Cải tạo phòng, thay đổi hoặc tự ý di chuyển trang thiết bị trong phòng ở; gây mất trật tự, an ninh, vệ sinh môi trường; viết vẽ, che chắn làm mất mỹ quan trong phòng ở và khu sinh hoạt chung của ký túc xá."
+                    },
+                    {
+                        "id": "b7f30d8a-b01e-474c-aee8-199db4ded322",
+                        "rank": 5,
+                        "content": "2. Chuyển nhượng hoặc cho thuê lại hợp đồng ở nội trú đã ký với TT HTSV&QHDN."
+                    },
+                    {
+                        "id": "cdc7ea2b-a793-4f3d-838f-2149c4800018",
+                        "rank": 5,
+                        "content": "3. Tự ý đưa người lạ vào phòng ở của ký túc xá khi chưa được phép của Bộ phận quản lý ký túc xá."
+                    },
+                    {
+                        "id": "d6ae3564-6c2d-4829-8e03-b5620b3eb9ff",
+                        "rank": 5,
+                        "content": "4. Trộm cắp tài sản trong phòng ở và trong ký túc xá."
+                    },
+                    {
+                        "id": "711c3124-29af-4cad-8f19-69dde8ab6ce2",
+                        "rank": 5,
+                        "content": "5. Sản xuất, tàng trữ, sử dụng, buôn bán, vận chuyển, phát tán các loại vũ khí, chất gây cháy, gây nổ, hóa chất độc hại, ma túy và các chế phẩm của ma túy, các tài liệu, ấn phẩm, phim ảnh, thông tin phản động, đồi trụy và các tài liệu cấm khác theo quy định của Nhà nước; tổ chức hoặc tham gia đánh bạc, mại dâm dưới mọi hình thức."
+                    },
+                    {
+                        "id": "2dd21784-656b-488f-adb7-e8bbde9470a2",
+                        "rank": 5,
+                        "content": "6. Truyền bá các hoạt động mê tín dị đoan, các hoạt động tôn giáo và các hành vi bị cấm khác trong ký túc xá."
+                    },
+                    {
+                        "id": "4b1454a6-d900-4d79-874f-8ef5e5fe70c2",
+                        "rank": 5,
+                        "content": "7. Tổ chức băng, nhóm và đánh nhau trong ký túc xá."
+                    }
+                ],
+                "child_ids": [
+                    "c3882c7a-acd5-4fcd-8676-6961e6443013",
+                    "b7f30d8a-b01e-474c-aee8-199db4ded322",
+                    "cdc7ea2b-a793-4f3d-838f-2149c4800018",
+                    "d6ae3564-6c2d-4829-8e03-b5620b3eb9ff",
+                    "711c3124-29af-4cad-8f19-69dde8ab6ce2",
+                    "2dd21784-656b-488f-adb7-e8bbde9470a2",
+                    "4b1454a6-d900-4d79-874f-8ef5e5fe70c2"
+                ]
+            }
+        ],
+        "child_ids": [
+            "56b8220d-4da1-4629-af5e-bf5a58e3dbe0",
+            "a059b5b3-eacd-41f9-92e0-aae5d044585c",
+            "3bec34d5-52a3-4721-a249-1249eb00ee4e"
+        ]
+    },
+    {
+        "id": "1bb864fe-72a1-48a7-9624-7f1be35d14e4",
+        "rank": 1,
+        "content": "Chương III: NỘI DUNG CÔNG TÁC SINH VIÊN NỘI TRÚ",
+        "childs": [
+            {
+                "id": "d461f37a-2576-4287-a30b-221b736a7b87",
+                "rank": 3,
+                "page": 3,
+                "content": "Điều 8. Tiếp nhận SV vào ở nội trú",
+                "childs": [
+                    {
+                        "id": "9e237243-1499-45da-bf76-f018be50192c",
+                        "rank": 1000,
+                        "content": "Căn cứ đơn xin ở nội trú của SV viết theo mẫu của nhà trường; Đối tượng ưu tiên theo quy định tại Điều 4 có xác nhận hợp lệ kèm theo và điều kiện của ký túc xá, TT HTSV&QHDN xem xét, ký hợp đồng sắp xếp chỗ ở nội trú với SV."
+                    }
+                ],
+                "child_ids": [
+                    "9e237243-1499-45da-bf76-f018be50192c"
+                ]
+            },
+            {
+                "id": "f3c470d3-b0a8-4ab6-9ed7-f85444a47bd6",
+                "rank": 3,
+                "page": 3,
+                "content": "Điều 9. Công tác quản lý SV nội trú",
+                "childs": [
+                    {
+                        "id": "35431125-209d-4259-bd57-8943a6d965fb",
+                        "rank": 5,
+                        "content": "1. Phổ biến các quy định của Bộ Giáo dục và Đào tạo và nội quy của nhà trường về công tác SV nội trú."
+                    },
+                    {
+                        "id": "c344c6ee-7621-46d1-99a5-7f5f9e9a0ec0",
+                        "rank": 5,
+                        "content": "2. Làm thủ tục đăng ký tạm trú cho SV ở nội trú với cơ quan công an hoặc hướng dẫn SV làm thủ tục đăng ký tạm trú theo quy định hiện hành của pháp luật."
+                    },
+                    {
+                        "id": "2b2f5168-d79b-468a-a926-4230b743c32e",
+                        "rank": 5,
+                        "content": "3. Lập sơ đồ các phòng ở và lập sổ theo dõi SV nội trú theo mẫu quy định, cập nhật đầy đủ, kịp thời việc thay đổi chỗ ở của SV nội trú."
+                    },
+                    {
+                        "id": "3d545047-5c47-4f45-a66b-579bce446cd4",
+                        "rank": 5,
+                        "content": "4. Phân công cán bộ trực ký túc xá 24/24 giờ trong ngày để giải quyết kịp thời các vụ việc xảy ra. Thường xuyên kiểm tra việc thực hiện nội quy của SV trong ký túc xá và xử lý các vi phạm."
+                    },
+                    {
+                        "id": "4e45bebd-768f-45c6-95c1-1c2380b76eee",
+                        "rank": 5,
+                        "content": "5. Tổ chức các hoạt động tự quản của SV để phát huy vai trò chủ động, trách nhiệm với bản thân và tôn trọng tập thể của SV nội trú."
+                    },
+                    {
+                        "id": "f40fc69e-8335-48c9-a1c3-09e006731f2d",
+                        "rank": 5,
+                        "content": "6. Hằng quý tổ chức đối thoại giữa Ban giám hiệu nhà trường hoặc TT HTSV&QHDN với đại diện SV nội trú để kịp thời phát hiện, giải quyết nguyện vọng chính đáng của SV nội trú."
+                    },
+                    {
+                        "id": "b7ccb5a5-bcab-4429-b802-e0b8d141fe56",
+                        "rank": 5,
+                        "content": "7. Xây dựng tiêu chí thi đua giữa các nhà, các phòng trong ký túc xá về bảo đảm an ninh, trật tự, vệ sinh môi trường, mỹ quan trong phòng ở của ký túc xá."
+                    }
+                ],
+                "child_ids": [
+                    "35431125-209d-4259-bd57-8943a6d965fb",
+                    "c344c6ee-7621-46d1-99a5-7f5f9e9a0ec0",
+                    "2b2f5168-d79b-468a-a926-4230b743c32e",
+                    "3d545047-5c47-4f45-a66b-579bce446cd4",
+                    "4e45bebd-768f-45c6-95c1-1c2380b76eee",
+                    "f40fc69e-8335-48c9-a1c3-09e006731f2d",
+                    "b7ccb5a5-bcab-4429-b802-e0b8d141fe56"
+                ]
+            },
+            {
+                "id": "117aec27-7d0b-4a0f-b5e1-0e198add6ab6",
+                "rank": 3,
+                "page": 4,
+                "content": "Điều 10. Công tác bảo đảm an ninh, trật tự, an toàn, phòng chống dịch bệnh và các tệ nạn xã hội trong ký túc xá",
+                "childs": [
+                    {
+                        "id": "1777f0f1-2806-4d28-9cd6-2ed5b69834f6",
+                        "rank": 5,
+                        "content": "1. Có kế hoạch định kỳ kiểm tra, kịp thời nâng cấp, sửa chữa, tu bổ các công trình hạ tầng cơ sở, công trình phục vụ sinh hoạt của SV và các thiết bị khác trong ký túc xá."
+                    },
+                    {
+                        "id": "8bf7c219-19a6-49b4-917e-632690fbf254",
+                        "rank": 5,
+                        "content": "2. Phân công nhiệm vụ cụ thể cho cán bộ quản lý và đội tự quản trong công tác đảm bảo an ninh, trật tự, phòng chống tội phạm, tệ nạn xã hội trong ký túc xá."
+                    },
+                    {
+                        "id": "40d76f73-df9a-4b83-8a7d-f43933acf3ed",
+                        "rank": 5,
+                        "content": "3. Phát huy hiệu quả vai trò của các tổ chức đoàn thể trong nhà trường, các hoạt động tự quản của SV trong công tác bảo đảm an ninh, trật tự trong ký túc xá."
+                    },
+                    {
+                        "id": "b2812ea5-4073-4fff-8593-1ad901f6966d",
+                        "rank": 5,
+                        "content": "4. Tổ chức tuyên truyền, giáo dục, hướng dẫn SV bảo đảm an ninh, trật tự, phòng chống ma túy, HIV/AIDS và các tệ nạn xã hội khác."
+                    },
+                    {
+                        "id": "9583fbf5-5f70-4f26-a089-25fd8b15d805",
+                        "rank": 5,
+                        "content": "5. Định kỳ phun thuốc đề phòng dịch bệnh trong ký túc xá. Khi phát hiện dấu hiệu dịch bệnh phải báo ngay cho cơ quan y tế địa phương áp dụng các biện pháp xử lý kịp thời."
+                    },
+                    {
+                        "id": "fd564891-76ce-4eb3-b3d8-da02701feed3",
+                        "rank": 5,
+                        "content": "6. Có cán bộ y tế thường trực để thực hiện sơ cấp cứu ban đầu kịp thời cho SV nội trú."
+                    }
+                ],
+                "child_ids": [
+                    "1777f0f1-2806-4d28-9cd6-2ed5b69834f6",
+                    "8bf7c219-19a6-49b4-917e-632690fbf254",
+                    "40d76f73-df9a-4b83-8a7d-f43933acf3ed",
+                    "b2812ea5-4073-4fff-8593-1ad901f6966d",
+                    "9583fbf5-5f70-4f26-a089-25fd8b15d805",
+                    "fd564891-76ce-4eb3-b3d8-da02701feed3"
+                ]
+            },
+            {
+                "id": "eff8e03b-c350-4d4f-940c-86004577c5dd",
+                "rank": 3,
+                "page": 4,
+                "content": "Điều 11. Các hoạt động hỗ trợ cho SV nội trú",
+                "childs": [
+                    {
+                        "id": "3f97dc0f-e352-4a9d-adf7-cc4b0a9013ae",
+                        "rank": 5,
+                        "content": "1. Tổ chức các dịch vụ trông giữ xe, điện thoại công cộng, internet, khu vui chơi, giải trí, thể thao trong ký túc xá phù hợp với điều kiện cơ sở vật chất, nhu cầu chính đáng của SV để tạo sân chơi lành mạnh, góp phần giáo dục toàn diện cho SV nội trú."
+                    },
+                    {
+                        "id": "181c1733-fb61-4ea0-aa2b-10735c321106",
+                        "rank": 5,
+                        "content": "2. Tổ chức các phòng tự học, đọc sách, báo, xem ti vi, sinh hoạt văn hóa, văn nghệ phục vụ SV nội trú."
+                    },
+                    {
+                        "id": "d0136abc-7e96-4634-b6d3-8b462be5c523",
+                        "rank": 5,
+                        "content": "3. Tổ chức nhà ăn, trung tâm dịch vụ, căng tin phục vụ cho SV nội trú thuận tiện, phù hợp với điều kiện kinh tế của SV, bảo đảm vệ sinh, an toàn thực phẩm."
+                    },
+                    {
+                        "id": "7b8fc53b-6daa-4bee-8f09-dc0515997d7e",
+                        "rank": 5,
+                        "content": "4. Tổ chức các hoạt động tư vấn về tâm lý, sức khỏe, kỹ năng sống, học tập, hướng nghiệp và việc làm cho SV trong khu vực nội trú."
+                    },
+                    {
+                        "id": "19afb2f0-1ffc-44c2-8724-5e5ac3e52c3f",
+                        "rank": 5,
+                        "content": "5. Tùy điều kiện và nhu cầu của lưu học sinh Lào, Nhà trường xem xét, tổ chức khu vực hoặc phòng tự nấu ăn chung trong ký túc xá."
+                    },
+                    {
+                        "id": "c640c927-9a00-45d9-b9ce-174f6685f959",
+                        "rank": 5,
+                        "content": "6. Xây dựng quy định cụ thể về các hoạt động dịch vụ để phục vụ SV trong ký túc xá."
+                    }
+                ],
+                "child_ids": [
+                    "3f97dc0f-e352-4a9d-adf7-cc4b0a9013ae",
+                    "181c1733-fb61-4ea0-aa2b-10735c321106",
+                    "d0136abc-7e96-4634-b6d3-8b462be5c523",
+                    "7b8fc53b-6daa-4bee-8f09-dc0515997d7e",
+                    "19afb2f0-1ffc-44c2-8724-5e5ac3e52c3f",
+                    "c640c927-9a00-45d9-b9ce-174f6685f959"
+                ]
+            },
+            {
+                "id": "3822f0b6-75b5-43e0-9ce7-c3a5778245e7",
+                "rank": 3,
+                "page": 4,
+                "content": "Điều 12. Công tác phối hợp",
+                "childs": [
+                    {
+                        "id": "fa16cff4-a9c8-4644-a55e-e6f079ab43a9",
+                        "rank": 5,
+                        "content": "1. Chủ động phối hợp với cơ quan công an, chính quyền địa phương để thực hiện có hiệu quả các biện pháp, phương án bảo đảm an ninh chính trị và trật tự an toàn ký túc xá, xử lý kịp thời các vụ việc liên quan xảy ra trong ký túc xá."
+                    },
+                    {
+                        "id": "a987e7ba-bc9e-4d30-9949-0f610f12e2fa",
+                        "rank": 5,
+                        "content": "2. Phối hợp với Đoàn TNCS Hồ Chí Minh, Hội Sinh viên và các đơn vị, hội, đoàn thể khác trong trường để tổ chức các hoạt động rèn luyện cho SV nội trú, thực hiện nếp sống văn minh trong ký túc xá."
+                    }
+                ],
+                "child_ids": [
+                    "fa16cff4-a9c8-4644-a55e-e6f079ab43a9",
+                    "a987e7ba-bc9e-4d30-9949-0f610f12e2fa"
+                ]
+            }
+        ],
+        "child_ids": [
+            "d461f37a-2576-4287-a30b-221b736a7b87",
+            "f3c470d3-b0a8-4ab6-9ed7-f85444a47bd6",
+            "117aec27-7d0b-4a0f-b5e1-0e198add6ab6",
+            "eff8e03b-c350-4d4f-940c-86004577c5dd",
+            "3822f0b6-75b5-43e0-9ce7-c3a5778245e7"
+        ]
+    },
+    {
+        "id": "b2b0d2c6-61b7-4417-a01f-731a693730ef",
+        "rank": 1,
+        "content": "Chương IV: TỔ CHỨC, QUẢN LÝ",
+        "childs": [
+            {
+                "id": "58eb7224-17db-4048-8129-01a14688ef70",
+                "rank": 3,
+                "page": 4,
+                "content": "Điều 13. Hệ thống tổ chức, quản lý công tác sinh viên nội trú",
+                "childs": [
+                    {
+                        "id": "94f32a97-de67-4e8b-83e7-64ded145a5ae",
+                        "rank": 1000,
+                        "content": "Hệ thống tổ chức, quản lý công tác sinh viên nội trú của trường gồm có Hiệu trưởng, TT HTSV&QHDN, Phòng Công tác chính trị - Sinh viên, viên chức làm công tác quản lý ký túc xá."
+                    }
+                ],
+                "child_ids": [
+                    "94f32a97-de67-4e8b-83e7-64ded145a5ae"
+                ]
+            },
+            {
+                "id": "783b44a3-f7d2-48ab-94b2-7d2534b1965f",
+                "rank": 3,
+                "page": 5,
+                "content": "Điều 14. Trách nhiệm của Hiệu trưởng",
+                "childs": [
+                    {
+                        "id": "63e583ec-031a-412b-bde4-d67fee72995a",
+                        "rank": 5,
+                        "content": "1. Ban hành quy định cụ thể công tác SV nội trú phù hợp với điều kiện cụ thể của nhà trường và tổ chức thực hiện công tác SV nội trú theo quy định hiện hành."
+                    },
+                    {
+                        "id": "c851225c-f54b-4cc1-b6e7-d0d8f9b3de5f",
+                        "rank": 5,
+                        "content": "2. Phê duyệt kế hoạch hoạt động công tác quản lý SV nội trú hằng năm của nhà trường; kế hoạch xây dựng, tu bổ, nâng cấp, sửa chữa nhà ở, nhà ăn, các công trình hạ tầng của khu nội trú."
+                    },
+                    {
+                        "id": "46f01c13-ad15-4381-a119-d735adfec5bf",
+                        "rank": 5,
+                        "content": "3. Xét duyệt danh sách SV thuộc diện được miễn hoặc giảm phí nội trú (nếu có), hỗ trợ SV khuyết tật, SV có điều kiện kinh tế khó khăn."
+                    },
+                    {
+                        "id": "dea4c286-9c62-43a1-9e82-2d8544d5a510",
+                        "rank": 5,
+                        "content": "4. Bảo đảm các điều kiện phát huy vai trò của các tổ chức Đảng, đoàn thể trong công tác SV nội trú."
+                    }
+                ],
+                "child_ids": [
+                    "63e583ec-031a-412b-bde4-d67fee72995a",
+                    "c851225c-f54b-4cc1-b6e7-d0d8f9b3de5f",
+                    "46f01c13-ad15-4381-a119-d735adfec5bf",
+                    "dea4c286-9c62-43a1-9e82-2d8544d5a510"
+                ]
+            },
+            {
+                "id": "60d139ca-57f9-4872-87b3-47094b4f4962",
+                "rank": 3,
+                "page": 5,
+                "content": "Điều 15. Trách nhiệm của Trung tâm Hỗ trợ sinh viên và Quan hệ doanh nghiệp",
+                "childs": [
+                    {
+                        "id": "20513d94-7dda-4bc3-b484-65060965eefc",
+                        "rank": 5,
+                        "content": "1. Trung tâm Hỗ trợ sinh viên và Quan hệ doanh nghiệp giữ vai trò là đầu mối, có trách nhiệm giải quyết các vấn đề liên quan đến việc ký hợp đồng, sắp xếp chỗ ở, xây dựng nội quy ký túc xá... và trực tiếp quản lý sinh viên trong ký túc xá."
+                    },
+                    {
+                        "id": "3e2c3570-0f0d-4704-8092-18ee9a3ce480",
+                        "rank": 5,
+                        "content": "2. Chủ động phối hợp với cơ quan công an, chính quyền địa phương để thực hiện có hiệu quả các biện pháp, phương án bảo đảm an ninh chính trị và trật tự an toàn ký túc xá, xử lý kịp thời các vụ việc liên quan xảy ra trong ký túc xá."
+                    },
+                    {
+                        "id": "e995a26c-6700-487d-877a-10b07f97963e",
+                        "rank": 5,
+                        "content": "3. Phối hợp với Đoàn TNCS Hồ Chí Minh, Hội Sinh viên và các đơn vị chức năng liên quan trong trường để tổ chức các hoạt động rèn luyện cho SV nội trú, thực hiện nếp sống văn minh trong ký túc xá."
+                    },
+                    {
+                        "id": "9dfb7c8e-cc5c-464b-aee1-2aa76fa60664",
+                        "rank": 5,
+                        "content": "4. Tổ chức các hoạt động tự quản của SV để phát huy vai trò chủ động, trách nhiệm với bản thân và tôn trọng tập thể của SV nội trú."
+                    },
+                    {
+                        "id": "4264dc6d-ca9d-46d6-8ba6-8811fcc6207b",
+                        "rank": 5,
+                        "content": "5. Định kỳ (hằng quý) tổ chức đối thoại giữa TT HTSV&QHDN với đại diện SV nội trú để kịp thời phát hiện, giải quyết nguyện vọng chính đáng của SV nội trú."
+                    }
+                ],
+                "child_ids": [
+                    "20513d94-7dda-4bc3-b484-65060965eefc",
+                    "3e2c3570-0f0d-4704-8092-18ee9a3ce480",
+                    "e995a26c-6700-487d-877a-10b07f97963e",
+                    "9dfb7c8e-cc5c-464b-aee1-2aa76fa60664",
+                    "4264dc6d-ca9d-46d6-8ba6-8811fcc6207b"
+                ]
+            },
+            {
+                "id": "5c96eadd-9056-4f9b-98da-2d6be56c3923",
+                "rank": 3,
+                "page": 5,
+                "content": "Điều 16. Trách nhiệm của Phòng Công tác chính trị - Sinh viên",
+                "childs": [
+                    {
+                        "id": "8e290cf5-ab1f-43e1-82e5-bcdea19f6368",
+                        "rank": 5,
+                        "content": "1. Phòng Công tác chính trị - Sinh viên thực hiện chức năng, nhiệm vụ theo quy định của Quy chế HSSV các trường đại học, cao đẳng, trung cấp chuyên nghiệp hệ chính quy của Bộ Giáo dục và Đào tạo."
+                    },
+                    {
+                        "id": "dc9bcee9-a9c3-4fe0-9d0e-12d69af90387",
+                        "rank": 5,
+                        "content": "2. Phối hợp với TT HTSV&QHDN trong công tác quản lý, giáo dục toàn diện cho SV trong ký túc xá."
+                    },
+                    {
+                        "id": "8eb74456-714c-487b-9344-5dc6cae5f430",
+                        "rank": 5,
+                        "content": "3. Phối hợp với TT HTSV&QHDN giải quyết kịp thời các vụ việc xảy ra có liên quan và công tác khen thưởng, kỷ luật SV nội trú."
+                    }
+                ],
+                "child_ids": [
+                    "8e290cf5-ab1f-43e1-82e5-bcdea19f6368",
+                    "dc9bcee9-a9c3-4fe0-9d0e-12d69af90387",
+                    "8eb74456-714c-487b-9344-5dc6cae5f430"
+                ]
+            },
+            {
+                "id": "64de2639-2619-4ff2-a249-cef1b1260db5",
+                "rank": 3,
+                "page": 5,
+                "content": "Điều 17. Trách nhiệm của các khoa",
+                "childs": [
+                    {
+                        "id": "58ebdba0-6937-402c-8f0c-df093853f893",
+                        "rank": 5,
+                        "content": "1. Các khoa có trách nhiệm tuyên truyền, phổ biến đến cán bộ, giảng viên, viên chức và toàn thể sinh viên trong đơn vị về các quy định của Bộ Giáo dục và Đào tạo và nội quy của nhà trường về công tác SV nội trú."
+                    },
+                    {
+                        "id": "45b282c8-0cec-4575-94e7-9e272c6a52d9",
+                        "rank": 5,
+                        "content": "2. Chủ động phối hợp với các đơn vị chức năng liên quan trong việc quản lý, giáo dục và giải quyết các vụ việc liên quan đến sinh viên nội trú."
+                    }
+                ],
+                "child_ids": [
+                    "58ebdba0-6937-402c-8f0c-df093853f893",
+                    "45b282c8-0cec-4575-94e7-9e272c6a52d9"
+                ]
+            }
+        ],
+        "child_ids": [
+            "58eb7224-17db-4048-8129-01a14688ef70",
+            "783b44a3-f7d2-48ab-94b2-7d2534b1965f",
+            "60d139ca-57f9-4872-87b3-47094b4f4962",
+            "5c96eadd-9056-4f9b-98da-2d6be56c3923",
+            "64de2639-2619-4ff2-a249-cef1b1260db5"
+        ]
+    },
+    {
+        "id": "82a70bad-373d-4a76-8844-1ae1c509546d",
+        "rank": 1,
+        "content": "Chương V: TỔ CHỨC THỰC HIỆN",
+        "childs": [
+            {
+                "id": "7ce5150c-85df-49c5-8344-4cf7b3ee0a9c",
+                "rank": 3,
+                "page": 6,
+                "content": "Điều 18. Chế độ báo cáo",
+                "childs": [
+                    {
+                        "id": "a30dcd6f-b67c-4653-acb2-9951d4d21145",
+                        "rank": 5,
+                        "content": "1. Trung tâm Hỗ trợ sinh viên và Quan hệ doanh nghiệp có trách nhiệm báo cáo (định kỳ hằng tháng, hoặc đột xuất) lên Ban Giám hiệu nhà trường tình hình ăn, ở học tập và sinh hoạt của sinh viên nội trú, các vụ việc xảy ra liên quan đến SV nội trú."
+                    },
+                    {
+                        "id": "ad42b57a-fd33-43bb-adcf-3c8da1fadb31",
+                        "rank": 5,
+                        "content": "2. Phòng Công tác chính trị - Sinh viên có trách nhiệm tổng hợp tình hình sinh viên nội trú, báo cáo Bộ Giáo dục và Đào tạo theo quy định trước 30 tháng 7 hằng năm."
+                    }
+                ],
+                "child_ids": [
+                    "a30dcd6f-b67c-4653-acb2-9951d4d21145",
+                    "ad42b57a-fd33-43bb-adcf-3c8da1fadb31"
+                ]
+            },
+            {
+                "id": "1cbc0245-4b5a-4489-82a5-a5f8823eb843",
+                "rank": 3,
+                "page": 6,
+                "content": "Điều 19. Kiểm tra, khen thưởng, kỷ luật",
+                "childs": [
+                    {
+                        "id": "b0595c04-8858-42e7-a77d-ca3a6c88b485",
+                        "rank": 5,
+                        "content": "1. Hằng năm nhà trường tiến hành tổ chức các đợt kiểm tra (định kỳ hoặc đột xuất), sơ kết, tổng kết, đánh giá việc thực hiện công tác SV nội trú."
+                    },
+                    {
+                        "id": "7a727a10-0c9c-45aa-9b33-4366d3a6e3b8",
+                        "rank": 5,
+                        "content": "2. SV nội trú vi phạm các Khoản 1, 2, 3, 4, 5, Điều 6 và Điều 7 của Quy định này, tùy theo mức độ sẽ bị nhà trường xử lý kỷ luật bằng hình thức khiển trách nếu vi phạm lần 1, cảnh cáo nếu vi phạm lần thứ 2 trở lên hoặc bị xem xét, chấm dứt hợp đồng ở ký túc xá. Những vi phạm khác xử lý kỷ luật theo quy định của Quy chế HSSV các trường đại học, cao đẳng và trung cấp chuyên nghiệp hệ chính quy."
+                    },
+                    {
+                        "id": "eb3ddce8-b327-4d5b-84ff-78d50b447738",
+                        "rank": 5,
+                        "content": "3. Các tập thể, cá nhân có thành tích trong công tác SV nội trú được xem xét khen thưởng theo quy định.\n"
+                    }
+                ],
+                "child_ids": [
+                    "b0595c04-8858-42e7-a77d-ca3a6c88b485",
+                    "7a727a10-0c9c-45aa-9b33-4366d3a6e3b8",
+                    "eb3ddce8-b327-4d5b-84ff-78d50b447738"
+                ]
+            }
+        ],
+        "child_ids": [
+            "7ce5150c-85df-49c5-8344-4cf7b3ee0a9c",
+            "1cbc0245-4b5a-4489-82a5-a5f8823eb843"
+        ]
+    }
+]
