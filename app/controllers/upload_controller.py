@@ -5,10 +5,10 @@ import uuid
 from flask import Blueprint, render_template, request
 from app.models.document_parts_model import DocumentParts
 from app.services.ocr_service import extract_text
-from app.services.tokenizer_service import vectorize_sentence
-from app.utils.file_util import is_pdf_file, is_json_file
+from app.services.tokenizer_service import vectorize_text
+from app.utils.file_util import is_pdf_file, is_json_file, is_txt_file
 from app.utils.data_processing import TextProcessor
-from app.utils.convert_data import preProcess, convert_to_json, convertJsonDataSourceToArray
+from app.utils.convert_data import preProcess, chuong_dieu_khoan_diem_to_json, convertJsonDataSourceToArray
 from app.utils.constant import Constants 
 from dotenv import load_dotenv
 load_dotenv()
@@ -106,3 +106,44 @@ def upload_json():
                 return 'Invalid JSON text!'
 
     return render_template('upload_json.html')
+
+@upload_bp.route('/txt', methods=['GET', 'POST'])
+def upload_txt():
+    message = ''
+    if request.method == 'POST':
+
+        files = request.files
+        processed_files = []
+
+        # Kiểm tra và xử lý các file upload từ các ô input
+        for key, file in files.items():
+            if file and file.filename and is_txt_file(file.filename):
+                file_path = os.path.join(os.getenv('UPLOAD_FOLDER'), 'txt', file.filename)
+                file.save(file_path)
+                processed_files.append(file_path)
+
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    content = f.read()
+
+                arr = content.split('\n\n')
+
+                # Xử lý theo từng loại file
+                if key == 'chuong_dieu_khoan_diem':
+                    res = chuong_dieu_khoan_diem_to_json(arr)
+                    with open(file_path, 'w', encoding='utf-8') as f:
+                        json.dump(res, f, ensure_ascii=False, indent=4)
+                    print('# do something 1')
+                elif key == 'dieu_khoan_diem':
+
+
+                    print('# do something 2')
+                elif key == 'khoan':
+
+
+                    print('# do something 3')
+                elif key == 'bang':
+
+
+                    print('# do something 4')
+
+    return render_template('upload_txt.html', message=message)
