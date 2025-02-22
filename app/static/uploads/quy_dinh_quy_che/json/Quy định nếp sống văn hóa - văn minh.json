@@ -1,0 +1,53 @@
+[
+    {
+        "id": "c9f23cd5-8ce2-4e43-bf5f-2c03320b55dd",
+        "rank": 1000,
+        "content": "Nhằm xây dựng nếp sống văn hóa, văn minh, môi trường giáo dục lành mạnh, góp phần nâng cao chất lượng, hiệu quả công tác giáo dục và đào tạo, Nhà trường yêu cầu sinh viên thực hiện nghiêm túc các quy định sau:"
+    },
+    {
+        "id": "750700c7-2146-4065-8421-e883598bf933",
+        "rank": 5,
+        "content": "1. Chấp hành nghiêm túc, đầy đủ các nội quy, quy chế, quy định của nhà trường, của các đơn vị trong trường."
+    },
+    {
+        "id": "62d5b497-9df3-4862-be25-13ea3b900f1c",
+        "rank": 5,
+        "content": "2. Tôn trọng, lễ phép đối với thầy giáo, cô giáo, cán bộ, viên chức, người lao động trong nhà trường; có thái độ thân thiện, lịch sự, giúp đỡ lẫn nhau trong học tập, rèn luyện, sinh hoạt và vui chơi giải trí; có ý thức trong giao lưu với khách quốc tế; có tinh thần đoàn kết, giúp đỡ lẫn nhau và giữ gìn mối quan hệ tốt đẹp giữa sinh viên Việt Nam – Lào."
+    },
+    {
+        "id": "5680c0f5-466a-41bb-974f-4caa645f54e6",
+        "rank": 5,
+        "content": "3. Khi lên lớp, tham gia các sinh hoạt chung hoặc đến liên hệ công tác với các khoa, đơn vị chức năng, phải ăn mặc nghiêm chỉnh, đeo bảng tên hoặc thẻ sinh viên; nói năng, ứng xử đúng mực; đảm bảo giờ giấc quy định, giữ gìn trật tự, không nói chuyện, làm việc riêng gây ảnh hưởng đến người khác."
+    },
+    {
+        "id": "e6102124-9f59-471b-8869-2d44d5de2782",
+        "rank": 5,
+        "content": "4. Có ý thức tự giác, tích cực, chủ động trong học tập, rèn luyện, tham gia các hoạt động, phong trào thi đua, văn hóa văn nghệ, thể dục thể thao, xã hội từ thiện; có ý thức phòng, chống các biểu hiện tiêu cực trong học tập, thi cử; có tinh thần đoàn kết, xây dựng tập thể vững mạnh."
+    },
+    {
+        "id": "8522634c-3ece-427c-a0ed-aa6e06ccd32a",
+        "rank": 5,
+        "content": "5. Có lối sống, tác phong giản dị, lành mạnh; chấp hành nghiêm chỉnh pháp luật về an toàn giao thông; tích cực đấu tranh phòng, chống tội phạm và các tệ nạn xã hội (ma túy, mại dâm, tác hại của trò chơi trực tuyến có nội dung bạo lực và không lành mạnh...), các vi phạm về an ninh trật tự, an toàn xã hội; không hút thuốc lá trong nhà trường, ở những nơi công cộng. Sinh viên ngoại trú thực hiện tốt các quy định của địa phương; chủ động, tích cực tham gia xây dựng khu phố văn hóa ở nơi đăng ký tạm trú."
+    },
+    {
+        "id": "2703b725-b5eb-495c-aee7-a719a561ac12",
+        "rank": 5,
+        "content": "6. Có ý thức giữ gìn, bảo vệ trật tự, an toàn và tài sản nhà trường; ra vào cổng xuống xe, để xe đúng nơi quy định; sử dụng tiết kiệm điện, nước; phòng chống cháy, nổ; giữ gìn cảnh quan, môi trường xanh - sạch - đẹp; không xả rác bừa bãi; không tự ý viết, vẽ, dán tờ rơi, thông tin quảng cáo trên tường hay trên các bảng tin; Tích cực giữ gìn và góp phần xây dựng cảnh quan, môi trường Nhà trường xanh, sạch, đẹp; không xả rác bừa bãi; không tự ý viết, vẽ, dán tờ rơi quảng cáo; kịp thời báo cáo với Nhà trường và chủ động hỗ trợ lực lượng bảo vệ khi xảy ra vụ việc gây mất trật tự, an toàn nhà trường.",
+        "childs": [
+            {
+                "id": "6140c720-e3ea-4ab1-8734-7ceca5367b28",
+                "rank": 1000,
+                "content": "Nhà trường sẽ tuyên dương, khen thưởng đối với những sinh viên gương mẫu thực hiện Quy định này, đồng thời có hình thức kỷ luật thích đáng đối với những sinh viên vi phạm."
+            },
+            {
+                "id": "929b0829-e7b1-4ea7-8070-b7dd22ea067b",
+                "rank": 1000,
+                "content": "Quy định này thay thế cho những Quy định trước đây về thực hiện nếp sống văn hóa, văn minh trong sinh viên và có hiệu lực thi hành kể từ ngày ký.\n"
+            }
+        ],
+        "child_ids": [
+            "6140c720-e3ea-4ab1-8734-7ceca5367b28",
+            "929b0829-e7b1-4ea7-8070-b7dd22ea067b"
+        ]
+    }
+]

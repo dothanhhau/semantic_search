@@ -1,0 +1,471 @@
+[
+    {
+        "id": "cceb4201-2679-4cf1-a19a-d150cb9d8e39",
+        "rank": 1,
+        "content": "Chương I: QUY ĐỊNH CHUNG",
+        "childs": [
+            {
+                "id": "325296bf-97cb-4643-8633-43efb3a282ca",
+                "rank": 3,
+                "page": 2,
+                "content": "Điều 1. Phạm vi điều chỉnh và đối tượng áp dụng",
+                "childs": [
+                    {
+                        "id": "5e1bcedd-aaa0-4779-9b5b-49b202079b12",
+                        "rank": 5,
+                        "content": "1. Quy định này quy định ngoại trú của sinh viên, bao gồm quyền và nghĩa vụ của sinh viên ngoại trú; công tác sinh viên ngoại trú; trách nhiệm của Hiệu trưởng và các đơn vị năng trong nhà trường."
+                    },
+                    {
+                        "id": "fefde432-7058-440b-b895-0a85980312c1",
+                        "rank": 5,
+                        "content": "2. Quy định này áp dụng đối với sinh viên ngoại trú, các tổ chức, đơn vị và cá nhân có liên quan đến ngoại trú của sinh viên."
+                    }
+                ],
+                "child_ids": [
+                    "5e1bcedd-aaa0-4779-9b5b-49b202079b12",
+                    "fefde432-7058-440b-b895-0a85980312c1"
+                ]
+            },
+            {
+                "id": "e1a8bd98-7130-4a94-8cef-239d750349eb",
+                "rank": 3,
+                "page": 2,
+                "content": "Điều 2. Giải thích từ ngữ",
+                "childs": [
+                    {
+                        "id": "6e8471f1-fa6f-431d-811d-014729cfa232",
+                        "rank": 1000,
+                        "content": "Trong quy định này, các từ ngữ sau đây được hiểu như sau:"
+                    },
+                    {
+                        "id": "74458363-a7f6-43b1-ac19-ae264fe3bf66",
+                        "rank": 5,
+                        "content": "1. Sinh viên ngoại trú là sinh viên không ở trong khu nội trú của nhà trường."
+                    },
+                    {
+                        "id": "ebbf745e-4795-4ca3-8938-98a273c55fa9",
+                        "rank": 5,
+                        "content": "2. Cư trú là việc thường trú hoặc tạm trú tại một địa điểm, một khu vực nhất định trên lãnh thổ Việt Nam."
+                    }
+                ],
+                "child_ids": [
+                    "6e8471f1-fa6f-431d-811d-014729cfa232",
+                    "74458363-a7f6-43b1-ac19-ae264fe3bf66",
+                    "ebbf745e-4795-4ca3-8938-98a273c55fa9"
+                ]
+            },
+            {
+                "id": "1df80cdf-a2ed-4660-b968-525320933bd0",
+                "rank": 3,
+                "page": 2,
+                "content": "Điều 3. Mục đích",
+                "childs": [
+                    {
+                        "id": "69a2c06d-b8bc-4d6a-b67a-5e73be85e6fe",
+                        "rank": 1000,
+                        "content": "Tạo cơ sở pháp lý để nhà trường phối hợp với chính quyền địa phương trong việc quản lý và hỗ trợ cho sinh viên ngoại trú có môi trường ăn, ở, sinh hoạt lành mạnh, học tập và rèn luyện tốt, đồng thời tạo điều kiện cho sinh viên tham gia và phát huy được năng lực của mình trong việc xây dựng đời sống văn hóa, nề nếp, kỷ cương, phòng chống tội phạm, tệ nạn xã hội ở nơi cư trú."
+                    }
+                ],
+                "child_ids": [
+                    "69a2c06d-b8bc-4d6a-b67a-5e73be85e6fe"
+                ]
+            },
+            {
+                "id": "bb8d9f46-a294-46bc-a7f8-9fee6e21bd4d",
+                "rank": 3,
+                "page": 2,
+                "content": "Điều 4. Yêu cầu của công tác sinh viên ngoại trú",
+                "childs": [
+                    {
+                        "id": "2f47e6d0-5288-4c24-963b-741c36a675da",
+                        "rank": 5,
+                        "content": "1. Thực hiện đúng chủ trương, đường lối của Đảng, chính sách, pháp luật của Nhà nước, quy chế của Bộ Giáo dục và Đào tạo, nội quy, quy định của nhà trường và của chính quyền địa phương."
+                    },
+                    {
+                        "id": "fc471a08-e24c-4bc6-851c-e4dc47c2dd98",
+                        "rank": 5,
+                        "content": "2. Nắm được tình hình sinh viên, kịp thời phối hợp giải quyết các vấn đề có liên quan đến sinh viên ngoại trú."
+                    },
+                    {
+                        "id": "c520cc6c-25a9-4347-9355-396c381ab387",
+                        "rank": 5,
+                        "content": "3. Đảm bảo sự phối hợp chặt chẽ, thường xuyên giữa nhà trường với địa phương, gia đình sinh viên ngoại trú."
+                    },
+                    {
+                        "id": "61eaab4b-79c1-4ae9-bdd9-38e96144a143",
+                        "rank": 5,
+                        "content": "4. Hỗ trợ, giúp đỡ sinh viên ngoại trú đảm bảo an toàn, trật tự, văn hóa ở nơi cư trú."
+                    }
+                ],
+                "child_ids": [
+                    "2f47e6d0-5288-4c24-963b-741c36a675da",
+                    "fc471a08-e24c-4bc6-851c-e4dc47c2dd98",
+                    "c520cc6c-25a9-4347-9355-396c381ab387",
+                    "61eaab4b-79c1-4ae9-bdd9-38e96144a143"
+                ]
+            }
+        ],
+        "child_ids": [
+            "325296bf-97cb-4643-8633-43efb3a282ca",
+            "e1a8bd98-7130-4a94-8cef-239d750349eb",
+            "1df80cdf-a2ed-4660-b968-525320933bd0",
+            "bb8d9f46-a294-46bc-a7f8-9fee6e21bd4d"
+        ]
+    },
+    {
+        "id": "cc2b12a1-c78e-47a4-ae4f-ba64dfa9378a",
+        "rank": 1,
+        "content": "Chương II: QUYỀN VÀ NGHĨA VỤ CỦA SINH VIÊN NGOẠI TRÚ",
+        "childs": [
+            {
+                "id": "24301445-cb34-456f-afbd-60464fc7f9ff",
+                "rank": 3,
+                "page": 3,
+                "content": "Điều 5. Quyền của sinh viên ngoại trú",
+                "childs": [
+                    {
+                        "id": "d100146f-c9b7-481e-95c3-c7b329d57741",
+                        "rank": 5,
+                        "content": "1. Sinh viên ngoại trú được hưởng các quyền theo quy định hiện hành của Quy chế học sinh, sinh viên trường đại học, cao đẳng và trung cấp chuyên nghiệp hệ chính quy do Bộ Giáo dục và Đào tạo ban hành và Quy định công tác sinh viên đối với chương trình đào tạo đại học hệ chính quy, ban hành kèm theo Quyết định số 671/QĐ-ĐHQN, ngày 23/5/2016 của Hiệu trưởng Trường Đại học Quy Nhơn."
+                    },
+                    {
+                        "id": "77c018db-c054-4d3d-890a-47e4d3c66d50",
+                        "rank": 5,
+                        "content": "2. Được hưởng các quyền công dân cư trú trên địa bàn, được chính quyền địa phương, nhà trường tạo điều kiện thuận lợi và giúp đỡ trong việc ngoại trú."
+                    },
+                    {
+                        "id": "7efbd7d5-a7ba-4019-9aac-1f285cb7ab20",
+                        "rank": 5,
+                        "content": "3. Được quyền khiếu nại, đề đạt nguyện vọng của mình đến chính quyền địa phương, Hiệu trưởng nhà trường và các cơ quan hữu quan đối với các vấn đề liên quan đến quyền, lợi ích chính đáng tại nơi cư trú."
+                    }
+                ],
+                "child_ids": [
+                    "d100146f-c9b7-481e-95c3-c7b329d57741",
+                    "77c018db-c054-4d3d-890a-47e4d3c66d50",
+                    "7efbd7d5-a7ba-4019-9aac-1f285cb7ab20"
+                ]
+            },
+            {
+                "id": "15f0d24f-687b-4352-ab04-4d8dfc4f6b6f",
+                "rank": 3,
+                "page": 3,
+                "content": "Điều 6. Nghĩa vụ của sinh viên ngoại trú",
+                "childs": [
+                    {
+                        "id": "eae98bc6-829c-4ee6-bd6b-11c66e181fa6",
+                        "rank": 5,
+                        "content": "1. Thực hiện nghĩa vụ theo quy định hiện hành của Quy chế học sinh, sinh viên trường đại học, cao đẳng và trung cấp chuyên nghiệp hệ chính quy do Bộ Giáo dục và Đào tạo ban hành và Quy định công tác sinh viên đối với chương trình đào tạo đại học hệ chính quy, ban hành kèm theo Quyết định số 671/QĐ-ĐHQN, ngày 23/5/2016 của Hiệu trưởng Trường Đại học Quy Nhơn."
+                    },
+                    {
+                        "id": "86504721-6e6c-4ecd-915c-22216a7e45b5",
+                        "rank": 5,
+                        "content": "2. Thực hiện nghĩa vụ công dân theo quy định của pháp luật. Chấp hành các quy định về bảo đảm an ninh, trật tự, an toàn xã hội; tích cực tham gia các hoạt động văn hóa, văn nghệ, thể dục thể thao, phòng chống ma túy, phòng chống tội phạm, các tệ nạn xã hội, bảo vệ môi trường nơi cư trú và các hoạt động khác do địa phương tổ chức."
+                    },
+                    {
+                        "id": "91d81d74-37fa-4340-b83c-2ad1fef049d7",
+                        "rank": 5,
+                        "content": "3. Phải đăng ký tạm trú với công an xã (phường, thị trấn) và báo với nhà trường về địa chỉ ngoại trú của mình trong thời hạn 30 ngày, kể từ ngày nhập học."
+                    },
+                    {
+                        "id": "f8275cb2-bb7d-4986-a054-8a661cf0f2de",
+                        "rank": 5,
+                        "content": "4. Khi có sự thay đổi về nơi cư trú, phải báo địa chỉ cư trú mới của mình với nhà trường trong thời hạn 20 ngày."
+                    },
+                    {
+                        "id": "b0597dab-cf20-413f-a562-55af000d2acf",
+                        "rank": 5,
+                        "content": "5. Sinh viên ngoại trú có hộ khẩu thường trú và đang cư trú tại nơi có hộ khẩu thực hiện các nghĩa vụ được quy định tại các khoản 1, 2, 4 của Điều này."
+                    }
+                ],
+                "child_ids": [
+                    "eae98bc6-829c-4ee6-bd6b-11c66e181fa6",
+                    "86504721-6e6c-4ecd-915c-22216a7e45b5",
+                    "91d81d74-37fa-4340-b83c-2ad1fef049d7",
+                    "f8275cb2-bb7d-4986-a054-8a661cf0f2de",
+                    "b0597dab-cf20-413f-a562-55af000d2acf"
+                ]
+            }
+        ],
+        "child_ids": [
+            "24301445-cb34-456f-afbd-60464fc7f9ff",
+            "15f0d24f-687b-4352-ab04-4d8dfc4f6b6f"
+        ]
+    },
+    {
+        "id": "9a0859fc-8158-4cd9-8507-9836994f34be",
+        "rank": 1,
+        "content": "Chương III: CÔNG TÁC SINH VIÊN NGOẠI TRÚ",
+        "childs": [
+            {
+                "id": "b684f75e-3189-46e3-9eea-43a017350f79",
+                "rank": 3,
+                "page": 3,
+                "content": "Điều 7. Công tác quản lý sinh viên ngoại trú",
+                "childs": [
+                    {
+                        "id": "787df387-1c3b-4139-9a4c-603fd5ee4305",
+                        "rank": 5,
+                        "content": "1. Phổ biến các quy định của Bộ Giáo dục và Đào tạo, nhà trường về công tác ngoại trú của sinh viên; hướng dẫn và tư vấn thủ tục đăng ký tạm trú ngay từ khi nhập học."
+                    },
+                    {
+                        "id": "83671b5f-465a-4a6b-bff6-a1edc724d357",
+                        "rank": 5,
+                        "content": "2. Lập kế hoạch hàng năm để thực hiện công tác quản lý sinh viên ngoại trú."
+                    },
+                    {
+                        "id": "3a82c5cb-0259-43a7-a9af-57b9925174c8",
+                        "rank": 5,
+                        "content": "3. Lập sổ sinh viên ngoại trú, cập nhật đầy đủ, kịp thời việc thay đổi nơi cư trú của sinh viên ngoại trú."
+                    }
+                ],
+                "child_ids": [
+                    "787df387-1c3b-4139-9a4c-603fd5ee4305",
+                    "83671b5f-465a-4a6b-bff6-a1edc724d357",
+                    "3a82c5cb-0259-43a7-a9af-57b9925174c8"
+                ]
+            },
+            {
+                "id": "a52f430d-d744-432e-a5a8-ae4e6e9fe270",
+                "rank": 3,
+                "page": 4,
+                "content": "Điều 8. Công tác phối hợp",
+                "childs": [
+                    {
+                        "id": "e539dfc9-f799-463c-b262-47f6f1419f27",
+                        "rank": 5,
+                        "content": "1. Lập kế hoạch phối hợp với chính quyền và công an địa phương nắm bắt tình hình về nhà trọ để tư vấn, giới thiệu chỗ ở cho sinh viên có nhu cầu."
+                    },
+                    {
+                        "id": "4341bfb4-a833-4979-9e21-8d4d16cb1e25",
+                        "rank": 5,
+                        "content": "2. Chủ động phối hợp với chính quyền địa phương, cơ quan công an, các ngành có liên quan tổ chức hội nghị giao ban hàng năm giữa nhà trường và chính quyền địa phương về tình hình sinh viên ngoại trú, kịp thời giải quyết các vụ việc liên quan đến sinh viên ngoại trú."
+                    },
+                    {
+                        "id": "9aaace34-2b89-465c-92dc-8fa4ca11a4e6",
+                        "rank": 5,
+                        "content": "3. Phối hợp với Đoàn Thanh niên, Hội Sinh viên, các đơn vị chức năng liên quan để tư vấn, hỗ trợ, giúp đỡ, tổ chức thực hiện công tác ngoại trú của sinh viên."
+                    }
+                ],
+                "child_ids": [
+                    "e539dfc9-f799-463c-b262-47f6f1419f27",
+                    "4341bfb4-a833-4979-9e21-8d4d16cb1e25",
+                    "9aaace34-2b89-465c-92dc-8fa4ca11a4e6"
+                ]
+            }
+        ],
+        "child_ids": [
+            "b684f75e-3189-46e3-9eea-43a017350f79",
+            "a52f430d-d744-432e-a5a8-ae4e6e9fe270"
+        ]
+    },
+    {
+        "id": "f4c7d92a-9115-4247-80e1-9bdd4d69b4ee",
+        "rank": 1,
+        "content": "Chương IV: TỔ CHỨC QUẢN LÝ",
+        "childs": [
+            {
+                "id": "e6c58762-edeb-4ec7-ac60-c85f86135b2e",
+                "rank": 3,
+                "page": 4,
+                "content": "Điều 9. Trách nhiệm của Hiệu trưởng nhà trường",
+                "childs": [
+                    {
+                        "id": "21bb6155-0a8e-4833-8111-bed9d49af90a",
+                        "rank": 5,
+                        "content": "1. Căn cứ điều kiện cụ thể của nhà trường, tổ chức thực hiện công tác ngoại trú của sinh viên theo đúng quy định hiện hành."
+                    },
+                    {
+                        "id": "b6140fdf-b316-4786-b4e1-4b0a1b0b51e4",
+                        "rank": 5,
+                        "content": "2. Phê duyệt kế hoạch hoạt động công tác quản lý sinh viên hàng năm của trường và chỉ đạo, tổ chức thực hiện."
+                    },
+                    {
+                        "id": "aa21f9f8-6931-4bb8-9746-728b3f97a413",
+                        "rank": 5,
+                        "content": "3. Bố trí cán bộ làm công tác ngoại trú của sinh viên."
+                    },
+                    {
+                        "id": "c14e7bf2-9675-4e9a-8997-592fd721de97",
+                        "rank": 5,
+                        "content": "4. Bảo đảm các điều kiện nhằm phát huy vai trò của các tổ chức Đoàn Thanh niên, Hội Sinh viên trong công tác quản lý sinh viên ngoại trú."
+                    },
+                    {
+                        "id": "9e8c2c45-1921-4d46-9c3b-752508032846",
+                        "rank": 5,
+                        "content": "5. Có cơ chế phối hợp với các cơ quan chức năng ở địa phương để tạo điều kiện cho sinh viên ngoại trú thực hiện đầy đủ quyền và nghĩa vụ của mình."
+                    }
+                ],
+                "child_ids": [
+                    "21bb6155-0a8e-4833-8111-bed9d49af90a",
+                    "b6140fdf-b316-4786-b4e1-4b0a1b0b51e4",
+                    "aa21f9f8-6931-4bb8-9746-728b3f97a413",
+                    "c14e7bf2-9675-4e9a-8997-592fd721de97",
+                    "9e8c2c45-1921-4d46-9c3b-752508032846"
+                ]
+            },
+            {
+                "id": "8d56a8d4-a382-400b-a8fd-5381c4c92ef2",
+                "rank": 3,
+                "page": 4,
+                "content": "Điều 10. Trách nhiệm của Phòng Công tác sinh viên",
+                "childs": [
+                    {
+                        "id": "443d8be3-047b-4ed8-b219-ab617380299f",
+                        "rank": 1000,
+                        "content": "Là đơn vị giữ vai trò đầu mối có trách nhiệm xây dựng kế hoạch tham mưu cho Hiệu trưởng về công tác quản lý sinh viên ngoại trú hàng năm của trường, đồng thời trực tiếp thực hiện các nhiệm vụ cụ thể sau:"
+                    },
+                    {
+                        "id": "7b46c9d0-7db2-46b9-bcdf-49406ecbdfbf",
+                        "rank": 5,
+                        "content": "1. Tổ chức thực hiện các quy định của Bộ Giáo dục và Đào tạo, của nhà trường về công tác sinh viên ngoại trú, hướng dẫn và tư vấn thủ tục đăng ký tạm trú cho sinh viên ngay từ khi nhập học."
+                    },
+                    {
+                        "id": "5805891f-8f0d-4790-96d3-b9c046f82828",
+                        "rank": 5,
+                        "content": "2. Lập kế hoạch phối hợp với chính quyền và công an địa phương nắm bắt tình hình về nhà trọ để tư vấn, giới thiệu chỗ ở cho sinh viên có nhu cầu; tổ chức kiểm tra, đánh giá việc thực hiện công tác ngoại trú của sinh viên; tổ chức hội nghị giao ban hàng năm giữa nhà trường và chính quyền địa phương về tình hình sinh viên ngoại trú, kịp thời giải quyết các vụ việc liên quan đến sinh viên ngoại trú."
+                    },
+                    {
+                        "id": "d503d7c2-60c0-47f6-8d9b-c4f9af877dde",
+                        "rank": 5,
+                        "content": "3. Phối hợp với Đoàn Thanh niên, Hội Sinh viên và các đơn vị chức năng liên quan để tư vấn, hỗ trợ, giúp đỡ và giải quyết kịp thời các vụ việc liên quan đến sinh viên ngoại trú."
+                    },
+                    {
+                        "id": "fd340d88-cd0e-4b6b-821f-88463de65f55",
+                        "rank": 5,
+                        "content": "4. Phối hợp với các Khoa tuyên truyền, phổ biến, hướng dẫn sinh viên có nghĩa vụ thực hiện đúng chủ trương, đường lối của Đảng, chính sách, pháp luật của Nhà nước, nội quy, quy định của trường về công tác sinh viên ngoại trú."
+                    },
+                    {
+                        "id": "f5f0b243-1b5d-4779-bd65-5b125bec5d3c",
+                        "rank": 5,
+                        "content": "5. Lập Sổ quản lý sinh viên ngoại trú (đối với từng cá nhân sinh viên) và lập Sổ quản lý sinh viên ngoại trú (bản tổng hợp), cập nhật đầy đủ, kịp thời việc thay đổi nơi cư trú của sinh viên ngoại trú (theo phụ lục 1)."
+                    },
+                    {
+                        "id": "c43be2f5-49a4-4e2c-9ab2-06b94f920e3c",
+                        "rank": 5,
+                        "content": "6. Kết thúc năm học tổng kết công tác sinh viên ngoại trú, báo cáo với lãnh đạo nhà trường và cơ quan liên quan về các vụ việc xảy ra liên quan đến sinh viên ngoại trú."
+                    }
+                ],
+                "child_ids": [
+                    "443d8be3-047b-4ed8-b219-ab617380299f",
+                    "7b46c9d0-7db2-46b9-bcdf-49406ecbdfbf",
+                    "5805891f-8f0d-4790-96d3-b9c046f82828",
+                    "d503d7c2-60c0-47f6-8d9b-c4f9af877dde",
+                    "fd340d88-cd0e-4b6b-821f-88463de65f55",
+                    "f5f0b243-1b5d-4779-bd65-5b125bec5d3c",
+                    "c43be2f5-49a4-4e2c-9ab2-06b94f920e3c"
+                ]
+            },
+            {
+                "id": "2d0832b5-256a-4491-8579-da9fbe497287",
+                "rank": 3,
+                "page": 5,
+                "content": "Điều 11. Trách nhiệm của các Khoa",
+                "childs": [
+                    {
+                        "id": "7a7c8b75-8a76-4395-9e44-5b2385d95b8e",
+                        "rank": 5,
+                        "content": "1. Các Khoa có trách nhiệm phối hợp với Phòng Công tác sinh viên trong việc tổ chức, triển khai công tác sinh viên ngoại trú."
+                    },
+                    {
+                        "id": "6074516a-f45d-4560-881e-788ffc321c95",
+                        "rank": 5,
+                        "content": "2. Phối hợp tuyên truyền, hướng dẫn cho sinh viên chấp hành đúng luật pháp của Nhà nước, các quy định liên quan đến công tác sinh viên ngoại trú."
+                    },
+                    {
+                        "id": "c43cb809-1760-4aa7-893f-133159425f11",
+                        "rank": 5,
+                        "content": "3. Căn cứ kết quả thực hiện việc đăng ký tạm trú và ý thức chấp hành của sinh viên tại nơi cư trú (thông qua Sổ quản lý sinh viên ngoại trú) để đánh giá điểm rèn luyện hàng năm cho sinh viên theo quy định."
+                    },
+                    {
+                        "id": "ba18bb03-1dcd-491c-ba24-e574105e3e9f",
+                        "rank": 5,
+                        "content": "4. Phối hợp với Phòng Công tác sinh viên và các hội, đoàn thể trong nhà trường biểu dương, khen thưởng kịp thời những sinh viên có thành tích xuất sắc, đồng thời xử lý các sinh viên vi phạm quy định."
+                    }
+                ],
+                "child_ids": [
+                    "7a7c8b75-8a76-4395-9e44-5b2385d95b8e",
+                    "6074516a-f45d-4560-881e-788ffc321c95",
+                    "c43cb809-1760-4aa7-893f-133159425f11",
+                    "ba18bb03-1dcd-491c-ba24-e574105e3e9f"
+                ]
+            },
+            {
+                "id": "8e8a01e2-bb34-4b5f-a7e9-5cadd114e10f",
+                "rank": 3,
+                "page": 5,
+                "content": "Điều 12. Trách nhiệm của các tổ chức, đơn vị chức năng liên quan",
+                "childs": [
+                    {
+                        "id": "e0b5bb7d-5aa7-4720-a5b1-42f565521de8",
+                        "rank": 1000,
+                        "content": "Các tổ chức, đơn vị chức năng liên quan trong nhà trường có trách nhiệm phối hợp với Phòng Công tác sinh viên trong việc tổ chức, triển khai có hiệu quả công tác sinh viên ngoại trú theo đúng các quy định hiện hành."
+                    }
+                ],
+                "child_ids": [
+                    "e0b5bb7d-5aa7-4720-a5b1-42f565521de8"
+                ]
+            }
+        ],
+        "child_ids": [
+            "e6c58762-edeb-4ec7-ac60-c85f86135b2e",
+            "8d56a8d4-a382-400b-a8fd-5381c4c92ef2",
+            "2d0832b5-256a-4491-8579-da9fbe497287",
+            "8e8a01e2-bb34-4b5f-a7e9-5cadd114e10f"
+        ]
+    },
+    {
+        "id": "1443a599-785e-4d77-8028-8455c2a184a3",
+        "rank": 1,
+        "content": "Chương V: TỔ CHỨC THỰC HIỆN",
+        "childs": [
+            {
+                "id": "19521c59-d7b3-4604-998a-355b31f7f78b",
+                "rank": 3,
+                "page": 5,
+                "content": "Điều 13. Chế độ báo cáo",
+                "childs": [
+                    {
+                        "id": "45cdc9a1-65a4-4cc9-8958-656666fe9384",
+                        "rank": 1000,
+                        "content": "Phòng Công tác sinh viên có trách nhiệm tham mưu cho Hiệu trưởng nhà trường trong việc tổng hợp tình hình, kịp thời báo cáo Bộ Giáo dục và Đào tạo và các cơ quan có liên quan về những vụ việc xảy ra có liên quan đến sinh viên ngoại trú. Khi kết thúc năm học, tổng hợp kết quả công tác sinh viên ngoại trú, báo cáo Bộ Giáo dục và Đào tạo theo mẫu quy định tại Phụ lục số 2."
+                    }
+                ],
+                "child_ids": [
+                    "45cdc9a1-65a4-4cc9-8958-656666fe9384"
+                ]
+            },
+            {
+                "id": "379e5a11-43e6-45fa-aa7f-e1d0c6cc3a2a",
+                "rank": 3,
+                "page": 6,
+                "content": "Điều 14. Kiểm tra, khen thưởng, kỷ luật",
+                "childs": [
+                    {
+                        "id": "5a1fc753-297c-4946-9781-aff3317e3bbd",
+                        "rank": 5,
+                        "content": "1. Nhà trường, chính quyền địa phương, cơ quan có liên quan theo thẩm quyền tổ chức kiểm tra, đánh giá việc thực hiện công tác ngoại trú của sinh viên hàng năm."
+                    },
+                    {
+                        "id": "38ec0c35-31c1-474b-b007-94f2200618a6",
+                        "rank": 5,
+                        "content": "2. Sinh viên ngoại trú vi phạm khoản 3 Điều 6 của Quy định này sẽ bị nhà trường xử lý kỷ luật bằng hình thức khiển trách; vi phạm khoản 4 Điều 6 của Quy định này lần thứ nhất sẽ bị xử lý kỷ luật bằng hình thức khiển trách, các lần vi phạm tiếp theo trong năm học sẽ bị xử lý kỷ luật bằng hình thức cảnh cáo; các vi phạm khác sẽ được xử lý theo khung xử lý kỷ luật của Quy chế học sinh, sinh viên các trường đại học, cao đẳng, trung cấp chuyên nghiệp hệ chính quy."
+                    },
+                    {
+                        "id": "b4c92496-5a77-4c07-822e-df9ebc4b96e7",
+                        "rank": 5,
+                        "content": "3. Các tập thể, cá nhân có thành tích trong công tác sinh viên ngoại trú được xem xét khen thưởng theo quy định. Sinh viên có thành tích trong công tác sinh viên ngoại trú, tùy theo mức độ, sẽ được nhà trường xem tính vào kết quả điểm rèn luyện hoặc xem xét khen thưởng, theo quy định hiện hành."
+                    }
+                ],
+                "child_ids": [
+                    "5a1fc753-297c-4946-9781-aff3317e3bbd",
+                    "38ec0c35-31c1-474b-b007-94f2200618a6",
+                    "b4c92496-5a77-4c07-822e-df9ebc4b96e7"
+                ]
+            }
+        ],
+        "child_ids": [
+            "19521c59-d7b3-4604-998a-355b31f7f78b",
+            "379e5a11-43e6-45fa-aa7f-e1d0c6cc3a2a"
+        ]
+    }
+]

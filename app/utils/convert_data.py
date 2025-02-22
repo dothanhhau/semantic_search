@@ -214,10 +214,11 @@ def get_rank(x):
     re_ranks = [
         r"\$\$\$",            # Kiểm tra ký tự $$$
         r"[cC]hương\s.+:",  # Kiểm tra chữ "Chương"
-        r"^[IVXLCDM]+\.$"     # Kiểm tra số La Mã (I. II. III. ...)
+        r"[IVXLCDM]+\.",     # Kiểm tra số La Mã (I. II. III. ...)
         r"[đĐ]iều\s.+\.",   # Kiểm tra chữ "Điều"
+        r"truonghopdacbiet",
+        r"\d+\.\s",            # Kiểm tra dạng số nguyên "1."
         r"\d+\.\d+\.",       # Kiểm tra dạng số thập phân "1.1."
-        r"\d+\.",            # Kiểm tra dạng số nguyên "1."
         r"[a-zA-Záàảãạâấầẩẫặéèẻẽẹêếềểễệíìỉĩịóòỏõọôốồổỗộơớờởỡợúùủũụưứừửữựýỳỷỹỵđ]\)",  # Kiểm tra các ký tự A-Z, a-z, có dấu và ký tự kết thúc bằng ")"
         r"[a-zA-Záàảãạâấầẩẫặéèẻẽẹêếềểễệíìỉĩịóòỏõọôốồổỗộơớờởỡợúùủũụưứừửữựýỳỷỹỵđ]\.",  # Kiểm tra các ký tự A-Z, a-z, có dấu và ký tự kết thúc bằng "."
     ]
@@ -242,12 +243,24 @@ def array2json(data):
         sub_ids = []
         cur_rank = get_rank(entity)
 
+        if cur_rank == 6:
+            if cur_rank != stack[-1]['rank']:
+                cur = int(entity.split('.')[0])
+                try:
+                    pre = int(stack[-1]['content'].split('.')[0])
+                    # print(pre, cur)
+                    if pre - cur < 1:
+                        cur_rank -= 2
+                        # print(entity, cur_rank)
+                except Exception as e:
+                    print(e)
+
         while len(stack) > 0 and stack[-1]['rank'] > cur_rank:
             subs.append(stack.pop())
 
         res = {'id': id, 'rank': cur_rank}
         
-        if cur_rank == 1:
+        if cur_rank == 3:
             if '$' in entity:
                 res['page'] = int(entity.split('$')[1].strip())
                 res['content'] = entity.split('$')[0].strip()
@@ -261,7 +274,11 @@ def array2json(data):
             res['child_ids'] = sub_ids
 
         stack.append(res)
-    return stack
+    
+    result = []
+    for x in reversed(stack):
+        result.append(x)
+    return result
 
 
 def one(file):
@@ -311,4 +328,4 @@ def all():
 
 all()
 
-# one('D:/WorkSpace/python/vector/DocSearch-Processor/quy_dinh_quy_che/txt/all/CDR_Tinhoc.txt')
+# one('D:/WorkSpace/python/vector/DocSearch-Processor/quy_dinh_quy_che/txt/bang/chuong_dieu_khoan_diem/QD712 Quy dinh khao sat y kien cac ben lien quan 2024.txt')

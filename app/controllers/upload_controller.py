@@ -25,6 +25,7 @@ def upload_pdf():
             try:
                 file.save(filePath)
 
+
                 # lấy text
                 filename = file.filename
                 text = extract_text(filePath)
@@ -45,6 +46,11 @@ def upload_pdf():
                     doc_id = str(uuid.uuid4())
                     doc_name = TextProcessor.clean(document_name)
                     doc_vector = vectorize_sentence(doc_name)
+
+                    # save vào document
+                    # get id document
+                    # create partition
+                    # upload to partion
 
                     processed_parts_data = DataProcessingService.preprocess_for_storage(data, vectorizer, "DOCUMENT_PARTS")
                     for part_data in processed_parts_data:
