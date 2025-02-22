@@ -1,4 +1,4 @@
-from app.__init__ import client
+from app import client
 from pymilvus.client.types import LoadState
 
 class DocumentParts:

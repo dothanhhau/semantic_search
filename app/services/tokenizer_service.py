@@ -1,15 +1,11 @@
 import torch
 import numpy
-from app.__init__ import phoBert, phoBertTokenizer
+from app import phoBert, phoBertTokenizer, vncorenlp
 
-def vectorize_sentence(sentence):
-    inputs = phoBertTokenizer(sentence, return_tensors="pt", padding=True, truncation=True, max_length=256)
+def vectorize_text(text):
+    arr_txt = vncorenlp.word_segment(text)
+    inputs = phoBertTokenizer(arr_txt, return_tensors="pt", padding=True, truncation=True, max_length=256)
     with torch.no_grad():
         outputs = phoBert(**inputs)
-    last_hidden_state = outputs.last_hidden_state
-    mean_tensor = torch.mean(last_hidden_state, dim=[1, 0])
-    return mean_tensor.numpy()
-
-def vectorize_text(sentences):
-    vectors_of_text = numpy.array([vectorize_sentence(sentence) for sentence in sentences])
-    return numpy.mean(vectors_of_text, axis=0)
+    last_hidden_state = outputs.last_hidden_state.mean(dim=[1, 0])
+    return last_hidden_state.cpu().numpy()

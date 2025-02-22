@@ -17,7 +17,10 @@ except Exception as e:
     print(e)
 
 phoBert = AutoModel.from_pretrained(str(os.getenv("PHO_BERT")))
-# vncorenlp = py_vncorenlp.VnCoreNLP(annotators=["wseg"], save_dir=str(os.getenv("VNCORE")))
+try:
+    vncorenlp = py_vncorenlp.VnCoreNLP(annotators=["wseg"], save_dir=str(os.getenv("VNCORE")))
+except ValueError as e:
+    print("JVM đã được khởi động, sẽ sử dụng đối tượng đã có sẵn.")
 phoBertTokenizer = AutoTokenizer.from_pretrained(str(os.getenv("PHO_BERT")))
 pytesseract.pytesseract.tesseract_cmd = str(os.getenv("TESSERACT"))
 
