@@ -19,6 +19,11 @@ def index():
         else:
             res = DocumentParts.search_all([vector], 3)
 
-    partitions = Document.get_all()
-
+    try:
+        partitions = Document.get_all()
+    except Exception as e:
+        print(e)
+    if not partitions:
+        partitions = []
+    
     return render_template('index.html', title="Search Page", message=message, res=res, partitions=partitions)
