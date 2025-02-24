@@ -54,8 +54,9 @@ class Document:
         try:
             return client.query(
                 collection_name=Document.name,
-                expr="True", 
-                output_fields=["id", "name"])
+                output_fields=["id", "name"],
+                limit=100,
+                )
         except Exception as e:
             print(f"Error getting all entities: {e}")
             return None

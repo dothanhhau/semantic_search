@@ -1,0 +1,318 @@
+[
+    {
+        "id": "ec76e93b-5adc-4090-9dfc-9063a2269f1f",
+        "rank": 1,
+        "page": 2,
+        "content": "Chương Quy Định: Chuẩn đầu ra ngoại ngữ đối với sinh viên đại học hệ chính quy Trường Đại học Quy Nhơn",
+        "childs": [
+            {
+                "id": "253a587c-87f6-4dc9-b31c-d32a11b5954b",
+                "rank": 3,
+                "page": 2,
+                "content": "Điều 1. Phạm vi và đối tượng áp dụng",
+                "childs": [
+                    {
+                        "id": "757bd057-3ebd-431f-8b1a-6429caa8d35b",
+                        "rank": 5,
+                        "page": 2,
+                        "content": "1. Văn bản này quy định Chuẩn đầu ra ngoại ngữ đối với sinh viên đại học hệ chính quy Trường Đại học Quy Nhơn."
+                    },
+                    {
+                        "id": "8b82cfbc-7e89-4026-b231-f489801622a8",
+                        "rank": 5,
+                        "page": 2,
+                        "content": "2. Quy định này không áp dụng đối với lưu học sinh nước ngoài đang học tập tại Trường."
+                    }
+                ],
+                "child_ids": [
+                    "757bd057-3ebd-431f-8b1a-6429caa8d35b",
+                    "8b82cfbc-7e89-4026-b231-f489801622a8"
+                ]
+            },
+            {
+                "id": "d1f82d69-265e-492c-8aad-ebc60f391615",
+                "rank": 3,
+                "page": 2,
+                "content": "Điều 2. Chuẩn đầu ra ngoại ngữ",
+                "childs": [
+                    {
+                        "id": "05c4ff68-5e16-4d1b-a218-5cfa03ee9539",
+                        "rank": 5,
+                        "page": 2,
+                        "content": "1. Chuẩn đầu ra ngoại ngữ là điều kiện để xét công nhận tốt nghiệp."
+                    },
+                    {
+                        "id": "21a3f30c-360d-4b20-ac3d-dfa4a9ba306d",
+                        "rank": 5,
+                        "page": 2,
+                        "content": "2. Sinh viên các ngành đào tạo phải đạt chuẩn đầu ra ngoại ngữ tối thiểu như sau:",
+                        "childs": [
+                            {
+                                "id": "071b9edc-5ef5-40f4-ab0a-ded7087d477c",
+                                "rank": 7,
+                                "page": 2,
+                                "content": "a) Đối với sinh viên ngành Sư phạm tiếng Anh:",
+                                "childs": [
+                                    {
+                                        "id": "c8d6449c-3763-4226-af03-7c78e3b6ca57",
+                                        "rank": 1000,
+                                        "page": 2,
+                                        "content": "- Ngoại ngữ 1: Tiếng Anh bậc 5/6 theo Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam."
+                                    },
+                                    {
+                                        "id": "40d81b68-ab35-4f5c-8658-0e0eaa17a06c",
+                                        "rank": 1000,
+                                        "page": 2,
+                                        "content": "- Ngoại ngữ 2: Tiếng Pháp hoặc tiếng Trung bậc 3/6 theo Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam."
+                                    }
+                                ],
+                                "child_ids": [
+                                    "c8d6449c-3763-4226-af03-7c78e3b6ca57",
+                                    "40d81b68-ab35-4f5c-8658-0e0eaa17a06c"
+                                ]
+                            },
+                            {
+                                "id": "14890056-0c48-48c2-b44f-612a19de67c5",
+                                "rank": 7,
+                                "page": 2,
+                                "content": "b) Đối với sinh viên ngành Ngôn ngữ Anh: Tiếng Pháp hoặc tiếng Trung bậc 3/6 theo Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam."
+                            },
+                            {
+                                "id": "0b42e62f-056a-45aa-9c08-4d1338e597f6",
+                                "rank": 7,
+                                "page": 2,
+                                "content": "c) Đối với sinh viên ngành Ngôn ngữ Trung Quốc: Tiếng Anh hoặc tiếng Pháp bậc 3/6 theo Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam."
+                            },
+                            {
+                                "id": "1f448558-718a-4725-bac8-07adb93fc6f0",
+                                "rank": 7,
+                                "page": 2,
+                                "content": "d) Đối với sinh viên các ngành chất lượng cao: Tiếng Anh hoặc tiếng Pháp bậc 4/6 theo Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam."
+                            },
+                            {
+                                "id": "8acdcfbd-6142-472e-82c1-88628ece47e5",
+                                "rank": 7,
+                                "page": 2,
+                                "content": "đ) Đối với sinh viên các ngành khác: Tiếng Anh hoặc tiếng Pháp, tiếng Trung bậc 3/6 theo Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam."
+                            }
+                        ],
+                        "child_ids": [
+                            "071b9edc-5ef5-40f4-ab0a-ded7087d477c",
+                            "14890056-0c48-48c2-b44f-612a19de67c5",
+                            "0b42e62f-056a-45aa-9c08-4d1338e597f6",
+                            "1f448558-718a-4725-bac8-07adb93fc6f0",
+                            "8acdcfbd-6142-472e-82c1-88628ece47e5"
+                        ]
+                    },
+                    {
+                        "id": "a25a2da9-7ace-46ff-89f1-06b6a531ee57",
+                        "rank": 5,
+                        "page": 2,
+                        "content": "3. Sinh viên đáp ứng yêu cầu về chuẩn đầu ra ngoại ngữ tại khoản 2 của Điều này khi có một trong các chứng nhận, chứng chỉ ngoại ngữ theo Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam hoặc chứng chỉ quốc tế tương đương được quy định tại Phụ lục kèm theo Quy định này."
+                    },
+                    {
+                        "id": "b0875cf6-d73d-43bf-b44d-6f37c2ecda31",
+                        "rank": 5,
+                        "page": 2,
+                        "content": "4. Các trường hợp khác do Hiệu trưởng quyết định."
+                    }
+                ],
+                "child_ids": [
+                    "05c4ff68-5e16-4d1b-a218-5cfa03ee9539",
+                    "21a3f30c-360d-4b20-ac3d-dfa4a9ba306d",
+                    "a25a2da9-7ace-46ff-89f1-06b6a531ee57",
+                    "b0875cf6-d73d-43bf-b44d-6f37c2ecda31"
+                ]
+            },
+            {
+                "id": "883dc2c2-3f4f-446c-84e4-5c272ec04943",
+                "rank": 3,
+                "page": 3,
+                "content": "Điều 3. Tổ chức thực hiện",
+                "childs": [
+                    {
+                        "id": "54909014-5009-4d29-ba07-62b5fbfc8f4e",
+                        "rank": 5,
+                        "page": 3,
+                        "content": "1. Các ông (bà) Trưởng phòng Khảo thí và Bảo đảm chất lượng, Đào tạo đại học, Công tác chính trị và Sinh viên và các Trưởng đơn vị có liên quan chịu trách nhiệm triển khai và hướng dẫn thực hiện Quy định này."
+                    },
+                    {
+                        "id": "6fb5acc7-eff3-4f4f-9329-258aac20e2d1",
+                        "rank": 5,
+                        "page": 3,
+                        "content": "2. Trong quá trình thực hiện, nếu có vấn đề chưa phù hợp, các đơn vị đề xuất với Nhà trường (qua Phòng Khảo thí và Bảo đảm chất lượng) để bổ sung, điều chỉnh."
+                    }
+                ],
+                "child_ids": [
+                    "54909014-5009-4d29-ba07-62b5fbfc8f4e",
+                    "6fb5acc7-eff3-4f4f-9329-258aac20e2d1"
+                ]
+            }
+        ],
+        "child_ids": [
+            "253a587c-87f6-4dc9-b31c-d32a11b5954b",
+            "d1f82d69-265e-492c-8aad-ebc60f391615",
+            "883dc2c2-3f4f-446c-84e4-5c272ec04943"
+        ]
+    },
+    {
+        "id": "9483c9a8-9e50-489e-af3f-683c7d67a096",
+        "rank": 1,
+        "page": 5,
+        "content": "Chương Phụ lục: Chuẩn đầu ra ngoại ngữ đối với sinh viên đại học hệ chính quy Trường Đại học Quy Nhơn",
+        "childs": [
+            {
+                "id": "8c379695-9804-4e35-a539-ed0b66107ed4",
+                "rank": 5,
+                "page": 5,
+                "content": "1. Ngành Sư phạm Tiếng Anh, Ngoại ngữ 1",
+                "childs": [
+                    {
+                        "id": "9d167861-7679-48a8-855c-198fad843fc8",
+                        "rank": 1000,
+                        "page": 5,
+                        "content": "- Yêu cầu chứng nhận tiếng Anh bậc 5/6 của Trường Đại học Quy Nhơn hoặc chứng chỉ tiếng Anh bậc 5/6 của các cơ sở đào tạo được Bộ Giáo dục và Đào tạo cho phép cấp chứng chỉ ngoại ngữ."
+                    },
+                    {
+                        "id": "82656c8a-f7ad-4767-a66c-d6f6b416b2b2",
+                        "rank": 1000,
+                        "page": 5,
+                        "content": "- Chứng chỉ quốc tế tương đương: CEFR C1; CAE 60, IELTS 6.5, TOEFL iBT 85, TOEIC 850, APTIS ESOL GENERAL C, APTIS ESOL ADVANCED C1."
+                    }
+                ],
+                "child_ids": [
+                    "9d167861-7679-48a8-855c-198fad843fc8",
+                    "82656c8a-f7ad-4767-a66c-d6f6b416b2b2"
+                ]
+            },
+            {
+                "id": "6b437747-e186-42b7-939b-629a7718a0c4",
+                "rank": 5,
+                "page": 5,
+                "content": "2. Ngành Sư phạm Tiếng Anh, Ngoại ngữ 2:",
+                "childs": [
+                    {
+                        "id": "ac2f3898-82a0-4d89-9dcb-0aa304fdc571",
+                        "rank": 1000,
+                        "page": 5,
+                        "content": "- Yêu cầu chứng nhận tiếng Pháp hoặc tiếng Trung bậc 3/6 của Trường Đại học Quy Nhơn hoặc các cơ sở đào tạo được Bộ Giáo dục và Đào tạo cho phép cấp chứng chỉ ngoại ngữ."
+                    },
+                    {
+                        "id": "de9bc7f1-5bdb-46af-9a50-882039f6addb",
+                        "rank": 1000,
+                        "page": 5,
+                        "content": "- Chứng chỉ quốc tế tương đương: JLPT N4 (tiếng Nhật), JTEST Cấp độ E (tiếng Nhật), HSK Cấp độ 3 (tiếng Trung), DELF B1 (tiếng Pháp), TCF Niveau 3 (tiếng Pháp), TOPIK 3 (tiếng Hàn)."
+                    }
+                ],
+                "child_ids": [
+                    "ac2f3898-82a0-4d89-9dcb-0aa304fdc571",
+                    "de9bc7f1-5bdb-46af-9a50-882039f6addb"
+                ]
+            },
+            {
+                "id": "6628dc14-a14c-4ee3-b355-e47f87fda6ff",
+                "rank": 5,
+                "page": 5,
+                "content": "3. Ngành Ngôn ngữ Anh",
+                "childs": [
+                    {
+                        "id": "715b954c-1ea4-483e-a588-11c5ce9ffe87",
+                        "rank": 1000,
+                        "page": 5,
+                        "content": "- Yêu cầu chứng nhận tiếng Pháp hoặc tiếng Trung bậc 3/6 của Trường Đại học Quy Nhơn hoặc chứng chỉ tiếng Pháp, tiếng Trung bậc 3/6 của các cơ sở đào tạo được Bộ Giáo dục và Đào tạo cho phép cấp chứng chỉ ngoại ngữ."
+                    },
+                    {
+                        "id": "404cc5d5-7fca-4245-ac86-b8275d299dc7",
+                        "rank": 1000,
+                        "page": 5,
+                        "content": "- Chứng chỉ quốc tế tương đương: JLPT N4 (tiếng Nhật), JTEST Cấp độ E (tiếng Nhật), HSK Cấp độ 3 (tiếng Trung), DELF B1 (tiếng Pháp), TCF Niveau 3 (tiếng Pháp), TOPIK 3 (tiếng Hàn)."
+                    }
+                ],
+                "child_ids": [
+                    "715b954c-1ea4-483e-a588-11c5ce9ffe87",
+                    "404cc5d5-7fca-4245-ac86-b8275d299dc7"
+                ]
+            },
+            {
+                "id": "ed867faa-d0e7-4264-8d7b-e6369288f42b",
+                "rank": 5,
+                "page": 5,
+                "content": "4. Ngành Ngôn ngữ Trung Quốc",
+                "childs": [
+                    {
+                        "id": "62e5dd98-6892-4c1d-b627-38568e2b1b96",
+                        "rank": 1000,
+                        "page": 5,
+                        "content": "- Yêu cầu chứng nhận tiếng Anh hoặc tiếng Pháp bậc 3/6 của Trường Đại học Quy Nhơn hoặc chứng chỉ tiếng Anh, tiếng Pháp bậc 3/6 của các cơ sở đào tạo được Bộ Giáo dục và Đào tạo cho phép tổ chức thi và cấp chứng chỉ ngoại ngữ."
+                    },
+                    {
+                        "id": "f3a19a4e-574e-4d5e-b91a-e531f3fd3c4e",
+                        "rank": 1000,
+                        "page": 5,
+                        "content": "- Chứng chỉ quốc tế tương đương: CEFR B1, IELTS 4.5, TOEFL iBT 45, TOEIC 450, APTIS ESOL GENERAL B1, APTIS ESOL ADVANCED B1, LINGUASKILL B1, JLPT N4 (tiếng Nhật), JTEST Cấp độ E (tiếng Nhật), DELF B1 (tiếng Pháp), TCF Niveau 3 (tiếng Pháp), TOPIK 3 (tiếng Hàn)."
+                    }
+                ],
+                "child_ids": [
+                    "62e5dd98-6892-4c1d-b627-38568e2b1b96",
+                    "f3a19a4e-574e-4d5e-b91a-e531f3fd3c4e"
+                ]
+            },
+            {
+                "id": "9bf82b0b-fe6a-4096-a164-1ed8359b2abd",
+                "rank": 5,
+                "page": 5,
+                "content": "5. Các ngành chất lượng cao",
+                "childs": [
+                    {
+                        "id": "e17a8d54-bff4-4a47-9e70-327b555efe65",
+                        "rank": 1000,
+                        "page": 5,
+                        "content": "- Yêu cầu chứng nhận tiếng Anh hoặc tiếng Pháp bậc 4/6 của Trường Đại học Quy Nhơn hoặc chứng chỉ tiếng Anh, tiếng Pháp bậc 4/6 của các cơ sở đào tạo được Bộ Giáo dục và Đào tạo cho phép tổ chức thi và cấp chứng chỉ ngoại ngữ."
+                    },
+                    {
+                        "id": "54842d1a-e1b6-403a-be9f-141e2b451a40",
+                        "rank": 1000,
+                        "page": 5,
+                        "content": "- Chứng chỉ quốc tế tương đương: CEFR B2, IELTS 5.5, TOEFL iBT 61, TOEIC 600, APTIS ESOL GENERAL B2, APTIS ESOL ADVANCED B2, LINGUASKILL B2, JLPT N3 (tiếng Nhật), JTEST Cấp độ D (tiếng Nhật), HSK Cấp độ 4 (tiếng Trung), DELF B2 (tiếng Pháp), TCF Niveau 4 (tiếng Pháp), TOPIK 4 (tiếng Hàn)."
+                    }
+                ],
+                "child_ids": [
+                    "e17a8d54-bff4-4a47-9e70-327b555efe65",
+                    "54842d1a-e1b6-403a-be9f-141e2b451a40"
+                ]
+            },
+            {
+                "id": "80cf826b-2c70-402c-b344-bbdcb78974ec",
+                "rank": 5,
+                "page": 5,
+                "content": "6. Các ngành khác",
+                "childs": [
+                    {
+                        "id": "81f845b7-b12a-44ba-911e-2101bb0e4132",
+                        "rank": 1000,
+                        "page": 5,
+                        "content": "- Yêu cầu chứng nhận tiếng Anh, tiếng Pháp hoặc tiếng Trung bậc 3/6 của Trường Đại học Quy Nhơn hoặc chứng chỉ tiếng Anh, tiếng Pháp, tiếng Trung bậc 3/6 của các cơ sở đào tạo được Bộ Giáo dục và Đào tạo cho phép tổ chức thi và cấp chứng chỉ ngoại ngữ."
+                    },
+                    {
+                        "id": "af67ea54-0a40-4693-93af-06c712d0fff7",
+                        "rank": 1000,
+                        "page": 5,
+                        "content": "- Chứng chỉ quốc tế tương đương: CEFR B1, IELTS 4.5, TOEFL iBT 45, TOEIC 450, APTIS ESOL GENERAL B1, APTIS ESOL ADVANCED B1, LINGUASKILL B1, JLPT N4 (tiếng Nhật), JTEST Cấp độ E (tiếng Nhật), HSK Cấp độ 3 (tiếng Trung), DELF B1 (tiếng Pháp), TCF Niveau 3 (tiếng Pháp), TOPIK 3 (tiếng Hàn)."
+                    }
+                ],
+                "child_ids": [
+                    "81f845b7-b12a-44ba-911e-2101bb0e4132",
+                    "af67ea54-0a40-4693-93af-06c712d0fff7"
+                ]
+            }
+        ],
+        "child_ids": [
+            "8c379695-9804-4e35-a539-ed0b66107ed4",
+            "6b437747-e186-42b7-939b-629a7718a0c4",
+            "6628dc14-a14c-4ee3-b355-e47f87fda6ff",
+            "ed867faa-d0e7-4264-8d7b-e6369288f42b",
+            "9bf82b0b-fe6a-4096-a164-1ed8359b2abd",
+            "80cf826b-2c70-402c-b344-bbdcb78974ec"
+        ]
+    }
+]
