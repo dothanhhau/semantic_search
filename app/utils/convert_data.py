@@ -2,21 +2,22 @@ import re
 import os
 import uuid
 import json
+from app.services.tokenizer_service import vectorize_text
 folder_path = 'D:/WorkSpace/python/semantic_search/app/static/quy_dinh_quy_che/txt/'
 
-def get_rank(x):
-    re_ranks = [
-        r"\$\$\$",            # Kiểm tra ký tự $$$
-        r"[cC]hương\s.+:",  # Kiểm tra chữ "Chương"
-        r"[IVXLCDM]+\.",     # Kiểm tra số La Mã (I. II. III. ...)
-        r"[đĐ]iều\s.+\.",   # Kiểm tra chữ "Điều"
-        r"truonghopdacbiet",
-        r"\d+\.\s",            # Kiểm tra dạng số nguyên "1."
-        r"\d+\.\d+\.",       # Kiểm tra dạng số thập phân "1.1."
-        r"[a-zA-Záàảãạâấầẩẫặéèẻẽẹêếềểễệíìỉĩịóòỏõọôốồổỗộơớờởỡợúùủũụưứừửữựýỳỷỹỵđ]\)",  # Kiểm tra các ký tự A-Z, a-z, có dấu và ký tự kết thúc bằng ")"
-        r"[a-zA-Záàảãạâấầẩẫặéèẻẽẹêếềểễệíìỉĩịóòỏõọôốồổỗộơớờởỡợúùủũụưứừửữựýỳỷỹỵđ]\.",  # Kiểm tra các ký tự A-Z, a-z, có dấu và ký tự kết thúc bằng "."
-    ]
-    
+re_ranks = [
+    r"\$\$\$",            # Kiểm tra ký tự $$$
+    r"[cC]hương\s.+:",  # Kiểm tra chữ "Chương"
+    r"[IVXLCDM]+\.",     # Kiểm tra số La Mã (I. II. III. ...)
+    r"[đĐ]iều\s.+\.",   # Kiểm tra chữ "Điều"
+    r"truonghopdacbiet",
+    r"\d+\.\s",            # Kiểm tra dạng số nguyên "1."
+    r"\d+\.\d+\.",       # Kiểm tra dạng số thập phân "1.1."
+    r"[a-zA-Záàảãạâấầẩẫặéèẻẽẹêếềểễệíìỉĩịóòỏõọôốồổỗộơớờởỡợúùủũụưứừửữựýỳỷỹỵđ]\)",  # Kiểm tra các ký tự A-Z, a-z, có dấu và ký tự kết thúc bằng ")"
+    r"[a-zA-Záàảãạâấầẩẫặéèẻẽẹêếềểễệíìỉĩịóòỏõọôốồổỗộơớờởỡợúùủũụưứừửữựýỳỷỹỵđ]\.",  # Kiểm tra các ký tự A-Z, a-z, có dấu và ký tự kết thúc bằng "."
+]
+
+def get_rank(x):    
     for index, re_rank in enumerate(re_ranks):
         if re.match(re_rank, x):
             return index
@@ -91,5 +92,49 @@ def all():
 
         one(file_path)
 
+
+def add_fields_vector_and_position(data, position=None):
+    if position is None:
+        position = []  # Đảm bảo mỗi lời gọi có danh sách riêng
+    
+    for item in data:
+        item['vector'] = vectorize_text(item['content'])
+        rank = item['rank']
+        new_position = position.copy()  # Tạo bản sao để tránh thay đổi danh sách gốc
+        
+        if rank == 4:
+            rank += 2
+        
+        if rank != 1000:
+            match = re.search(re_ranks[rank], item['content'])
+            if match:
+                new_position.append(match.group())
+        
+        item['position'] = new_position
+        
+        if 'childs' in item:
+            add_fields_vector_and_position(item['childs'], new_position)
+    
+    return data
+
+def add_fields_doc_id(data, doc_id):
+    for item in data:
+        item['doc_id'] = doc_id
+    return data
+
+def json2array(data, result=None):
+    if result is None:
+        result = []
+
+    for item in data:
+        flattened_item = item.copy()
+        flattened_item.pop('childs', None)
+        
+        result.append(flattened_item)
+
+        if 'childs' in item:
+            json2array(item['childs'], result)
+
+    return result
 # all()
 # print(os.getcwd())

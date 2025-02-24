@@ -9,7 +9,7 @@ from app.services.ocr_service import extract_text
 from app.services.tokenizer_service import vectorize_text
 from app.utils.file_util import is_pdf_file, is_json_file, is_txt_file
 from app.utils.data_processing import TextProcessor
-from app.utils.convert_data import array2json
+from app.utils.convert_data import array2json, add_fields_vector_and_position, json2array, add_fields_doc_id
 from app.utils.constant import Constants 
 from dotenv import load_dotenv
 load_dotenv()
@@ -154,7 +154,7 @@ def upload_txt():
             if file and file.filename and is_txt_file(file.filename):
                 # Lưu file vào thư mục mong muốn
                 filename = file.filename
-                file_path = os.path.join(os.getenv('UPLOAD_FOLDER'), 'txt', filename)
+                file_path = os.path.join(str(os.getenv('UPLOAD_FOLDER')), 'txt', filename)
                 file.save(file_path)
 
                 # Đọc nội dung file
@@ -164,8 +164,47 @@ def upload_txt():
                 # Xử lý nội dung file (ví dụ: phân tách theo dấu phân cách '\n\n')
                 arr = content.split('\n\n')
 
-                # Bạn có thể xử lý `arr` ở đây nếu cần
+                json_structer = array2json(arr)
 
+                final_json = add_fields_vector_and_position(json_structer)
+
+                path_json = os.path.join(str(os.getenv('UPLOAD_FOLDER')), 'json', filename[:-4] + '.json')
+
+                array = json2array(final_json)
+
+                doc_id = str(uuid.uuid4())
+                doc_name = TextProcessor.clean(filename)
+                doc_vector = vectorize_text(doc_name)
+
+                # Xử lý dữ liệu để insert vào db
+                final_array = add_fields_doc_id(array, doc_id)
+
+                # if Document.load_collection():
+                #     Document.insert([{
+                #         "id": doc_id,
+                #         "name": doc_name,
+                #         "vector": doc_vector,
+                #         "file_name": filename
+                #     }])
+                #     Document.release_collection()
+
+                #     if DocumentParts.load_collection():
+                #         if DocumentParts.create_partition(doc_id):
+                #             DocumentParts.insert(final_array, doc_id)
+                #         DocumentParts.release_collection()
+
+                Document.insert([{
+                    "id": doc_id,
+                    "name": doc_name,
+                    "vector": doc_vector,
+                    "file_name": filename
+                }])
+
+                if DocumentParts.create_partition(doc_id):
+                    DocumentParts.insert(final_array, doc_id)
+
+                print("Dữ liệu đã được lưu vào file ", path_json)
+                # Bạn có thể xử lý `arr` ở đây nếu cần
                 
                 processed_files.append(filename)
 

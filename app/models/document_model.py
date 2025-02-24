@@ -39,19 +39,31 @@ class Document:
             return False
 
     @staticmethod
-    def insert_one(vector):
+    def insert(vector):
         try:
             client.insert(
                 collection_name=Document.name,
-                data=[vector]
+                data=vector
             )
         except Exception as e:
             print(f"Error inserting single vector: {e}")
             return False
-        
+
+    @staticmethod
+    def upsert(vector):
+        try:
+            client.insert(
+                collection_name=Document.name,
+                data=vector
+            )
+        except Exception as e:
+            print(f"Error inserting single vector: {e}")
+            return False
+
     @staticmethod
     def get_all():
         try:
+            # Document.load_collection()
             return client.query(
                 collection_name=Document.name,
                 output_fields=["id", "name"],

@@ -100,11 +100,11 @@ class DocumentParts:
             return False
 
     @staticmethod
-    def insert_one(vector, partition):
+    def insert(vectors, partition):
         try:
             client.insert(
                 collection_name=DocumentParts.name,
-                data=[vector],
+                data=vectors,
                 partition_name=partition
             )
             return True
@@ -113,7 +113,7 @@ class DocumentParts:
             return False
 
     @staticmethod
-    def insert_many(vectors, partition):
+    def upsert(vectors, partition):
         try:
             client.upsert(
                 collection_name=DocumentParts.name,
