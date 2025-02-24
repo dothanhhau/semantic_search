@@ -1,0 +1,1912 @@
+[
+    {
+        "id": "be0fee30-20a4-49cf-a39e-adf1e581a2a9",
+        "rank": 1,
+        "page": 2,
+        "content": "Chương I: QUY ĐỊNH CHUNG",
+        "childs": [
+            {
+                "id": "83925915-30a8-456e-bd97-a7a500a4d108",
+                "rank": 3,
+                "page": 2,
+                "content": "Điều 1. Phạm vi và đối tượng áp dụng",
+                "childs": [
+                    {
+                        "id": "ad5cd2ae-c941-4ec3-b42c-16e2dfe6994d",
+                        "rank": 5,
+                        "page": 2,
+                        "content": "1. Văn bản này quy định mục đích, yêu cầu, quy trình tổ chức thực hiện và trách nhiệm của các đơn vị, cá nhân trong công tác lấy ý kiến phản hồi của các bên liên quan tại Trường Đại học Quy Nhơn (ĐHQN) về chất lượng hoạt động giảng dạy, chương trình đào tạo, chuẩn đầu ra của học phần, chuẩn đầu ra của chương trình đào tạo (CTĐT), tình hình việc làm, các hoạt động, dịch vụ hỗ trợ đào tạo và các hoạt động liên quan khác."
+                    },
+                    {
+                        "id": "0ec9cde2-bf09-46e5-94a1-012d0b746e65",
+                        "rank": 5,
+                        "page": 2,
+                        "content": "2. Đối tượng áp dụng của Quy định này bao gồm các đơn vị, giảng viên (GV), nhân viên (NV) và người học thuộc các bậc, hệ đào tạo của Trường ĐHQN và nhà sử dụng lao động."
+                    }
+                ],
+                "child_ids": [
+                    "ad5cd2ae-c941-4ec3-b42c-16e2dfe6994d",
+                    "0ec9cde2-bf09-46e5-94a1-012d0b746e65"
+                ]
+            },
+            {
+                "id": "3f81305a-b1a0-4c41-a457-a1ce77f0320d",
+                "rank": 3,
+                "page": 2,
+                "content": "Điều 2. Mục đích",
+                "childs": [
+                    {
+                        "id": "1774c8af-653e-4558-b9da-ab80a91a3b0a",
+                        "rank": 5,
+                        "page": 2,
+                        "content": "1. Góp phần thực hiện Quy chế dân chủ trong nhà trường."
+                    },
+                    {
+                        "id": "4947bf01-f14d-4ada-a460-e5d638c095ae",
+                        "rank": 5,
+                        "page": 2,
+                        "content": "2. Thực hiện các quy định của Bộ Giáo dục và Đào tạo, mục tiêu chính sách bảo đảm chất lượng giáo dục của Trường ĐHQN."
+                    },
+                    {
+                        "id": "0dae4c5e-c27d-48f2-9d0b-ef8a9f72e7bf",
+                        "rank": 5,
+                        "page": 2,
+                        "content": "3. Phục vụ công tác tự đánh giá, kiểm định chất lượng cơ sở giáo dục (CSGD) và kiểm định chất lượng chương trình đào tạo của Nhà trường."
+                    }
+                ],
+                "child_ids": [
+                    "1774c8af-653e-4558-b9da-ab80a91a3b0a",
+                    "4947bf01-f14d-4ada-a460-e5d638c095ae",
+                    "0dae4c5e-c27d-48f2-9d0b-ef8a9f72e7bf"
+                ]
+            },
+            {
+                "id": "7def0d9d-bcf9-4eaf-9d7d-475b6d0a188e",
+                "rank": 3,
+                "page": 2,
+                "content": "Điều 3. Yêu cầu",
+                "childs": [
+                    {
+                        "id": "3273990c-6670-4e86-b4d7-47e91afb9b6b",
+                        "rank": 5,
+                        "page": 2,
+                        "content": "1. Công tác lấy ý kiến phản hồi từ các bên liên quan được tiến hành định kỳ hoặc đột xuất tùy vào mục đích và loại khảo sát."
+                    },
+                    {
+                        "id": "e71a8aee-0189-410e-89e4-df3364175a16",
+                        "rank": 5,
+                        "page": 2,
+                        "content": "2. Bên được lấy ý kiến cần hiểu rõ mục đích, ý nghĩa của các loại khảo sát ý kiến; cần trung thực, khách quan và có thái độ đúng mực trong việc cung cấp thông tin phản hồi."
+                    },
+                    {
+                        "id": "ba0b014b-3475-4e5d-b410-f1ed047fc747",
+                        "rank": 5,
+                        "page": 3,
+                        "content": "3. Bên tiếp nhận thông tin phản hồi từ các bên liên quan cần phải tôn trọng và có tinh thần cầu thị đối với các ý kiến góp ý mang tính xây dựng với mục tiêu nâng cao chất lượng đào tạo của Nhà trường."
+                    },
+                    {
+                        "id": "52d6b5c1-9758-4ad2-94ce-16490d48c003",
+                        "rank": 5,
+                        "page": 3,
+                        "content": "4. Kết quả xử lý thông tin phản hồi từ các bên liên quan phải đảm bảo tính chính xác, tin cậy, được bảo mật và sử dụng đúng mục đích."
+                    },
+                    {
+                        "id": "e1837e0f-af9e-4d79-9be2-77ecf89af8b6",
+                        "rank": 5,
+                        "page": 3,
+                        "content": "5. Kết quả khảo sát được gửi đến lãnh đạo Nhà trường, khoa, giảng viên tùy theo mục đích, ý nghĩa của từng loại khảo sát."
+                    },
+                    {
+                        "id": "7485876a-660c-48f7-948c-c6436429b60e",
+                        "rank": 5,
+                        "page": 3,
+                        "content": "6. Các đơn vị có liên quan cần chủ động hoặc phối hợp với các đơn vị chức năng triển khai các loại khảo sát đúng mục đích, đối tượng để công tác lấy ý kiến phản hồi có tính chất khách quan, đảm bảo độ tin cậy và mang lại hiệu quả cao."
+                    }
+                ],
+                "child_ids": [
+                    "3273990c-6670-4e86-b4d7-47e91afb9b6b",
+                    "e71a8aee-0189-410e-89e4-df3364175a16",
+                    "ba0b014b-3475-4e5d-b410-f1ed047fc747",
+                    "52d6b5c1-9758-4ad2-94ce-16490d48c003",
+                    "e1837e0f-af9e-4d79-9be2-77ecf89af8b6",
+                    "7485876a-660c-48f7-948c-c6436429b60e"
+                ]
+            },
+            {
+                "id": "0ff02a06-3a6c-42b3-91ea-f0525b5371f7",
+                "rank": 3,
+                "page": 3,
+                "content": "Điều 4. Công cụ khảo sát",
+                "childs": [
+                    {
+                        "id": "73175665-0df0-4806-931b-05e6d234c8da",
+                        "rank": 1000,
+                        "page": 3,
+                        "content": "Bộ công cụ khảo sát (Phiếu khảo sát) do Phòng Khảo thí và Bảo đảm chất lượng (KT&BĐCL) và các đơn vị phối hợp xây dựng và được Hội đồng Đảm bảo chất lượng giáo dục của Trường góp ý và thông qua. Nội dung của các loại phiếu khảo sát có thể được thay đổi tùy theo mục tiêu khảo sát của năm học. Các phần mềm được sử dụng để hỗ trợ khảo sát: Phần mềm E-survey; Google Forms; SPSS; Excel."
+                    }
+                ],
+                "child_ids": [
+                    "73175665-0df0-4806-931b-05e6d234c8da"
+                ]
+            },
+            {
+                "id": "ec6bc1ce-c3e1-4a5f-aa03-a8dadf69b5fa",
+                "rank": 3,
+                "page": 3,
+                "content": "Điều 5. Quy trình lấy ý kiến",
+                "childs": [
+                    {
+                        "id": "3299ae2f-fad2-4253-b943-50bb99a7ba0d",
+                        "rank": 5,
+                        "page": 3,
+                        "content": "1. Lập kế hoạch khảo sát;"
+                    },
+                    {
+                        "id": "4737dc89-311f-42ec-adfc-0d22d6d20359",
+                        "rank": 5,
+                        "page": 3,
+                        "content": "2. Phê duyệt kế hoạch khảo sát;"
+                    },
+                    {
+                        "id": "9fc6d610-677d-4c53-b637-2f9d34a8980a",
+                        "rank": 5,
+                        "page": 3,
+                        "content": "3. Tổ chức khảo sát;"
+                    },
+                    {
+                        "id": "3ed19a59-b911-4673-878f-4ddbf57627f8",
+                        "rank": 5,
+                        "page": 3,
+                        "content": "4. Thu thập, xử lý thông tin phản hồi;"
+                    },
+                    {
+                        "id": "59d9f326-3b33-42f3-a67d-cf2efde7a029",
+                        "rank": 5,
+                        "page": 3,
+                        "content": "5. Báo cáo kết quả khảo sát đến các bên liên quan;"
+                    },
+                    {
+                        "id": "9d6c8601-e14d-4271-8c45-c0b805bafc1f",
+                        "rank": 5,
+                        "page": 3,
+                        "content": "6. Lập kế hoạch và thực hiện cải tiến chất lượng;"
+                    },
+                    {
+                        "id": "7ca2375d-3d99-42ac-b469-bcfa933c28c0",
+                        "rank": 5,
+                        "page": 3,
+                        "content": "7. Lưu trữ các văn bản và dữ liệu khảo sát."
+                    }
+                ],
+                "child_ids": [
+                    "3299ae2f-fad2-4253-b943-50bb99a7ba0d",
+                    "4737dc89-311f-42ec-adfc-0d22d6d20359",
+                    "9fc6d610-677d-4c53-b637-2f9d34a8980a",
+                    "3ed19a59-b911-4673-878f-4ddbf57627f8",
+                    "59d9f326-3b33-42f3-a67d-cf2efde7a029",
+                    "9d6c8601-e14d-4271-8c45-c0b805bafc1f",
+                    "7ca2375d-3d99-42ac-b469-bcfa933c28c0"
+                ]
+            },
+            {
+                "id": "0cf9d476-1662-4ed9-848c-4a1d226f0bb1",
+                "rank": 3,
+                "page": 3,
+                "content": "Điều 6. Công tác lưu trữ dữ liệu, kết quả khảo sát",
+                "childs": [
+                    {
+                        "id": "c0f004c3-6a01-41e8-8945-f2e169b55382",
+                        "rank": 1000,
+                        "page": 3,
+                        "content": "Dữ liệu, kết quả của từng đợt khảo sát được lưu trữ bằng văn bản và file mềm tại Phòng KT&BĐCL và các đơn vị liên quan để phục vụ cho công tác kiểm định chất lượng cấp CSGD và cấp CTĐT."
+                    }
+                ],
+                "child_ids": [
+                    "c0f004c3-6a01-41e8-8945-f2e169b55382"
+                ]
+            }
+        ],
+        "child_ids": [
+            "83925915-30a8-456e-bd97-a7a500a4d108",
+            "3f81305a-b1a0-4c41-a457-a1ce77f0320d",
+            "7def0d9d-bcf9-4eaf-9d7d-475b6d0a188e",
+            "0ff02a06-3a6c-42b3-91ea-f0525b5371f7",
+            "ec6bc1ce-c3e1-4a5f-aa03-a8dadf69b5fa",
+            "0cf9d476-1662-4ed9-848c-4a1d226f0bb1"
+        ]
+    },
+    {
+        "id": "95e4197c-ddad-4526-b9fb-f241abe9cff8",
+        "rank": 1,
+        "page": 4,
+        "content": "Chương II: CÁC LOẠI KHẢO SÁT",
+        "childs": [
+            {
+                "id": "aad3bc3a-cde9-406d-b2e3-d37792bf221d",
+                "rank": 3,
+                "page": 4,
+                "content": "Điều 7. Các loại khảo sát",
+                "childs": [
+                    {
+                        "id": "65dc0560-a445-400c-9ee3-a49ec1184e3d",
+                        "rank": 4,
+                        "page": 4,
+                        "content": "7.1. Khảo sát ý kiến người học về hoạt động giảng dạy, hướng dẫn thực hành, thí nghiệm của GV.",
+                        "childs": [
+                            {
+                                "id": "014dfac7-fb48-4e4b-8eb2-91081581b9c5",
+                                "rank": 5,
+                                "page": 4,
+                                "content": "1. Mục đích:",
+                                "childs": [
+                                    {
+                                        "id": "3d468dd7-cb18-4f6c-bf09-a6e6a02fe8c9",
+                                        "rank": 8,
+                                        "page": 4,
+                                        "content": "a. Giúp Nhà trường, khoa (bộ môn) thu thập thông tin và mức độ hài lòng của người học về hoạt động giảng dạy, hướng dẫn thực hành, thí nghiệm của GV;"
+                                    },
+                                    {
+                                        "id": "2f773e23-c98e-470d-b49c-822f1db09e65",
+                                        "rank": 8,
+                                        "page": 4,
+                                        "content": "b. Giúp Nhà trường, khoa (bộ môn) có thêm cơ sở để xây dựng kế hoạch bồi dưỡng GV, nhân viên, cải tiến chất lượng đào tạo; phòng ngừa những tiêu cực trong hoạt động giảng dạy, hướng dẫn; phát hiện và nhân rộng những gương tích cực, điển hình trong đội ngũ GV;"
+                                    },
+                                    {
+                                        "id": "6d9b9fb0-6ac2-4e54-b205-61ac2ea2c433",
+                                        "rank": 8,
+                                        "page": 4,
+                                        "content": "c. Tạo thêm kênh thông tin giúp GV tự điều chỉnh hoạt động giảng dạy, hướng dẫn nhằm hoàn thiện và phát huy năng lực cá nhân; góp phần nâng cao tinh thần trách nhiệm của GV trong việc thực hiện mục tiêu đào tạo của Nhà trường;"
+                                    },
+                                    {
+                                        "id": "220fef88-7e2f-4362-a403-a5814fae6949",
+                                        "rank": 8,
+                                        "page": 4,
+                                        "content": "d. Tăng cường tinh thần trách nhiệm của người học với quyền lợi, nghĩa vụ học tập và rèn luyện của bản thân; tạo điều kiện để người học phản ánh tâm tư, nguyện vọng, ý kiến của mình về hoạt động giảng dạy, hướng dẫn của GV cũng như các hoạt động khác của Nhà trường."
+                                    }
+                                ],
+                                "child_ids": [
+                                    "3d468dd7-cb18-4f6c-bf09-a6e6a02fe8c9",
+                                    "2f773e23-c98e-470d-b49c-822f1db09e65",
+                                    "6d9b9fb0-6ac2-4e54-b205-61ac2ea2c433",
+                                    "220fef88-7e2f-4362-a403-a5814fae6949"
+                                ]
+                            },
+                            {
+                                "id": "6c4e20b9-6b58-4a22-8b4c-168b9f602332",
+                                "rank": 5,
+                                "page": 4,
+                                "content": "2. Đối tượng khảo sát:",
+                                "childs": [
+                                    {
+                                        "id": "8d896fef-9f40-440d-8b67-f5b95d737ca9",
+                                        "rank": 1000,
+                                        "page": 4,
+                                        "content": "Hoạt động giảng dạy học phần lý thuyết và hoạt động hướng dẫn thực hành, thí nghiệm của GV trong 01 học kỳ của năm học."
+                                    }
+                                ],
+                                "child_ids": [
+                                    "8d896fef-9f40-440d-8b67-f5b95d737ca9"
+                                ]
+                            },
+                            {
+                                "id": "9558cb67-5f00-4df4-9f3c-665faffef602",
+                                "rank": 5,
+                                "page": 4,
+                                "content": "3. Đối tượng tham gia khảo sát:",
+                                "childs": [
+                                    {
+                                        "id": "07a846ee-28c6-4273-924a-54fd029ab117",
+                                        "rank": 1000,
+                                        "page": 4,
+                                        "content": "Tất cả người học các hệ, bậc đào tạo của Trường ĐHQN."
+                                    }
+                                ],
+                                "child_ids": [
+                                    "07a846ee-28c6-4273-924a-54fd029ab117"
+                                ]
+                            },
+                            {
+                                "id": "2e334d18-5504-4706-b491-92bd20c3ac9d",
+                                "rank": 5,
+                                "page": 4,
+                                "content": "4. Hình thức khảo sát:",
+                                "childs": [
+                                    {
+                                        "id": "1e383a63-2607-4baa-a8a3-63c306a8b6de",
+                                        "rank": 1000,
+                                        "page": 4,
+                                        "content": "Người học đăng nhập vào tài khoản cá nhân (online) để trả lời Phiếu khảo sát đối với các học phần đã học sau khi có điểm thi học phần."
+                                    }
+                                ],
+                                "child_ids": [
+                                    "1e383a63-2607-4baa-a8a3-63c306a8b6de"
+                                ]
+                            },
+                            {
+                                "id": "c706e225-b749-40b4-a19e-7b04a061d5e6",
+                                "rank": 5,
+                                "page": 4,
+                                "content": "5. Nội dung khảo sát:",
+                                "childs": [
+                                    {
+                                        "id": "e68c576e-82d5-4a0c-a261-72f66603ee48",
+                                        "rank": 8,
+                                        "page": 4,
+                                        "content": "a. Về hoạt động giảng dạy các học phần lý thuyết:",
+                                        "childs": [
+                                            {
+                                                "id": "d4bfbcde-0d87-4b34-a9fb-04f00e7af6a4",
+                                                "rank": 1000,
+                                                "page": 4,
+                                                "content": "Công tác chuẩn bị giảng dạy, nội dung và phương pháp giảng dạy; Học liệu phục vụ giảng dạy, học tập và thời gian giảng dạy của GV; Trách nhiệm và sự nhiệt tình của GV; Khả năng khuyến khích sáng tạo và tư duy độc lập của người học; Sự công bằng, khách quan của GV trong kiểm tra đánh giá quá trình và đánh giá kết quả học tập; Năng lực của GV trong tư vấn và tổ chức, hướng dẫn hoạt động học tập và nghiên cứu của người học; Tác phong sư phạm của GV; Mức độ hài lòng của người học và các ý kiến góp ý khác."
+                                            }
+                                        ],
+                                        "child_ids": [
+                                            "d4bfbcde-0d87-4b34-a9fb-04f00e7af6a4"
+                                        ]
+                                    },
+                                    {
+                                        "id": "6a217d7e-a85a-401a-8b9f-afc5be33cae4",
+                                        "rank": 8,
+                                        "page": 5,
+                                        "content": "b. Về hoạt động hướng dẫn thực hành, thí nghiệm:",
+                                        "childs": [
+                                            {
+                                                "id": "8038158c-afa2-4f54-8ed6-abb1385b28f3",
+                                                "rank": 1000,
+                                                "page": 5,
+                                                "content": "Nội dung và phương pháp hướng dẫn thực hành, thí nghiệm của GV; Tài liệu phục vụ thực hành, thí nghiệm; Trách nhiệm, thái độ, sự nhiệt tình của GV đối với người học; Sự công bằng của GV trong hoạt động kiểm tra đánh giá kết quả học tập; Năng lực của GV trong tư vấn, tổ chức, hướng dẫn cho người học về an toàn lao động, cách xử lý tình huống liên quan đến nội dung thực hành; Mức độ hài lòng của người học và các ý kiến góp ý khác."
+                                            }
+                                        ],
+                                        "child_ids": [
+                                            "8038158c-afa2-4f54-8ed6-abb1385b28f3"
+                                        ]
+                                    }
+                                ],
+                                "child_ids": [
+                                    "e68c576e-82d5-4a0c-a261-72f66603ee48",
+                                    "6a217d7e-a85a-401a-8b9f-afc5be33cae4"
+                                ]
+                            },
+                            {
+                                "id": "1d454c7b-e4fb-4c7c-9799-53e55f8db295",
+                                "rank": 5,
+                                "page": 5,
+                                "content": "6. Công cụ khảo sát:",
+                                "childs": [
+                                    {
+                                        "id": "78b7358f-c182-4faf-bb4b-765f49651f0b",
+                                        "rank": 8,
+                                        "page": 5,
+                                        "content": "a. Phiếu khảo sát hoạt động giảng dạy học phần lý thuyết trình độ đại học: BM01a_DHỌN_KS.HĐGD (thường xuyên được cập nhật, điều chỉnh)."
+                                    },
+                                    {
+                                        "id": "8c22c1c0-02d0-4906-8adf-a7247f7b459d",
+                                        "rank": 8,
+                                        "page": 5,
+                                        "content": "b. Phiếu khảo sát hoạt động hướng dẫn thực hành, thí nghiệm trình độ đại học: BM0Ib_DHQN_KS.HDTH (thường xuyên được cập nhật, điều chỉnh)."
+                                    },
+                                    {
+                                        "id": "acc31a78-c74d-430e-b252-4a32cb81b362",
+                                        "rank": 8,
+                                        "page": 5,
+                                        "content": "c. Phiếu khảo sát hoạt động giảng dạy học phần trình độ thạc sĩ: BM0Ic_DHỌN_KS.HĐGD (thường xuyên được cập nhật, điều chỉnh)."
+                                    }
+                                ],
+                                "child_ids": [
+                                    "78b7358f-c182-4faf-bb4b-765f49651f0b",
+                                    "8c22c1c0-02d0-4906-8adf-a7247f7b459d",
+                                    "acc31a78-c74d-430e-b252-4a32cb81b362"
+                                ]
+                            },
+                            {
+                                "id": "44647fb4-f03a-4d2e-a632-180e2e05982f",
+                                "rank": 5,
+                                "page": 5,
+                                "content": "7. Thời gian khảo sát:",
+                                "childs": [
+                                    {
+                                        "id": "66dd79f5-46c9-49d7-9619-b0430c038357",
+                                        "rank": 8,
+                                        "page": 5,
+                                        "content": "a. Sau kỳ thi kết thúc học phần ở mỗi học kỳ đối với sinh viên."
+                                    },
+                                    {
+                                        "id": "546bc718-5e01-434f-bd9f-946d1aeb8fe9",
+                                        "rank": 8,
+                                        "page": 5,
+                                        "content": "b. Sau khi kết thúc mỗi học phần, chuyên đề đối với học viên hệ vừa làm vừa học, học viên cao học, nghiên cứu sinh."
+                                    }
+                                ],
+                                "child_ids": [
+                                    "66dd79f5-46c9-49d7-9619-b0430c038357",
+                                    "546bc718-5e01-434f-bd9f-946d1aeb8fe9"
+                                ]
+                            },
+                            {
+                                "id": "5ee9b7ed-32b4-4b7e-a995-c44e615174b7",
+                                "rank": 5,
+                                "page": 5,
+                                "content": "8. Quy trình khảo sát:",
+                                "childs": [
+                                    {
+                                        "id": "bfb069ae-3d70-4954-9296-04302c5cecc8",
+                                        "rank": 1000,
+                                        "page": 5,
+                                        "content": "BƯỚC 1: CHUẨN BỊ KHẢO SÁT"
+                                    },
+                                    {
+                                        "id": "9868e70f-2318-4eac-8f72-ed62efb48272",
+                                        "rank": 1000,
+                                        "page": 5,
+                                        "content": "- Nội dung thực hiện:  \n+ Rà soát, chỉnh sửa Phiếu khảo sát.  \n+ Lập kế hoạch khảo sát.  \n+ Trình Hiệu trưởng phê duyệt theo từng học kỳ."
+                                    },
+                                    {
+                                        "id": "bb40d71e-7b14-4def-959c-16f0e2cfbbdb",
+                                        "rank": 1000,
+                                        "page": 5,
+                                        "content": "- Đơn vị thực hiện: Phòng KT&ĐBCL."
+                                    },
+                                    {
+                                        "id": "baf9f4bb-eb43-401c-bb43-f8087b701e74",
+                                        "rank": 1000,
+                                        "page": 5,
+                                        "content": "- Thời gian: Trước kỳ thi kết thúc học phần của mỗi học kỳ hoặc sau khi kết thúc mỗi môn học, chuyên đề."
+                                    },
+                                    {
+                                        "id": "5b63f3d7-1b46-42c8-bcff-def68cb6814e",
+                                        "rank": 1000,
+                                        "page": 5,
+                                        "content": "- Văn bản/Biểu mẫu liên quan:  \n+ BM01a_DHQN_KS.HGD.  \n+ BM01b_DHQN_KS.HDTH.  \n+ BM01c_DHQN_KS.HGD."
+                                    },
+                                    {
+                                        "id": "a76747ff-b1f7-4a25-ae2b-5892ac2081f6",
+                                        "rank": 1000,
+                                        "page": 5,
+                                        "content": "BƯỚC 2: PHÊ DUYỆT VÀ THÔNG BÁO KẾ HOẠCH KHẢO SÁT"
+                                    },
+                                    {
+                                        "id": "2eb8b0ef-9f91-4745-85fa-6a85002c6531",
+                                        "rank": 1000,
+                                        "page": 5,
+                                        "content": "- Nội dung thực hiện:  \n+ Phê duyệt kế hoạch khảo sát.  \n+ Phiếu khảo sát.  \n+ Thông báo kế hoạch khảo sát đến các khoa, bộ môn, giảng viên và người học."
+                                    },
+                                    {
+                                        "id": "c746be8b-01de-4acb-8ba9-3c429763555f",
+                                        "rank": 1000,
+                                        "page": 5,
+                                        "content": "- Đơn vị thực hiện:  \n+ Hiệu trưởng (phê duyệt).  \n+ Phòng KT&ĐBCL (thông báo)."
+                                    },
+                                    {
+                                        "id": "8a8e1a01-a6d6-4d55-8a76-dd0af390f5e1",
+                                        "rank": 1000,
+                                        "page": 5,
+                                        "content": "- Thời gian:  \n- Phê duyệt: Sau khi nhận được kế hoạch từ Phòng KT&ĐBCL.  \n- Thông báo: Sau khi kế hoạch khảo sát được phê duyệt."
+                                    },
+                                    {
+                                        "id": "4c74d789-4d95-4dd1-971a-5ab7725ebfb2",
+                                        "rank": 1000,
+                                        "page": 5,
+                                        "content": "- Văn bản/Biểu mẫu liên quan: Kế hoạch khảo sát."
+                                    },
+                                    {
+                                        "id": "54fcf916-d1f2-485b-9871-1ee2da4758de",
+                                        "rank": 1000,
+                                        "page": 6,
+                                        "content": "BƯỚC 3: TỔ CHỨC KHẢO SÁT"
+                                    },
+                                    {
+                                        "id": "2aa553ee-76a0-4740-8735-7e26eb0f8c47",
+                                        "rank": 1000,
+                                        "page": 6,
+                                        "content": "- Nội dung thực hiện:  \n+ Triển khai cho sinh viên, học viên thực hiện khảo sát qua tài khoản cá nhân.  \n+ Tuyên truyền mục đích, yêu cầu của việc lấy ý kiến người học về hoạt động giảng dạy, hướng dẫn của giảng viên.  \n+ Đôn đốc người học thực hiện khảo sát.  \n+ Đảm bảo kết nối Internet và các vấn đề kỹ thuật trong thời gian khảo sát."
+                                    },
+                                    {
+                                        "id": "a7636fe1-3283-467d-9b80-c744e7feaba3",
+                                        "rank": 1000,
+                                        "page": 6,
+                                        "content": "- Đơn vị thực hiện:  \n+ Phòng KT&ĐBCL.  \n+ Khoa/Bộ môn.  \n+ Phòng CTSV.  \n+ Phòng ĐTSĐH.  \n+ TT. CNTT&TT."
+                                    },
+                                    {
+                                        "id": "497ec47e-513d-4e45-b232-a6d2ddab24a4",
+                                        "rank": 1000,
+                                        "page": 6,
+                                        "content": "- Thời gian:  \n+ 60 ngày (Triển khai khảo sát).  \n+ Trong vòng 01 tuần sau khi nhận được kế hoạch (Tuyên truyền)."
+                                    },
+                                    {
+                                        "id": "c20a3758-1928-4a5c-9e06-b9d4634930cb",
+                                        "rank": 1000,
+                                        "page": 6,
+                                        "content": "- Văn bản/Biểu mẫu liên quan:  \n+ Phần mềm E-Survey.  \n+ Cổng thông tin sinh viên/học viên.  \n+ Nội dung sinh hoạt với người học."
+                                    },
+                                    {
+                                        "id": "0083d0b7-2c44-4aa3-aad1-e7e3b4a2a94b",
+                                        "rank": 1000,
+                                        "page": 6,
+                                        "content": "BƯỚC 4: HOÀN THÀNH KHẢO SÁT, BÁO CÁO KẾT QUẢ"
+                                    },
+                                    {
+                                        "id": "a9913ee4-264d-4d48-ad43-386d4fe0db0f",
+                                        "rank": 1000,
+                                        "page": 6,
+                                        "content": "- Nội dung thực hiện:  \n+ Trích xuất dữ liệu khảo sát từ phần mềm/nhập liệu, tổng hợp, thống kê.  \n+ Lập báo cáo tổng hợp gửi Hiệu trưởng.  \n+ Tách và gửi riêng kết quả khảo sát cho từng Khoa (Bộ môn)/CTĐT."
+                                    },
+                                    {
+                                        "id": "6840b351-e71c-4072-9b86-d1734b718609",
+                                        "rank": 1000,
+                                        "page": 6,
+                                        "content": "- Đơn vị thực hiện:  \n+ Phòng KT&ĐBCL."
+                                    },
+                                    {
+                                        "id": "2fa8e029-1815-4a84-937d-795825ffd8c2",
+                                        "rank": 1000,
+                                        "page": 6,
+                                        "content": "- Thời gian:  \n+ 30 ngày sau khi kết thúc khảo sát."
+                                    },
+                                    {
+                                        "id": "2c073971-f873-4a2c-8055-41137332e1a4",
+                                        "rank": 1000,
+                                        "page": 6,
+                                        "content": "- Văn bản/Biểu mẫu liên quan:  \n+ Báo cáo tổng hợp toàn trường/theo Khoa (Bộ môn)/CTĐT.  \n+ Kết quả khảo sát của từng giảng viên theo Khoa (Bộ môn)/CTĐT."
+                                    },
+                                    {
+                                        "id": "5e942a98-6962-4816-a4d1-4f8b07a97bdd",
+                                        "rank": 1000,
+                                        "page": 6,
+                                        "content": "BƯỚC 5: CẢI TIẾN CHẤT LƯỢNG"
+                                    },
+                                    {
+                                        "id": "f30550c4-b2d9-4461-89b4-fcfdef770b21",
+                                        "rank": 1000,
+                                        "page": 6,
+                                        "content": "- Nội dung thực hiện:  \n+ Họp thảo luận về kết quả phản hồi của người học.  \n+ Lập báo cáo về việc sử dụng thông tin khảo sát và các giải pháp cải tiến chất lượng.  \n+ Nộp báo cáo cho Trường thông qua Phòng KT&ĐBCL."
+                                    },
+                                    {
+                                        "id": "202a1fca-7045-4207-b55f-60727a4b5ef0",
+                                        "rank": 1000,
+                                        "page": 6,
+                                        "content": "- Đơn vị thực hiện:  \n+ Khoa/Bộ môn.  \n+ Giảng viên."
+                                    },
+                                    {
+                                        "id": "8972a807-981d-497f-9aa1-50e164aded83",
+                                        "rank": 1000,
+                                        "page": 6,
+                                        "content": "- Thời gian:  \n+ Trong vòng 15 ngày sau khi có kết quả khảo sát."
+                                    },
+                                    {
+                                        "id": "b0d25ed0-46b6-453a-b9a3-f73b249d54c3",
+                                        "rank": 1000,
+                                        "page": 6,
+                                        "content": "- Văn bản/Biểu mẫu liên quan:  \n+ Biên bản họp.  \n+ Báo cáo theo biểu mẫu: BM09_DHQN_BCCTCL."
+                                    },
+                                    {
+                                        "id": "2be62276-772a-47db-b533-d8c47608fd7a",
+                                        "rank": 1000,
+                                        "page": 6,
+                                        "content": "BƯỚC 6: LƯU TRỮ"
+                                    },
+                                    {
+                                        "id": "f66ba7ce-7f63-4f3f-8212-c603061ed897",
+                                        "rank": 1000,
+                                        "page": 6,
+                                        "content": "- Nội dung thực hiện:  \n+ Lưu trữ thông tin, văn bản và CSDL khảo sát."
+                                    },
+                                    {
+                                        "id": "340ae96e-8042-4318-a8f4-7fff988a44cc",
+                                        "rank": 1000,
+                                        "page": 6,
+                                        "content": "- Đơn vị thực hiện:  \n+ Phòng KT&ĐBCL.\n+ Khoa/Bộ môn."
+                                    },
+                                    {
+                                        "id": "e776372d-52ec-41d9-a669-24c783f1bf82",
+                                        "rank": 1000,
+                                        "page": 6,
+                                        "content": "- Thời gian:\n+ 05 năm."
+                                    },
+                                    {
+                                        "id": "a5f5a560-3acb-4ba8-b898-afc76f04a9bf",
+                                        "rank": 1000,
+                                        "page": 6,
+                                        "content": "- Văn bản/Biểu mẫu liên quan:  \n+ Hồ sơ văn bản.  \n+ CSDL khảo sát."
+                                    }
+                                ],
+                                "child_ids": [
+                                    "bfb069ae-3d70-4954-9296-04302c5cecc8",
+                                    "9868e70f-2318-4eac-8f72-ed62efb48272",
+                                    "bb40d71e-7b14-4def-959c-16f0e2cfbbdb",
+                                    "baf9f4bb-eb43-401c-bb43-f8087b701e74",
+                                    "5b63f3d7-1b46-42c8-bcff-def68cb6814e",
+                                    "a76747ff-b1f7-4a25-ae2b-5892ac2081f6",
+                                    "2eb8b0ef-9f91-4745-85fa-6a85002c6531",
+                                    "c746be8b-01de-4acb-8ba9-3c429763555f",
+                                    "8a8e1a01-a6d6-4d55-8a76-dd0af390f5e1",
+                                    "4c74d789-4d95-4dd1-971a-5ab7725ebfb2",
+                                    "54fcf916-d1f2-485b-9871-1ee2da4758de",
+                                    "2aa553ee-76a0-4740-8735-7e26eb0f8c47",
+                                    "a7636fe1-3283-467d-9b80-c744e7feaba3",
+                                    "497ec47e-513d-4e45-b232-a6d2ddab24a4",
+                                    "c20a3758-1928-4a5c-9e06-b9d4634930cb",
+                                    "0083d0b7-2c44-4aa3-aad1-e7e3b4a2a94b",
+                                    "a9913ee4-264d-4d48-ad43-386d4fe0db0f",
+                                    "6840b351-e71c-4072-9b86-d1734b718609",
+                                    "2fa8e029-1815-4a84-937d-795825ffd8c2",
+                                    "2c073971-f873-4a2c-8055-41137332e1a4",
+                                    "5e942a98-6962-4816-a4d1-4f8b07a97bdd",
+                                    "f30550c4-b2d9-4461-89b4-fcfdef770b21",
+                                    "202a1fca-7045-4207-b55f-60727a4b5ef0",
+                                    "8972a807-981d-497f-9aa1-50e164aded83",
+                                    "b0d25ed0-46b6-453a-b9a3-f73b249d54c3",
+                                    "2be62276-772a-47db-b533-d8c47608fd7a",
+                                    "f66ba7ce-7f63-4f3f-8212-c603061ed897",
+                                    "340ae96e-8042-4318-a8f4-7fff988a44cc",
+                                    "e776372d-52ec-41d9-a669-24c783f1bf82",
+                                    "a5f5a560-3acb-4ba8-b898-afc76f04a9bf"
+                                ]
+                            }
+                        ],
+                        "child_ids": [
+                            "014dfac7-fb48-4e4b-8eb2-91081581b9c5",
+                            "6c4e20b9-6b58-4a22-8b4c-168b9f602332",
+                            "9558cb67-5f00-4df4-9f3c-665faffef602",
+                            "2e334d18-5504-4706-b491-92bd20c3ac9d",
+                            "c706e225-b749-40b4-a19e-7b04a061d5e6",
+                            "1d454c7b-e4fb-4c7c-9799-53e55f8db295",
+                            "44647fb4-f03a-4d2e-a632-180e2e05982f",
+                            "5ee9b7ed-32b4-4b7e-a995-c44e615174b7"
+                        ]
+                    },
+                    {
+                        "id": "bf5ae4de-241d-494e-8e81-634a08ab4a6f",
+                        "rank": 4,
+                        "page": 7,
+                        "content": "7.2. Khảo sát ý kiến phản hồi của người học về mức độ đạt được chuẩn đầu ra của học phần",
+                        "childs": [
+                            {
+                                "id": "b8692190-7731-4610-83de-6942cdb63e8f",
+                                "rank": 5,
+                                "page": 7,
+                                "content": "1. Mục đích:",
+                                "childs": [
+                                    {
+                                        "id": "a62ec825-38ee-48d8-a60c-fcb07f88a1b6",
+                                        "rank": 8,
+                                        "page": 7,
+                                        "content": "a. Giúp Trường, khoa/bộ môn đánh giá mức độ đạt được chuẩn đầu ra của học phần đề thực hiện các hoạt động cải tiến và nâng cao chất lượng giảng dạy học phần.\n                \n2. Đối tượng khảo sát: mức độ đạt được chuẩn đầu ra học phần của người học.",
+                                        "childs": [
+                                            {
+                                                "id": "22435945-3763-43e2-86ad-7c458288742a",
+                                                "rank": 1000,
+                                                "page": 7,
+                                                "content": "3, Đối tượng tham gia khảo sát: người học hệ chính quy các CTĐT trình độ đại học, thạc sĩ tại Trường ĐHỌN."
+                                            }
+                                        ],
+                                        "child_ids": [
+                                            "22435945-3763-43e2-86ad-7c458288742a"
+                                        ]
+                                    }
+                                ],
+                                "child_ids": [
+                                    "a62ec825-38ee-48d8-a60c-fcb07f88a1b6"
+                                ]
+                            },
+                            {
+                                "id": "647bdaee-f54d-40bb-8d9f-ca4c4b7f64b2",
+                                "rank": 5,
+                                "page": 7,
+                                "content": "4. Hình thức khảo sát: trực tuyến bằng phần mềm E-Survey hoặc Google Forms."
+                            },
+                            {
+                                "id": "793461da-18e5-4cb3-bb60-aef1548972e3",
+                                "rank": 5,
+                                "page": 7,
+                                "content": "5. Nội dung khảo sát: Mức độ đạt được của người học đối với từng chuẩn đầu ra học phân, lý do và đề xuất biện pháp cải tiến."
+                            },
+                            {
+                                "id": "0815bfb6-2968-4fb6-b884-592b3f3aa173",
+                                "rank": 5,
+                                "page": 7,
+                                "content": "6. Công cụ khảo sát: Phiếu khảo sát người học về mức độ đạt được chuẩn đầu ra của học phần: BM02a_ĐHQN_CĐR.HP."
+                            },
+                            {
+                                "id": "0aa5be68-a8d7-40aa-8cf7-30cedf6edbfd",
+                                "rank": 5,
+                                "page": 7,
+                                "content": "7. Thời gian khảo sát: Sau khi người học học xong học phần."
+                            },
+                            {
+                                "id": "ee892efd-625b-4065-bf14-1a482eb8faf1",
+                                "rank": 5,
+                                "page": 7,
+                                "content": "8. Quy trình khảo sát:",
+                                "childs": [
+                                    {
+                                        "id": "ad11f7ff-5a98-49d4-952e-134bb5306649",
+                                        "rank": 1000,
+                                        "page": 7,
+                                        "content": "Bước                    Nội dung thực hiện                                  _. M             Thời gian                             \"       bản/Biêu mãn\n                                                                            thực hiện                                                       liên quan\n                   - Lập kê hoạch khảo sát;                                             Trước kỳ thị kêt\n                   -\n                          —\n                       Trình Hiệu  trưởng phê\n                                                                    Phòng               thúc học phân của\n                                                                                                            ¬\n    1.                 `       ‹         ‹                          KT&BĐCL                 x.    ‹       :     r                  R\nPhun Hí            duyệt theo từng học kỳ.                                              mối học kỳ/sau khi | Phiêu khảo sát theo mâu:\n  huân bị                                                                                 :         &\ntủ          `      - Nhập/cập nhật nội dung                                             kêt thúc môi môn                  BM02a         ĐHỌN      CĐÐĐR.HP\n  tảo sá                 :          :                           `                                               R\n                   chuân         đâu        các      học     phân | Khoa/Bộ môn         học, chuyên đề\n                   lên phần mềm khảo sát\n                   Phê duyệt:                                                           Sau khi nhận được               | Kế hoạch khảo sát\n      BÀ               ,                                            - Hiệu trưởng        š            ¬\n     Phê           - Kế hoạch khảo sát                                                  kê hoạch từ Phòng\n       hề                    „\nduyệt và | - Phiêu khảo sát                                                             KT&BĐCL\n thôn                                                  ,                                          :   *KÃ\nbắn lá             - Thông              báo       kê        hoạch       `               Sau khi Kê hoạch\n                                        :                           -       Phòn             \"....~                 a\n hoạch | khảo sát đên các khoa, bộ                                  KTKBĐCL             khảo sát được phê\nkhảo sắt Í môn, GV và người học.                                                        duyệt\n                        :Ä     :     .     tà                                                                             - Công thông tin sinh viên/học\n                   - Triên khai cho sinh viên,\n                               `                    `               - Phòng                                              viên\n                   học       viên       thực      hiện       khảo                                                               `       `\n  s3:                „        cà   „|                               KT&BÐĐCL                  `                           - Phân mêm E-Survey\nTổ chức          | sắt qua tải khoản cá nhân                                 ¬          60 ngày                                :   h\n   -\"                  -    `                                       - Khoa/Bộ môn                                         - Phân mêm Google Forms\nkhảo sát | hoặc                  thông         qua         Google\n                   Forms."
+                                    },
+                                    {
+                                        "id": "9b850e44-4675-4664-90aa-fb2536697cae",
+                                        "rank": 1000,
+                                        "page": 8,
+                                        "content": "- Phổ biến mục                     đích, yêu             - Khoa/Bộ môn      Trong vòng 0]            - Thông tin đên người học\n               cầu       của        việc        lấy        ý kiến       - Phòng CTSV       tuân sau khi nhận        thông qua các nội dung sinh\n               người          học     về mức                độ đạt      - Phòng            được kế hoạch.           hoạt hoặc các kênh thông tin\n               được           chuân        đầu             ra    học    ĐTSĐH                                       khác\n               phần.\n               - Đôn đốc người học thực\n               hiện khảo sát.\n               - Đảm bảo kêt nôi Internet                               - TH.\n               và       các     vân        đê         kỹ        thuật   CNTT&TT\n               trong thời gian khảo sát.\n    4.         - Thu nhận thông tin phản                                - Khoa/Bộ môn      30 ngày sau khi kết      - Dữ liệu khảo sát.\n  Hoàn\n  thành        hồi.                                                     thuộc Trường          thúc khảo sát         - Báo cáo tổng hợp kết quả\nkhảo sát,      - Xử lý dữ liệu, phân tích.                                                                          khảo sát theo biêu mẫu:\n báo cáo                                                                                                            BM02b    ĐHỌN_ CĐR.HP\n               - Viết báo cáo tổng hợp.\n kết quả\n               - Họp thảo luận về kết quả                                                  Trong     vòng      15   - Công văn gửi Nhà trường\n               phản hồi của người học.                                                     ngày sau khi có kết      (bao gồm báo cáo và kế hoạch\n    S.\n               - xây           dựng        kế hoạch               cải                      quả khảo sát.            cải tiên) theo biểu mẫu:\n Cải tiến                                                               - Khoa/Bộ môn\n               tiến chất lượng.                                                                                     BM02b    ĐHỌN_ CĐR.HP\n   chất                                                                 - Giảng viên\n               - Nộp Báo cáo kết quả\n  lượng\n               khảo       sát và Kế               hoạch           cải\n               tiến cho Trường thông qua\n               Phòng KT&BĐCL.\n                      - Tổng hợp và báo cáo                                                        05 năm           - Hỗ sơ văn bản.\n    6.\n               Nhà trường bằng văn bản.                                 - Phòng                                     - CSDL khảo sát.\nTổng hợp\n                      - Lưu trữ các thông tin,                          KT&BĐCL\n báo cáo\n               văn bản và đữ liệu khảo                                  - Khoa/Bộ môn\nvà lưu trữ       zy\n               sat."
+                                    }
+                                ],
+                                "child_ids": [
+                                    "ad11f7ff-5a98-49d4-952e-134bb5306649",
+                                    "9b850e44-4675-4664-90aa-fb2536697cae"
+                                ]
+                            }
+                        ],
+                        "child_ids": [
+                            "b8692190-7731-4610-83de-6942cdb63e8f",
+                            "647bdaee-f54d-40bb-8d9f-ca4c4b7f64b2",
+                            "793461da-18e5-4cb3-bb60-aef1548972e3",
+                            "0815bfb6-2968-4fb6-b884-592b3f3aa173",
+                            "0aa5be68-a8d7-40aa-8cf7-30cedf6edbfd",
+                            "ee892efd-625b-4065-bf14-1a482eb8faf1"
+                        ]
+                    },
+                    {
+                        "id": "55298aec-b800-48f8-bff2-ad96933a2dde",
+                        "rank": 4,
+                        "page": 8,
+                        "content": "7.3. Khảo sát ý kiến người học sắp tốt nghiệp về CTĐT",
+                        "childs": [
+                            {
+                                "id": "72f8a56c-7494-49a5-b962-77be976accbb",
+                                "rank": 5,
+                                "page": 8,
+                                "content": "1. Mục đích:",
+                                "childs": [
+                                    {
+                                        "id": "67138caa-3322-44c5-a599-c211bdaa0818",
+                                        "rank": 8,
+                                        "page": 8,
+                                        "content": "a. Giúp Nhà trường, khoa, phòng chức năng thu thập thông tin và mức độ hài lòng của người học sắp tốt nghiệp về CTĐT của khóa học để có cơ sở xây dựng kế hoạch cải tiến chất lượng CTĐT."
+                                    },
+                                    {
+                                        "id": "c05999a7-76fe-4ab9-8c42-95fcfa0b67e1",
+                                        "rank": 8,
+                                        "page": 8,
+                                        "content": "b. Tạo điêu kiện đê người học phản ánh tâm tư, nguyện vọng, ý kiên của mình vê CTĐT của Nhà trường trước khi tốt nghiệp."
+                                    },
+                                    {
+                                        "id": "1ca27bcf-d561-4ddb-bb2f-cb1dc2331a5d",
+                                        "rank": 8,
+                                        "page": 8,
+                                        "content": "c. Giúp Nhà trường, khoa, phòng chức năng thu thập đầy đủ thông tin phục vụ cho công tác tự đánh giá, kiểm định chất lượng cấp CSGD, CTĐT theo yêu cầu của các tiêu chí chất lượng của Bộ GD&ĐT, AUN-QA hoặc các tổ chức khác."
+                                    }
+                                ],
+                                "child_ids": [
+                                    "67138caa-3322-44c5-a599-c211bdaa0818",
+                                    "c05999a7-76fe-4ab9-8c42-95fcfa0b67e1",
+                                    "1ca27bcf-d561-4ddb-bb2f-cb1dc2331a5d"
+                                ]
+                            },
+                            {
+                                "id": "9398be41-0bce-4059-997e-2cb2615d2304",
+                                "rank": 5,
+                                "page": 9,
+                                "content": "2. Đối tượng khảo sát: Chương trình đào tạo các trình độ đại học, thạc sĩ của Trường ĐHỌN."
+                            },
+                            {
+                                "id": "72056ed3-2fe0-4e1c-9401-d91ecc06d89b",
+                                "rank": 5,
+                                "page": 9,
+                                "content": "3. Đối tượng tham gia khảo sát: Người học sắp tốt nghiệp các bậc, hệ đào tạo của Trường."
+                            },
+                            {
+                                "id": "4ce1a9fd-c485-4a7d-898e-534b407edc7f",
+                                "rank": 5,
+                                "page": 9,
+                                "content": "4. Hình thức khảo sát: Người học đăng nhập vào tài khoản cá nhân trên website của Trường để trả lời các nội dung khảo sát trong thời gian quy định hoặc trả lời Phiếu khảo sát trực tiếp, qua email."
+                            },
+                            {
+                                "id": "d95e7994-19c0-4ec2-b401-97d0bbd7b609",
+                                "rank": 5,
+                                "page": 9,
+                                "content": "5. Nội dung khảo sát:\nCTĐT, chương trình dạy học, hoạt động giảng dạy, kiểm tra đánh giá, cơ sở vật chất, các dịch vụ tư vấn, hỗ trợ sinh viên, môi trường, cảnh quan, an toàn, mức độ hài lòng của người học về CTĐT và các ý kiến góp ý khác."
+                            },
+                            {
+                                "id": "c9720c3e-585a-4d62-a29c-38150e0075a9",
+                                "rank": 5,
+                                "page": 9,
+                                "content": "6. Công cụ khảo sát:",
+                                "childs": [
+                                    {
+                                        "id": "138756d2-098b-4be6-bbcb-bfb83566cac9",
+                                        "rank": 8,
+                                        "page": 9,
+                                        "content": "a. Phiếu khảo sát sinh viên hệ chính quy sắp tốt nghiệp về CTPI: BM03a_DHQN_ KS.SVNC (thường xuyên được cập nhật, điều chỉnh)."
+                                    },
+                                    {
+                                        "id": "a120f0bf-5d4a-48a7-a809-46f025e3f2b1",
+                                        "rank": 8,
+                                        "page": 9,
+                                        "content": "b. Phiếu khảo sát học viên trình độ thạc sĩ sắp tốt nghiệp về CTĐT: BM03b_DHQN_KS.HVSTN (thường xuyên được cập nhật, điều chỉnh)."
+                                    },
+                                    {
+                                        "id": "56235b0c-b7ab-4ebf-8b17-32991425cb23",
+                                        "rank": 8,
+                                        "page": 9,
+                                        "content": "c. Phiêu khảo sát học viên hệ vừa làm vừa học sắp tốt nghiệp về CTĐT:DHQN KS.HVNCBM03c(thường xuyên được cập nhật, điều chỉnh)."
+                                    }
+                                ],
+                                "child_ids": [
+                                    "138756d2-098b-4be6-bbcb-bfb83566cac9",
+                                    "a120f0bf-5d4a-48a7-a809-46f025e3f2b1",
+                                    "56235b0c-b7ab-4ebf-8b17-32991425cb23"
+                                ]
+                            },
+                            {
+                                "id": "99c0ab71-a04f-4381-9c79-6b2c230def82",
+                                "rank": 5,
+                                "page": 9,
+                                "content": "7. Thời điểm khảo sát:",
+                                "childs": [
+                                    {
+                                        "id": "d86d7a55-8a93-4e19-a99b-3b3604a9ba72",
+                                        "rank": 8,
+                                        "page": 9,
+                                        "content": "a. Vào học kỳ cuối của CTĐT đối với sinh viên."
+                                    },
+                                    {
+                                        "id": "4a3b294c-a65c-4e4b-a2a1-3c3aee6c4b88",
+                                        "rank": 8,
+                                        "page": 9,
+                                        "content": "b. Vào Lễ tốt nghiệp của học viên cao học, nghiên cứu sinh."
+                                    }
+                                ],
+                                "child_ids": [
+                                    "d86d7a55-8a93-4e19-a99b-3b3604a9ba72",
+                                    "4a3b294c-a65c-4e4b-a2a1-3c3aee6c4b88"
+                                ]
+                            },
+                            {
+                                "id": "9d3503c1-6c2f-44b6-a45e-d6684e62bcff",
+                                "rank": 5,
+                                "page": 9,
+                                "content": "8. Quy trình khảo sát:",
+                                "childs": [
+                                    {
+                                        "id": "e1470306-7405-4af3-a2da-1360f14422ac",
+                                        "rank": 1000,
+                                        "page": 9,
+                                        "content": "STT                   Nội dung thực hiện                                Đơn vị\n                                                                    thực hiện\n                                                                                               Thời gian                 5 liên\n                                                                                                                           -_          quan\n                                                                                              Vào học kỷ | Phiêu khảo sát:"
+                                    }
+                                ],
+                                "child_ids": [
+                                    "e1470306-7405-4af3-a2da-1360f14422ac"
+                                ]
+                            },
+                            {
+                                "id": "4b30a8a5-34ad-49c8-bf13-7a67bf303476",
+                                "rank": 5,
+                                "page": 9,
+                                "content": "1.           - Rà soát, chỉnh sửa, cập nhật phiếu                                          SưỚI, BÚ,             SG         20200     2S22/00E\nChuẩn     | khảo sát.                                            - Phòng                      GDP                   PDDDEHC     hDoU hai       OBLLDM\nbị khảo   | - Lập kế hoạch khảo sát.                             KT&BĐCL,                                           BM03c      DHQN      K5.HVNC\n  sát           - Trình Hiệu trưởng phê duyệt."
+                            },
+                            {
+                                "id": "2b31a111-c9df-4a5d-9aad-770ebd9ead15",
+                                "rank": 5,
+                                "page": 10,
+                                "content": "3.               Phê duyệt:                                                                          Sau khi         Kế hoạch khảo sát\n  Phê                  - Kế hoạch khảo sát                                           - Hiệu trưởng         nhận được\nđuYỆt VÀ | _ Phiếu khảo sát                                                                                Kế hoạch\n thông,                - Thông báo kế hoạch khảo sát đến                           | - Phòng               Sau khi Kế\nbáo        kê          các khoa, bộ môn, giảng viên và                               KT4&BDCL              hoạch được\n hoạch                 người học.                                                                          phê duyệt\nkhảo sát\n                       - Triển khai cho sinh viên, học viên                               Ruẽ              60 ngày         - Phân mềm E-Survey\n                                                                                      =         on                              ả    ˆ        :    .\n                       thực hiện khảo sát qua tài khoản cá                                           5                     - Công thông tin sinh\n                                                                                     KT@&BĐCL                               T            rA\n                       nhân                                                                                                viên/học viên",
+                                "childs": [
+                                    {
+                                        "id": "9b2119a5-1465-40e8-ae54-5bc2cab51bd3",
+                                        "rank": 1000,
+                                        "page": 10,
+                                        "content": "ˆ      x         „    ca                                 - Khoa               Trong vòng | Nội dung làm việc /sinh hoạt\n                       - Tuyên truyền mục đích, yêu câu                                    `                     R         ..    và     #}         :\n                         ¬                      4                                     - Phòng              01 tuân sau | với người học sắp tôt nghiệp.\n      3                của việc lầy ý kiên phản hồi từ                                                        SA\n  NI                           và                5        sã        sẽ   Š           CTSVSV                khi nhận\nTô chức | người học sắp tôt nghiệp về CTĐT;                                                     `                     :\nKhầo           sốt |     ma.        sẽ               s.             bố        .       - Phòng              được kê\n           5           Đôn đôc người học có trách nhiệm\n                                    \"                ¬                               ĐTSPĐH                hoạch\n                       thực hiện khảo sát."
+                                    },
+                                    {
+                                        "id": "bcc9916f-3cd9-44d0-ad2f-181d1acfe75b",
+                                        "rank": 1000,
+                                        "page": 10,
+                                        "content": "- Đảm bảo kết nỗi Internet và các                                  `\n                       vân đề kỹ thuật trong thời gian\n                          ¬                                                          CNTT&TT\n                       khảo sát.\n      4.               - Trích             xuất           đữ   liệu khảo     sát từ | - Phòng              30 ngày sau | - Báo cáo tông hợp toàn\n .         phần mềm /Nhập liệu, tổng hợp, | KT&BĐCL                                                        khi kết thúc | trường/theo Khoa/CTĐT;\n   hành       ,                                                                                                                .\n  khảo:    thôngŠ kê.                                                                                      khảo sát       - Kêt q quả khảo sát CTĐT của\nsát, báo | - Lập báo cáo tổng hợp gửi Hiệu                                                                                từng ngành.\ncao kệt                trưởng.\n  quả                               _        £    š   3ULB\n                       - Tách và gửi riêng kêt quả khảo\n                       sát cho Khoa/CTĐT.\n                         - Tổ chức họp trao đổi về kết quả                                                 Trong vòng | - Biên bản họp\n                       khảo sát ý kiến người học sắp tốt                                                   15 ngày sau | - Báo cáo theo biểu mẫu:\nHồi để                 nghiệp về CTĐT.                                                                     khi nhận        BM09_DHQN              BCCTCL\n ải tiên                                                        :                                                 k\n   hết                   - Lập            Báo         cáo về việc sử dụng | - Khoa/Bộ môn                | được kết\n châ\n                       thông tin khảo sát và các giải pháp                                                 quả khảo\n lượng                   |...\n                       cải tiên\n                                            và\n                                         chât        lượng.                                                sắt.\n                         - Nộp Báo cáo cho Trường thông\n                       qua Phòng KT&BĐCL.\n      :                Lưu trữ thông tin, văn bản và xây                              - Phòng                     05 năm   - Hồ sơ, văn bản;\n      _ | dựng cơ sở dữ liệu về công tác                                             KT&BĐCL                               - CSDL khảo sát.\nLưu trữ\n                       khảo sát.                                                      - Khoa/Bộ môn"
+                                    }
+                                ],
+                                "child_ids": [
+                                    "9b2119a5-1465-40e8-ae54-5bc2cab51bd3",
+                                    "bcc9916f-3cd9-44d0-ad2f-181d1acfe75b"
+                                ]
+                            }
+                        ],
+                        "child_ids": [
+                            "72f8a56c-7494-49a5-b962-77be976accbb",
+                            "9398be41-0bce-4059-997e-2cb2615d2304",
+                            "72056ed3-2fe0-4e1c-9401-d91ecc06d89b",
+                            "4ce1a9fd-c485-4a7d-898e-534b407edc7f",
+                            "d95e7994-19c0-4ec2-b401-97d0bbd7b609",
+                            "c9720c3e-585a-4d62-a29c-38150e0075a9",
+                            "99c0ab71-a04f-4381-9c79-6b2c230def82",
+                            "9d3503c1-6c2f-44b6-a45e-d6684e62bcff",
+                            "4b30a8a5-34ad-49c8-bf13-7a67bf303476",
+                            "2b31a111-c9df-4a5d-9aad-770ebd9ead15"
+                        ]
+                    },
+                    {
+                        "id": "40d24087-a081-437c-8412-48335d508ec5",
+                        "rank": 4,
+                        "page": 11,
+                        "content": "7.4. Khảo sát ý kiên phản hôi của người học về mức độ đạt được chuân đầu ra của chương trình đào tạo",
+                        "childs": [
+                            {
+                                "id": "e92a302c-ffc5-430f-b4c8-6e824930e4db",
+                                "rank": 5,
+                                "page": 11,
+                                "content": "1. Mục đích:",
+                                "childs": [
+                                    {
+                                        "id": "493d0a40-20f8-440d-bac0-31e9467584e0",
+                                        "rank": 8,
+                                        "page": 11,
+                                        "content": "a. Giúp Trường, khoa/bộ môn thu thập thông tin về mức độ đạt được chuẩn đầu ra của chương trình đào tạo để thực hiện cho các hoạt động cải tiễn và nâng cao chất lượng CTĐT."
+                                    }
+                                ],
+                                "child_ids": [
+                                    "493d0a40-20f8-440d-bac0-31e9467584e0"
+                                ]
+                            },
+                            {
+                                "id": "d7ab59cd-c61f-4b38-8413-e1f4adafe3b8",
+                                "rank": 5,
+                                "page": 11,
+                                "content": "2. Đôi tượng khảo sát: Mức độ đạt được chuẩn đầu ra chương trình đào tạo của người học."
+                            },
+                            {
+                                "id": "c6c462d5-2b3b-4e10-ba70-ab642e4d3ec4",
+                                "rank": 5,
+                                "page": 11,
+                                "content": "3. Đối tượng tham gia khảo sát: Người học sắp tốt nghiệp CTĐT đại học, thạc sĩ hệ chính quy của Trường ĐHỌN."
+                            },
+                            {
+                                "id": "53abe763-a182-4c4d-b51a-3c321ce7546c",
+                                "rank": 5,
+                                "page": 11,
+                                "content": "4. Hình thức khảo sát: Trực tuyến bằng phần mềm E-Survey hoặc Google Forms."
+                            },
+                            {
+                                "id": "88c53120-e2be-480e-a0fb-d91628ad3b20",
+                                "rank": 5,
+                                "page": 11,
+                                "content": "5. Nội dung kháo sát: Mức độ đạt được của người học đối với từng chuẩn đầu ra chương trình đào tạo, lý do và đề xuất biện pháp cải tiến."
+                            },
+                            {
+                                "id": "bfbaad6c-f3fe-4254-9e52-544dbdf4c571",
+                                "rank": 5,
+                                "page": 11,
+                                "content": "6. Công cụ khảo sát: Phiếu khảo sát Ỹ kiến phản hồi của người học về mức độ đạt được chuẩn đầu ra của chương trình đào tạo:BM04a ĐHỌN CĐR.CTĐT (thường xuyên được cập nhật, điều chỉnh)."
+                            },
+                            {
+                                "id": "5d9f1806-76fe-43c9-931e-2f671de67d72",
+                                "rank": 5,
+                                "page": 11,
+                                "content": "7. Thời gian khảo sát: Vào học kỳ cuối của CTĐT."
+                            },
+                            {
+                                "id": "9a461fbd-2b0d-4625-8107-c2200359218f",
+                                "rank": 5,
+                                "page": 11,
+                                "content": "8. Quy trình khảo sát:",
+                                "childs": [
+                                    {
+                                        "id": "a0c94502-630d-4ddc-8385-066d70ecead9",
+                                        "rank": 1000,
+                                        "page": 11,
+                                        "content": "Bước              Nội dung thực` hiện`                           Đụm vỹ\n                                                          thực hiện\n                                                                                          Thời gian                  Văn, liên\n                                                                                                                          BẨN quan\n                                                                                                                               DIỂM, Hinh\n               - Lập kê hoạch khảo sát;                   `                       Vào học kỳ 2 môi\n                      `   .                            Phòng                       :\n               - Trình Hiệu trưởng phê                                            năm học\n    1.              `                                  KT&BĐCL                                                     p     š            :\n     ;    . | duyệt.                                                                                            Phiêu khảo sát theo mẫu:\nChuân bị                           :\n   ,„__._    | - Nhập/cập nhật nội dung                                                                         BM04a    ĐHỌN_CĐR.CTĐT\nkhảo sát\n              chuân      đâu    các   học     phân | Khoa/Bộ môn\n              lên phần mêm khảo sát\n              Phê duyệt:                                  .            „          Sau khi nhận được           | Kế hoạch khảo sát\n   2.\n  Phê         - Kê\n                   Ï   hoạch\n                                  \"\n                               khảo sát\n                                                       - Hiệu trưởng            | kê`, hoạch từ=Phòng\nduyệt và | - Phiếu khảo sát                                                       KT&BĐCL\nHnn nến       -   Thông        báo    kế     hoạch            ‹                   Sau khi Kế hoạch\n hoạch | khảohảo sátsát đếnđên cáccá khoa, khoa, bộbộ | ` tông                    khảohảo sátsát được\n                                                                                                  được phê\n                                                                                                        phê\n vua,                                                  KT&BĐCL                                        ự\nkhảo sát      môn, GV và người học.                                               duyệt"
+                                    },
+                                    {
+                                        "id": "ca22c655-5276-4a55-a7fc-6602bdd6f41d",
+                                        "rank": 1000,
+                                        "page": 12,
+                                        "content": "- Công thông tin sinh viên/học\n                 - Triên khaI cho sinh viên,                                                                                  viên\n                        `          \"                                         - Phòng                                                  -\n                 học         viên        thực     hiện        khảo                                                            - Phân mêm E-Survey\n                   „       `     ¬¬                                          KT&BĐCL                        ‹                      .—ư\n                 sát qua tài khoản cá nhân                                                      -     60 ngày                 - Phân mêm Google Forms\n                                    ˆ                                        - Khoa/Bộ môn\n                 hoặc         thông             qua     Google\n                 Torms."
+                                    },
+                                    {
+                                        "id": "e2e848d9-b4e4-43be-b4e8-1e9704fb8ccd",
+                                        "rank": 1000,
+                                        "page": 12,
+                                        "content": "-.          - Phổ biến mục                       đích, yêu | - Khoa/Bộ môn                     | Trong vòng 01           - Thông tin đên người học\nTẾ SH            cầu của việc lấy ý kiến về | - Phòng                                  CTSV_        | tuần sau khi nhận       thông   qua các nội dung sinh\nkhảo sát                                                                 5                                                         s9\n                 mức          độ        đạt     được      chuẩn | - Phòng                             được kế hoạch.          hoạt hoặc các kênh thông tin\n                 đầu ra CTĐT;                                                ĐTSĐH                                            khác\n                 - Đôn đốc người học thực\n                 hiện khảo sát.\n                 - Đảm bảo kết nối Internet | - TT.\n                 và các vân đề kỹ thuật | CNTT&TT\n                 trong thời gian khảo sắt.\n         4.       - Thu nhận thông tin phản | ~ P.KT&BĐCL                                           | 30 ngày sau khi kêt | - Dữ liệu khảo sát.\n     han         hồi                                                         - Khoa/Bộ môn               thúc khảo sát        - Báo cáo tông hợp kêt quả\n      hành               ï                                                                                                                    bó  x\nkhảo sát, | - Xử lý dữ liệu, phân tích.                                                                                       khảo sát theo biêu mâu:\n báo cáo       Í _ Viết báo cáo tổng hợp.                                                                                     BM04b _ĐHỌN_CĐR.CTĐT\n kêt quả\n                  - Họp thảo luận về kêt quả                                                          Trong     vòng      I5 | - Công văn gửi Nhà trường\n         :       phản hồi của người học.                                                              ngày sau khi có kết | (bao gồm báo cáo và kế hoạch\n                  - Xây            dựng kế hoạch cải                                                  quả khảo sát.           cải tiến) theo biểu mẫu:\n Cải tiên                                                                    - Khoa/Bộ môn\n                 tiến chất lượng.                                                                                             BM04b_ĐHỌN         CĐR.CTĐT\n     chất              `     ¬                                        „|     - Giảng viên\n                  - Nộp Báo cáo                        kêt     quả\n     lượng           ¬\n                 khảo        sát và Kê                hoạch     cải\n                 tiễn cho Trường thông qua\n                 Phòng KT&BĐCTL..\n         :             - Tổng hợp và báo cáo                                                                  05 năm          - Hồ sơ văn bản.\n     ¬           Nhà trường bằng văn bản. | - Phòng                                                                           - CSDL khảo sát.\nTông hợp                       `\n                       - Lưu trữ các thông tin,                              KT&BĐCL\n báo cáo                             :     ,\n `            _ | văn bản và dữ liệu khảo                                    - Khoa/Bộ môn\nvà lưu trữ         r\n                 sat.."
+                                    }
+                                ],
+                                "child_ids": [
+                                    "a0c94502-630d-4ddc-8385-066d70ecead9",
+                                    "ca22c655-5276-4a55-a7fc-6602bdd6f41d",
+                                    "e2e848d9-b4e4-43be-b4e8-1e9704fb8ccd"
+                                ]
+                            }
+                        ],
+                        "child_ids": [
+                            "e92a302c-ffc5-430f-b4c8-6e824930e4db",
+                            "d7ab59cd-c61f-4b38-8413-e1f4adafe3b8",
+                            "c6c462d5-2b3b-4e10-ba70-ab642e4d3ec4",
+                            "53abe763-a182-4c4d-b51a-3c321ce7546c",
+                            "88c53120-e2be-480e-a0fb-d91628ad3b20",
+                            "bfbaad6c-f3fe-4254-9e52-544dbdf4c571",
+                            "5d9f1806-76fe-43c9-931e-2f671de67d72",
+                            "9a461fbd-2b0d-4625-8107-c2200359218f"
+                        ]
+                    },
+                    {
+                        "id": "0691a9a4-b662-423d-9925-f528f832fae9",
+                        "rank": 4,
+                        "page": 12,
+                        "content": "7.5. Khảo sát ý kiến sinh viên mới tốt nghiệp về tình hình việc làm và CTĐT",
+                        "childs": [
+                            {
+                                "id": "449cca9b-065a-4c01-ad17-889eac7ce179",
+                                "rank": 5,
+                                "page": 12,
+                                "content": "1. Mục đích:",
+                                "childs": [
+                                    {
+                                        "id": "40e29351-312b-44ba-9659-653dfbb93e77",
+                                        "rank": 8,
+                                        "page": 12,
+                                        "content": "a. Giúp Nhà trường, khoa thu thập thông tin về tình hình việc làm (THVL) của sinh viên tốt nghiệp (SVTN) trong khoảng từ 06 -12 tháng: về mức độ đáp ứng của CTĐT hoặc khóa học đối với yêu cầu của thị trường lao động, những kiến thức và kỹ năng thục tế giúp SVTN nhanh chóng thích nghi với công việc hoặc tìm được việc làm phù hợp sau khi ra trường."
+                                    },
+                                    {
+                                        "id": "189059ca-c10e-4772-a38b-f1511c477580",
+                                        "rank": 8,
+                                        "page": 13,
+                                        "content": "b. Giúp Nhà trường, khoa có thông tin tổng thể về nguồn nhân lực đã đảo tạo cho xã hội; xây dựng cơ sở dữ liệu về cựu sinh viên của Trường, Khoa."
+                                    }
+                                ],
+                                "child_ids": [
+                                    "40e29351-312b-44ba-9659-653dfbb93e77",
+                                    "189059ca-c10e-4772-a38b-f1511c477580"
+                                ]
+                            },
+                            {
+                                "id": "6229564a-6203-4362-9c36-e0adbca5c266",
+                                "rank": 5,
+                                "page": 13,
+                                "content": "2. Đối tượng khảo sát: THVL của SVTN và mức độ đáp ứng của CTĐT đối với yêu cầu xã hội."
+                            },
+                            {
+                                "id": "812d53d4-3aa3-45a7-820f-1888423ce0de",
+                                "rank": 5,
+                                "page": 13,
+                                "content": "3. Đối tượng tham gia khảo sát: Sinh viên hệ chính quy của Trường đã tốt nghiệp từ 06 - 12 tháng."
+                            },
+                            {
+                                "id": "5772218e-c55d-4d14-a90e-78890e09bfed",
+                                "rank": 5,
+                                "page": 13,
+                                "content": "4. Hình thức khảo sát: Thu thập ý kiến trực tiếp, qua phiếu khảo sát, qua email, điện thoại hoặc qua web."
+                            },
+                            {
+                                "id": "e1b325fe-d898-42de-863c-2b3c490b12fe",
+                                "rank": 5,
+                                "page": 13,
+                                "content": "5. Nội dung khảo sát:",
+                                "childs": [
+                                    {
+                                        "id": "7c1e783d-cd70-4736-a0a1-fc9c4b0df5f7",
+                                        "rank": 1000,
+                                        "page": 13,
+                                        "content": "Thông tin về THVL (theo quy định của Bộ GD&ĐT); mức độ đáp ứng của CTĐT đối với yêu cầu công việc; mức độ hải lòng của người học, các ý kiến đóng góp để nâng cao chất lượng đào tạo và một số thông tin cá nhân."
+                                    },
+                                    {
+                                        "id": "73852598-c94f-4e23-9db6-82f4753c5f0e",
+                                        "rank": 1000,
+                                        "page": 13,
+                                        "content": "Ngoài các nội dung trên, các đơn vị có thể bố sung thêm nội dung khảo sát khác theo nhu cầu thực tế."
+                                    }
+                                ],
+                                "child_ids": [
+                                    "7c1e783d-cd70-4736-a0a1-fc9c4b0df5f7",
+                                    "73852598-c94f-4e23-9db6-82f4753c5f0e"
+                                ]
+                            },
+                            {
+                                "id": "4ea2ba63-2b94-4a49-9cf8-78078cd7b4b7",
+                                "rank": 5,
+                                "page": 13,
+                                "content": "6. Công cụ khảo sát: Phiếu khảo sát: BM05_DHQN_KS.SVTN (thường xuyên được cập nhật, điều chỉnh)."
+                            },
+                            {
+                                "id": "6e96ecb6-aeb5-47da-b737-865f9863492a",
+                                "rank": 5,
+                                "page": 13,
+                                "content": "7. Thời gian khảo sát: tháng 10-11 hàng năm."
+                            },
+                            {
+                                "id": "8f45fdf1-5839-4f41-8251-c066ca199f6a",
+                                "rank": 5,
+                                "page": 13,
+                                "content": "8. Quy trình khảo sát:",
+                                "childs": [
+                                    {
+                                        "id": "2608086a-c178-4b58-8627-c6bb3a61b9ca",
+                                        "rank": 1000,
+                                        "page": 13,
+                                        "content": "SIT                      Nội dung thực hiện                Đon vị thực hiện     Thời siạn        =     bản/ Biêu mau\n                                                                                  thực hiện              liên quan\n                                                                                Tháng 10        - Phiếu khảo sát:\n   1... | - Rả soát, chỉnh sửa, cập                                             hàng năm        BM05_DHQN_KS.SVTN\n Chuân mài phiêu khảo _                                      TT:TVTS&OHDN                       - Kế hoạch khảo sát THVL\n bị khảo | - Lập kê hoạch khảo sát                                                              của SVTN.\n   sát           THYVL."
+                                    }
+                                ],
+                                "child_ids": [
+                                    "2608086a-c178-4b58-8627-c6bb3a61b9ca"
+                                ]
+                            },
+                            {
+                                "id": "daebfecd-54c9-40ae-8446-6d2a2d825e1b",
+                                "rank": 5,
+                                "page": 13,
+                                "content": "2.               Bhg         ở       kể hong   tử                           Sau khi nhận\n         2_    | -         Phê       duyệt kế           :                              :\n   xc:               , m—_—_                                 Hiệu trưởng        được kê hoạch\n  duyệt | sát THVL\n và ban",
+                                "childs": [
+                                    {
+                                        "id": "6e7f75ac-0873-44c4-99a2-45f2aaa59a11",
+                                        "rank": 1000,
+                                        "page": 14,
+                                        "content": "hành kế                                                                                Ngay sau khi\n hoạch     | - Gửi kê hoạch khảo sát đên                               TT.TVTS&QHDN    kế hoạch được\n            các khoa.                                                                  phê duyệt"
+                                    },
+                                    {
+                                        "id": "bbbdc631-e44a-4a5f-a3cb-d2bc8eae6b5b",
+                                        "rank": 1000,
+                                        "page": 14,
+                                        "content": ":                                                                   Sau khi nhận | - Phiếu khảo sát\n             - Tô chức khảo sát THVL                                                             :              \"¬                     :\n              „                        ‹                    :                  ¬       được Kê               - Dữ liệu khảo sát gôc.\n            của SVTN và CTĐT (nêu                                      - Khoa/Bộ môn\n                                                                                       hoạch\n            có).\n   SN\n  Tô         - Tiếp nhận thông tin phản                                                30 ngày sau          Báo cáo kết quả khảo sát\n no         hồi từ SVTN;                                                               khi kết thúc — | THVL của SVTN (theo\n  sát        - Xử lý dữ liệu, thông kê;;                                               thời gian khảo     | ngành đảo tạo)\n                  _ ã                                                  - Khoa/Bộ môn     „          :\n             - Gửi kêt quả khảo sát                                                    sát /theo kê\n            THVL cho TT.HTSV &                                                         hoạch\n            QHDN\n   Ạ         - Lập báo cáo tổng hợp trình                                              l§     ngày     sau | - Báo cáo tông hợp kết quả\n Hoàn       Hiệu trưởng;                                                               khi nhận được | khảo sát THVL của SVTN.\n thành       |- Công                khai       THVL             của                    Kết quả khảo | - Công            khai THVL          của\nso           SVTN               trên          trang             web                    sát từ các khoa      |SVTN      trên    trang       web\ncáo và | Trường:                                                       TT. TVTS&QHDN                        Trường.\n công | - Báo cáo Bộ GD&ĐT về\nnh          THVL của SVTN; cập nhật\n khảo       số liệu khảo                   sát trên CSDL,\n  sát      | của Bộ GD&ĐT.\n             - Tổ chức họp trao đổi, phân                                              Trong vòng            - Biên bản họp.\n            tích, đánh giá về THVL                              của                    15 ngày sau           - Báo    cáo theo biêu mẫu:\n            SVTN và ý kiến của SVTN                                                    khi tổng hợp         BM09_DHQN_BCCTCL\n            về CTĐT (nếu có).                                                          kết quả khảo          - Dũ liệu khảo sát\n   3         - Lập            Báo      cáo         về việc       sử                    sát.\n            dụng thông tin khảo sát và\nCải tiên\n            đề         xuất     các         giải     pháp        cải   - Khoa/Bộ môn\n  chât\n            tiến chất lượng CTĐT nhằm\n lượng\n            tăng cơ hội có việc làm cho\n            SV.\n             - Nộp            Báo          cáo và dữ liệu\n            khảo sát cho Trường thông\n            qua Phòng KT&BĐCTL..\n            - Lưu trữ thông tin, văn bản                               -TT.TVTS&QHDN          05 năm         - Hồ sơ văn bản.\n   6.\n            và cơ sở đữ liệu về công tác                               - Khoa/Bộ môn                         - CSDL khảo sát.\nLưu trữ\n            khảo sát THL                      của SVTN.                -P. KT&BĐCL"
+                                    }
+                                ],
+                                "child_ids": [
+                                    "6e7f75ac-0873-44c4-99a2-45f2aaa59a11",
+                                    "bbbdc631-e44a-4a5f-a3cb-d2bc8eae6b5b"
+                                ]
+                            }
+                        ],
+                        "child_ids": [
+                            "449cca9b-065a-4c01-ad17-889eac7ce179",
+                            "6229564a-6203-4362-9c36-e0adbca5c266",
+                            "812d53d4-3aa3-45a7-820f-1888423ce0de",
+                            "5772218e-c55d-4d14-a90e-78890e09bfed",
+                            "e1b325fe-d898-42de-863c-2b3c490b12fe",
+                            "4ea2ba63-2b94-4a49-9cf8-78078cd7b4b7",
+                            "6e96ecb6-aeb5-47da-b737-865f9863492a",
+                            "8f45fdf1-5839-4f41-8251-c066ca199f6a",
+                            "daebfecd-54c9-40ae-8446-6d2a2d825e1b"
+                        ]
+                    },
+                    {
+                        "id": "c21cd5a4-ce05-4840-9cd5-8040968d90ee",
+                        "rank": 4,
+                        "page": 15,
+                        "content": "7.6. Khảo sát ý kiến cựu người học, nhà sử dụng lao động về chuẩn đầu ra và CTĐT",
+                        "childs": [
+                            {
+                                "id": "f11a64c7-30a6-45c6-ac7c-4e99268e903f",
+                                "rank": 5,
+                                "page": 15,
+                                "content": "1. Mục đích:",
+                                "childs": [
+                                    {
+                                        "id": "4e9ead72-8c9d-4d34-99bd-95a58e98bdd3",
+                                        "rank": 8,
+                                        "page": 15,
+                                        "content": "a. Giúp Nhà trường, khoa có cơ sở đánh giá mức độ phù hợp của chuẩn đầu ra và CTĐT đã thiết kế so với các yêu cầu thực tiễn của các bên liên quan nhằm có sự điều chỉnh, cải tiễn chuẩn đầu ra và CTĐT đáp ứng nhu cầu của xã hội."
+                                    },
+                                    {
+                                        "id": "f8d363ab-9b6b-4121-991c-845ade124210",
+                                        "rank": 8,
+                                        "page": 15,
+                                        "content": "b. Tăng cường mỗi liên kết giữa Nhà trường, cựu người học (cựu sinh viên (CSV) và cựu học viên (CHV)) và nhà sử dụng lao động (NSDLĐ) trong quá trình đào tạo và sử dụng nguồn nhân lực."
+                                    }
+                                ],
+                                "child_ids": [
+                                    "4e9ead72-8c9d-4d34-99bd-95a58e98bdd3",
+                                    "f8d363ab-9b6b-4121-991c-845ade124210"
+                                ]
+                            },
+                            {
+                                "id": "44def976-ce27-4c27-8bac-88ab1a924c52",
+                                "rank": 5,
+                                "page": 15,
+                                "content": "2. Đối tượng khảo sát: chương trình đào tạo trình độ đại học, thạc sĩ của Trường ĐHỌN."
+                            },
+                            {
+                                "id": "6b26e972-9a3c-429b-856f-4cc49161f8ae",
+                                "rank": 5,
+                                "page": 15,
+                                "content": "3. Đối tượng tham gia khảo sát: cựu người học, các tô chức, cơ quan, doanh nghiệp."
+                            },
+                            {
+                                "id": "1f90f695-84b8-4e22-ad90-9f402da4765c",
+                                "rank": 5,
+                                "page": 15,
+                                "content": "4. Hình thức khảo sát: Thu thập ý kiến trực tiếp, qua phiếu khảo sát, qua email hoặc qua web."
+                            },
+                            {
+                                "id": "a9b419ed-9768-46c1-862e-3cd3eb837e1b",
+                                "rank": 5,
+                                "page": 15,
+                                "content": "2. Nội dung khảo sát:",
+                                "childs": [
+                                    {
+                                        "id": "60b2e3c0-2c33-4ceb-95ab-7031adc002b6",
+                                        "rank": 1000,
+                                        "page": 15,
+                                        "content": "Thông tin chung về cựu người học, tỖ chức, cơ quan, doanh nghiệp trả lời khảo sát; Thông tin về người học tốt nghiệp CTĐTđược tổ chức, cơ quan, doanh nghiệp tuyển dụng (ngành, số lượng, vị trí công tác,...); Mức độ hài lòng của các bên liên quan về chất lượng người học tốt nghiệp CTĐT;    Các đánh giá và ý kiến để xuất của cựu người học, tô chức, cơ quan, doanh nghiệp đối với chuẩn đầu ra và CTĐT của ngành."
+                                    },
+                                    {
+                                        "id": "9dd1e4ba-bae5-4cde-b1ea-532e806b81f7",
+                                        "rank": 1000,
+                                        "page": 15,
+                                        "content": "Ngoài các nội dung trên, các Khoa/Bộ môn có thể bổ sung thêm nội dung khảo sát khác theo nhu cầu thực tế."
+                                    }
+                                ],
+                                "child_ids": [
+                                    "60b2e3c0-2c33-4ceb-95ab-7031adc002b6",
+                                    "9dd1e4ba-bae5-4cde-b1ea-532e806b81f7"
+                                ]
+                            },
+                            {
+                                "id": "51f451cf-3685-4777-b52a-bd655161def9",
+                                "rank": 5,
+                                "page": 15,
+                                "content": "6. Công cụ khảo sát:",
+                                "childs": [
+                                    {
+                                        "id": "6dea029e-d525-480a-8fb6-4c4523a58d2b",
+                                        "rank": 8,
+                                        "page": 15,
+                                        "content": "a. Phiếu khảo sát cựu sinh viên về CTĐT: BM0óaDHQNKS.CSV(thường xuyên được cập nhật, điều chỉnh)."
+                                    },
+                                    {
+                                        "id": "c8efeea4-e2fa-416a-ab77-792a0f472066",
+                                        "rank": 8,
+                                        "page": 15,
+                                        "content": "b. Phiếu khảo sát NSDLĐ về CTĐT: BM06b_DHQNKS.NSDLĐ(thường xuyên được cập nhật, điều chỉnh)."
+                                    },
+                                    {
+                                        "id": "36efbe58-d1e8-47dd-9a08-32ab622d4db4",
+                                        "rank": 8,
+                                        "page": 15,
+                                        "content": "c. Phiếu khảo sát cựu học viên về CTĐT: BM0ốcDHQN_KS.CHV(thường xuyên được cập nhật, điều chỉnh)."
+                                    }
+                                ],
+                                "child_ids": [
+                                    "6dea029e-d525-480a-8fb6-4c4523a58d2b",
+                                    "c8efeea4-e2fa-416a-ab77-792a0f472066",
+                                    "36efbe58-d1e8-47dd-9a08-32ab622d4db4"
+                                ]
+                            },
+                            {
+                                "id": "52f9f0f0-e25d-42ca-91a5-33e7029380c0",
+                                "rank": 5,
+                                "page": 16,
+                                "content": "7. Thời gian khảo sát: Trong quá trình xây dựng hoặc rà soát, điều chỉnh chương trỉnh đảo tạo của ngành theo định kỳ."
+                            },
+                            {
+                                "id": "0fd059f5-1e45-4418-ba47-6333f507baab",
+                                "rank": 5,
+                                "page": 16,
+                                "content": "8. Quy trình khảo sát:",
+                                "childs": [
+                                    {
+                                        "id": "8b279a4a-f36e-4eae-9978-084b395f7a1b",
+                                        "rank": 1000,
+                                        "page": 16,
+                                        "content": "Bước                     Nội dung thực biện                                      Đơn k thực         Thời gian            Văn bản/Biêu mầu\n                                              Ì                                       hiện           thực hiện                 liên quan\n                      - Rà soát, cập nhật nội dung                            | - Khoa            Trong        quá | - Mẫu Phiếu khảo sát:\n                      Phiếu khảo sát.                                           (CSV, NSDLĐ) | trình xây dựng | BM06a                   DHQN   KS.CSV\n   1.                 - Lập kế hoạch khảo sát kèm                                                mà      soát    /điều | BM06b          DHQN KS.NSDLĐ\n Chuẩn | theo danh sách CSV, CHV,                                                                chính           chuẩn | BM0óc          DHQN_KS.CHV\n   bị                 NSDLĐ.                                                                     đầu        ra      vài     -Kế hoạch khảo sát\n  khảo                |- Gửi        Kế     hoạch          khảo       sát,                        CTĐT\n   sát _ | Phiếu khảo sát và Danh sách\n                      cho          Trường            thông           qua\n                      Phòng KT&BĐCTL..\n                                     :                                          - Hiệu trưởng   | Trong 02 ngày | Kê hoạch khảo sát\n   2.                  Phê duyệt Kê hoạch khảo                                                             .\n  Phê                    „     cẽ                                               - Phòng            sau khi nhận\n              .„     | Sát, Phiêu khảo sát                                                               `      :\n duyệt                                                                          KT&BĐCL           được từ đơn vị\n                      - Tổ chức khảo sát ý kiên                                 - Khoa            30 ngày\n   2\n   Tô\n                      |irgplếp/ghătphiểuima\n                                   ,        ,\n                                                                              | {CSV,NSDLED\n                                                                                   `    m\n  chức              | email/phát phiêutheo Kê                                   - Phòng DTSDH\n  khảo                hoạch ,                                                   (CHV)"
+                                    },
+                                    {
+                                        "id": "8f5f7a1e-0412-4ea1-b5c8-443aa9d36851",
+                                        "rank": 1000,
+                                        "page": 16,
+                                        "content": "sát"
+                                    }
+                                ],
+                                "child_ids": [
+                                    "8b279a4a-f36e-4eae-9978-084b395f7a1b",
+                                    "8f5f7a1e-0412-4ea1-b5c8-443aa9d36851"
+                                ]
+                            },
+                            {
+                                "id": "1f179430-2abb-49ec-8443-2e65bee52023",
+                                "rank": 5,
+                                "page": 16,
+                                "content": "4.                 - Thu nhận thông tin phản                                 - Khoa            30 ngày sau               - Các Phiếu khảo sát được\n nh                   hồi.                                                      (CSV, NSDLĐ) | khi hoàn thành | ghi mã.\n  hành                                                                              `\n khảo›o | - Xử lýỶ                  dữ liệu, p phân tích                        - Phòng ĐTSĐH[ khảo sát                     - Dữ liệu khảo sát\n  sát, | kết quả.                                                               (CHV)                                       - Báo cáo tông hợp kêt quả\n phân                 - Viết báo cáo tổng hợp.                                                                              khảo sát.\n  tích\n  kêt\n  quả",
+                                "childs": [
+                                    {
+                                        "id": "6a4f2c86-95d1-49d4-94d9-b2db86d13f82",
+                                        "rank": 1000,
+                                        "page": 16,
+                                        "content": "- Tổ chức họp thảo luận về                                                  Sau khi có kết          | - Biên bản họp.\n                      các      ý    kiến        đánh           giá   của                         quả khảo sát               - Báo cáo theo biêu mẫu:\n                       CSV, CHV, NSDLĐ                                về                                                    BM09_DHQN_BCCTCL\n   5...              | CĐR và CTĐIT.                                                                                        - Dữ liệu khảo sát\n  Cải               | - Lập Báo cáo về việc sử | ` Khoa\n   sẢ                                x          ;—                 ..... | (CSV,NSDLĐ)\n  tiên              | dụng         thông tin khảo                sát và       `\n          #               x        ¬-                \"           „      ..|     -Phòng ĐTSDH\n  chât                -       ca:        các    giải          pháp    cải       (CHV)\n lượng | tiên chât lượng CTĐT.\n                      - Nộp         Báo        cáo       và    dữ    liệu\n                      khảo         sát cho Trưởng thông\n                      qua Phòng KT&BĐCL."
+                                    },
+                                    {
+                                        "id": "c4e74d31-f0d3-43b6-9256-ca5dfd98be36",
+                                        "rank": 1000,
+                                        "page": 17,
+                                        "content": "- Khoa                          - Các hộp hỗ sơ\n   6.                             .        - Phòng                         - CSDL khảo sát.\n            - Lưu trữ các thông tin, văn\n  Lưu                :                     ĐTISĐH               05 năm\n            bản, dữ liệu khảo sát.\n   trữ                                     - Phòng\n                                           KT&BĐCL"
+                                    }
+                                ],
+                                "child_ids": [
+                                    "6a4f2c86-95d1-49d4-94d9-b2db86d13f82",
+                                    "c4e74d31-f0d3-43b6-9256-ca5dfd98be36"
+                                ]
+                            }
+                        ],
+                        "child_ids": [
+                            "f11a64c7-30a6-45c6-ac7c-4e99268e903f",
+                            "44def976-ce27-4c27-8bac-88ab1a924c52",
+                            "6b26e972-9a3c-429b-856f-4cc49161f8ae",
+                            "1f90f695-84b8-4e22-ad90-9f402da4765c",
+                            "a9b419ed-9768-46c1-862e-3cd3eb837e1b",
+                            "51f451cf-3685-4777-b52a-bd655161def9",
+                            "52f9f0f0-e25d-42ca-91a5-33e7029380c0",
+                            "0fd059f5-1e45-4418-ba47-6333f507baab",
+                            "1f179430-2abb-49ec-8443-2e65bee52023"
+                        ]
+                    },
+                    {
+                        "id": "0808e6ea-e614-42dc-ab00-b8e372eba3dc",
+                        "rank": 4,
+                        "page": 17,
+                        "content": "7.7. Khảo sát sự hài lòng của người học về chât lượng các hoạt động, cơ sở vật chât, trang thiết bị, dịch vụ hỗ trợ đào tạo và phục vụ cộng đồng",
+                        "childs": [
+                            {
+                                "id": "7daff9d1-60c9-4161-bdd7-e6346c733849",
+                                "rank": 5,
+                                "page": 17,
+                                "content": "1. Mục đích:",
+                                "childs": [
+                                    {
+                                        "id": "843ff7d1-d111-4fd0-8108-eab78a59c735",
+                                        "rank": 8,
+                                        "page": 17,
+                                        "content": "a. Giúp Trường thu thập thông tin và xem xét mức độ hài lòng của người học về chất lượng, hiệu quả các hoạt động, cơ sở vật chất, trang thiết bị, dịch vụ hỗ trợ đào tạo và phục vụ cộng đồng nhằm phục vụ cho công tác tự đánh giá cấp Trường hoặc CTĐT theo yêu cầu của các tiêu chuẩn đánh giá chất lượng của Bộ Giáo dục và Đảo tạo hoặc các tổ chức khác."
+                                    },
+                                    {
+                                        "id": "04bb646b-20ec-4876-9691-431ac00cfbbb",
+                                        "rank": 8,
+                                        "page": 17,
+                                        "content": "b. Tạo thêm kênh thông tin để người học phản ánh, bày tỏ ý kiến của mình trong quá trình học tập tại Trường."
+                                    },
+                                    {
+                                        "id": "c031a7ea-6991-4317-a402-995495d8ca2a",
+                                        "rank": 8,
+                                        "page": 17,
+                                        "content": "c. Giúp các khoa, phòng, viện, trung tâm có thêm cơ sở đề cải tiến, nâng cao chất lượng các hoạt động, cơ sở vật chất, trang thiết bị, dịch vụ hỗ trợ đào tạo và phục vụ cộng đông của đơn vI."
+                                    }
+                                ],
+                                "child_ids": [
+                                    "843ff7d1-d111-4fd0-8108-eab78a59c735",
+                                    "04bb646b-20ec-4876-9691-431ac00cfbbb",
+                                    "c031a7ea-6991-4317-a402-995495d8ca2a"
+                                ]
+                            },
+                            {
+                                "id": "dfc98613-63fb-484d-856e-ee5b5fbe3933",
+                                "rank": 5,
+                                "page": 17,
+                                "content": "2. Đôi tượng khảo sát: sự hải lòng của người học về chât lượng các hoạt động, cơ sở vật chất, trang thiết bị, địch vụ hỗ trợ đào tạo và phục vụ cộng đồng của Trường."
+                            },
+                            {
+                                "id": "041b8938-07cb-4719-9718-30267b14ac4d",
+                                "rank": 5,
+                                "page": 17,
+                                "content": "3. Đối tượng tham gia khảo sát: Người học các bậc, hệ chính quy đang theo học tại Trường."
+                            },
+                            {
+                                "id": "142d0fd4-8013-4775-a7e6-7621a37ec20b",
+                                "rank": 5,
+                                "page": 17,
+                                "content": "4. Hình thức khảo sát: Thu thập ý kiến trực tiếp, qua phiếu khảo sát, qua email hoặc qua web."
+                            },
+                            {
+                                "id": "86cca34b-5ff6-4f11-b5fb-5a43823eefa8",
+                                "rank": 5,
+                                "page": 17,
+                                "content": "5. Nội dung khảo sát: Khảo sát sự hài lòng của người học về chất lượng các hoạt động, cơ sở vật chất, trang thiết bị, dịch vụ hỗ trợ đào tạo và phục vụ cộng đồng gồm: Thư viện, phòng học, phòng thí nghiệm, thực hành, hệ thống CNTT, các hoạt động hỗ trợ của đội ngũ nhân viên các phòng/khoa/trung tâm, các dịch vụ hỗ trợ khác, hoạt động phục vụ cộng đồng của Nhà trường..."
+                            },
+                            {
+                                "id": "17896114-9ba6-4a89-9e0a-34a37a91392a",
+                                "rank": 5,
+                                "page": 17,
+                                "content": "6. Công cụ khảo sát:",
+                                "childs": [
+                                    {
+                                        "id": "28d2fb3f-9bb9-401a-a222-f7727e81af35",
+                                        "rank": 8,
+                                        "page": 18,
+                                        "content": "a. Phiêu khảo sát sự hài lòng của sinh viên hệ chính quy về chất lượng các hoạt động, cơ sở vật chất, trang thiết bị, dịch vụ hỗ trợ đảo tạo và phục vụ cộng đồng: BMØ07a_DHỌN_KSSV.HĐDVHT (thường xuyên được cập nhật, điều chỉnh)."
+                                    },
+                                    {
+                                        "id": "b1b0845c-9468-494a-b04e-0fe511768063",
+                                        "rank": 8,
+                                        "page": 18,
+                                        "content": "b. Phiếu khảo sát sự hải lòng của học viên trình độ thạc sĩ về chất lượng các hoạt động, cơ sở vật chất, trang thiết bị, dịch vụ hỗ trợ đào tạo, phục vụ cộng đồng: BM07b_DHQN_KSHV.HĐDVHT (thường xuyên được cập nhật, điều chỉnh)."
+                                    }
+                                ],
+                                "child_ids": [
+                                    "28d2fb3f-9bb9-401a-a222-f7727e81af35",
+                                    "b1b0845c-9468-494a-b04e-0fe511768063"
+                                ]
+                            },
+                            {
+                                "id": "c3caa7af-be16-4e5a-a923-10d2b622bb43",
+                                "rank": 5,
+                                "page": 18,
+                                "content": "7. Thời gian khảo sát: Trong quá trình tự đánh giá cấp Trường hoặc CTĐT."
+                            },
+                            {
+                                "id": "389da8ab-5b1d-4f3c-9942-aefa887fde9e",
+                                "rank": 5,
+                                "page": 18,
+                                "content": "8. Quy trình khảo sát:",
+                                "childs": [
+                                    {
+                                        "id": "5131d7a5-f645-495f-94a5-7dbeaa777c8b",
+                                        "rank": 1000,
+                                        "page": 18,
+                                        "content": "STT                 Nội tụng\n                              hiện\n                                   thực              Đøngithgchiện\n                                                          TÔ     :\n                                                                            | JU9!gim\n                                                                              thực hiện\n                                                                                                                       Văn liên\n                                                                                                                           bản/Biên\n                                                                                                                                quan\n                                                                                                                                     mẫu\n                   - Điều chỉnh, cập                                            Trong   các   |- Phiêu khảo sát:\n1.                 nhật nội dung khảo                                           kỳ tự đánh | BM07a ĐHỌN KSSV.HĐDVHT\nChuẩn              sát.                             Phòng KT&BĐCL               giá     cấp | BM07b_ĐHQN_KSHV.HĐDVHT\nbị khảo            |- Lập    kế hoạch                                           Trường        - Kế hoạch khảo sát người học về hoạt động,\nsát                khảo sát, trình Hiệu                                         hoặc          cơ sở vật chất, trang thiết bị, dịch vụ hỗ trợ\n                   trưởng phê duyệt.                                            CTĐIT.        đào tạo, phục vụ cộng đồng.\nsà                                                                              Sau     khi\n—               „ | Phê duyệt kế hoạch                `     :                   THIỆP    kể\nduyệt và               An                           Hiệu trưởng                 hoạch khảo\n                    khảo sát                                                       \"..\nban                                                                             sát từ đơn\nhành       kế                                                                   VỊ\nngạch              - Thông    báo kế                                            hũ             h P\n                   hoạch khảo sát đên | Phòng KT&BĐCL\n                       Âœ                                                       hoạch được\n                   người học.                                                      R    n\n                                                                                phê duyệt\nSu         - Gửi và thu thập                                                    15 ngày                 - Phân mêm E-Survey\nTổ chức | phiếu khảo sát trực | -Phòng KT&BĐCL                                                          - Công thông tin sinh viên/học viên\nkhảo sát | tiếp hoặc qua email, | - Các Khoa                                                            - Google Forms\n           tài khoản cá nhân.\n           - Đảm bảo kết nối\n           Internet và các vân\n           đề kỹ thuật trong      ¬...\n           thời gian khảo sát.\n4.         - Nhập liệu, xử lý                                                   30 ngày sau | - Các file mềm dữ liệu, kết quả khảo sát.\nHoàn       và thông kê kết quả                                                  khi kết thúc | - Báo cáo tổng hợp.\nthành      khảo sát.                                                            khảo sát       - Kết quả cụ thê của từng đơn vị (nếu có).\nkhảo sát | - Lập báo cáo tổng\nvàcáo Báo\n       kêt\n                   hợp\n                 | trưởng.\n                                gửi         Hiệu | phạn KT&BĐCL\nquả                - Gửi kết quả khảo\n                   sát    cụ    thể   đến    các\n                   đơn vị liên quan\n                   (nêu có).\n                   - Tổ chức họp trao                                           Trong vòng | - Biên bản họp.\n5,                 đôi về ý kiến phản                                           15 ngày sau | - Báo cáo theo mẫu:\nCải tiễn           hồi của người học                Các đơn vị liên quan        kh         nhận         BM09_DHQN_BCCTCL\nchât               về các hoạt động,                                            được         kết\nlượng              cơ sở vật chất, trang                                        quả        khảo\n                   thiết bị, dịch vụ hỗ                                          sát."
+                                    },
+                                    {
+                                        "id": "c52db7af-cc84-405c-9a91-add5b18a1ae5",
+                                        "rank": 1000,
+                                        "page": 19,
+                                        "content": "Nội dung thực                        Thời gian                    Văn bản/Biêu mẫu\n      STT                   S          Đơn vị thực hiện\n                          hiện               `   .   rí\n                                                               thực hiện                      liên quan\n                trợ đào tạo, phục vụ\n                cộng đồng của đơn\n                VỊ.\n                - Lập Báo cáo về\n                việc sử dụng thông\n                tin khảo sát và để\n                xuất các giải pháp\n                cải tiến chất lượng.\n                - Nộp Báo cáo cho\n                Trường     thông qua\n                Phòng KT&BĐCL\n            - | ~ Lưu trữ thông tin,     `                05 năm           - Các hộp hô sơ.\n6c EM Í văn sởbản và CSDL | - CácÔngđơnKI&BĐCEL\ntrũ                                      vỊ.\n                                                                           - CSDL khảo sát\n                khảo sát."
+                                    }
+                                ],
+                                "child_ids": [
+                                    "5131d7a5-f645-495f-94a5-7dbeaa777c8b",
+                                    "c52db7af-cc84-405c-9a91-add5b18a1ae5"
+                                ]
+                            }
+                        ],
+                        "child_ids": [
+                            "7daff9d1-60c9-4161-bdd7-e6346c733849",
+                            "dfc98613-63fb-484d-856e-ee5b5fbe3933",
+                            "041b8938-07cb-4719-9718-30267b14ac4d",
+                            "142d0fd4-8013-4775-a7e6-7621a37ec20b",
+                            "86cca34b-5ff6-4f11-b5fb-5a43823eefa8",
+                            "17896114-9ba6-4a89-9e0a-34a37a91392a",
+                            "c3caa7af-be16-4e5a-a923-10d2b622bb43",
+                            "389da8ab-5b1d-4f3c-9942-aefa887fde9e"
+                        ]
+                    },
+                    {
+                        "id": "e2bee604-efc3-4c2e-a89e-b75d49d66ab8",
+                        "rank": 4,
+                        "page": 19,
+                        "content": "7.8. Khảo sát sự hài lòng của giảng viên về chât lượng các hoạt động, cơ sở vật chât, trang thiết bị, hoạt động hỗ trợ đào tạo",
+                        "childs": [
+                            {
+                                "id": "bb1c4e5a-445f-4128-b409-eb695bf9dcfd",
+                                "rank": 5,
+                                "page": 19,
+                                "content": "1. Mục đích:",
+                                "childs": [
+                                    {
+                                        "id": "7db103e7-dbf9-4c0a-b032-38447713894b",
+                                        "rank": 8,
+                                        "page": 19,
+                                        "content": "a. Giúp Trường thu thập thông tin và xem xét mức độ hài lòng của giảng viên về chất lượng, hiệu quả các hoạt động, cơ sở vật chất, trang thiết bị, hoạt động hỗ trợ đảo tạo của đội ngũ nhân viên nhằm phục vụ cho công tác tự đánh giá cấp Trường hoặc CTĐT theo yêu cầu của các tiêu chuẩn đánh giá chất lượng của Bộ Giáo dục và Đào tạo hoặc các tổ chức khác."
+                                    },
+                                    {
+                                        "id": "39919797-629a-47c3-a723-8122e35c78fe",
+                                        "rank": 8,
+                                        "page": 19,
+                                        "content": "b. Tạo thêm kênh thông tin để giảng viên phản ánh, bày tỏ ý kiến của mình trong quá trình học tập tại Trường."
+                                    },
+                                    {
+                                        "id": "5c4e8260-e1b6-4891-9bac-7479878157e9",
+                                        "rank": 8,
+                                        "page": 19,
+                                        "content": "c. Giúp các khoa, phòng, viện, trung tâm có thêm cơ sở để cải tiến, nâng cao chất lượng các hoạt động, cơ sở vật chất, trang thiết bị, hoạt động hỗ trợ đào tạo của đội ngũ nhân viên của đơn vị."
+                                    }
+                                ],
+                                "child_ids": [
+                                    "7db103e7-dbf9-4c0a-b032-38447713894b",
+                                    "39919797-629a-47c3-a723-8122e35c78fe",
+                                    "5c4e8260-e1b6-4891-9bac-7479878157e9"
+                                ]
+                            },
+                            {
+                                "id": "2ece1989-ac21-499d-98c0-f512dee71e72",
+                                "rank": 5,
+                                "page": 19,
+                                "content": "2. Đối tượng khảo sát: sự hài lòng của giảng viên về chất lượng các hoạt động, cơ sở vật chất, trang thiết bị, địch vụ hỗ trợ đào tạo của Trường."
+                            },
+                            {
+                                "id": "51346a06-9de9-43d8-a243-078d7f7385b0",
+                                "rank": 5,
+                                "page": 19,
+                                "content": "3. Đối tượng tham gia khảo sát: GV đang giảng dạy tại Trường ĐHQN."
+                            },
+                            {
+                                "id": "b2622e6d-ae4e-4c8c-8963-c196e5e66a50",
+                                "rank": 5,
+                                "page": 19,
+                                "content": "4. Hình thức khảo sát: Thu thập ý kiến trực tiếp, qua phiếu khảo sát, qua email hoặc qua web."
+                            },
+                            {
+                                "id": "f374fc36-9e17-4399-83f7-60b649fa9f25",
+                                "rank": 5,
+                                "page": 19,
+                                "content": "5. Nội dung khảo sát: Khảo sát sự hài lòng của giảng viên về chất lượng các hoạt động, cơ sở vật chất, trang thiết bị, dịch vụ hỗ trợ đào tạo gồm: Thư viện, phòng học, phòng thí nghiệm, thực hành, hệ thông CNTT, các hoạt động hỗ trợ của Nhà trường."
+                            },
+                            {
+                                "id": "fd10e195-fde0-452b-a5d3-8d6b7a7eab86",
+                                "rank": 5,
+                                "page": 20,
+                                "content": "6. Công cụ khảo sát: Phiếu khảo sát sự hài lòng của giảng viên về chất lượng các hoạt động, cơ sở vật chất, trang thiết bị dịch vụ hỗ trợ đào tạo: BM08_DHQN_KSGV.TH (thường xuyên được cập nhật, điều chính)."
+                            },
+                            {
+                                "id": "e9ac7b3d-e387-4208-8a9e-16d86d92d7cf",
+                                "rank": 5,
+                                "page": 20,
+                                "content": "7. Thời gian khảo sát: hàng năm."
+                            },
+                            {
+                                "id": "4f4f7dc8-33d2-412a-af93-a8357f486020",
+                                "rank": 5,
+                                "page": 20,
+                                "content": "8. Quy trình khảo sát:",
+                                "childs": [
+                                    {
+                                        "id": "817e8001-8894-434d-b838-474c360efd33",
+                                        "rank": 1000,
+                                        "page": 20,
+                                        "content": "Thời\n      STT      | Nộidung\n                   l\n                         thựchiện\n                           :    :\n                                  | Đơn vị _thực hiện:                             thực\n                                                                                       xả                      TRU liên\n                                                                                                                   ĐI quan\n                                                                                                                        PIN KíâU\n                                                                                   hiện\n1               - Điêu chỉnh, cập nhật                                          Hàng                - Phiêu khảo sát:\n  -                ộI       khảo sát.         `                                  ăm.                                       .TH;\nChuân           \"ˆ b N\" ¬_.-          ,_ | Phỏng KT&BĐCIL,                      nạn                 BMO \"mm.         ằ=. 1H,      ¬\nbí khảo         |7 Lập kê hoạch khảo                                                                - Kê hoạch khảo sát giảng viên VỆ hoạt\n  ;             sát, trình Hiệu trưởng                                                              động, cơ sở vật chât, trang thiệt bị, dịch\nsát                   Ề   :                                                                              ế      s\n                phê duyệt.                                                                          vụ hồ trợ đảo tạo.\n3,                                                                              Sau          khi\nPhÊ\nduyệt và\n              | Phê \"+duyệt kế hoạch | Hiệu\n                                         và...\n                                            trưởng\n                                                                                nhận\n                                                                               hoạch\n                                                                                              kệ\n                khảo sát                                                           :     Ề\nban                                                                            khảo   sát\nhành kê                                                                        tù đơn vị\nhoạch                                                                          Ngay sau\n           - Thông báo kê hoạch                                                khi     kê\n           khảo sát đên giảng | -PhòngKT&BĐCL                                | hoạch\n           viên.                                                               được phê\n                  R                                                            duyệt\n3.         - Gửi và (thu thập                                                  l5ngày | - Phân mêm E-Survey\nTô chức | phiêu khảo sát trực | -Phòng KT&BĐCL                                             - Công thông tín giảng viên\nkhảo sát | tiếp hoặc qua email, | - Các Khoa                                               - Google Forms\n           tải khoản cá nhân.\n           - Đảm bảo kêt nôi\n                Internet và các vân đê              - TT. CNTT&TT\n          kỹ thuật trong thời\n          gian khảo sát.\n4.        - Nhập liệu, xử lý và                                                 30   ngày | - Các file mềm dữ liệu, kêt quả khảo sát.\nHoàn      thông kê kêt quả khảo                                                 sau    khi | - Báo cáo tông hợp.\nthành     sát.                :                                                 kêt   thúc   |- Kêt quả cụ thê của tùng đơn vị (nêu\nkhảo sát - Lập báo cáo. tông                        Phòng KT&BĐCL               khảo sát | có).\nvà Báo | hợp gửi Hiệu trưởng.\ncáo kêt | - Gửi kêt quả khảo sát\nquả       cụ thê đên các đơn vị\n          liên quan (nêu có).\n          - Tô chức họp trao đôi                                                Trong      - Biên bản họp.\n          vê ý kiên phản hồi của                                                vòng  I5 | - Báo cáo theo mâu:\n          giảng viên về các hoạt                                                ngày sau | BM09 DHỌN BCCTCL\ns               động,    CƠ   SỞ   vật    chât,                                 khi     nhận\n  „: ,:z_ | trang thiệt bị, dịch vụ hỗ                ,       c1.               được kết\nCải tiên      |,           :        :               Các đơn vị liên quan            Ề  ›\n    £       trợ đào tạo của đơn vị.                                             quả khảo\nchât             1     D2    cửa sẢ sIÃ                                           ,\nđưdng           - Lập Báo      cáo vệ việc                                      sát.\n                sử dụng thông tin khảo\n                sát và đê xuât các giải\n                pháp    cải  tiên chât\n                lượng."
+                                    },
+                                    {
+                                        "id": "b3e11189-1db4-4cc6-ba20-da7689f98bd1",
+                                        "rank": 1000,
+                                        "page": 21,
+                                        "content": "Thời                        ¬\n STT         Nội dung thực hiện              Đơn vị thực hiện      Bạn               Văn bản/Biêu man\n                                                                   thực                  liên quan\n                                                                   hiện\n            - Gửi Báo cáo             cho\n            Trường   thông            qua\n            Phòng KT&BĐCL\n       -    |- Lưu      trữ   thông   tin,    :                  05 năm   - Các hộp hỗ sơ.\n \"LH\ntrữ\n            va ¬. Tâm và CHỮN, | -TLCác\n                                     ŨHEđơn6.LCSHDAzLr\n                                              vị.\n                                                                          - CSDL khảo sát.\n            khảo sát."
+                                    }
+                                ],
+                                "child_ids": [
+                                    "817e8001-8894-434d-b838-474c360efd33",
+                                    "b3e11189-1db4-4cc6-ba20-da7689f98bd1"
+                                ]
+                            }
+                        ],
+                        "child_ids": [
+                            "bb1c4e5a-445f-4128-b409-eb695bf9dcfd",
+                            "2ece1989-ac21-499d-98c0-f512dee71e72",
+                            "51346a06-9de9-43d8-a243-078d7f7385b0",
+                            "b2622e6d-ae4e-4c8c-8963-c196e5e66a50",
+                            "f374fc36-9e17-4399-83f7-60b649fa9f25",
+                            "fd10e195-fde0-452b-a5d3-8d6b7a7eab86",
+                            "e9ac7b3d-e387-4208-8a9e-16d86d92d7cf",
+                            "4f4f7dc8-33d2-412a-af93-a8357f486020"
+                        ]
+                    }
+                ],
+                "child_ids": [
+                    "65dc0560-a445-400c-9ee3-a49ec1184e3d",
+                    "bf5ae4de-241d-494e-8e81-634a08ab4a6f",
+                    "55298aec-b800-48f8-bff2-ad96933a2dde",
+                    "40d24087-a081-437c-8412-48335d508ec5",
+                    "0691a9a4-b662-423d-9925-f528f832fae9",
+                    "c21cd5a4-ce05-4840-9cd5-8040968d90ee",
+                    "0808e6ea-e614-42dc-ab00-b8e372eba3dc",
+                    "e2bee604-efc3-4c2e-a89e-b75d49d66ab8"
+                ]
+            }
+        ],
+        "child_ids": [
+            "aad3bc3a-cde9-406d-b2e3-d37792bf221d"
+        ]
+    },
+    {
+        "id": "3faab3f7-beeb-4376-928d-bf30f444b68f",
+        "rank": 1,
+        "page": 21,
+        "content": "Chương III: TRÁCH NHIỆM CỦA CÁC BÊN LIÊN QUAN",
+        "childs": [
+            {
+                "id": "88fcd8f4-ce97-4937-9e06-702067fec90d",
+                "rank": 3,
+                "page": 21,
+                "content": "Điều 8. Trách nhiệm của các phòng, viện, trung tâm",
+                "childs": [
+                    {
+                        "id": "0c49e83e-bdbb-43c0-8a5b-51a8e39577f0",
+                        "rank": 6,
+                        "page": 21,
+                        "content": "8.1. Phòng Khảo thí và Bảo đảm chất lượng",
+                        "childs": [
+                            {
+                                "id": "6d5e010c-7080-4108-9e80-1a53915f9fa3",
+                                "rank": 8,
+                                "page": 21,
+                                "content": "a. Là đầu mối tổ chức khảo sát ý kiến người học về: hoạt động giảng dạy, hướng dẫn thực hành, thí nghiệm của GV; mức độ đạt được chuẩn đầu ra của học phần, chương trình đảo tạo; khảo sát người học sắp tốt nghiệp về CTĐT; khảo sát người học về chất lượng các hoạt động, cơ sở vật chất, trang thiết bị, dịch vụ hỗ trợ đào tạo và phục vụ cộng đồng; khảo sát GV về chất lượng hoạt động hỗ trợ đào tạo của đội ngũ nhân viên; khảo sát GV về chất lượng các hoạt động, cơ sở vật chất, trang thiết bị, địch vụ hỗ trợ đào tạo."
+                            },
+                            {
+                                "id": "216e7c53-ba78-4eb8-81f1-e49a8cf6e72c",
+                                "rank": 8,
+                                "page": 21,
+                                "content": "b. Tổ chức xây dựng, điều chỉnh nội dung, hình thức các loại phiếu khảo sát."
+                            },
+                            {
+                                "id": "12569b82-3fa8-4cbd-b7bc-58f180bffc9a",
+                                "rank": 8,
+                                "page": 21,
+                                "content": "c. Báo cáo kết quả khảo sát cho Bộ Giáo dục và Đào tạo, Hiệu trưởng; gửi kết quả khảo sát tách riêng cho các đơn vị."
+                            },
+                            {
+                                "id": "5d27600a-6b33-4403-a977-3a0724a9e55c",
+                                "rank": 8,
+                                "page": 21,
+                                "content": "d. Quản lý, lưu trữ kết quả khảo sát ý kiến phản hồi của các bên liên quan để theo dõi, kiểm tra, phục vụ cho công tác đảm bảo và kiểm định chất lượng giáo dục của Nhà trường."
+                            },
+                            {
+                                "id": "3aa84ebc-101d-4a7a-a45e-6e87982fa383",
+                                "rank": 8,
+                                "page": 21,
+                                "content": "e. Tiếp nhận và xem xét kết quả phản hồi của các bên liên quan về chất lượng hoạt động hỗ trợ đảo tạo của đơn vị để xây dựng và thực hiện kế hoạch cải tiễn chất lượng."
+                            }
+                        ],
+                        "child_ids": [
+                            "6d5e010c-7080-4108-9e80-1a53915f9fa3",
+                            "216e7c53-ba78-4eb8-81f1-e49a8cf6e72c",
+                            "12569b82-3fa8-4cbd-b7bc-58f180bffc9a",
+                            "5d27600a-6b33-4403-a977-3a0724a9e55c",
+                            "3aa84ebc-101d-4a7a-a45e-6e87982fa383"
+                        ]
+                    },
+                    {
+                        "id": "ec2eb57f-c0f6-4798-a85d-7443ec4c691e",
+                        "rank": 6,
+                        "page": 21,
+                        "content": "8.2. Phòng Đào tạo sau đại học, Phòng Công tác chính trị - sinh viên",
+                        "childs": [
+                            {
+                                "id": "c2a69b46-944f-4fef-9b88-92d9bd930ac6",
+                                "rank": 8,
+                                "page": 21,
+                                "content": "a. Phổ biến cho người học hiểu mục đích, ý nghĩa của các loại khảo sát, trách nhiệm của người học trong việc đóng góp ý kiến cho Nhà trường, khoa."
+                            },
+                            {
+                                "id": "6226ea3e-2dc4-440d-85e9-7cec4d1b4044",
+                                "rank": 8,
+                                "page": 21,
+                                "content": "b. Tiêp nhận và xem xét kêt quả phản hôi của các bên liên quan về chât lượng hoạt động hỗ trợ đào tạo của đơn vị để xây dựng và thực hiện kế hoạch cải tiễn chất lượng."
+                            }
+                        ],
+                        "child_ids": [
+                            "c2a69b46-944f-4fef-9b88-92d9bd930ac6",
+                            "6226ea3e-2dc4-440d-85e9-7cec4d1b4044"
+                        ]
+                    },
+                    {
+                        "id": "6cf12e47-5aa6-418f-9653-ef44e2e7feed",
+                        "rank": 6,
+                        "page": 21,
+                        "content": "8.3. Trung tâm Tư vấn tuyển sinh và Quan hệ doanh nghiệp",
+                        "childs": [
+                            {
+                                "id": "b6747d81-4cbe-45b7-af66-7dcf31f3bfd4",
+                                "rank": 8,
+                                "page": 21,
+                                "content": "a. Tổ chức khảo sát ý kiến sinh viên tốt nghiệp (06-12 tháng) về tình hình việc làm."
+                            },
+                            {
+                                "id": "b60efd7f-67fa-4652-ba6c-fa1d006e6d2d",
+                                "rank": 8,
+                                "page": 22,
+                                "content": "b. Xây dựng, điều chỉnh, rà soát nội dung khảo sát SVTN về tình hình việc làm theo yêu cầu của Bộ Giáo dục và Đào tạo hoặc theo yêu cầu thực tế của Trường."
+                            },
+                            {
+                                "id": "c6fcbbb2-dd54-4f33-b911-6b703f1c61d7",
+                                "rank": 8,
+                                "page": 22,
+                                "content": "c. Tổng hợp số liệu khảo sát từ các khoa."
+                            },
+                            {
+                                "id": "ff7affc9-d216-49ad-b3d6-ecdcb1b46bdc",
+                                "rank": 8,
+                                "page": 22,
+                                "content": "d. Báo cáo Bộ Giáo dục và Đào tạo và Hiệu trưởng theo định kỳ."
+                            },
+                            {
+                                "id": "877e957b-8de0-4d06-88f2-429527417597",
+                                "rank": 8,
+                                "page": 22,
+                                "content": "e. Tiếp nhận và xem xét kết quả phản hồi của các BLQ về chất lượng hoạt động, dịch vụ hỗ trợ đào tạo của đơn vị để xây dựng và thực hiện kế hoạch cải tiễn chất lượng."
+                            }
+                        ],
+                        "child_ids": [
+                            "b6747d81-4cbe-45b7-af66-7dcf31f3bfd4",
+                            "b60efd7f-67fa-4652-ba6c-fa1d006e6d2d",
+                            "c6fcbbb2-dd54-4f33-b911-6b703f1c61d7",
+                            "ff7affc9-d216-49ad-b3d6-ecdcb1b46bdc",
+                            "877e957b-8de0-4d06-88f2-429527417597"
+                        ]
+                    },
+                    {
+                        "id": "17bec638-9a88-44f4-a195-121be96aea3e",
+                        "rank": 6,
+                        "page": 22,
+                        "content": "8.4. Trung tâm Công nghệ thông tin và Truyền thông",
+                        "childs": [
+                            {
+                                "id": "174ee231-601d-40bf-8281-37aee08b2ee2",
+                                "rank": 8,
+                                "page": 22,
+                                "content": "a. Đảm bảo kết nối internet và các vẫn đề kỹ thuật nhằm tạo điều kiện thuận lợi cho các bên liên quan tham gia phản hồi trong thời gian khảo sát."
+                            },
+                            {
+                                "id": "2f7e7141-0944-428a-8728-de0752ebcf37",
+                                "rank": 8,
+                                "page": 22,
+                                "content": "b. Tiếp nhận và xem xét kết quả phản hồi của các BLQ về chất lượng hoạt động hỗ trợ đào tạo của đơn vị để xây dựng và thực hiện kế hoạch cải tiễn chất lượng."
+                            }
+                        ],
+                        "child_ids": [
+                            "174ee231-601d-40bf-8281-37aee08b2ee2",
+                            "2f7e7141-0944-428a-8728-de0752ebcf37"
+                        ]
+                    },
+                    {
+                        "id": "cd18a329-55e4-45b2-9b97-5be44467e89d",
+                        "rank": 6,
+                        "page": 22,
+                        "content": "8.5. Các phòng, viện, trung tâm khác\nTiếp nhận và xem xét kết quả phản hồi của các BLQ về chất lượng các hoạt động, dịch vụ hỗ trợ đào tạo của đơn vị để xây dựng và thực hiện kế hoạch cải tiến chất lượng các hoạt động theo lĩnh vực đơn vị phụ trách góp phần nâng cao chất lượng đảo tạo của Nhà trường."
+                    }
+                ],
+                "child_ids": [
+                    "0c49e83e-bdbb-43c0-8a5b-51a8e39577f0",
+                    "ec2eb57f-c0f6-4798-a85d-7443ec4c691e",
+                    "6cf12e47-5aa6-418f-9653-ef44e2e7feed",
+                    "17bec638-9a88-44f4-a195-121be96aea3e",
+                    "cd18a329-55e4-45b2-9b97-5be44467e89d"
+                ]
+            },
+            {
+                "id": "d37cdd42-7297-4d24-beb0-08a81e240440",
+                "rank": 3,
+                "page": 22,
+                "content": "Điều 9. Trách nhiệm của các khoa, bộ môn",
+                "childs": [
+                    {
+                        "id": "9b1317c5-c48e-4ae9-9ce6-f2e18ddb2ec1",
+                        "rank": 8,
+                        "page": 22,
+                        "content": "a. Tổ chức khảo sát cựu sinh viên, nhà sử dụng lao động về chuẩn đầu ra, chương trình đào tạo, tình hình việc làm phục vụ việc cập nhật, điều chỉnh CTĐT theo quy định."
+                    },
+                    {
+                        "id": "ca178cbe-f0a7-4af4-b5a5-3e050bfebab3",
+                        "rank": 8,
+                        "page": 22,
+                        "content": "b. Phối hợp tổ chức khảo sát và đánh giá mức độ đạt được chuẩn đầu ra học phần và\nchương trình đào tạo của người học để cải tiến và nâng cao chất lượng đào tạo."
+                    },
+                    {
+                        "id": "03d49701-8627-44a1-9633-3d4ea6b297a6",
+                        "rank": 8,
+                        "page": 22,
+                        "content": "c. Quán triệt đến giảng viên và người học về mục đích, yêu cầu, nội dung của các loại khảo sát có liên quan; trách nhiệm của giảng viên, người học trong việc tham gia đóng góp ý kiến cho Nhà trường, khoa/bộ môn."
+                    },
+                    {
+                        "id": "7043c4e3-f4eb-4560-be9c-f64f8cd6012e",
+                        "rank": 8,
+                        "page": 22,
+                        "content": "d. Tổ chức hội thảo hoặc họp thảo luận về kết quả khảo sát ý kiến của các BLQ; Báo cáo Nhà trường về việc sử dụng thông tin khảo sát và các biện pháp khắc phục hạn chế, phát huy điểm mạnh nhằm nâng cao chất lượng đảo tạo sau các đợt khảo sát."
+                    },
+                    {
+                        "id": "782582c4-8c15-4aee-adf4-4f054938f27a",
+                        "rank": 8,
+                        "page": 22,
+                        "content": "e. Tổ chức dự giờ hoặc có phương án kiểm tra, chân chỉnh kịp thời đổi với các giảng viên có kết quả khảo sát từ 30% sinh viên phản hồi không hài lòng về hoạt động giảng dạy, hướng dẫn thực hành, thí nghiệm (nếu có)."
+                    },
+                    {
+                        "id": "cb266160-c475-4425-acfa-af105e391825",
+                        "rank": 8,
+                        "page": 23,
+                        "content": "f. Báo cáo kết quả thực hiện cải tiễn chất lượng của đơn vị cho Nhà trường hàng kỳ, hàng năm theo quy định."
+                    }
+                ],
+                "child_ids": [
+                    "9b1317c5-c48e-4ae9-9ce6-f2e18ddb2ec1",
+                    "ca178cbe-f0a7-4af4-b5a5-3e050bfebab3",
+                    "03d49701-8627-44a1-9633-3d4ea6b297a6",
+                    "7043c4e3-f4eb-4560-be9c-f64f8cd6012e",
+                    "782582c4-8c15-4aee-adf4-4f054938f27a",
+                    "cb266160-c475-4425-acfa-af105e391825"
+                ]
+            },
+            {
+                "id": "4cd59001-3db9-4084-ad01-417c29067fe8",
+                "rank": 3,
+                "page": 23,
+                "content": "Điều 10. Trách nhiệm của giảng viên, cố vấn học tập và người học",
+                "childs": [
+                    {
+                        "id": "36cb9ec8-0e8c-4155-851b-294d553d431d",
+                        "rank": 6,
+                        "page": 23,
+                        "content": "10.1. Giảng viên",
+                        "childs": [
+                            {
+                                "id": "14a813f4-b88a-41d7-8ebf-1ccd91fd8352",
+                                "rank": 8,
+                                "page": 23,
+                                "content": "a. Giảng viên có trách nhiệm xem xét kết quả phản hồi của người học về hoạt động giảng dạy, hướng dẫn thực hành, thí nghiệm của mình, đánh giá mức độ đạt được chuẩn đầu ra học phần của người học để có kế hoạch, biện pháp điều chỉnh, cải tiễn và nâng cao chất lượng công tác giảng dạy, hướng dẫn."
+                            },
+                            {
+                                "id": "e457f974-6af0-44b3-a2f3-49f7924e76be",
+                                "rank": 8,
+                                "page": 23,
+                                "content": "b. Đưa ra ý kiến phản hôi với Trưởng khoa, bộ môn khi chưa đồngý với kết quả đánh giá của người học và kèm theo minh chứng cụ thê (nếu có)."
+                            },
+                            {
+                                "id": "a715feee-759b-43df-8ac2-44b048483f07",
+                                "rank": 8,
+                                "page": 23,
+                                "content": "c. Có trách nhiệm tham gia đóng góp ý kiến cho Nhà trường, Khoa đối với các khảo sát có liên quan trên tinh thần khách quan, xây dựng."
+                            }
+                        ],
+                        "child_ids": [
+                            "14a813f4-b88a-41d7-8ebf-1ccd91fd8352",
+                            "e457f974-6af0-44b3-a2f3-49f7924e76be",
+                            "a715feee-759b-43df-8ac2-44b048483f07"
+                        ]
+                    },
+                    {
+                        "id": "ff117e63-97f2-45b8-a9f0-9db3ed2ec6b6",
+                        "rank": 6,
+                        "page": 23,
+                        "content": "10.2. Cố vấn học tập\nCó vấn học tập có trách nhiệm quán triệt đến tất cả sinh viên thuộc lớp mình phụ trách về công tác khảo sát ý kiến người học về hoạt động giảng dạy, hướng dẫn thực hành, thí nghiệm của giảng viên; về chương trình đào tạo và các khảo sát khác của Nhà trường (nếu có) đầy đủ, đúng thời gian quy định."
+                    },
+                    {
+                        "id": "527d85d0-c6fb-4c6c-9e32-0de7ca3c2079",
+                        "rank": 6,
+                        "page": 23,
+                        "content": "10.3. Người học",
+                        "childs": [
+                            {
+                                "id": "9e4c5d75-2f3f-428a-85b1-49edce49e978",
+                                "rank": 8,
+                                "page": 23,
+                                "content": "a. Có trách nhiệm tham gia đóng góp ý kiến cho Nhà trường, Khoa, Bộ môn thông qua các loại khảo sát có liên quan đầy đủ, đúng thời gian quy định."
+                            },
+                            {
+                                "id": "d7811ae1-d358-4523-8df1-ccbe1efd037c",
+                                "rank": 8,
+                                "page": 23,
+                                "content": "b. Nghiêm túc, trung thực, khách quan trong việc cung cấp các thông tin phản hồi theo từng loại khảo sát. „"
+                            }
+                        ],
+                        "child_ids": [
+                            "9e4c5d75-2f3f-428a-85b1-49edce49e978",
+                            "d7811ae1-d358-4523-8df1-ccbe1efd037c"
+                        ]
+                    }
+                ],
+                "child_ids": [
+                    "36cb9ec8-0e8c-4155-851b-294d553d431d",
+                    "ff117e63-97f2-45b8-a9f0-9db3ed2ec6b6",
+                    "527d85d0-c6fb-4c6c-9e32-0de7ca3c2079"
+                ]
+            }
+        ],
+        "child_ids": [
+            "88fcd8f4-ce97-4937-9e06-702067fec90d",
+            "d37cdd42-7297-4d24-beb0-08a81e240440",
+            "4cd59001-3db9-4084-ad01-417c29067fe8"
+        ]
+    },
+    {
+        "id": "ff4cb4bb-5196-4055-8480-89647efccdb7",
+        "rank": 1,
+        "page": 24,
+        "content": "Chương Phụ lục: Danh sách các Biêu mẫu\n                                                                                                        Đối tượng thực\n                        Nội dung                                         Biểu mẫu                              m\n                                                                                                             hiện\n       Phiếu khảo sát sinh viên về hoạt động                                                            Tất cả sinh viên\n '     giảng dạy học phần lý thuyết của GV             ĐEMẢU bã, J HIẾN, JKR ĐH CD                      hệ chính quy\n       Phiếu khảo sát sinh viên về hoạt động                                                            Tất cả sinh viên\n°      hướng dẫn thực hành, thí nghiệm của GV          Riiiicciainal              Sun ii                hệ chính quy\n       Phiếu khảo sát học viên về hoạt động giảng                                                       Học viên cao\n3      đay ch (TV                                      BM0Ic       DHỌN           KS.HĐGD               học và NCS",
+        "childs": [
+            {
+                "id": "59ff6935-14e5-4da1-9df4-6576a296c50f",
+                "rank": 1000,
+                "page": 24,
+                "content": "Phiếu khảo sát ý kiến phản hỏi của người                                                         h » hệ đạo tao\n4_   | học vê mức độ đạt được chuân đâu racủa        | BM02a       DHỌN           CĐÐĐR.HP                `         `\n       họa phẩm                                                                                         chính quy, trình\n                                                                                                        độ ĐH, thạc sĩ\n       Báo cáo sát ý kiến phản hôi của người học\n5      vê mức độ đạt được chuân đâu ra của học         BM02b_ DHỌN                CĐR.HP                Khoa/Bộ môn\n       phân\n6      Phiêu khảo sát sinh viên sắp tôt nghiệp về      BM03a       DHQN           KS.SVNC               Sinh viên năm\n       CTIĐT                                                   —              —                         Cuôi\n       Phiếu khảo sát học viên sắp tốt nghiệp về                                                        Học viên cao\nỶ      CTĐT                                            BM03b_DHQN                 KS.HVSTN              học và NCS"
+            },
+            {
+                "id": "aa526068-582b-44a6-acaa-0ea23faaf58d",
+                "rank": 1000,
+                "page": 24,
+                "content": "Phiếu khảo sát ý kiến phản hồi của người                                                         ¬ hệ đảo tao\n8    | học sắp tôt nghiệp về mức độ đạt được           BM04a       DHỌN_ CĐR.CTĐT                          Am        N\n           B3          ,                                                                                chính quy, trình\n       chuân đầu ra của CTĐT                                                                              R            +\n                                                                                                        độ ĐH, thạc s -\n       Báo cáo khảo sát ý kiến phản hồi của\n9|     người học sắp tôt nghiệp về mức độ đạt          BM04b       DHỌON_ CĐR.CTĐT                      Khoa/Bộ môn\n       được chuân đâu ra của CTĐT\n          xã    ¬            `          ¬                                                               Tât cả sinh viên\n10     Phiêu khảo sát sinh viên tôt nghiệp về tình     BM05_DHQN              KS.SVTN                   tốt nghiệp f2\n       hình việc làm                                                      —                             đó 2\n                                                                                                        tháng                    '\nH]     Phiêu khảo sát cựu sinh viên về chuẩn đâu       BM06a       DHQN           KS.CSV                Cựu sinh viên\n       ra, CTĐT                                                =              —\n       Phiếu khảo sát nhà sử dụng lao động về                                                           Nhà sử dụng lao\n12     chuẩn đầu ra, CTĐT                              BM06b_DHQN_KS.NSDLĐ                              động\n       Phiêu khảo sát cụu học viên về chuân đầu                                                         Học viên cao\n13     ra, CTĐT                                        BM0óc       DHQN_KS.CHVCH                        họcvàNCS_            _\n       Phiếu khảo sát ý kiến SV về hoạt động,                                                           Sinh viên năm\n1 Í CSVC, địch vụ hễ trợ đào tạo                       linui sua ssảissainnEi\n       Phiếu khảo sát ý kiến học viên về hoạt                                                           Học viên cao\nvã     động, dịch vụ hỗ trợ đào tạo                    DI   hộ, (22EDabai, JEELLLeBLEADE ĐIELL          học và NCS\n       Phiêu khảo sát sự hài lòng của GV vệ cơ sở\n16   | vật chât, trang thiết bị, các hoạt động và      BM0S     DHỌQỌN        KSGV.TH                   Giảng viên\n       dịch vụ hỗ trợ đào tạo                                                                                            —\n17     Báo cáo về việc sử dụng thông tin phản hôi      BM09     DHỌN              BCCTCL                Các đơn vị\n       và cải tiên chât lượng\n     Các biếu mẫu trên được đăng tải tại website Phòng KT&BĐCL:                    hiIp:/pktdbcl qnu.edu.vn (mục\n     Biêu mẫu khảo sái)."
+            }
+        ],
+        "child_ids": [
+            "59ff6935-14e5-4da1-9df4-6576a296c50f",
+            "aa526068-582b-44a6-acaa-0ea23faaf58d"
+        ]
+    }
+]

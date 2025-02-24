@@ -1,0 +1,2580 @@
+[
+    {
+        "id": "45e64ee5-1bd8-4a8e-81f5-47eab30ed687",
+        "rank": 1000,
+        "page": 1,
+        "content": "Chương QUY ĐỊNH VỀ HỌC PHÍ CỦA SINH VIÊN ĐẠI HỌC HỆ CHÍNH QUY"
+    },
+    {
+        "id": "bedd62b7-b694-435c-9c3b-eba8339e8690",
+        "rank": 3,
+        "page": 1,
+        "content": "Điều 1. Phạm vi và đối tượng áp dụng",
+        "childs": [
+            {
+                "id": "dd8dd3f3-4d45-46ba-b016-f97b8c556dbc",
+                "rank": 5,
+                "page": 1,
+                "content": "1. Quy định này áp dụng cho sinh viên đại học, liên thông từ cao đẳng lên đại học hệ chính quy tại Trường Đại học Quy Nhơn."
+            },
+            {
+                "id": "35f431ea-45bc-42c1-9c25-ae06c8cb64df",
+                "rank": 5,
+                "page": 1,
+                "content": "2. Sinh viên khi đăng ký tham gia các chương trình học được hiểu là đã đọc và hiểu rõ các mức học phí, đồng thời có trách nhiệm tuân thủ nghiêm túc các điều khoản quy định về học phí và những hình thức kỷ luật liên quan đến học phí của chương trình đào tạo."
+            }
+        ],
+        "child_ids": [
+            "dd8dd3f3-4d45-46ba-b016-f97b8c556dbc",
+            "35f431ea-45bc-42c1-9c25-ae06c8cb64df"
+        ]
+    },
+    {
+        "id": "14bf632a-f4dd-4dba-83c0-4b7313a4f94d",
+        "rank": 3,
+        "page": 1,
+        "content": "Điều 2. Học phí",
+        "childs": [
+            {
+                "id": "c7020a06-6540-4cb8-a941-81722e673749",
+                "rank": 5,
+                "page": 1,
+                "content": "1. Học phí là khoản tiền người học phải nộp để đảm bảo chi phí cho các hoạt động đào tạo."
+            },
+            {
+                "id": "0148172d-730e-46b9-ac79-fae3b8e9c6db",
+                "rank": 5,
+                "page": 1,
+                "content": "2. Học phí được xây dựng dựa trên quy định của Nhà nước và khung chương trình đào tạo của Trường Đại học Quy Nhơn. Nhà trường quy định mức học phí cho cả khóa học của từng ngành học vào đầu mỗi khóa học.",
+                "childs": [
+                    {
+                        "id": "13782d13-46fe-45fb-9787-1c2182846ab3",
+                        "rank": 7,
+                        "page": 1,
+                        "content": "a) Mức học phí theo tín chỉ của mỗi ngành học có thể khác nhau nhưng tổng mức học phí theo nhóm ngành của cả khóa học thì bằng nhau và không thay đổi trong toàn khóa học."
+                    },
+                    {
+                        "id": "796bc378-3bb1-452b-a2a8-3f823d38020c",
+                        "rank": 7,
+                        "page": 1,
+                        "content": "b) Học phí công bố nêu trên không bao gồm học phí các học phần học lại, học cải thiện điểm, học phí các học phần ngoài khung chương trình đào tạo."
+                    }
+                ],
+                "child_ids": [
+                    "13782d13-46fe-45fb-9787-1c2182846ab3",
+                    "796bc378-3bb1-452b-a2a8-3f823d38020c"
+                ]
+            },
+            {
+                "id": "df2379cc-80f0-44c4-ba0f-4271e7475f14",
+                "rank": 5,
+                "page": 1,
+                "content": "3. Trường hợp Nhà nước chưa quy định mức học phí sau năm học 2020 - 2021, thì mức học phí các năm học sau đó sẽ được quy định theo mức học phí năm học 2020 - 2021 và có điều chỉnh tăng 10% theo từng năm (theo đúng lộ trình tăng của Nghị định 86/2015/NĐ-CP)."
+            },
+            {
+                "id": "fca94e05-0926-485b-9b4f-fd93e503984f",
+                "rank": 5,
+                "page": 1,
+                "content": "4. Học phí của từng học kỳ",
+                "childs": [
+                    {
+                        "id": "d61574cd-7d29-410c-9ec5-a0f4d7dcd054",
+                        "rank": 1000,
+                        "page": 1,
+                        "content": "Học phí từng học kỳ của mỗi sinh viên sẽ không giống nhau vì phụ thuộc vào số lượng tín chỉ theo học phần đã đăng ký và mức học phí theo tín chỉ của từng ngành học."
+                    }
+                ],
+                "child_ids": [
+                    "d61574cd-7d29-410c-9ec5-a0f4d7dcd054"
+                ]
+            },
+            {
+                "id": "d9ae15e4-eb1e-498b-8170-d4592e9af6f0",
+                "rank": 5,
+                "page": 1,
+                "content": "5. Mức học phí theo tín chỉ",
+                "childs": [
+                    {
+                        "id": "520f2b25-84c3-40fd-b821-d2bc2dcd3b67",
+                        "rank": 7,
+                        "page": 1,
+                        "content": "a) Đối với các học phần học lần đầu trong khung chương trình đào tạo:",
+                        "childs": [
+                            {
+                                "id": "94f5ceb4-7197-4d5b-aa37-4e93e1d3aef8",
+                                "rank": 1000,
+                                "page": 1,
+                                "content": "Mức học phí một tín chỉ bằng (=) Tổng học phí toàn khóa học đã công bố theo quy định chia (/) Tổng số tín chỉ toàn khóa học (theo khung chương trình đào tạo)."
+                            }
+                        ],
+                        "child_ids": [
+                            "94f5ceb4-7197-4d5b-aa37-4e93e1d3aef8"
+                        ]
+                    },
+                    {
+                        "id": "9d8976f3-90cb-4bd6-916e-f7dca3603280",
+                        "rank": 7,
+                        "page": 1,
+                        "content": "b) Đối với các học phần học lại, học cải thiện điểm: Thực hiện theo quy định của nhà trường cho từng năm học."
+                    }
+                ],
+                "child_ids": [
+                    "520f2b25-84c3-40fd-b821-d2bc2dcd3b67",
+                    "9d8976f3-90cb-4bd6-916e-f7dca3603280"
+                ]
+            }
+        ],
+        "child_ids": [
+            "c7020a06-6540-4cb8-a941-81722e673749",
+            "0148172d-730e-46b9-ac79-fae3b8e9c6db",
+            "df2379cc-80f0-44c4-ba0f-4271e7475f14",
+            "fca94e05-0926-485b-9b4f-fd93e503984f",
+            "d9ae15e4-eb1e-498b-8170-d4592e9af6f0"
+        ]
+    },
+    {
+        "id": "e681afe4-cfa6-4213-9236-acbc450a13b3",
+        "rank": 3,
+        "page": 1,
+        "content": "Điều 3. Nghĩa vụ nộp học phí của sinh viên",
+        "childs": [
+            {
+                "id": "5fc5e0f0-fbfe-43a5-b7de-724e6ff84b09",
+                "rank": 5,
+                "page": 1,
+                "content": "1. Sinh viên có nghĩa vụ nộp học phí đầy đủ, đúng thời hạn theo Quy chế công tác sinh viên đối với chương trình đào tạo đại học hệ chính quy được ban hành tại Thông tư số 10/2016/TT-BGDĐT ngày 05/4/2016 của Bộ Giáo dục và Đào tạo và Quy định của Trường."
+            },
+            {
+                "id": "168af821-822a-433c-9503-f215e39a84a8",
+                "rank": 5,
+                "page": 1,
+                "content": "2. Trước đầu kỳ học 01 tháng, sinh viên phải theo dõi các thông báo nộp học phí của Trường áp dụng cho kỳ học đó."
+            },
+            {
+                "id": "f0b7f0e6-2a75-4792-92f3-bd8aba81c0e0",
+                "rank": 5,
+                "page": 2,
+                "content": "3. Khi nộp học phí, sinh viên có trách nhiệm giữ lại Biên lai (hóa đơn) thu học phí để đối chiếu với Phòng Kế hoạch - Tài chính khi cần thiết."
+            },
+            {
+                "id": "f3c776dd-d8fc-466a-8de7-943cc3e08717",
+                "rank": 5,
+                "page": 2,
+                "content": "4. Sinh viên có nghĩa vụ theo dõi các thông báo về danh sách sinh viên chưa hoàn thành học phí và phản hồi cho Phòng Kế hoạch - Tài chính nếu có sai sót trước ngày hết hạn nộp học phí ít nhất 10 ngày."
+            }
+        ],
+        "child_ids": [
+            "5fc5e0f0-fbfe-43a5-b7de-724e6ff84b09",
+            "168af821-822a-433c-9503-f215e39a84a8",
+            "f0b7f0e6-2a75-4792-92f3-bd8aba81c0e0",
+            "f3c776dd-d8fc-466a-8de7-943cc3e08717"
+        ]
+    },
+    {
+        "id": "9512c153-d5fc-406d-9259-543e82fd63b2",
+        "rank": 3,
+        "page": 2,
+        "content": "Điều 4. Phân kỳ nộp học phí",
+        "childs": [
+            {
+                "id": "7985def5-c74c-4455-97e7-92f3bd0e7b1c",
+                "rank": 1000,
+                "page": 2,
+                "content": "Nhà trường thực hiện thu học phí theo từng học kỳ."
+            },
+            {
+                "id": "65dbe0ca-de5e-410f-9188-b19a1cbaf3ab",
+                "rank": 5,
+                "page": 2,
+                "content": "1. Sinh viên mới nhập học",
+                "childs": [
+                    {
+                        "id": "bf8bea6d-9749-4a49-8541-ce7e4b566007",
+                        "rank": 1000,
+                        "page": 2,
+                        "content": "Nộp 100% học phí học kỳ 1 theo Thông báo khi làm thủ tục nhập học sau khi đã trừ tiền miễn, giảm học phí (nếu có) theo quy định tại Điều 7 của Quy định này."
+                    }
+                ],
+                "child_ids": [
+                    "bf8bea6d-9749-4a49-8541-ce7e4b566007"
+                ]
+            },
+            {
+                "id": "493fa2d6-a497-4f85-8269-dffe36e95a68",
+                "rank": 5,
+                "page": 2,
+                "content": "2. Sinh viên đang học tại Trường",
+                "childs": [
+                    {
+                        "id": "29bd251e-7ea1-43c4-9340-cf653c26c76a",
+                        "rank": 7,
+                        "page": 2,
+                        "content": "a) Nộp 100% học phí theo các học phần đã đăng ký trong kỳ học sau khi đã trừ tiền miễn, giảm học phí (nếu có) theo quy định tại Điều 7 của Quy định này."
+                    },
+                    {
+                        "id": "79d82390-bc68-4a3e-9bd3-0abd7874e74e",
+                        "rank": 7,
+                        "page": 2,
+                        "content": "b) Đối với các học phần học lại, học cải thiện điểm: nộp 100% học phí theo các học phần đã đăng ký theo mức học phí/tín chỉ do nhà trường thông báo vào đầu năm học."
+                    },
+                    {
+                        "id": "e5da2e5c-d33a-43a6-ba60-6c3a33f6bbe8",
+                        "rank": 7,
+                        "page": 2,
+                        "content": "c) Thông báo nộp học phí cho mỗi học kỳ sẽ được đăng trên website của Trường và trên các bảng tin của khoa và Phòng Kế hoạch - Tài chính."
+                    }
+                ],
+                "child_ids": [
+                    "29bd251e-7ea1-43c4-9340-cf653c26c76a",
+                    "79d82390-bc68-4a3e-9bd3-0abd7874e74e",
+                    "e5da2e5c-d33a-43a6-ba60-6c3a33f6bbe8"
+                ]
+            }
+        ],
+        "child_ids": [
+            "7985def5-c74c-4455-97e7-92f3bd0e7b1c",
+            "65dbe0ca-de5e-410f-9188-b19a1cbaf3ab",
+            "493fa2d6-a497-4f85-8269-dffe36e95a68"
+        ]
+    },
+    {
+        "id": "b423d5b4-c3b5-46b5-8939-99b909d7001e",
+        "rank": 3,
+        "page": 2,
+        "content": "Điều 5. Thời hạn đóng học phí",
+        "childs": [
+            {
+                "id": "e56c7692-702e-4e6b-ae50-35f690ac637d",
+                "rank": 5,
+                "page": 2,
+                "content": "1. Đối với các học phần học trong học kỳ chính: trong vòng 60 ngày kể từ ngày học đầu tiên của học kỳ, sinh viên phải nộp đủ học phí theo các học phần đã đăng ký."
+            },
+            {
+                "id": "c69103a5-7f04-4397-9a5b-293eb779307a",
+                "rank": 5,
+                "page": 2,
+                "content": "2. Đối với các học phần học trong học kỳ phụ: trong vòng 15 ngày kể từ ngày kết thúc đăng ký các học phần, sinh viên phải nộp đủ học phí theo các học phần đã đăng ký."
+            }
+        ],
+        "child_ids": [
+            "e56c7692-702e-4e6b-ae50-35f690ac637d",
+            "c69103a5-7f04-4397-9a5b-293eb779307a"
+        ]
+    },
+    {
+        "id": "d0b1fa1c-7ba3-45be-bbfa-bcd6569fa532",
+        "rank": 3,
+        "page": 2,
+        "content": "Điều 6. Phương thức đóng học phí",
+        "childs": [
+            {
+                "id": "579f684c-b427-4c6b-a678-74283f1a7dcc",
+                "rank": 5,
+                "page": 2,
+                "content": "1. Nộp bằng tiền mặt tại Trường",
+                "childs": [
+                    {
+                        "id": "1c5329c3-85e0-4f12-a5be-fd6e0f4ad973",
+                        "rank": 1000,
+                        "page": 2,
+                        "content": "Chỉ áp dụng đối với tân sinh viên khi làm thủ tục nhập học."
+                    }
+                ],
+                "child_ids": [
+                    "1c5329c3-85e0-4f12-a5be-fd6e0f4ad973"
+                ]
+            },
+            {
+                "id": "740cddf7-3231-47b3-82c4-18647fc9af85",
+                "rank": 5,
+                "page": 2,
+                "content": "2. Nộp qua ngân hàng",
+                "childs": [
+                    {
+                        "id": "50cc0ae7-a406-4c6f-b3f1-70753a5e3919",
+                        "rank": 1000,
+                        "page": 2,
+                        "content": "- Áp dụng đối với tất cả sinh viên đã học xong một học kỳ.  \n- Sinh viên nộp học phí qua ngân hàng: nộp qua hệ thống Ngân hàng Thương mại Cổ phần Đầu tư và Phát triển Việt Nam - BIDV."
+                    },
+                    {
+                        "id": "22da589d-a01c-4823-853a-16805a94c4d0",
+                        "rank": 1000,
+                        "page": 2,
+                        "content": "Thông tin tài khoản chi tiết như sau:"
+                    },
+                    {
+                        "id": "49e68e90-fa18-4c24-8784-b7953e1d9a8b",
+                        "rank": 1000,
+                        "page": 2,
+                        "content": "Người nhận tiền: TRƯỜNG ĐẠI HỌC QUY NHƠN  \nSố tài khoản: 5801 000 111 8348  \nTên ngân hàng: Ngân hàng TMCP Đầu tư & Phát triển Việt Nam – Chi nhánh Bình Định (BIDV Bình Định)"
+                    },
+                    {
+                        "id": "d8e37d56-f98d-451a-ac40-ad5aa24f9e7d",
+                        "rank": 1000,
+                        "page": 2,
+                        "content": "- Phương thức nộp tiền qua ngân hàng: có bảng Hướng dẫn nộp học phí kèm theo."
+                    }
+                ],
+                "child_ids": [
+                    "50cc0ae7-a406-4c6f-b3f1-70753a5e3919",
+                    "22da589d-a01c-4823-853a-16805a94c4d0",
+                    "49e68e90-fa18-4c24-8784-b7953e1d9a8b",
+                    "d8e37d56-f98d-451a-ac40-ad5aa24f9e7d"
+                ]
+            }
+        ],
+        "child_ids": [
+            "579f684c-b427-4c6b-a678-74283f1a7dcc",
+            "740cddf7-3231-47b3-82c4-18647fc9af85"
+        ]
+    },
+    {
+        "id": "24aa8cd8-53d5-4d0a-8296-63c9c0016828",
+        "rank": 3,
+        "page": 2,
+        "content": "Điều 7. Miễn giảm học phí",
+        "childs": [
+            {
+                "id": "8fce099b-986b-441a-85ec-3901d72c7e0c",
+                "rank": 5,
+                "page": 2,
+                "content": "1. Sinh viên thuộc diện được miễn, giảm học phí; mức miễn, giảm; hồ sơ, thủ tục miễn, giảm.",
+                "childs": [
+                    {
+                        "id": "78231739-fd7e-4ef5-8eac-a09c8332871b",
+                        "rank": 1000,
+                        "page": 2,
+                        "content": "Thực hiện theo Thông tư Liên tịch số 09/2016/TTLT-BGDĐT-BTC-BLĐTBXH ngày 30/3/2016 của Liên Bộ Giáo dục và Đào tạo, Bộ Tài chính, Bộ Lao động - Thương binh và Xã hội về việc hướng dẫn thực hiện một số điều của Nghị định số 86/2015/NĐ-CP ngày 02/10/2015 của Thủ tướng Chính phủ Quy định về cơ chế thu, quản lý học phí đối với cơ sở giáo dục thuộc hệ thống giáo dục quốc dân và chính sách miễn, giảm học phí, hỗ trợ chi phí học tập từ năm học 2015 - 2016 đến năm học 2020 - 2021."
+                    }
+                ],
+                "child_ids": [
+                    "78231739-fd7e-4ef5-8eac-a09c8332871b"
+                ]
+            },
+            {
+                "id": "24f78f11-70a5-44f0-b806-4a7d48572abc",
+                "rank": 5,
+                "page": 3,
+                "content": "2. Thủ tục miễn giảm",
+                "childs": [
+                    {
+                        "id": "10a4adf5-4ec4-4f44-9d5b-cc8037dc253c",
+                        "rank": 7,
+                        "page": 3,
+                        "content": "a) Khi nhập học: sinh viên xuất trình hồ sơ miễn giảm theo quy định cho Phòng Công tác chính trị - Sinh viên. Sau khi có xác nhận của Phòng Công tác chính trị - Sinh viên về đối tượng và mức miễn giảm, Phòng Kế hoạch - Tài chính tạm giảm trừ trực tiếp khi thu học phí. Sau khi có Quyết định miễn, giảm học phí, Phòng Kế hoạch - Tài chính sẽ điều chỉnh lại số tiền đã tạm miễn, giảm cho sinh viên. Nếu thừa học phí, nhà trường sẽ chi trả hoặc bảo lưu cho sinh viên vào học kỳ sau. Nếu thiếu, sinh viên phải đóng phần học phí còn lại sau khi đã được miễn giảm."
+                    },
+                    {
+                        "id": "4eb99936-4876-42c9-b57b-f635b5ef42bc",
+                        "rank": 7,
+                        "page": 3,
+                        "content": "b) Trong quá trình học tập: Theo quy định của Nhà nước, miễn giảm học phí theo mức niên chế theo từng năm học. Nhưng sinh viên học theo tín chỉ, học phí được tính trên số lượng tín chỉ và mức thu/tín chỉ để xác định học phí phải nộp theo kỳ. Do đó, có sự chênh lệch thừa hoặc thiếu giữa số được miễn, giảm và học phí phải nộp trong kỳ. Nếu thừa học phí, nhà trường sẽ chi trả hoặc bảo lưu cho sinh viên vào học kỳ sau. Nếu thiếu, sinh viên phải đóng phần học phí còn lại sau khi đã được miễn giảm."
+                    }
+                ],
+                "child_ids": [
+                    "10a4adf5-4ec4-4f44-9d5b-cc8037dc253c",
+                    "4eb99936-4876-42c9-b57b-f635b5ef42bc"
+                ]
+            }
+        ],
+        "child_ids": [
+            "8fce099b-986b-441a-85ec-3901d72c7e0c",
+            "24f78f11-70a5-44f0-b806-4a7d48572abc"
+        ]
+    },
+    {
+        "id": "e03a6025-816d-4843-bb82-c19d0236cda9",
+        "rank": 3,
+        "page": 3,
+        "content": "Điều 8. Rút học phí hoặc bảo lưu học phí đã nộp",
+        "childs": [
+            {
+                "id": "e3bd8101-4013-42eb-a898-9414e86fc6f4",
+                "rank": 5,
+                "page": 3,
+                "content": "1. Đối với sinh viên mới nhập học",
+                "childs": [
+                    {
+                        "id": "804f6913-2bc8-412c-8ead-88953ca88ee7",
+                        "rank": 1000,
+                        "page": 3,
+                        "content": "Sinh viên vừa trúng tuyển vào trường và đã hoàn tất thủ tục nhập học, nhưng vì nhiều lí do có nguyện vọng nghỉ học, thì nhà trường sẽ hoàn lại học phí theo mức cụ thể như sau:"
+                    },
+                    {
+                        "id": "208e242a-c04f-4033-a0af-5305467734e8",
+                        "rank": 7,
+                        "page": 3,
+                        "content": "a) Sinh viên rút hồ sơ nhập học trong thời gian 30 ngày tính từ ngày nộp tiền sẽ bị trừ 1 tháng học phí (tính theo mức thu của Nghị định 86/2015/NĐ-CP ngày 02/10/2015 của Chính phủ)."
+                    },
+                    {
+                        "id": "29bb5ce6-9935-44e4-abdb-4db56ef2bf74",
+                        "rank": 7,
+                        "page": 3,
+                        "content": "b) Sinh viên rút hồ sơ nhập học trong thời gian trên 30 ngày đến 60 ngày tính từ ngày nộp tiền sẽ bị trừ 2 tháng học phí (tính theo mức thu của Nghị định 86/2015/NĐ-CP ngày 02/10/2015 của Chính phủ)."
+                    },
+                    {
+                        "id": "07b2dfd7-0037-4c0b-a8a3-b8bbf187d048",
+                        "rank": 7,
+                        "page": 3,
+                        "content": "c) Nếu quá 60 ngày kể từ ngày nộp tiền, nhà trường sẽ không hoàn trả lại tiền học phí sinh viên đã nộp."
+                    },
+                    {
+                        "id": "28b705ed-f788-4ca7-a679-52cce325b60b",
+                        "rank": 7,
+                        "page": 3,
+                        "content": "d) Đối với sinh viên xin nghỉ học vì lí do khách quan như: gia cảnh khó khăn do cha, mẹ hoặc người nuôi dưỡng trực tiếp qua đời hoặc do thiên tai (có xác nhận của UBND quận, huyện trở lên) hoặc bị bệnh nặng (có xác nhận của cơ quan y tế cấp quận, huyện); bản thân bị ốm đau hoặc tai nạn buộc phải điều trị với thời gian dài có giấy xác nhận của cơ quan y tế cấp quận, huyện trở lên, thì được hoàn trả 100% học phí đã nộp."
+                    }
+                ],
+                "child_ids": [
+                    "804f6913-2bc8-412c-8ead-88953ca88ee7",
+                    "208e242a-c04f-4033-a0af-5305467734e8",
+                    "29bb5ce6-9935-44e4-abdb-4db56ef2bf74",
+                    "07b2dfd7-0037-4c0b-a8a3-b8bbf187d048",
+                    "28b705ed-f788-4ca7-a679-52cce325b60b"
+                ]
+            },
+            {
+                "id": "c040402a-5285-40de-9c1c-7ee0455ffbf0",
+                "rank": 5,
+                "page": 3,
+                "content": "2. Đối với sinh viên đang theo học tại Trường",
+                "childs": [
+                    {
+                        "id": "60db0336-72fb-413f-b256-6623c3e088a2",
+                        "rank": 1000,
+                        "page": 3,
+                        "content": "Khi sinh viên có nguyện vọng tạm dừng học tập hoặc xin thôi học và được nhà trường chấp nhận thì được hoàn trả hoặc bảo lưu học phí như sau:"
+                    },
+                    {
+                        "id": "137788fb-928f-4039-9a81-f9f41ef07e02",
+                        "rank": 7,
+                        "page": 3,
+                        "content": "a) Sinh viên tạm dừng học tập hoặc xin thôi học vì lí do khách quan như: gia cảnh khó khăn do cha mẹ hoặc người nuôi dưỡng trực tiếp qua đời hoặc do thiên tai (có xác nhận của UBND quận, huyện trở lên) hoặc bị bệnh nặng (có xác nhận của cơ quan y tế cấp quận, huyện); bản thân bị ốm đau hoặc tai nạn buộc phải điều trị với thời gian dài có giấy xác nhận của cơ quan y tế cấp quận, huyện trở lên, thì được hoàn trả 100% học phí đã nộp hoặc bảo lưu."
+                    },
+                    {
+                        "id": "f172fb92-b2ae-4da2-b36e-5cc6559b5cce",
+                        "rank": 7,
+                        "page": 4,
+                        "content": "b) Sinh viên tạm dừng học tập hoặc xin thôi học vì công việc cá nhân thì sẽ bị trừ học phí đã nộp như sau:",
+                        "childs": [
+                            {
+                                "id": "fba4f32a-a257-4c2d-a4fc-fa44c7446942",
+                                "rank": 1000,
+                                "page": 4,
+                                "content": "- Đến 60 ngày kể từ ngày học đầu tiên sẽ được hoàn trả 100% học phí đã nộp hoặc được bảo lưu."
+                            },
+                            {
+                                "id": "9457b157-9349-463f-90bb-3d990b91ca4d",
+                                "rank": 1000,
+                                "page": 4,
+                                "content": "- Trên 60 ngày đến 75 ngày kể từ ngày học đầu tiên sẽ được hoàn trả 50% học phí đã nộp hoặc được bảo lưu."
+                            },
+                            {
+                                "id": "15f28c17-d602-45e1-9c75-ce1435b1d7c7",
+                                "rank": 1000,
+                                "page": 4,
+                                "content": "- Trên 75 ngày kể từ ngày học đầu tiên sẽ không được hoàn trả học phí đã nộp."
+                            }
+                        ],
+                        "child_ids": [
+                            "fba4f32a-a257-4c2d-a4fc-fa44c7446942",
+                            "9457b157-9349-463f-90bb-3d990b91ca4d",
+                            "15f28c17-d602-45e1-9c75-ce1435b1d7c7"
+                        ]
+                    }
+                ],
+                "child_ids": [
+                    "60db0336-72fb-413f-b256-6623c3e088a2",
+                    "137788fb-928f-4039-9a81-f9f41ef07e02",
+                    "f172fb92-b2ae-4da2-b36e-5cc6559b5cce"
+                ]
+            },
+            {
+                "id": "4bc297c9-95d4-4de5-858e-4134087836d6",
+                "rank": 5,
+                "page": 4,
+                "content": "3. Sinh viên được hoàn trả 100% học phí hoặc bảo lưu học phí đã đóng cho các lớp học phần bị hủy bởi nhà trường."
+            },
+            {
+                "id": "205c0e10-2a19-4b9a-a195-7e3053c177b8",
+                "rank": 5,
+                "page": 4,
+                "content": "4. Thời gian giải quyết hoàn học phí: 01 tuần sau khi Phòng Kế hoạch - Tài chính nhận được đầy đủ hồ sơ xin hoàn học phí của sinh viên. Hồ sơ gồm:",
+                "childs": [
+                    {
+                        "id": "7f7357e4-2285-4744-b17e-28ccd616887a",
+                        "rank": 7,
+                        "page": 4,
+                        "content": "a) Đối với sinh viên mới nhập học:",
+                        "childs": [
+                            {
+                                "id": "d8d20f77-0981-44fc-b3e5-634540dc2315",
+                                "rank": 1000,
+                                "page": 4,
+                                "content": "- Bản chính Biên lai (Hóa đơn) thu tiền học phí của nhà trường."
+                            },
+                            {
+                                "id": "60d41b6c-9641-49e7-bdbc-23e8bbd626a1",
+                                "rank": 1000,
+                                "page": 4,
+                                "content": "- Giấy Biên nhận khi nhập học."
+                            },
+                            {
+                                "id": "889b8d52-b644-4916-ad91-10a35494a15a",
+                                "rank": 1000,
+                                "page": 4,
+                                "content": "- Đơn xin thôi học và nhận lại học phí có xác nhận của Phòng Đào tạo đại học và được Hiệu trưởng phê duyệt."
+                            }
+                        ],
+                        "child_ids": [
+                            "d8d20f77-0981-44fc-b3e5-634540dc2315",
+                            "60d41b6c-9641-49e7-bdbc-23e8bbd626a1",
+                            "889b8d52-b644-4916-ad91-10a35494a15a"
+                        ]
+                    },
+                    {
+                        "id": "b4e11774-8016-432e-996a-99740e1af047",
+                        "rank": 7,
+                        "page": 4,
+                        "content": "b) Đối với sinh viên đang theo học:",
+                        "childs": [
+                            {
+                                "id": "69bf6248-b55c-452b-9186-e328a536cde4",
+                                "rank": 1000,
+                                "page": 4,
+                                "content": "- Trường hợp xin thôi học:"
+                            },
+                            {
+                                "id": "65b84c57-85b5-4c5e-a8dc-fc4dfe0f73e5",
+                                "rank": 1000,
+                                "page": 4,
+                                "content": "+ Bản chính Biên lai (Hóa đơn) thu tiền học phí của nhà trường."
+                            },
+                            {
+                                "id": "638cf74d-dcea-4aeb-a6e6-e1e7e965b5c5",
+                                "rank": 1000,
+                                "page": 4,
+                                "content": "+ Thẻ sinh viên hoặc Giấy CMND photo."
+                            },
+                            {
+                                "id": "75d98df5-c630-46d3-a1ca-9376535139fc",
+                                "rank": 1000,
+                                "page": 4,
+                                "content": "+ Giấy xác nhận đã hoàn trả giáo trình."
+                            },
+                            {
+                                "id": "7123d742-a676-4720-92c0-de644edf214d",
+                                "rank": 1000,
+                                "page": 4,
+                                "content": "+ Bản chính và bản photo quyết định thôi học."
+                            },
+                            {
+                                "id": "fdd190c3-7a3d-4362-b4db-1dacf7449ddc",
+                                "rank": 1000,
+                                "page": 4,
+                                "content": "- Trường hợp đang học nhưng xin hoàn số thừa học phí:"
+                            },
+                            {
+                                "id": "19712499-bc97-449c-96bf-e1ecfcda002a",
+                                "rank": 1000,
+                                "page": 4,
+                                "content": "+ Bản photo Biên lai (Hóa đơn) thu tiền học phí của nhà trường (nếu có)."
+                            },
+                            {
+                                "id": "cda19ff1-0cfd-478a-a694-a9707363c01a",
+                                "rank": 1000,
+                                "page": 4,
+                                "content": "+ Bản photo Thẻ sinh viên hoặc Giấy CMND."
+                            },
+                            {
+                                "id": "e98088bc-a09c-458e-b28d-f7ca83624077",
+                                "rank": 1000,
+                                "page": 4,
+                                "content": "+ Đơn xin hoàn học phí."
+                            }
+                        ],
+                        "child_ids": [
+                            "69bf6248-b55c-452b-9186-e328a536cde4",
+                            "65b84c57-85b5-4c5e-a8dc-fc4dfe0f73e5",
+                            "638cf74d-dcea-4aeb-a6e6-e1e7e965b5c5",
+                            "75d98df5-c630-46d3-a1ca-9376535139fc",
+                            "7123d742-a676-4720-92c0-de644edf214d",
+                            "fdd190c3-7a3d-4362-b4db-1dacf7449ddc",
+                            "19712499-bc97-449c-96bf-e1ecfcda002a",
+                            "cda19ff1-0cfd-478a-a694-a9707363c01a",
+                            "e98088bc-a09c-458e-b28d-f7ca83624077"
+                        ]
+                    }
+                ],
+                "child_ids": [
+                    "7f7357e4-2285-4744-b17e-28ccd616887a",
+                    "b4e11774-8016-432e-996a-99740e1af047"
+                ]
+            }
+        ],
+        "child_ids": [
+            "e3bd8101-4013-42eb-a898-9414e86fc6f4",
+            "c040402a-5285-40de-9c1c-7ee0455ffbf0",
+            "4bc297c9-95d4-4de5-858e-4134087836d6",
+            "205c0e10-2a19-4b9a-a195-7e3053c177b8"
+        ]
+    },
+    {
+        "id": "32fbce9d-084a-4b17-bda2-3fbe4957f193",
+        "rank": 3,
+        "page": 4,
+        "content": "Điều 9. Xử lý đối với trường hợp sinh viên còn nợ học phí hoặc quá hạn nộp học phí",
+        "childs": [
+            {
+                "id": "d0823927-bad9-46d9-ae1c-89d0442928e4",
+                "rank": 7,
+                "page": 4,
+                "content": "a) Sinh viên còn nợ học phí sẽ không được đăng ký các học phần của kỳ học tiếp theo (Trừ khoản nợ chênh lệch học phí phải nộp theo tín chỉ và tạm thu theo niên chế đã gia hạn theo Công văn số 18/KHTC ngày 28/11/2017 của Phòng Kế hoạch - Tài chính, Trường Đại học Quy Nhơn)."
+            },
+            {
+                "id": "ed4bae58-1038-455c-849e-2a4d7fe39c01",
+                "rank": 7,
+                "page": 4,
+                "content": "b) Sinh viên còn nợ học phí sẽ không được xét tốt nghiệp và không được xét học bổng khuyến khích học tập."
+            },
+            {
+                "id": "0c0cb0ad-c6af-44ef-8178-677c6b787a9d",
+                "rank": 7,
+                "page": 4,
+                "content": "c) Nhà trường sẽ xóa các học phần sinh viên đã đăng ký, nếu hết thời hạn thu học phí, nhưng sinh viên vẫn chưa nộp. Cụ thể như sau:",
+                "childs": [
+                    {
+                        "id": "6c519546-4bc2-4bce-a835-948e1df4bb63",
+                        "rank": 1000,
+                        "page": 4,
+                        "content": "- Đối với các học phần học trong học kỳ chính: trong vòng 60 ngày kể từ ngày học đầu tiên của kỳ học."
+                    },
+                    {
+                        "id": "0d94892c-8114-40de-8412-73e9a46316ea",
+                        "rank": 1000,
+                        "page": 5,
+                        "content": "- Đối với các học phần học trong học kỳ phụ: trong vòng 15 ngày kể từ ngày kết thúc đăng ký các học phần của kỳ phụ."
+                    }
+                ],
+                "child_ids": [
+                    "6c519546-4bc2-4bce-a835-948e1df4bb63",
+                    "0d94892c-8114-40de-8412-73e9a46316ea"
+                ]
+            },
+            {
+                "id": "765eabfb-33ba-4467-8603-f5e7b63b0d24",
+                "rank": 7,
+                "page": 5,
+                "content": "d) Thời gian đào tạo kéo dài vì nợ học phí sẽ tính vào thời gian đào tạo tối đa của sinh viên theo Quy chế."
+            },
+            {
+                "id": "1b9aba0b-74a7-42d0-bfc9-514043feda9a",
+                "rank": 7,
+                "page": 5,
+                "content": "đ) Sinh viên còn nợ học phí kéo dài, Nhà trường sẽ xử lý kỷ luật bằng các hình thức như sau:",
+                "childs": [
+                    {
+                        "id": "525e4460-b8e6-4d47-bb54-7c03692aec48",
+                        "rank": 1000,
+                        "page": 5,
+                        "content": "- Xử lý bằng hình thức Khiển trách đối với sinh viên nợ học phí quá 01 (một) học kỳ."
+                    },
+                    {
+                        "id": "37fa1c1b-f96b-41b3-9514-5e80e1d9b467",
+                        "rank": 1000,
+                        "page": 5,
+                        "content": "- Xử lý bằng hình thức Cảnh cáo đối với sinh viên nợ học phí quá 02 (hai) học kỳ."
+                    },
+                    {
+                        "id": "a6e51e77-25c8-4839-b7f2-4ef6514e4403",
+                        "rank": 1000,
+                        "page": 5,
+                        "content": "- Xử lý bằng hình thức Buộc thôi học đối với sinh viên nợ học phí quá 03 (ba) học kỳ."
+                    }
+                ],
+                "child_ids": [
+                    "525e4460-b8e6-4d47-bb54-7c03692aec48",
+                    "37fa1c1b-f96b-41b3-9514-5e80e1d9b467",
+                    "a6e51e77-25c8-4839-b7f2-4ef6514e4403"
+                ]
+            }
+        ],
+        "child_ids": [
+            "d0823927-bad9-46d9-ae1c-89d0442928e4",
+            "ed4bae58-1038-455c-849e-2a4d7fe39c01",
+            "0c0cb0ad-c6af-44ef-8178-677c6b787a9d",
+            "765eabfb-33ba-4467-8603-f5e7b63b0d24",
+            "1b9aba0b-74a7-42d0-bfc9-514043feda9a"
+        ]
+    },
+    {
+        "id": "bd4335a2-a30e-4d39-b93a-c97be04c216b",
+        "rank": 3,
+        "page": 5,
+        "content": "Điều 10. Tổ chức thực hiện",
+        "childs": [
+            {
+                "id": "a01b4107-990c-4fe4-b6e9-b6b69dcd15f1",
+                "rank": 7,
+                "page": 5,
+                "content": "a) Phòng Kế hoạch - Tài chính phối hợp với các phòng, khoa, Hội Sinh viên, Đoàn Thanh niên phổ biến đến toàn thể sinh viên trong nhà trường để thực hiện tốt quy định này."
+            },
+            {
+                "id": "af28162a-e7be-4c31-91ca-05ee4245790a",
+                "rank": 7,
+                "page": 5,
+                "content": "b) Trong quá trình thực hiện, nếu có vấn đề vướng mắc phát sinh, yêu cầu sinh viên và các đơn vị liên quan phản ánh đến nhà trường để xem xét giải quyết."
+            }
+        ],
+        "child_ids": [
+            "a01b4107-990c-4fe4-b6e9-b6b69dcd15f1",
+            "af28162a-e7be-4c31-91ca-05ee4245790a"
+        ]
+    },
+    {
+        "id": "c2e3748b-1038-468f-94d0-270fbc838cd7",
+        "rank": 0,
+        "page": 5,
+        "content": "$$$ TRÍCH QUY ĐỊNH: Về việc sửa đổi, bổ sung Quy định về học phí của sinh viên đại học hệ chính quy",
+        "childs": [
+            {
+                "id": "951de114-da50-42a0-b754-e9660e53c5a3",
+                "rank": 3,
+                "page": 5,
+                "content": "Điều 1. Sửa đổi, bổ sung Quy định về học phí của sinh viên đại học hệ chính quy ban hành kèm theo Quyết định số 1251/QĐ-ĐHQN ngày 17/7/2018 của Trường Đại học Quy Nhơn như sau:",
+                "childs": [
+                    {
+                        "id": "b22377cf-13a6-4b43-b328-49bddf0c0bb6",
+                        "rank": 5,
+                        "page": 5,
+                        "content": "1. Sửa Khoản b, Điều 9 như sau:",
+                        "childs": [
+                            {
+                                "id": "f1be449f-dcce-417c-b185-e5b1727b975a",
+                                "rank": 7,
+                                "page": 5,
+                                "content": "b) Sinh viên còn nợ học phí sẽ không được xét học bổng khuyến khích học tập. Sinh viên có trách nhiệm hoàn thành nghĩa vụ học phí trước khi xét tốt nghiệp. Sinh viên còn nợ học phí không được nhận bằng tốt nghiệp."
+                            }
+                        ],
+                        "child_ids": [
+                            "f1be449f-dcce-417c-b185-e5b1727b975a"
+                        ]
+                    },
+                    {
+                        "id": "ca94825e-3004-4cb3-9b90-ee224a32a15b",
+                        "rank": 5,
+                        "page": 5,
+                        "content": "2. Bỏ toàn bộ nội dung tại Khoản c, Điều 9."
+                    }
+                ],
+                "child_ids": [
+                    "b22377cf-13a6-4b43-b328-49bddf0c0bb6",
+                    "ca94825e-3004-4cb3-9b90-ee224a32a15b"
+                ]
+            },
+            {
+                "id": "4419f9ed-a1af-4c7e-b2d0-c4bc5a115521",
+                "rank": 3,
+                "page": 5,
+                "content": "Điều 2. Quyết định này được áp dụng từ năm học 2018 - 2019. Các nội dung khác không đề cập ở Quyết định này vẫn được thực hiện theo Quy định về học phí của sinh viên đại học hệ chính quy ban hành kèm theo Quyết định số 1251/QĐ-ĐHQN ngày 17/7/2018 của Hiệu trưởng Trường Đại học Quy Nhơn."
+            }
+        ],
+        "child_ids": [
+            "951de114-da50-42a0-b754-e9660e53c5a3",
+            "4419f9ed-a1af-4c7e-b2d0-c4bc5a115521"
+        ]
+    },
+    {
+        "id": "9658ffbc-0ad1-4624-a60b-e791fbda8971",
+        "rank": 0,
+        "page": 6,
+        "content": "$$$ TRÍCH QUY ĐỊNH: Về học bổng khuyến khích học tập đối với sinh viên trong các cơ sở giáo dục đại học và trung cấp chuyên nghiệp thuộc hệ thống giáo dục quốc dân",
+        "childs": [
+            {
+                "id": "6f46f1de-a703-417d-8707-28ccbff92bff",
+                "rank": 5,
+                "page": 6,
+                "content": "1. Đối tượng được xét, cấp học bổng khuyến khích học tập là học sinh, sinh viên đang học trong các đại học, học viện, trường đại học, trường cao đẳng, trường trung cấp chuyên nghiệp hệ giáo dục chính quy công lập và các trường đại học, trường cao đẳng, trường trung cấp chuyên nghiệp hệ giáo dục chính quy ngoài công lập.",
+                "childs": [
+                    {
+                        "id": "442065e6-28ae-43e1-b789-d0fc3787d257",
+                        "rank": 1000,
+                        "page": 6,
+                        "content": "Học sinh, sinh viên thuộc diện hưởng học bổng chính sách, học sinh, sinh viên thuộc diện trợ cấp xã hội và học sinh, sinh viên diện chính sách ưu đãi theo quy định hiện hành nếu đạt kết quả học tập, rèn luyện vào diện được xét, cấp học bổng thì được xét, cấp học bổng khuyến khích học tập như những học sinh, sinh viên khác."
+                    }
+                ],
+                "child_ids": [
+                    "442065e6-28ae-43e1-b789-d0fc3787d257"
+                ]
+            },
+            {
+                "id": "9dbce420-7cac-41b0-adae-4580ecd4097c",
+                "rank": 5,
+                "page": 6,
+                "content": "2. Tiêu chuẩn và mức xét, cấp học bổng khuyến khích học tập",
+                "childs": [
+                    {
+                        "id": "b7f29ca8-9c8b-4bcc-bb92-a11f7c30c667",
+                        "rank": 1000,
+                        "page": 6,
+                        "content": "Học sinh, sinh viên có kết quả học tập, rèn luyện từ loại khá trở lên, không bị kỷ luật từ mức khiển trách trở lên trong học kỳ xét học bổng thì được xét, cấp học bổng khuyến khích học tập trong phạm vi quỹ học bổng khuyến khích học tập của trường theo các mức sau:"
+                    },
+                    {
+                        "id": "e43d0157-0401-4750-9a47-0dc2928ee4f5",
+                        "rank": 7,
+                        "page": 6,
+                        "content": "a) Mức học bổng loại Khá: Có điểm trung bình chung học tập đạt loại Khá trở lên và điểm rèn luyện đạt loại Khá trở lên. Mức học bổng tối thiểu bằng hoặc cao hơn mức trần học phí hiện hành của ngành nghề mà học sinh, sinh viên đó phải đóng tại trường do Hiệu trưởng quy định.",
+                        "childs": [
+                            {
+                                "id": "c3f1060b-394f-4333-b3d7-6efda1994f8f",
+                                "rank": 1000,
+                                "page": 6,
+                                "content": "Đối với những ngành nghề đào tạo không thu học phí thì áp dụng theo mức trần học phí được Nhà nước cấp bù cho nhóm ngành đào tạo của Trường."
+                            }
+                        ],
+                        "child_ids": [
+                            "c3f1060b-394f-4333-b3d7-6efda1994f8f"
+                        ]
+                    },
+                    {
+                        "id": "f719d764-8e14-4345-af80-488c6e4f8560",
+                        "rank": 7,
+                        "page": 6,
+                        "content": "b) Mức học bổng loại Giỏi: Có điểm trung bình chung học tập đạt loại Giỏi trở lên và điểm rèn luyện đạt loại Tốt trở lên. Mức học bổng cao hơn loại Khá và do Hiệu trưởng quy định."
+                    },
+                    {
+                        "id": "80ae3e65-a747-49f2-b18e-f3d1e574118d",
+                        "rank": 7,
+                        "page": 6,
+                        "content": "c) Mức học bổng loại Xuất sắc: Có điểm trung bình chung học tập đạt loại Xuất sắc và điểm rèn luyện đạt loại Xuất sắc. Mức học bổng cao hơn loại Giỏi và do Hiệu trưởng quy định.",
+                        "childs": [
+                            {
+                                "id": "7f5a771f-53ed-4e38-b5d5-894fdada60f5",
+                                "rank": 1000,
+                                "page": 6,
+                                "content": "Điểm trung bình chung học tập được xác định theo quy định hiện hành của Quy chế đào tạo đại học và cao đẳng hệ chính quy, Quy chế đào tạo trung cấp chuyên nghiệp hệ chính quy do Bộ Giáo dục và Đào tạo ban hành (chỉ được lấy điểm thi, kiểm tra hết môn học lần thứ nhất, trong đó không có điểm thi dưới 5,0 hoặc kiểm tra hết môn học không đạt). Kết quả rèn luyện được xác định theo quy định của Quy chế đánh giá kết quả rèn luyện hiện hành do Bộ Giáo dục và Đào tạo ban hành."
+                            }
+                        ],
+                        "child_ids": [
+                            "7f5a771f-53ed-4e38-b5d5-894fdada60f5"
+                        ]
+                    },
+                    {
+                        "id": "653ade88-ce5b-4a0b-a0f3-ff2cce433c07",
+                        "rank": 7,
+                        "page": 6,
+                        "content": "d) Học bổng khuyến khích học tập được cấp theo từng học kỳ và cấp 10 tháng trong năm học."
+                    }
+                ],
+                "child_ids": [
+                    "b7f29ca8-9c8b-4bcc-bb92-a11f7c30c667",
+                    "e43d0157-0401-4750-9a47-0dc2928ee4f5",
+                    "f719d764-8e14-4345-af80-488c6e4f8560",
+                    "80ae3e65-a747-49f2-b18e-f3d1e574118d",
+                    "653ade88-ce5b-4a0b-a0f3-ff2cce433c07"
+                ]
+            },
+            {
+                "id": "cab57362-8acc-48d0-a085-6d92f5ad03c5",
+                "rank": 5,
+                "page": 6,
+                "content": "3. Quỹ học bổng khuyến khích học tập được bố trí tối thiểu bằng 8% nguồn thu học phí hệ giáo dục chính quy đối với các trường công lập. Đối với các ngành sư phạm thì quỹ học bổng được trích tối thiểu bằng 8% từ nguồn học phí do Nhà nước cấp bù."
+            },
+            {
+                "id": "37a2daba-1d4e-454b-a8d5-ed6ad0dce2ad",
+                "rank": 5,
+                "page": 6,
+                "content": "4. Thủ tục xét, cấp học bổng khuyến khích học tập",
+                "childs": [
+                    {
+                        "id": "474abc17-6abb-457f-9e63-ce7a97a14cd2",
+                        "rank": 7,
+                        "page": 6,
+                        "content": "a) Hiệu trưởng nhà trường căn cứ vào quỹ học bổng khuyến khích học tập xác định số lượng suất học bổng khuyến khích học tập cho từng khoá học, ngành học. Trong trường hợp nếu số lượng học sinh, sinh viên thuộc diện được xét cấp học bổng nhiều hơn số suất học bổng thì thủ tục xét, cấp học bổng do Hiệu trưởng quy định."
+                    },
+                    {
+                        "id": "8267490d-f720-4534-bb1a-91197cad4b6c",
+                        "rank": 7,
+                        "page": 7,
+                        "content": "b) Hiệu trưởng căn cứ vào kết quả học tập và rèn luyện của học sinh, sinh viên tiến hành xét, cấp học bổng theo thứ tự từ loại Xuất sắc trở xuống đến hết số suất học bổng đã được xác định.",
+                        "childs": [
+                            {
+                                "id": "e4e1c1d3-4075-4109-8d50-5375ee02f22a",
+                                "rank": 1000,
+                                "page": 7,
+                                "content": "Học sinh, sinh viên đào tạo theo học chế tín chỉ được xét, cấp học bổng khuyến khích học tập theo số lượng tín chỉ (15 tín chỉ được tính tương đương với một học kỳ). Thủ tục và tiêu chuẩn xét, cấp học bổng khuyến khích học tập theo học chế tín chỉ thực hiện như thủ tục và tiêu chuẩn xét, cấp học bổng khuyến khích học tập theo học kỳ."
+                            }
+                        ],
+                        "child_ids": [
+                            "e4e1c1d3-4075-4109-8d50-5375ee02f22a"
+                        ]
+                    }
+                ],
+                "child_ids": [
+                    "474abc17-6abb-457f-9e63-ce7a97a14cd2",
+                    "8267490d-f720-4534-bb1a-91197cad4b6c"
+                ]
+            }
+        ],
+        "child_ids": [
+            "6f46f1de-a703-417d-8707-28ccbff92bff",
+            "9dbce420-7cac-41b0-adae-4580ecd4097c",
+            "cab57362-8acc-48d0-a085-6d92f5ad03c5",
+            "37a2daba-1d4e-454b-a8d5-ed6ad0dce2ad"
+        ]
+    },
+    {
+        "id": "9ecf3d27-5869-4584-9cc1-b8c49d5e2cef",
+        "rank": 0,
+        "page": 7,
+        "content": "$$$ QUY ĐỊNH VỀ HỌC PHÍ VÀ HƯỚNG DẪN MIỄN, GIẢM HỌC PHÍ",
+        "childs": [
+            {
+                "id": "6be0c2d3-cef9-4c8b-802a-7a6e56251225",
+                "rank": 1000,
+                "page": 7,
+                "content": "Căn cứ Thông tư liên tịch số 09/2016/TTLT-BGDĐT-BTC-BLĐTBXH ngày 30/3/2016 của Bộ Giáo dục và Đào tạo, Bộ Tài chính, Bộ Lao động - Thương binh và Xã hội về việc Hướng dẫn thực hiện một số điều của Nghị định số 86/2015/NĐ-CP ngày 02/10/2015 của Chính phủ quy định về cơ chế thu, quản lý học phí đối với cơ sở giáo dục thuộc hệ thống giáo dục quốc dân và chính sách miễn, giảm học phí, hỗ trợ chi phí học tập từ năm học 2015 - 2016 đến năm học 2020 - 2021, Trường Đại học Quy Nhơn hướng dẫn thực hiện chế độ miễn, giảm học phí đối với tất cả sinh viên đại học chính quy như sau:"
+            },
+            {
+                "id": "cc243331-d7de-47ee-80d8-e654b0351936",
+                "rank": 2,
+                "page": 7,
+                "content": "I. HỌC PHÍ ĐỐI VỚI CÁC CƠ SỞ GIÁO DỤC",
+                "childs": [
+                    {
+                        "id": "e0f24990-2a84-48fe-8bf5-8a34909a20d1",
+                        "rank": 5,
+                        "page": 7,
+                        "content": "1. Mức trần học phí đối với các chương trình đào tạo đại trà trình độ đại học tại các cơ sở giáo dục công lập chưa tự bảo đảm kinh phí chi thường xuyên và chi đầu tư áp dụng theo các khối ngành, chuyên ngành đào tạo từ năm học 2015 - 2016 đến năm học 2020 - 2021 như sau:",
+                        "childs": [
+                            {
+                                "id": "a848d51f-3f20-41fd-9c2e-7b8a281aa3e7",
+                                "rank": 1000,
+                                "page": 7,
+                                "content": "Khối ngành, chuyên ngành đào tạo:"
+                            },
+                            {
+                                "id": "04d0cd51-40a5-4a80-9ef5-fa678a2acfda",
+                                "rank": 1000,
+                                "page": 7,
+                                "content": "Khoa học xã hội, kinh tế, luật; nông, lâm, thủy sản"
+                            },
+                            {
+                                "id": "9d3cf7df-4375-4da6-ad08-9a1316d5d842",
+                                "rank": 1000,
+                                "page": 7,
+                                "content": "- Năm học 2015-2016 là 610"
+                            },
+                            {
+                                "id": "5302f01c-43a2-40ed-af76-a71be7b4ac60",
+                                "rank": 1000,
+                                "page": 7,
+                                "content": "- Năm học 2016-2017 là 670"
+                            },
+                            {
+                                "id": "c4e487b1-0426-4299-ab7a-a99749e7110a",
+                                "rank": 1000,
+                                "page": 7,
+                                "content": "- Năm học 2017-2018 là 740"
+                            },
+                            {
+                                "id": "0cf635a6-0b06-417c-88e3-97f2ee342904",
+                                "rank": 1000,
+                                "page": 7,
+                                "content": "- Năm học 2018-2019 là 810"
+                            },
+                            {
+                                "id": "cc608f2a-890f-4f26-8769-05c256d66352",
+                                "rank": 1000,
+                                "page": 7,
+                                "content": "- Năm học 2019-2020 là 890"
+                            },
+                            {
+                                "id": "c70587bf-4a32-4e3b-959a-d0aa9cc4a01a",
+                                "rank": 1000,
+                                "page": 7,
+                                "content": "- Năm học 2020-2021 là 980"
+                            },
+                            {
+                                "id": "5a490443-5958-4fa8-9888-275bd7c31e90",
+                                "rank": 1000,
+                                "page": 7,
+                                "content": "Khoa học tự nhiên; kỹ thuật, công nghệ; thể dục thể thao, nghệ thuật; khách sạn, du lịch"
+                            },
+                            {
+                                "id": "a74645d8-7127-4b37-b0a1-e1275a6c4ef9",
+                                "rank": 1000,
+                                "page": 7,
+                                "content": "- Năm học 2015-2016 là 720"
+                            },
+                            {
+                                "id": "0bc26584-007c-41e5-a397-5d09f0ab8616",
+                                "rank": 1000,
+                                "page": 7,
+                                "content": "- Năm học 2016-2017 là 790"
+                            },
+                            {
+                                "id": "34d09481-5272-4189-a651-a439baff6dc7",
+                                "rank": 1000,
+                                "page": 7,
+                                "content": "- Năm học 2017-2018 là 870"
+                            },
+                            {
+                                "id": "e2cfac26-e282-4372-8d5a-38cd874425f5",
+                                "rank": 1000,
+                                "page": 7,
+                                "content": "- Năm học 2018-2019 là 960"
+                            },
+                            {
+                                "id": "c7493520-237d-4fd4-8ece-5cd50d1c9b28",
+                                "rank": 1000,
+                                "page": 7,
+                                "content": "- Năm học 2019-2020 là 1.060"
+                            },
+                            {
+                                "id": "f659d6c2-f1fd-4c87-ba1f-492991ba95cc",
+                                "rank": 1000,
+                                "page": 7,
+                                "content": "- Năm học 2020-2021 là 1.170"
+                            },
+                            {
+                                "id": "a0d7d962-deb9-4c77-9c67-e323b9ce54df",
+                                "rank": 1000,
+                                "page": 7,
+                                "content": "Y dược"
+                            },
+                            {
+                                "id": "f673dd91-6d4e-42b0-8c7b-c15332aa044c",
+                                "rank": 1000,
+                                "page": 7,
+                                "content": "- Năm học 2015-2016 là 880"
+                            },
+                            {
+                                "id": "3c5aeb2c-dbc7-4e76-9082-d41f2dc9d044",
+                                "rank": 1000,
+                                "page": 7,
+                                "content": "- Năm học 2016-2017 là 970"
+                            },
+                            {
+                                "id": "2e4b75c6-3d4d-406f-a0f4-f8fe536ec62a",
+                                "rank": 1000,
+                                "page": 7,
+                                "content": "- Năm học 2017-2018 là 1.070"
+                            },
+                            {
+                                "id": "17edce70-315c-4b85-8853-b72172fc54a5",
+                                "rank": 1000,
+                                "page": 7,
+                                "content": "- Năm học 2018-2019 là 1.180"
+                            },
+                            {
+                                "id": "6f75ea1d-e731-45af-ac28-bbeeeeb46b29",
+                                "rank": 1000,
+                                "page": 7,
+                                "content": "- Năm học 2019-2020 là 1.300"
+                            },
+                            {
+                                "id": "b3e63d50-2c1c-453a-8c80-2c505de68693",
+                                "rank": 1000,
+                                "page": 7,
+                                "content": "- Năm học 2020-2021 là 1.430"
+                            }
+                        ],
+                        "child_ids": [
+                            "a848d51f-3f20-41fd-9c2e-7b8a281aa3e7",
+                            "04d0cd51-40a5-4a80-9ef5-fa678a2acfda",
+                            "9d3cf7df-4375-4da6-ad08-9a1316d5d842",
+                            "5302f01c-43a2-40ed-af76-a71be7b4ac60",
+                            "c4e487b1-0426-4299-ab7a-a99749e7110a",
+                            "0cf635a6-0b06-417c-88e3-97f2ee342904",
+                            "cc608f2a-890f-4f26-8769-05c256d66352",
+                            "c70587bf-4a32-4e3b-959a-d0aa9cc4a01a",
+                            "5a490443-5958-4fa8-9888-275bd7c31e90",
+                            "a74645d8-7127-4b37-b0a1-e1275a6c4ef9",
+                            "0bc26584-007c-41e5-a397-5d09f0ab8616",
+                            "34d09481-5272-4189-a651-a439baff6dc7",
+                            "e2cfac26-e282-4372-8d5a-38cd874425f5",
+                            "c7493520-237d-4fd4-8ece-5cd50d1c9b28",
+                            "f659d6c2-f1fd-4c87-ba1f-492991ba95cc",
+                            "a0d7d962-deb9-4c77-9c67-e323b9ce54df",
+                            "f673dd91-6d4e-42b0-8c7b-c15332aa044c",
+                            "3c5aeb2c-dbc7-4e76-9082-d41f2dc9d044",
+                            "2e4b75c6-3d4d-406f-a0f4-f8fe536ec62a",
+                            "17edce70-315c-4b85-8853-b72172fc54a5",
+                            "6f75ea1d-e731-45af-ac28-bbeeeeb46b29",
+                            "b3e63d50-2c1c-453a-8c80-2c505de68693"
+                        ]
+                    },
+                    {
+                        "id": "54affc17-245b-4a79-837b-66f7a956113c",
+                        "rank": 5,
+                        "page": 7,
+                        "content": "2. Mức trần học phí đối với đào tạo thạc sĩ, tiến sĩ từ năm học 2015 - 2016 đến năm \nhọc 2020 - 2021 được xác định bằng mức trần học phí quy định tại Khoản 1, Điều này \nnhân (x) hệ số sau đây:",
+                        "childs": [
+                            {
+                                "id": "86bcece9-78e7-4c19-9bf0-79e048d3a8fe",
+                                "rank": 1000,
+                                "page": 7,
+                                "content": "Trình độ đào tạo và hệ số so với đại học:"
+                            },
+                            {
+                                "id": "4166a4b9-9262-43ab-bb22-f720734b320e",
+                                "rank": 1000,
+                                "page": 7,
+                                "content": "- Đào tạo thạc sĩ: Hệ số 1,5"
+                            },
+                            {
+                                "id": "66402b78-f1dd-4e9c-8222-11fe36615e26",
+                                "rank": 1000,
+                                "page": 7,
+                                "content": "- Đào tạo tiến sĩ: Hệ số 2,5"
+                            }
+                        ],
+                        "child_ids": [
+                            "86bcece9-78e7-4c19-9bf0-79e048d3a8fe",
+                            "4166a4b9-9262-43ab-bb22-f720734b320e",
+                            "66402b78-f1dd-4e9c-8222-11fe36615e26"
+                        ]
+                    },
+                    {
+                        "id": "8b4fe737-678b-40fb-9d9f-6eeee513d898",
+                        "rank": 5,
+                        "page": 8,
+                        "content": "3. Mức trần học phí đối với các chương trình đào tạo đại trà trình độ cao đẳng, trung cấp tại các cơ sở giáo dục công lập chưa tự bảo đảm kinh phí chi thường xuyên và chi đầu tư như sau:",
+                        "childs": [
+                            {
+                                "id": "5b3e4607-bc32-4f9d-89b6-db8a0a119bac",
+                                "rank": 1000,
+                                "page": 8,
+                                "content": "Đơn vị: 1.000 đồng/tháng/sinh viên"
+                            },
+                            {
+                                "id": "37f7eefc-9f7f-4b47-983a-a7f553bcf54b",
+                                "rank": 1000,
+                                "page": 8,
+                                "content": "NHÓM NGÀNH, NGHỀ:"
+                            },
+                            {
+                                "id": "fa3231dd-dd8b-453c-82e2-19bc860ef659",
+                                "rank": 1000,
+                                "page": 8,
+                                "content": "Khoa học xã hội, kinh tế, luật; nông, lâm, thủy sản \n \n- Năm học 2015-2016 thì trung cấp là 430, cao đẳng là 490"
+                            },
+                            {
+                                "id": "cafdbff0-6463-4ee6-b398-442be99af2ae",
+                                "rank": 1000,
+                                "page": 8,
+                                "content": "- Năm học 2016-2017 thì trung cấp là 470, cao đẳng là 540"
+                            },
+                            {
+                                "id": "68dd936b-d3fc-4515-ac07-b5a7be28d882",
+                                "rank": 1000,
+                                "page": 8,
+                                "content": "- Năm học 2017-2018 thì trung cấp là 520, cao đẳng là 590"
+                            },
+                            {
+                                "id": "d23cf75e-bfb7-4ce2-8913-4f6de0a8a031",
+                                "rank": 1000,
+                                "page": 8,
+                                "content": "- Năm học 2018-2019 thì trung cấp là 570, cao đẳng là 650"
+                            },
+                            {
+                                "id": "257d7402-f753-4d98-a843-8f1801315b3a",
+                                "rank": 1000,
+                                "page": 8,
+                                "content": "- Năm học 2019-2020 thì trung cấp là 620, cao đẳng là 710"
+                            },
+                            {
+                                "id": "a3b1362d-21cc-4581-8620-81969826aa34",
+                                "rank": 1000,
+                                "page": 8,
+                                "content": "- Năm học 2020-2021 thì trung cấp là 690, cao đẳng là 780"
+                            },
+                            {
+                                "id": "0c9bb66a-41be-413e-9722-f782a9fda3d4",
+                                "rank": 1000,
+                                "page": 8,
+                                "content": "Khoa học tự nhiên; kỹ thuật, công nghệ; thể dục thể thao, nghệ thuật; khách sạn, du lịch"
+                            },
+                            {
+                                "id": "69f75157-c50f-49f7-85b0-dc6933c2f14f",
+                                "rank": 1000,
+                                "page": 8,
+                                "content": "- Năm học 2015-2016 thì trung cấp là 500, cao đẳng là 580"
+                            },
+                            {
+                                "id": "890b7446-eed0-4f5e-84e2-1d08c6c36653",
+                                "rank": 1000,
+                                "page": 8,
+                                "content": "- Năm học 2016-2017 thì trung cấp là 550, cao đẳng là 630"
+                            },
+                            {
+                                "id": "c78d8a3d-93e4-4693-ac26-2a6167a5a291",
+                                "rank": 1000,
+                                "page": 8,
+                                "content": "- Năm học 2017-2018 thì trung cấp là 610, cao đẳng là 700"
+                            },
+                            {
+                                "id": "f7daa6a3-02cf-4d5a-8639-def8b98738a2",
+                                "rank": 1000,
+                                "page": 8,
+                                "content": "- Năm học 2018-2019 thì trung cấp là 670, cao đẳng là 770"
+                            },
+                            {
+                                "id": "3cb95333-6237-4aa8-a74f-c8f25e83e3cc",
+                                "rank": 1000,
+                                "page": 8,
+                                "content": "- Năm học 2019-2020 thì trung cấp là 740, cao đẳng là 850"
+                            },
+                            {
+                                "id": "af9de43a-6fe4-41d3-8d21-2d13d8e4b605",
+                                "rank": 1000,
+                                "page": 8,
+                                "content": "- Năm học 2020-2021 thì trung cấp là 820, cao đẳng là 940"
+                            },
+                            {
+                                "id": "536469ce-1058-46de-ab9d-3cb544f13533",
+                                "rank": 1000,
+                                "page": 8,
+                                "content": "Y dược"
+                            },
+                            {
+                                "id": "5ece1846-3b82-432b-97f2-c86e2486f289",
+                                "rank": 1000,
+                                "page": 8,
+                                "content": "- Năm học 2015-2016 thì trung cấp là 620, cao đẳng là 700"
+                            },
+                            {
+                                "id": "3bbe2d0d-2030-46e3-8c31-565e6565dec9",
+                                "rank": 1000,
+                                "page": 8,
+                                "content": "- Năm học 2016-2017 thì trung cấp là 680, cao đẳng là 780"
+                            },
+                            {
+                                "id": "fc166387-f6ea-4d2a-a2fe-52f6d288b51b",
+                                "rank": 1000,
+                                "page": 8,
+                                "content": "- Năm học 2017-2018 thì trung cấp là 750, cao đẳng là 860"
+                            },
+                            {
+                                "id": "8f401b65-7b4c-497c-8ebc-3689420664d1",
+                                "rank": 1000,
+                                "page": 8,
+                                "content": "- Năm học 2018-2019 thì trung cấp là 830, cao đẳng là 940"
+                            },
+                            {
+                                "id": "0fe1e504-67ff-4b0f-9178-1fe5c1c723ab",
+                                "rank": 1000,
+                                "page": 8,
+                                "content": "- Năm học 2019-2020 thì trung cấp là 910, cao đẳng là 1.040"
+                            },
+                            {
+                                "id": "23995f22-b392-457a-a88d-825d14e330ce",
+                                "rank": 1000,
+                                "page": 8,
+                                "content": "- Năm học 2020-2021 thì trung cấp là 1.000, cao đẳng là 1.140"
+                            }
+                        ],
+                        "child_ids": [
+                            "5b3e4607-bc32-4f9d-89b6-db8a0a119bac",
+                            "37f7eefc-9f7f-4b47-983a-a7f553bcf54b",
+                            "fa3231dd-dd8b-453c-82e2-19bc860ef659",
+                            "cafdbff0-6463-4ee6-b398-442be99af2ae",
+                            "68dd936b-d3fc-4515-ac07-b5a7be28d882",
+                            "d23cf75e-bfb7-4ce2-8913-4f6de0a8a031",
+                            "257d7402-f753-4d98-a843-8f1801315b3a",
+                            "a3b1362d-21cc-4581-8620-81969826aa34",
+                            "0c9bb66a-41be-413e-9722-f782a9fda3d4",
+                            "69f75157-c50f-49f7-85b0-dc6933c2f14f",
+                            "890b7446-eed0-4f5e-84e2-1d08c6c36653",
+                            "c78d8a3d-93e4-4693-ac26-2a6167a5a291",
+                            "f7daa6a3-02cf-4d5a-8639-def8b98738a2",
+                            "3cb95333-6237-4aa8-a74f-c8f25e83e3cc",
+                            "af9de43a-6fe4-41d3-8d21-2d13d8e4b605",
+                            "536469ce-1058-46de-ab9d-3cb544f13533",
+                            "5ece1846-3b82-432b-97f2-c86e2486f289",
+                            "3bbe2d0d-2030-46e3-8c31-565e6565dec9",
+                            "fc166387-f6ea-4d2a-a2fe-52f6d288b51b",
+                            "8f401b65-7b4c-497c-8ebc-3689420664d1",
+                            "0fe1e504-67ff-4b0f-9178-1fe5c1c723ab",
+                            "23995f22-b392-457a-a88d-825d14e330ce"
+                        ]
+                    },
+                    {
+                        "id": "6b55c168-a1e3-43fa-a753-112c1d042523",
+                        "rank": 5,
+                        "page": 8,
+                        "content": "4. Học phí đào tạo tính theo tín chỉ, mô-đun: Mức thu học phí của một tín chỉ, mô-đun được xác định căn cứ vào tổng thu học phí của toàn khóa học theo nhóm ngành, nghề đào tạo và tổng số tín chỉ, mô-đun toàn khóa theo công thức dưới đây:",
+                        "childs": [
+                            {
+                                "id": "b6e86875-9418-479a-b002-019f42311c34",
+                                "rank": 1000,
+                                "page": 8,
+                                "content": "Học phí tín chỉ, mô-đun = (Tổng học phí toàn khóa) / (Tổng số tín chỉ, mô-đun toàn khóa)"
+                            },
+                            {
+                                "id": "cacae01d-9ec2-486f-a6e8-505ca8a1f1e0",
+                                "rank": 1000,
+                                "page": 8,
+                                "content": "Tổng học phí toàn khóa = mức thu học phí 1 sinh viên/1 tháng x 10 tháng x số năm học."
+                            }
+                        ],
+                        "child_ids": [
+                            "b6e86875-9418-479a-b002-019f42311c34",
+                            "cacae01d-9ec2-486f-a6e8-505ca8a1f1e0"
+                        ]
+                    }
+                ],
+                "child_ids": [
+                    "e0f24990-2a84-48fe-8bf5-8a34909a20d1",
+                    "54affc17-245b-4a79-837b-66f7a956113c",
+                    "8b4fe737-678b-40fb-9d9f-6eeee513d898",
+                    "6b55c168-a1e3-43fa-a753-112c1d042523"
+                ]
+            },
+            {
+                "id": "b988913d-e1ed-4bdd-97f3-8cfdade82975",
+                "rank": 2,
+                "page": 8,
+                "content": "II. ĐỐI TƯỢNG VÀ HỒ SƠ XÉT MIỄN, GIẢM HỌC PHÍ",
+                "childs": [
+                    {
+                        "id": "9897fe05-1aaa-4afd-bddf-f347a05473e0",
+                        "rank": 1000,
+                        "page": 8,
+                        "content": "ĐỐI TƯỢNG ĐƯỢC MIỄN 100% HỌC PHÍ"
+                    },
+                    {
+                        "id": "34aed5a0-7105-4aa0-9d4c-77c98fd43948",
+                        "rank": 5,
+                        "page": 8,
+                        "content": "1. Sinh viên là con của người có công với cách mạng",
+                        "childs": [
+                            {
+                                "id": "25369be0-3909-4f38-a6ec-a4531da0fa46",
+                                "rank": 1000,
+                                "page": 8,
+                                "content": "- Đối tượng:"
+                            },
+                            {
+                                "id": "1c6d2b03-af2e-4cb7-8b08-9fe2ea701039",
+                                "rank": 1000,
+                                "page": 8,
+                                "content": "+ Con của người hoạt động cách mạng trước ngày 01/01/1945 (nếu có)."
+                            },
+                            {
+                                "id": "ad09b1eb-b641-4e5e-af8b-08edba8fec4e",
+                                "rank": 1000,
+                                "page": 8,
+                                "content": "+ Con của người hoạt động cách mạng từ ngày 01/01/1945 đến khởi nghĩa tháng Tám năm 1945 (nếu có)."
+                            },
+                            {
+                                "id": "8370dfdd-18c5-418a-9a22-7d56d9fe1611",
+                                "rank": 1000,
+                                "page": 8,
+                                "content": "+ Con của Anh hùng Lực lượng vũ trang Nhân dân; Anh hùng Lao động trong thời kỳ kháng chiến."
+                            },
+                            {
+                                "id": "300cc6d0-7217-4c97-ae32-1d273cae4cdd",
+                                "rank": 1000,
+                                "page": 8,
+                                "content": "+ Con của liệt sĩ; thương binh, người hưởng chính sách như thương binh; bệnh binh."
+                            },
+                            {
+                                "id": "5c12a372-8cf7-40e7-a194-4f284a5a1f46",
+                                "rank": 1000,
+                                "page": 8,
+                                "content": "+ Con của người hoạt động kháng chiến bị nhiễm chất độc hóa học."
+                            },
+                            {
+                                "id": "d9abe35b-84fd-4800-a481-003a753d2dd7",
+                                "rank": 1000,
+                                "page": 8,
+                                "content": "- Hồ sơ cần chuẩn bị:"
+                            },
+                            {
+                                "id": "aa43c1d3-be3f-49cd-b4df-509f6bc4fed8",
+                                "rank": 1000,
+                                "page": 8,
+                                "content": "+ Đơn đề nghị miễn giảm học phí (MGHP)."
+                            },
+                            {
+                                "id": "4a5817bc-e1b6-40ee-baf6-64a7bf80f656",
+                                "rank": 1000,
+                                "page": 8,
+                                "content": "+ Giấy xác nhận thuộc đối tượng có công với cách mạng từ cơ quan quản lý."
+                            },
+                            {
+                                "id": "9a016f1d-6aa9-4084-ad05-ba017b7b03e2",
+                                "rank": 1000,
+                                "page": 8,
+                                "content": "+ Giấy tờ chứng minh người có công (giấy chứng nhận liệt sĩ, thương binh...)."
+                            }
+                        ],
+                        "child_ids": [
+                            "25369be0-3909-4f38-a6ec-a4531da0fa46",
+                            "1c6d2b03-af2e-4cb7-8b08-9fe2ea701039",
+                            "ad09b1eb-b641-4e5e-af8b-08edba8fec4e",
+                            "8370dfdd-18c5-418a-9a22-7d56d9fe1611",
+                            "300cc6d0-7217-4c97-ae32-1d273cae4cdd",
+                            "5c12a372-8cf7-40e7-a194-4f284a5a1f46",
+                            "d9abe35b-84fd-4800-a481-003a753d2dd7",
+                            "aa43c1d3-be3f-49cd-b4df-509f6bc4fed8",
+                            "4a5817bc-e1b6-40ee-baf6-64a7bf80f656",
+                            "9a016f1d-6aa9-4084-ad05-ba017b7b03e2"
+                        ]
+                    },
+                    {
+                        "id": "57272d87-a0c2-4c65-9448-ed71fc9500d5",
+                        "rank": 5,
+                        "page": 9,
+                        "content": "2. Sinh viên bị tàn tật, khuyến tật thuộc diện hộ cận nghèo theo quy định của Thủ tướng Chính phủ.",
+                        "childs": [
+                            {
+                                "id": "1f3f0d19-d31c-40cc-b9fd-5974b557c6db",
+                                "rank": 1000,
+                                "page": 9,
+                                "content": "- Hồ sơ cần chuẩn bị:"
+                            },
+                            {
+                                "id": "2179c17d-1fa7-4c6d-834e-422a72cbd3e2",
+                                "rank": 1000,
+                                "page": 9,
+                                "content": "+ Đơn đề nghị MGHP."
+                            },
+                            {
+                                "id": "c65f8a2c-b215-4518-a9eb-4330dfacf7a6",
+                                "rank": 1000,
+                                "page": 9,
+                                "content": "+ Giấy xác nhận khuyết tật do UBND xã cấp hoặc Quyết định trợ cấp xã hội của UBND huyện."
+                            },
+                            {
+                                "id": "94fc8bed-32d3-41ef-be9c-d0f56bd6619b",
+                                "rank": 1000,
+                                "page": 9,
+                                "content": "+ Bản sao sổ hoặc giấy chứng nhận hộ nghèo/hộ cận nghèo."
+                            }
+                        ],
+                        "child_ids": [
+                            "1f3f0d19-d31c-40cc-b9fd-5974b557c6db",
+                            "2179c17d-1fa7-4c6d-834e-422a72cbd3e2",
+                            "c65f8a2c-b215-4518-a9eb-4330dfacf7a6",
+                            "94fc8bed-32d3-41ef-be9c-d0f56bd6619b"
+                        ]
+                    },
+                    {
+                        "id": "9b618421-8cd1-48b7-86b8-75d83e840189",
+                        "rank": 5,
+                        "page": 9,
+                        "content": "3. Sinh viên là người dân tộc thiểu số thuộc hộ nghèo và hộ cận nghèo",
+                        "childs": [
+                            {
+                                "id": "9b873a1c-e2d4-47b4-bd4c-1658660f80f8",
+                                "rank": 1000,
+                                "page": 9,
+                                "content": "- Hồ sơ cần chuẩn bị:"
+                            },
+                            {
+                                "id": "8b3fe2b7-fd29-4d82-ace9-bb73d9079c78",
+                                "rank": 1000,
+                                "page": 9,
+                                "content": "+ Đơn đề nghị MGHP."
+                            },
+                            {
+                                "id": "d5a469cc-ae33-4326-87af-7edb5657a28e",
+                                "rank": 1000,
+                                "page": 9,
+                                "content": "+ Bản sao giấy khai sinh hoặc giấy chứng nhận dân tộc thiểu số."
+                            },
+                            {
+                                "id": "8ce52b60-8fef-4b67-a91c-576178f5c49a",
+                                "rank": 1000,
+                                "page": 9,
+                                "content": "+ Bản sao sổ hoặc giấy chứng nhận hộ nghèo/hộ cận nghèo."
+                            }
+                        ],
+                        "child_ids": [
+                            "9b873a1c-e2d4-47b4-bd4c-1658660f80f8",
+                            "8b3fe2b7-fd29-4d82-ace9-bb73d9079c78",
+                            "d5a469cc-ae33-4326-87af-7edb5657a28e",
+                            "8ce52b60-8fef-4b67-a91c-576178f5c49a"
+                        ]
+                    },
+                    {
+                        "id": "d9e30688-4eb0-49bd-9c8c-53ef6824b014",
+                        "rank": 5,
+                        "page": 9,
+                        "content": "4. Sinh viên là người dân tộc thiểu số rất ít người",
+                        "childs": [
+                            {
+                                "id": "a6d0437a-509f-4126-9dba-f5198f9bc091",
+                                "rank": 1000,
+                                "page": 9,
+                                "content": "- Đối tượng:"
+                            },
+                            {
+                                "id": "10d1d408-cfc2-4020-8407-0cb363daba8f",
+                                "rank": 1000,
+                                "page": 9,
+                                "content": "+ Các dân tộc: La Hủ, La Ha, Pà Thẻn, Lự, Ngái, Chứt, Lô Lô, Mảng, Cống, Cờ Lao, Bố Y, Si La, Pu Péo, Rơ Măm, Brâu, Ơ Đu."
+                            },
+                            {
+                                "id": "aea81b1f-2077-414e-9256-ceb7b258898d",
+                                "rank": 1000,
+                                "page": 9,
+                                "content": "+ Có hộ khẩu thường trú tại vùng kinh tế - xã hội khó khăn hoặc đặc biệt khó khăn."
+                            },
+                            {
+                                "id": "4cb19176-d368-42ba-9303-f8389adc801c",
+                                "rank": 1000,
+                                "page": 9,
+                                "content": "- Hồ sơ cần chuẩn bị:"
+                            },
+                            {
+                                "id": "2760348f-09ba-48a1-b88f-0ab62b7cc272",
+                                "rank": 1000,
+                                "page": 9,
+                                "content": "+ Đơn đề nghị MGHP."
+                            },
+                            {
+                                "id": "bd5f7050-57ee-4e2c-93eb-efcbd6c08807",
+                                "rank": 1000,
+                                "page": 9,
+                                "content": "+ Bản sao giấy khai sinh hoặc giấy chứng nhận dân tộc thiểu số."
+                            },
+                            {
+                                "id": "62ce1903-a683-489f-8825-20855e21f0db",
+                                "rank": 1000,
+                                "page": 9,
+                                "content": "+ Bản sao Sổ hộ khẩu thường trú."
+                            },
+                            {
+                                "id": "22c9e6ff-b342-4285-acb4-ce48afdfc663",
+                                "rank": 1000,
+                                "page": 9,
+                                "content": "ĐỐI TƯỢNG ĐƯỢC GIẢM 70% HỌC PHÍ"
+                            }
+                        ],
+                        "child_ids": [
+                            "a6d0437a-509f-4126-9dba-f5198f9bc091",
+                            "10d1d408-cfc2-4020-8407-0cb363daba8f",
+                            "aea81b1f-2077-414e-9256-ceb7b258898d",
+                            "4cb19176-d368-42ba-9303-f8389adc801c",
+                            "2760348f-09ba-48a1-b88f-0ab62b7cc272",
+                            "bd5f7050-57ee-4e2c-93eb-efcbd6c08807",
+                            "62ce1903-a683-489f-8825-20855e21f0db",
+                            "22c9e6ff-b342-4285-acb4-ce48afdfc663"
+                        ]
+                    },
+                    {
+                        "id": "699c6fa8-cd16-45e3-9b5c-5da316872d5f",
+                        "rank": 5,
+                        "page": 9,
+                        "content": "5. Sinh viên là người dân tộc thiểu số (không phải dân tộc thiểu số rất ít người) ở vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn theo quy định của cơ quan có thẩm quyền.",
+                        "childs": [
+                            {
+                                "id": "f1cb443d-3b3c-48bf-a85b-45e30ed89498",
+                                "rank": 1000,
+                                "page": 9,
+                                "content": "- Hồ sơ cần chuẩn bị:"
+                            },
+                            {
+                                "id": "053d0b7f-527b-4560-808e-6cf8a43da3b2",
+                                "rank": 1000,
+                                "page": 9,
+                                "content": "+ Đơn đề nghị MGHP."
+                            },
+                            {
+                                "id": "43773e0e-78f9-4d5d-b152-7bd7ecc1d374",
+                                "rank": 1000,
+                                "page": 9,
+                                "content": "+ Bản sao giấy khai sinh hoặc giấy chứng nhận dân tộc thiểu số."
+                            },
+                            {
+                                "id": "9ea8706e-a256-4cd0-9620-baf87eb1d2cf",
+                                "rank": 1000,
+                                "page": 9,
+                                "content": "+ Bản sao Sổ hộ khẩu thường trú."
+                            },
+                            {
+                                "id": "3deb0a93-f04e-4589-903a-17d6df1ecbe6",
+                                "rank": 1000,
+                                "page": 9,
+                                "content": "ĐỐI TƯỢNG ĐƯỢC GIẢM 50% HỌC PHÍ"
+                            }
+                        ],
+                        "child_ids": [
+                            "f1cb443d-3b3c-48bf-a85b-45e30ed89498",
+                            "053d0b7f-527b-4560-808e-6cf8a43da3b2",
+                            "43773e0e-78f9-4d5d-b152-7bd7ecc1d374",
+                            "9ea8706e-a256-4cd0-9620-baf87eb1d2cf",
+                            "3deb0a93-f04e-4589-903a-17d6df1ecbe6"
+                        ]
+                    },
+                    {
+                        "id": "7cf99b72-6fd1-4745-b173-43ebdc23d652",
+                        "rank": 5,
+                        "page": 9,
+                        "content": "6. Sinh viên là con cán bộ, công nhân, viên chức mà cha hoặc mẹ bị tai nạn lao động hoặc mắc bệnh nghề nghiệp được hưởng trợ cấp thường xuyên.",
+                        "childs": [
+                            {
+                                "id": "6769d34c-5e69-406f-a585-b40a3748a49f",
+                                "rank": 1000,
+                                "page": 9,
+                                "content": "- Hồ sơ cần chuẩn bị:"
+                            },
+                            {
+                                "id": "e3d53013-7dc5-49ad-b7c7-0cbe9b41f2f8",
+                                "rank": 1000,
+                                "page": 9,
+                                "content": "+ Đơn đề nghị MGHP."
+                            },
+                            {
+                                "id": "79b561b0-166e-4f81-967b-435722cfddc4",
+                                "rank": 1000,
+                                "page": 9,
+                                "content": "+ Bản sao Sổ hưởng trợ cấp hàng tháng của bố/mẹ do tổ chức bảo hiểm xã hội cấp."
+                            }
+                        ],
+                        "child_ids": [
+                            "6769d34c-5e69-406f-a585-b40a3748a49f",
+                            "e3d53013-7dc5-49ad-b7c7-0cbe9b41f2f8",
+                            "79b561b0-166e-4f81-967b-435722cfddc4"
+                        ]
+                    }
+                ],
+                "child_ids": [
+                    "9897fe05-1aaa-4afd-bddf-f347a05473e0",
+                    "34aed5a0-7105-4aa0-9d4c-77c98fd43948",
+                    "57272d87-a0c2-4c65-9448-ed71fc9500d5",
+                    "9b618421-8cd1-48b7-86b8-75d83e840189",
+                    "d9e30688-4eb0-49bd-9c8c-53ef6824b014",
+                    "699c6fa8-cd16-45e3-9b5c-5da316872d5f",
+                    "7cf99b72-6fd1-4745-b173-43ebdc23d652"
+                ]
+            },
+            {
+                "id": "053e4057-4d6f-4862-8759-8f4367fa3818",
+                "rank": 2,
+                "page": 9,
+                "content": "III. QUY ĐỊNH VỀ MIỄN, GIẢM HỌC PHÍ",
+                "childs": [
+                    {
+                        "id": "34f38655-77c9-45f6-b706-9a58b88f3b9e",
+                        "rank": 1000,
+                        "page": 9,
+                        "content": "- Thời gian sinh viên bị kỷ luật ngừng học hoặc buộc thôi học, học lưu ban, học lại, học bổ sung thì sẽ không được xét miễn, giảm học phí."
+                    },
+                    {
+                        "id": "2306c72b-56fd-41ea-9c8d-9ac4b39e7af4",
+                        "rank": 1000,
+                        "page": 9,
+                        "content": "- Sinh viên thuộc diện MGHP mà cùng một lúc được hưởng nhiều chính sách hỗ trợ khác nhau thì chỉ được hưởng một chế độ ưu đãi cao nhất."
+                    },
+                    {
+                        "id": "49c73aef-ccd9-4c1c-a06b-accfd722e960",
+                        "rank": 1000,
+                        "page": 9,
+                        "content": "- Sinh viên thuộc diện MGHP nếu đồng thời học ở nhiều cơ sở giáo dục hoặc nhiều khoa, nhiều ngành trong cùng một trường thì được hưởng một chế độ ưu đãi."
+                    },
+                    {
+                        "id": "50b47262-b593-4c66-b0f8-e1687f8260d5",
+                        "rank": 1000,
+                        "page": 9,
+                        "content": "- Không áp dụng chế độ ưu đãi về MGHP đối với sinh viên trong trường hợp đã hưởng chế độ này tại một cơ sở giáo dục nghề nghiệp hoặc cơ sở giáo dục đại học, nay tiếp tục học thêm ở một cơ sở giáo dục nghề nghiệp và giáo dục đại học khác cùng cấp học và trình độ đào tạo."
+                    }
+                ],
+                "child_ids": [
+                    "34f38655-77c9-45f6-b706-9a58b88f3b9e",
+                    "2306c72b-56fd-41ea-9c8d-9ac4b39e7af4",
+                    "49c73aef-ccd9-4c1c-a06b-accfd722e960",
+                    "50b47262-b593-4c66-b0f8-e1687f8260d5"
+                ]
+            },
+            {
+                "id": "bdb4b878-6ec9-424b-ab05-3e6d6ee39c04",
+                "rank": 2,
+                "page": 10,
+                "content": "IV. NỘP HỒ SƠ MIỄN, GIẢM HỌC PHÍ",
+                "childs": [
+                    {
+                        "id": "c33ee84c-c179-4061-ac93-dae3c04e4084",
+                        "rank": 5,
+                        "page": 10,
+                        "content": "1. Sinh viên thuộc diện miễn, giảm học phí làm đơn (theo mẫu thống nhất của Trường), kèm theo giấy tờ chứng minh đối tượng được xét miễn, giảm học phí và nộp cho Phòng Công tác chính trị - Sinh viên theo đúng thời gian quy định để Phòng Công tác chính trị - Sinh viên tổng hợp, thẩm định và trình Ban Giám hiệu quyết định."
+                    },
+                    {
+                        "id": "4ee77ecd-27a2-4fe0-81a4-5c8583a25e33",
+                        "rank": 5,
+                        "page": 10,
+                        "content": "2. Thời gian và phương thức nộp đơn xét miễn, giảm học phí:",
+                        "childs": [
+                            {
+                                "id": "8f77582f-43a0-43df-93e3-c75f42a03b3c",
+                                "rank": 1000,
+                                "page": 10,
+                                "content": "Thời gian nộp đơn: Chậm nhất sau 30 ngày kể từ ngày nhà trường thông báo"
+                            },
+                            {
+                                "id": "d1a8acae-597f-42da-837a-ed8c4a73cc59",
+                                "rank": 1000,
+                                "page": 10,
+                                "content": "+ Học kỳ I: Từ ngày 15/09 đến 15/10 hàng năm"
+                            },
+                            {
+                                "id": "36ce460f-3f96-4b67-b7c7-1413449090e9",
+                                "rank": 1000,
+                                "page": 10,
+                                "content": "+ Học kỳ II: Từ ngày 15/01 đến 15/02 hàng năm"
+                            },
+                            {
+                                "id": "39a8e49d-04cf-4a6f-8231-4f26b3f80146",
+                                "rank": 1000,
+                                "page": 10,
+                                "content": "Sinh viên nộp đơn xét miễn, giảm học phí trực tiếp cho phòng Công tác chính trị - Sinh viên tại phòng 36 tòa nhà 15 tầng theo thời gian trên. Trường sẽ không nhận đơn miễn, giảm học phí nếu các giấy tờ kèm theo không hợp lệ và không nộp đơn theo đúng thời gian quy định."
+                            }
+                        ],
+                        "child_ids": [
+                            "8f77582f-43a0-43df-93e3-c75f42a03b3c",
+                            "d1a8acae-597f-42da-837a-ed8c4a73cc59",
+                            "36ce460f-3f96-4b67-b7c7-1413449090e9",
+                            "39a8e49d-04cf-4a6f-8231-4f26b3f80146"
+                        ]
+                    },
+                    {
+                        "id": "56f9e9c1-0218-40e7-b83c-f9ccc756e21d",
+                        "rank": 5,
+                        "page": 10,
+                        "content": "3. Đối với sinh viên thuộc đối tượng 1, 2, 4, 5, 6 chỉ nộp đơn một lần trong suốt khóa học. Riêng sinh viên là người dân tộc thiểu số thuộc hộ nghèo và hộ cận nghèo phải làm đơn và bổ sung hồ sơ (giấy xác nhận hộ nghèo, hộ cận nghèo) theo từng năm."
+                    },
+                    {
+                        "id": "e9819600-9434-45a2-ac29-61a553711068",
+                        "rank": 5,
+                        "page": 10,
+                        "content": "4. Các văn bản liên quan đến danh mục vùng, địa bàn có điều kiện kinh tế - xã hội khó khăn và đặc biệt khó khăn:",
+                        "childs": [
+                            {
+                                "id": "4fb64928-4311-49ce-9beb-10b9db70a5f7",
+                                "rank": 1000,
+                                "page": 10,
+                                "content": "+ Quyết định số 539/QĐ-TTg ngày 01/4/2013 của Thủ tướng Chính phủ."
+                            },
+                            {
+                                "id": "0736f2d2-4ade-4bab-a308-6e43dd03b113",
+                                "rank": 1000,
+                                "page": 10,
+                                "content": "+ Quyết định số 2405/QĐ-TTg ngày 10/12/2013 của Thủ tướng Chính phủ."
+                            },
+                            {
+                                "id": "e3051e64-85f4-454b-882c-c7d3c538ca0a",
+                                "rank": 1000,
+                                "page": 10,
+                                "content": "+ Quyết định số 582/QĐ-UBDT ngày 18/12/2013 của Bộ trưởng, Chủ nhiệm Ủy ban Dân tộc."
+                            },
+                            {
+                                "id": "ca49e163-84f7-48ee-9ba3-787595163b9b",
+                                "rank": 1000,
+                                "page": 10,
+                                "content": "+ Quyết định số 130/QĐ-UBDT ngày 08/5/2014 của Bộ trưởng, Chủ nhiệm Ủy ban Dân tộc."
+                            },
+                            {
+                                "id": "1bbed762-bc92-4ab0-b7c7-f7b8bcd07345",
+                                "rank": 1000,
+                                "page": 10,
+                                "content": "+ Quyết định số 495/QĐ-TTg ngày 08/4/2014 của Thủ tướng Chính phủ."
+                            },
+                            {
+                                "id": "012cbfba-2248-4ec0-913b-a6c6f4e69f9e",
+                                "rank": 1000,
+                                "page": 10,
+                                "content": "+ Quyết định số 1049/QĐ-TTg ngày 26/6/2014 của Thủ tướng Chính phủ."
+                            },
+                            {
+                                "id": "2c1bde37-cfa0-4caf-b118-13d97c237eda",
+                                "rank": 1000,
+                                "page": 10,
+                                "content": "+ Nghị quyết số 30a/2008/NQ-CP ngày 27 tháng 12 năm 2008 của Chính phủ và Quyết định số 1791/QĐ-TTg ngày 01/10/2013 của Thủ tướng Chính phủ."
+                            }
+                        ],
+                        "child_ids": [
+                            "4fb64928-4311-49ce-9beb-10b9db70a5f7",
+                            "0736f2d2-4ade-4bab-a308-6e43dd03b113",
+                            "e3051e64-85f4-454b-882c-c7d3c538ca0a",
+                            "ca49e163-84f7-48ee-9ba3-787595163b9b",
+                            "1bbed762-bc92-4ab0-b7c7-f7b8bcd07345",
+                            "012cbfba-2248-4ec0-913b-a6c6f4e69f9e",
+                            "2c1bde37-cfa0-4caf-b118-13d97c237eda"
+                        ]
+                    },
+                    {
+                        "id": "2fdefe01-2abc-4c2f-95e4-281bc8c3ce08",
+                        "rank": 5,
+                        "page": 10,
+                        "content": "6. Sinh viên cần trao đổi thông tin về miễn, giảm học phí vui lòng liên hệ email pctsv@qnu.edu.vn, điện thoại: 0256.3646142./."
+                    }
+                ],
+                "child_ids": [
+                    "c33ee84c-c179-4061-ac93-dae3c04e4084",
+                    "4ee77ecd-27a2-4fe0-81a4-5c8583a25e33",
+                    "56f9e9c1-0218-40e7-b83c-f9ccc756e21d",
+                    "e9819600-9434-45a2-ac29-61a553711068",
+                    "2fdefe01-2abc-4c2f-95e4-281bc8c3ce08"
+                ]
+            }
+        ],
+        "child_ids": [
+            "6be0c2d3-cef9-4c8b-802a-7a6e56251225",
+            "cc243331-d7de-47ee-80d8-e654b0351936",
+            "b988913d-e1ed-4bdd-97f3-8cfdade82975",
+            "053e4057-4d6f-4862-8759-8f4367fa3818",
+            "bdb4b878-6ec9-424b-ab05-3e6d6ee39c04"
+        ]
+    },
+    {
+        "id": "aa0ebe9b-5f61-43b1-829a-63d2f9211f7b",
+        "rank": 0,
+        "page": 10,
+        "content": "$$$ HƯỚNG DẪN THỰC HIỆN CHẾ ĐỘ TRỢ CẤP XÃ HỘI",
+        "childs": [
+            {
+                "id": "929a7310-b9ae-467c-a2d8-616162516a26",
+                "rank": 1000,
+                "page": 10,
+                "content": "- Căn cứ Quyết định số 1121/1997/QĐ-TTg, ngày 23 tháng 12 năm 1997 của Thủ tướng Chính phủ về học bổng và trợ cấp xã hội đối với học sinh, sinh viên các trường đào tạo công lập;"
+            },
+            {
+                "id": "54f48674-cb9d-48e2-b965-3ccd8ca3f833",
+                "rank": 1000,
+                "page": 10,
+                "content": "- Căn cứ Thông tư liên tịch số 53/1998/TTLT-BGDĐT-BTC-BLĐTBXH ngày 25 tháng 8 năm 1998 của liên tịch Bộ Tài chính, Bộ Giáo dục và Đào tạo, Bộ Lao động - Thương binh và Xã hội về việc hướng dẫn thực hiện chế độ học bổng và trợ cấp xã hội đối với học sinh, sinh viên các trường đào tạo công lập;"
+            },
+            {
+                "id": "cc6b3423-c144-40de-9e92-0eb81024cf8b",
+                "rank": 1000,
+                "page": 11,
+                "content": "- Căn cứ Quyết định số 194/2001/QĐ-TTg, ngày 21 tháng 12 năm 2001 của Thủ tướng Chính phủ về việc điều chỉnh mức học bổng chính sách và trợ cấp xã hội đối với học sinh, sinh viên là người dân tộc thiểu số học tại các trường đào tạo công lập quy định tại Quyết định số 1121/1997/QĐ-TTg ngày 23 tháng 12 năm 1997 của Thủ tướng Chính phủ;"
+            },
+            {
+                "id": "69e080b2-82cc-4c2e-8ad4-aea229601529",
+                "rank": 1000,
+                "page": 11,
+                "content": "- Căn cứ Thông tư liên tịch số 13/2002/TTLT-BGDĐT-BTC, ngày 28 tháng 3 năm 2002 của liên tịch Bộ Tài chính, Bộ Giáo dục và Đào tạo hướng dẫn thực hiện Quyết định số 194/2001/QĐ-TTg ngày 21/12/2001 của Thủ tướng Chính phủ về việc điều chỉnh mức học bổng chính sách và trợ cấp xã hội đối với học sinh, sinh viên là người dân tộc thiểu số học tại các trường đào tạo công lập quy định tại Quyết định số 1121/1997/QĐ-TTg ngày 23/12/1997 của Thủ tướng Chính phủ;"
+            },
+            {
+                "id": "50e87f32-7067-499c-b3b0-aa8678a88d33",
+                "rank": 1000,
+                "page": 11,
+                "content": "- Căn cứ Quyết định số 152/2007/QĐ-TTg ngày 14 tháng 9 năm 2007 của Thủ tướng Chính phủ về học bổng chính sách đối với học sinh, sinh viên học tại các cơ sở giáo dục thuộc hệ thống giáo dục quốc dân;"
+            },
+            {
+                "id": "31b178c6-077c-4574-bb43-e60acdfa82da",
+                "rank": 1000,
+                "page": 11,
+                "content": "- Căn cứ Thông tư liên tịch số 23/2008/TTLT/BGDĐT-BLĐTBXH-BTC, ngày 28 tháng 04 năm 2008 của liên tịch Bộ Giáo dục và Đào tạo, Bộ Lao động - Thương binh và Xã hội, Bộ Tài chính hướng dẫn thực hiện Quyết định số 152/2007/QĐ-TTg ngày 14 tháng 9 năm 2007 của Thủ tướng Chính phủ về học bổng chính sách đối với học sinh, sinh viên học tại các cơ sở giáo dục thuộc hệ thống giáo dục quốc dân;"
+            },
+            {
+                "id": "b31c8033-02ce-47a9-a98c-a179ec8eb605",
+                "rank": 1000,
+                "page": 11,
+                "content": "- Căn cứ Thông tư liên tịch số 18/2009/TTLT/BGDĐT-BTC-BLĐTBXH, ngày 03 tháng 8 năm 2009 của liên tịch Bộ Giáo dục và Đào tạo, Bộ Lao động - Thương binh và Xã hội, Bộ Tài chính sửa đổi, bổ sung khoản 4 mục I Phần II Thông tư Liên tịch số 53/1998/TTLT/BGD&ĐT-BTC-BLĐTB&XH ngày 25 tháng 8 năm 1998 của liên tịch Bộ Giáo dục và Đào tạo, Bộ Tài chính, Bộ Lao động - Thương binh và Xã hội hướng dẫn thực hiện chế độ học bổng và trợ cấp xã hội đối với học sinh, sinh viên các trường đào tạo công lập."
+            }
+        ],
+        "child_ids": [
+            "929a7310-b9ae-467c-a2d8-616162516a26",
+            "54f48674-cb9d-48e2-b965-3ccd8ca3f833",
+            "cc6b3423-c144-40de-9e92-0eb81024cf8b",
+            "69e080b2-82cc-4c2e-8ad4-aea229601529",
+            "50e87f32-7067-499c-b3b0-aa8678a88d33",
+            "31b178c6-077c-4574-bb43-e60acdfa82da",
+            "b31c8033-02ce-47a9-a98c-a179ec8eb605"
+        ]
+    },
+    {
+        "id": "e3ff56b4-129a-40be-9452-63e653c7cc52",
+        "rank": 0,
+        "page": 11,
+        "content": "$$$ Trường Đại học Quy Nhơn hướng dẫn thực hiện chế độ Trợ cấp xã hội dành cho sinh viên hệ chính quy Trường Đại học Quy Nhơn như sau:",
+        "childs": [
+            {
+                "id": "dfefc132-a93a-45fa-b366-c008af614377",
+                "rank": 2,
+                "page": 11,
+                "content": "I. ĐỐI TƯỢNG VÀ PHẠM VI ÁP DỤNG TRỢ CẤP XÃ HỘI",
+                "childs": [
+                    {
+                        "id": "15d7b449-78d5-47b1-a438-0ef89832b036",
+                        "rank": 1000,
+                        "page": 11,
+                        "content": "Đối tượng được hưởng trợ cấp xã hội là học sinh, sinh viên đang học tại các trường đào tạo công lập hệ chính quy tập trung - dài hạn trong nước thuộc các diện sau đây:"
+                    },
+                    {
+                        "id": "805c632e-1b85-4ee5-9f6a-624902e39aad",
+                        "rank": 5,
+                        "page": 11,
+                        "content": "1. Học sinh, sinh viên là người dân tộc ít người ở vùng cao. Căn cứ để xác định người dân tộc ít người là giấy khai sinh bản gốc, hoặc giấy kết hôn của bố mẹ (nếu giấy khai sinh bản gốc bị thất lạc), trong đó có ghi bố hoặc mẹ là người dân tộc ít người. Người dân tộc ít người ở vùng cao là người dân tộc ít người liên tục sống ở vùng cao hoặc có hộ khẩu thường trú ở vùng cao ít nhất từ 3 năm trở lên (tính đến thời điểm vào học tại trường đào tạo)."
+                    },
+                    {
+                        "id": "0f2e7d04-499f-41a5-8c14-2c3d26e81b7f",
+                        "rank": 5,
+                        "page": 11,
+                        "content": "2. Học sinh, sinh viên là người mồ côi cả cha lẫn mẹ không nơi nương tựa. Đây là những người không có người đỡ đầu chính thức, không có nguồn chu cấp thường xuyên (học sinh, sinh viên phải xuất trình giấy xác nhận của cơ quan thương binh xã hội cấp quận, huyện, thị xã trên cơ sở đề nghị của phường, xã nơi học sinh, sinh viên cư trú)."
+                    },
+                    {
+                        "id": "5dae2b46-98e9-43eb-80e9-7cf5de850f3a",
+                        "rank": 5,
+                        "page": 11,
+                        "content": "3. Học sinh, sinh viên là người tàn tật theo quy định của Nhà nước tại Nghị định số 81/CP ngày 23/11/1995 là những người gặp khó khăn về kinh tế, khả năng lao động bị suy giảm từ 41% trở lên do tàn tật, được Hội đồng y khoa có thẩm quyền xác định (hồ sơ, thủ tục giám định y khoa áp dụng theo hướng dẫn tại Thông tư liên tịch số 34/TT-LB ngày 29/12/1993 của liên tịch Bộ Lao động - Thương binh và Xã hội, Bộ Y tế). Học sinh, sinh viên thuộc diện này phải xuất trình biên bản giám định y khoa và xác nhận của Ủy ban Nhân dân xã, phường về hoàn cảnh kinh tế khó khăn."
+                    },
+                    {
+                        "id": "54d4918a-b20a-4a7b-a836-425432900c3e",
+                        "rank": 5,
+                        "page": 12,
+                        "content": "4. Học sinh, sinh viên có hoàn cảnh đặc biệt khó khăn về kinh tế, vượt khó học tập là những người mà gia đình của họ thuộc diện hộ nghèo phải xuất trình giấy chứng nhận là học sinh, sinh viên thuộc hộ nghèo do Ủy ban Nhân dân cấp xã xác nhận theo mẫu giấy chứng nhận ban hành kèm theo Thông tư liên tịch số 18/2009/TTLT/BGDĐT-BTC-BLĐTBXH, ngày 03 tháng 8 năm 2009."
+                    }
+                ],
+                "child_ids": [
+                    "15d7b449-78d5-47b1-a438-0ef89832b036",
+                    "805c632e-1b85-4ee5-9f6a-624902e39aad",
+                    "0f2e7d04-499f-41a5-8c14-2c3d26e81b7f",
+                    "5dae2b46-98e9-43eb-80e9-7cf5de850f3a",
+                    "54d4918a-b20a-4a7b-a836-425432900c3e"
+                ]
+            },
+            {
+                "id": "4f91a167-afc5-4636-b424-7dea4908f15f",
+                "rank": 2,
+                "page": 12,
+                "content": "II. MỨC HƯỞNG TRỢ CẤP XÃ HỘI",
+                "childs": [
+                    {
+                        "id": "204f4ddc-d366-43b9-b908-38320d6df8fe",
+                        "rank": 1000,
+                        "page": 12,
+                        "content": "- Các đối tượng 1 hưởng mức trợ cấp xã hội là 140.000 đồng/tháng"
+                    },
+                    {
+                        "id": "5a42690c-8d7f-4435-a053-6e7c10ff420e",
+                        "rank": 1000,
+                        "page": 12,
+                        "content": "- Các đối tượng 2, 3, 4 hưởng mức trợ cấp xã hội là 100.000 đồng/tháng"
+                    }
+                ],
+                "child_ids": [
+                    "204f4ddc-d366-43b9-b908-38320d6df8fe",
+                    "5a42690c-8d7f-4435-a053-6e7c10ff420e"
+                ]
+            },
+            {
+                "id": "9e9d2e38-48a3-437b-9ef7-3c40e367496f",
+                "rank": 2,
+                "page": 12,
+                "content": "III. THỜI GIAN, HỒ SƠ TRỢ CẤP XÃ HỘI",
+                "childs": [
+                    {
+                        "id": "ab30a8fe-45db-49ea-956b-a755056a4664",
+                        "rank": 5,
+                        "page": 12,
+                        "content": "1. Thời gian nộp hồ sơ: Chậm nhất 30 ngày kể từ ngày nhà trường thông báo."
+                    },
+                    {
+                        "id": "e200d505-31a2-45c0-94e5-4b3444e48b5e",
+                        "rank": 5,
+                        "page": 12,
+                        "content": "2. Hồ sơ trợ cấp xã hội:",
+                        "childs": [
+                            {
+                                "id": "9b150907-4fb1-4e78-9e8a-dd24c893a2e9",
+                                "rank": 1000,
+                                "page": 12,
+                                "content": "ĐỐI TƯỢNG TCXH VÀ DANH MỤC HỒ SƠ NỘP THEO ĐỐI TƯỢNG"
+                            },
+                            {
+                                "id": "c3526ec9-dbf1-45af-93bd-4f2795d007c9",
+                                "rank": 1000,
+                                "page": 12,
+                                "content": "Đối tượng 1: Sinh viên là người dân tộc ít người ở vùng cao.\n- Hồ sơ cần chuẩn bị:\n+ 01 Đơn xin nhận trợ cấp xã hội (theo mẫu).\n+ 01 Giấy khai sinh (bản sao có công chứng) ghi rõ bố hoặc mẹ là người dân tộc ít người.\n+ 01 Sổ hộ khẩu (bản sao có công chứng)."
+                            },
+                            {
+                                "id": "231f3780-ba3b-4b5c-b29f-c63b5c020d0a",
+                                "rank": 1000,
+                                "page": 12,
+                                "content": "Đối tượng 2: Sinh viên là người mồ côi cả cha lẫn mẹ không nơi nương tựa.\n- Hồ sơ cần chuẩn bị:\n+ 01 Đơn xin nhận trợ cấp xã hội (theo mẫu).\n+ 01 Giấy khai sinh (bản sao có công chứng).\n+ 01 Giấy chứng tử của cha và mẹ (bản sao có công chứng).\n+ 01 Giấy xác nhận mồ côi cả cha lẫn mẹ của chính quyền địa phương. (Trường hợp sinh viên không có giấy chứng tử của cha và mẹ)."
+                            },
+                            {
+                                "id": "26f5b213-e27d-4e26-9d08-160f2a3421be",
+                                "rank": 1000,
+                                "page": 12,
+                                "content": "Đối tượng 3: Sinh viên là người tàn tật theo quy định của Nhà nước tại Nghị định số 81/CP ngày 23/11/1995. Những người gặp khó khăn về kinh tế, khả năng lao động bị suy giảm từ 41% trở lên do tàn tật và được Hội đồng y khoa có thẩm quyền xác định.\n- Hồ sơ cần chuẩn bị:\n+ 01 Đơn xin nhận trợ cấp xã hội (theo mẫu).\n+ 01 Biên bản giám định y khoa.\n+ 01 Bản xác nhận của Ủy ban Nhân dân xã, phường về hoàn cảnh kinh tế khó khăn."
+                            },
+                            {
+                                "id": "e8804573-22ea-4a83-8bf3-f652ab27dd64",
+                                "rank": 1000,
+                                "page": 12,
+                                "content": "Đối tượng 4: Sinh viên có hoàn cảnh đặc biệt khó khăn về kinh tế, vượt khó học tập là những người mà gia đình chưa thoát nghèo.\n- Hồ sơ cần chuẩn bị:\n+ 01 Đơn xin nhận trợ cấp xã hội (theo mẫu).\n+ 01 Giấy chứng nhận là sinh viên thuộc hộ nghèo do Ủy ban Nhân dân xã cấp và xác nhận (sinh viên thuộc đối tượng này phải có hồ sơ xét TCXH mỗi kỳ).\n+ Điểm rèn luyện và điểm học tập theo quy định và thông báo của nhà trường."
+                            }
+                        ],
+                        "child_ids": [
+                            "9b150907-4fb1-4e78-9e8a-dd24c893a2e9",
+                            "c3526ec9-dbf1-45af-93bd-4f2795d007c9",
+                            "231f3780-ba3b-4b5c-b29f-c63b5c020d0a",
+                            "26f5b213-e27d-4e26-9d08-160f2a3421be",
+                            "e8804573-22ea-4a83-8bf3-f652ab27dd64"
+                        ]
+                    }
+                ],
+                "child_ids": [
+                    "ab30a8fe-45db-49ea-956b-a755056a4664",
+                    "e200d505-31a2-45c0-94e5-4b3444e48b5e"
+                ]
+            }
+        ],
+        "child_ids": [
+            "dfefc132-a93a-45fa-b366-c008af614377",
+            "4f91a167-afc5-4636-b424-7dea4908f15f",
+            "9e9d2e38-48a3-437b-9ef7-3c40e367496f"
+        ]
+    },
+    {
+        "id": "08240335-a10d-490d-98bb-fd0a24017895",
+        "rank": 0,
+        "page": 13,
+        "content": "$$$ HƯỚNG DẪN THỰC HIỆN CHẾ ĐỘ HỖ TRỢ CHI PHÍ HỌC TẬP",
+        "childs": [
+            {
+                "id": "f7fd5ee7-f905-4c6c-ba6b-76e623dcc3ae",
+                "rank": 1000,
+                "page": 13,
+                "content": "Ngày 11/11/2013, Thủ tướng Chính phủ đã ban hành Quyết định số 66/2013/QĐ-TTg về việc Quy định chính sách hỗ trợ chi phí học tập đối với sinh viên là người dân tộc thiểu số học tại các cơ sở giáo dục đại học (có hiệu lực từ ngày 01/01/2014). Thông tư liên tịch số 35/2014/TTLT-BGDĐT-BTC ngày 15/10/2014."
+            },
+            {
+                "id": "33149616-af1f-44fb-92fc-66781711ef8f",
+                "rank": 5,
+                "page": 13,
+                "content": "1. Đối tượng áp dụng",
+                "childs": [
+                    {
+                        "id": "dedd999f-e52d-481b-8150-e4114cfdb5cb",
+                        "rank": 1000,
+                        "page": 13,
+                        "content": "Quyết định này quy định chính sách hỗ trợ chi phí học tập đối với sinh viên là người dân tộc thiểu số thuộc hộ nghèo, hộ cận nghèo theo quy định của Nhà nước, thi đỗ vào học đại học, cao đẳng hệ chính quy tại các cơ sở giáo dục đại học, bao gồm: đại học, học viện, trường đại học, trường cao đẳng (không áp dụng đối với sinh viên: Cử tuyển, các đối tượng chính sách được xét tuyển, đào tạo theo địa chỉ, đào tạo liên thông, văn bằng hai và học đại học, cao đẳng sau khi hoàn thành chương trình dự bị đại học)."
+                    }
+                ],
+                "child_ids": [
+                    "dedd999f-e52d-481b-8150-e4114cfdb5cb"
+                ]
+            },
+            {
+                "id": "803afb24-3baa-4725-9b9c-710ef8dc81f6",
+                "rank": 5,
+                "page": 13,
+                "content": "2. Mức hỗ trợ chi phí học tập",
+                "childs": [
+                    {
+                        "id": "e1e7903a-a235-4d64-8caa-6ccb4275eeec",
+                        "rank": 1000,
+                        "page": 13,
+                        "content": "Mức hỗ trợ chi phí học tập bằng 60% mức lương tối thiểu chung và được hưởng không quá 10 tháng/năm học/sinh viên."
+                    },
+                    {
+                        "id": "65ee6001-cbef-45a8-8c27-af05fa19071c",
+                        "rank": 1000,
+                        "page": 13,
+                        "content": "Thời gian cấp kinh phí hỗ trợ chi phí học tập được thực hiện 2 lần trong năm học: lần 1 cấp cho 4 tháng vào tháng 10 hoặc tháng 11 hàng năm; lần 2 cấp cho 6 tháng vào tháng 3 hoặc tháng 4 của năm sau. Trường hợp sinh viên chưa được nhận chế độ theo thời hạn quy định thì được truy lĩnh trong lần chi trả tiếp theo."
+                    },
+                    {
+                        "id": "05737b02-afbc-44f1-8ff0-487b16dac1e1",
+                        "rank": 1000,
+                        "page": 13,
+                        "content": "Sinh viên bỏ học hoặc bị kỷ luật buộc thôi học thì không được nhận kinh phí hỗ trợ chi phí học tập kể từ thời điểm quyết định kỷ luật có hiệu lực. Trường hợp sinh viên đã nhận kinh phí hỗ trợ chi phí học tập mà bỏ học hoặc bị kỷ luật buộc thôi học thì cơ sở giáo dục đại học công lập, Phòng Lao động - Thương binh và Xã hội dừng thực hiện chi trả kinh phí hỗ trợ chi phí học tập vào kỳ học tiếp theo."
+                    },
+                    {
+                        "id": "9c95423d-59d8-4dae-b5c3-e58c42f6f977",
+                        "rank": 1000,
+                        "page": 13,
+                        "content": "Sinh viên bị đình chỉ học tập (có thời hạn) thì không được nhận kinh phí hỗ trợ chi phí học tập trong thời gian bị đình chỉ, trừ trường hợp dừng học do ốm đau, tai nạn, học lại, lưu ban hoặc dừng học vì lý do khách quan được nhà trường xác nhận. Trường hợp sinh viên đã nhận kinh phí hỗ trợ chi phí học tập mà bị đình chỉ học tập thì cơ sở giáo dục đại học công lập, Phòng Lao động - Thương binh và Xã hội thực hiện khấu trừ số tiền tương ứng với số tháng bị đình chỉ học tập vào kỳ học tiếp theo sau khi sinh viên nhập học lại."
+                    }
+                ],
+                "child_ids": [
+                    "e1e7903a-a235-4d64-8caa-6ccb4275eeec",
+                    "65ee6001-cbef-45a8-8c27-af05fa19071c",
+                    "05737b02-afbc-44f1-8ff0-487b16dac1e1",
+                    "9c95423d-59d8-4dae-b5c3-e58c42f6f977"
+                ]
+            },
+            {
+                "id": "a83a94a9-9628-45e9-aa64-67e840ccc56e",
+                "rank": 5,
+                "page": 13,
+                "content": "3. Hồ sơ bao gồm:",
+                "childs": [
+                    {
+                        "id": "27c6cbf6-6339-4c84-ab82-d00ac4c38e9c",
+                        "rank": 1000,
+                        "page": 13,
+                        "content": "- Đơn đề nghị hỗ trợ chi phí học tập (theo mẫu);"
+                    },
+                    {
+                        "id": "8f9a1f05-e8d1-41c6-9216-f09f7c1db113",
+                        "rank": 1000,
+                        "page": 13,
+                        "content": "- Giấy chứng nhận hộ nghèo, hộ cận nghèo do Ủy ban Nhân dân xã, phường, thị trấn cấp (bản sao có công chứng);"
+                    },
+                    {
+                        "id": "197774a9-75fd-4159-8d68-b164e4d2a621",
+                        "rank": 1000,
+                        "page": 13,
+                        "content": "- Giấy khai sinh (bản sao có công chứng);"
+                    },
+                    {
+                        "id": "d91756dc-c673-4a37-a35e-b3592bfd6bbe",
+                        "rank": 1000,
+                        "page": 13,
+                        "content": "Sinh viên thuộc diện hỗ trợ chi phí học tập chỉ phải nộp hồ sơ 01 lần vào đầu năm học. Trong năm học, nếu gia đình sinh viên thuộc diện đã thoát nghèo thì sinh viên có trách nhiệm nộp văn bản chứng nhận hộ đã thoát nghèo để dừng việc chi trả chi phí học tập cho kỳ tiếp theo."
+                    },
+                    {
+                        "id": "5bb99fa5-f50e-4ec5-9725-80f4faa78878",
+                        "rank": 1000,
+                        "page": 13,
+                        "content": "Đối với sinh viên chưa thuộc diện hỗ trợ chi phí học tập, nếu trong năm học, gia đình sinh viên được bổ sung diện hộ nghèo, hộ cận nghèo thì nộp hồ sơ bổ sung đối tượng hưởng chính sách làm căn cứ chi trả chi phí học tập trong kỳ tiếp theo. Thời gian được hưởng theo hiệu lực của Giấy chứng nhận hộ nghèo, hộ cận nghèo."
+                    },
+                    {
+                        "id": "5c4c1f7e-18c8-45a9-80e7-7b41a0365201",
+                        "rank": 1000,
+                        "page": 14,
+                        "content": "Trường hợp trong quá trình học tập, sinh viên thuộc đối tượng được hưởng chế độ hỗ trợ chi phí học tập không nộp đơn đề nghị kèm theo đầy đủ các giấy tờ cần thiết theo quy định thì chỉ được chi trả chi phí học tập tính từ ngày cơ sở giáo dục đại học, Phòng Lao động - Thương binh và Xã hội nhận được đầy đủ hồ sơ đến khi kết thúc khóa học và không được giải quyết truy lĩnh tiền hỗ trợ chi phí học tập đối với thời gian đã học từ trước thời điểm sinh viên gửi hồ sơ đề nghị kèm theo các giấy tờ cần thiết có liên quan./."
+                    }
+                ],
+                "child_ids": [
+                    "27c6cbf6-6339-4c84-ab82-d00ac4c38e9c",
+                    "8f9a1f05-e8d1-41c6-9216-f09f7c1db113",
+                    "197774a9-75fd-4159-8d68-b164e4d2a621",
+                    "d91756dc-c673-4a37-a35e-b3592bfd6bbe",
+                    "5bb99fa5-f50e-4ec5-9725-80f4faa78878",
+                    "5c4c1f7e-18c8-45a9-80e7-7b41a0365201"
+                ]
+            }
+        ],
+        "child_ids": [
+            "f7fd5ee7-f905-4c6c-ba6b-76e623dcc3ae",
+            "33149616-af1f-44fb-92fc-66781711ef8f",
+            "803afb24-3baa-4725-9b9c-710ef8dc81f6",
+            "a83a94a9-9628-45e9-aa64-67e840ccc56e"
+        ]
+    },
+    {
+        "id": "21528ff6-9c04-430d-ae63-f1c3622c48fd",
+        "rank": 0,
+        "page": 15,
+        "content": "$$$ TRÍCH QUY ĐỊNH VỀ TÍN DỤNG ĐỐI VỚI HỌC SINH, SINH VIÊN",
+        "childs": [
+            {
+                "id": "0273e716-1c42-4786-bc27-bdd8d257602e",
+                "rank": 5,
+                "page": 15,
+                "content": "1. Phạm vi áp dụng",
+                "childs": [
+                    {
+                        "id": "2d4e1db8-f7f0-4f58-b7f5-0f47b76f5115",
+                        "rank": 1000,
+                        "page": 15,
+                        "content": "Chính sách tín dụng đối với học sinh, sinh viên nhằm hỗ trợ cho học sinh, sinh viên có hoàn cảnh khó khăn trong việc trang trải chi phí học tập và sinh hoạt, bao gồm: tiền học phí, chi phí mua sách vở, phương tiện học tập, chi phí ăn, ở, đi lại."
+                    }
+                ],
+                "child_ids": [
+                    "2d4e1db8-f7f0-4f58-b7f5-0f47b76f5115"
+                ]
+            },
+            {
+                "id": "69cab77b-ad9b-4eca-b8b5-57b3b70bbc51",
+                "rank": 5,
+                "page": 15,
+                "content": "2. Đối tượng được vay vốn",
+                "childs": [
+                    {
+                        "id": "1f848d43-b906-47ec-a1ac-b55fbbea9b39",
+                        "rank": 1000,
+                        "page": 15,
+                        "content": "Học sinh, sinh viên có hoàn cảnh khó khăn theo học tại các trường đại học (hoặc tương đương đại học), cao đẳng, trung cấp chuyên nghiệp và tại các cơ sở đào tạo nghề được thành lập và hoạt động theo quy định của pháp luật Việt Nam, gồm:"
+                    },
+                    {
+                        "id": "44879907-4120-4fff-b05a-213542c2105b",
+                        "rank": 6,
+                        "page": 15,
+                        "content": "2.1. Học sinh, sinh viên mồ côi cả cha lẫn mẹ hoặc chỉ mồ côi cha hoặc mẹ nhưng người còn lại không có khả năng lao động."
+                    },
+                    {
+                        "id": "377f0b78-a5dd-4853-8e04-15a79443ca6e",
+                        "rank": 6,
+                        "page": 15,
+                        "content": "2.2. Học sinh, sinh viên là thành viên của hộ gia đình thuộc một trong các đối tượng: \n- Hộ nghèo theo tiêu chuẩn quy định của pháp luật. \n- Hộ gia đình có mức thu nhập bình quân đầu người tối đa bằng 150% mức thu nhập bình quân đầu người của hộ gia đình nghèo theo quy định của pháp luật."
+                    },
+                    {
+                        "id": "20d94c98-15a7-4a74-94a7-209aec9bcdab",
+                        "rank": 6,
+                        "page": 15,
+                        "content": "2.3. Học sinh, sinh viên mà gia đình gặp khó khăn về tài chính do tai nạn, bệnh tật, thiên tai, hỏa hoạn, dịch bệnh trong thời gian theo học có xác nhận của Ủy ban Nhân dân xã, phường, thị trấn nơi cư trú."
+                    }
+                ],
+                "child_ids": [
+                    "1f848d43-b906-47ec-a1ac-b55fbbea9b39",
+                    "44879907-4120-4fff-b05a-213542c2105b",
+                    "377f0b78-a5dd-4853-8e04-15a79443ca6e",
+                    "20d94c98-15a7-4a74-94a7-209aec9bcdab"
+                ]
+            },
+            {
+                "id": "8a13aec8-7688-4cac-b97b-ad1bd0a0200b",
+                "rank": 5,
+                "page": 15,
+                "content": "3. Phương thức cho vay",
+                "childs": [
+                    {
+                        "id": "138cd842-f4fd-4a8a-be8d-7b4a8b250d22",
+                        "rank": 6,
+                        "page": 15,
+                        "content": "3.1. Việc cho vay đối với học sinh, sinh viên được thực hiện theo phương thức cho vay thông qua hộ gia đình. Đại diện hộ gia đình là người trực tiếp vay vốn và có trách nhiệm trả nợ Ngân hàng Chính sách xã hội. Trường hợp học sinh, sinh viên mồ côi cả cha lẫn mẹ hoặc chỉ mồ côi cha hoặc mẹ nhưng người còn lại không có khả năng lao động, được trực tiếp vay vốn tại Ngân hàng Chính sách xã hội nơi nhà trường đóng trụ sở."
+                    },
+                    {
+                        "id": "2c462a55-62d4-4094-9bdd-62f08b1aea2a",
+                        "rank": 6,
+                        "page": 15,
+                        "content": "3.2. Giao Ngân hàng Chính sách xã hội thực hiện cho vay đối với học sinh, sinh viên."
+                    }
+                ],
+                "child_ids": [
+                    "138cd842-f4fd-4a8a-be8d-7b4a8b250d22",
+                    "2c462a55-62d4-4094-9bdd-62f08b1aea2a"
+                ]
+            },
+            {
+                "id": "5a69d36a-52e1-4955-ad20-70c9834bb10d",
+                "rank": 5,
+                "page": 15,
+                "content": "4. Điều kiện vay vốn",
+                "childs": [
+                    {
+                        "id": "6a1165c7-2eb0-48a9-8e5b-36ce34524d98",
+                        "rank": 6,
+                        "page": 15,
+                        "content": "4.1. Học sinh, sinh viên đang sinh sống trong hộ gia đình cư trú hợp pháp tại địa phương nơi cho vay có đủ các tiêu chuẩn quy định tại Điều 2 Quyết định này."
+                    },
+                    {
+                        "id": "7b64eb00-1f45-48f7-9a20-273202bacb1d",
+                        "rank": 6,
+                        "page": 15,
+                        "content": "4.2. Đối với học sinh, sinh viên năm thứ nhất phải có giấy báo trúng tuyển hoặc giấy xác nhận được vào học của nhà trường."
+                    },
+                    {
+                        "id": "f0f3e526-c449-4464-934f-b893dde3b9af",
+                        "rank": 6,
+                        "page": 15,
+                        "content": "4.3. Đối với học sinh, sinh viên năm thứ hai trở đi phải có xác nhận của nhà trường về việc đang theo học tại trường và không bị xử phạt hành chính trở lên về các hành vi: cờ bạc, nghiện hút, trộm cắp, buôn lậu."
+                    }
+                ],
+                "child_ids": [
+                    "6a1165c7-2eb0-48a9-8e5b-36ce34524d98",
+                    "7b64eb00-1f45-48f7-9a20-273202bacb1d",
+                    "f0f3e526-c449-4464-934f-b893dde3b9af"
+                ]
+            },
+            {
+                "id": "171a309d-43dc-4f6e-ac0b-608760475711",
+                "rank": 5,
+                "page": 15,
+                "content": "5. Mức vốn cho vay",
+                "childs": [
+                    {
+                        "id": "bc639f0a-ad97-4b7b-9335-c211c4898817",
+                        "rank": 1000,
+                        "page": 15,
+                        "content": "5.1 Mức vay tối đa là 1.500.000 đồng/tháng/sinh viên (theo Quyết định số 751/QĐ-TTg ngày 30/5/2017 của Thủ tướng Chính phủ)."
+                    },
+                    {
+                        "id": "88dfb431-5e13-4bbb-b833-a762d9f43957",
+                        "rank": 6,
+                        "page": 16,
+                        "content": "5.2. Ngân hàng Chính sách xã hội quy định mức cho vay cụ thể đối với học sinh, sinh viên căn cứ vào mức thu học phí của từng trường và sinh hoạt phí theo vùng nhưng không vượt quá mức cho vay quy định tại khoản 1 Điều này."
+                    },
+                    {
+                        "id": "ed8a1e0c-1fa7-4f14-909e-77d4fbabb7b4",
+                        "rank": 6,
+                        "page": 16,
+                        "content": "5.3. Khi chính sách học phí của Nhà nước có thay đổi và giá cả sinh hoạt có biến động, Ngân hàng Chính sách xã hội thống nhất với Bộ trưởng Bộ Tài chính trình Thủ tướng Chính phủ xem xét, quyết định điều chỉnh mức vốn cho vay."
+                    }
+                ],
+                "child_ids": [
+                    "bc639f0a-ad97-4b7b-9335-c211c4898817",
+                    "88dfb431-5e13-4bbb-b833-a762d9f43957",
+                    "ed8a1e0c-1fa7-4f14-909e-77d4fbabb7b4"
+                ]
+            },
+            {
+                "id": "0468e3fa-ea51-46b7-b5f0-ee8fd73717eb",
+                "rank": 5,
+                "page": 16,
+                "content": "6. Thời hạn cho vay",
+                "childs": [
+                    {
+                        "id": "2d4c57ec-67dd-4846-a467-cc4da2d0f386",
+                        "rank": 6,
+                        "page": 16,
+                        "content": "6.1. Thời hạn cho vay là khoảng thời gian được tính từ ngày đối tượng được vay vốn bắt đầu nhận vốn vay cho đến ngày trả hết nợ (gốc và lãi) được ghi trong hợp đồng tín dụng. Thời hạn cho vay bao gồm thời hạn phát tiền vay và thời hạn trả nợ."
+                    },
+                    {
+                        "id": "7a19c0c2-41df-413d-a2ac-7370a2023da9",
+                        "rank": 6,
+                        "page": 16,
+                        "content": "6.2. Thời hạn phát tiền vay là khoảng thời gian tính từ ngày đối tượng được vay vốn nhận món vay đầu tiên cho đến ngày học sinh, sinh viên kết thúc khóa học, kể cả thời gian học sinh, sinh viên được các trường cho phép nghỉ học có thời hạn và được bảo lưu kết quả học tập (nếu có). Thời hạn phát tiền vay được chia thành các kỳ hạn phát tiền vay do Ngân hàng Chính sách xã hội quy định hoặc thỏa thuận với đối tượng được vay vốn."
+                    },
+                    {
+                        "id": "d35cbc3b-c472-4d6e-a2df-df3761aaa4d5",
+                        "rank": 6,
+                        "page": 16,
+                        "content": "6.3. Thời hạn trả nợ là khoảng thời gian tính từ ngày đối tượng được vay vốn trả món nợ đầu tiên đến ngày trả hết nợ (gốc và lãi). Đối với các chương trình đào tạo có thời gian đào tạo không quá một năm, thời hạn trả nợ tối đa bằng 2 lần thời hạn phát tiền vay, đối với các chương trình đào tạo khác, thời hạn trả nợ tối đa bằng thời hạn phát tiền vay. Thời hạn trả nợ được chia thành các kỳ hạn trả nợ do Ngân hàng Chính sách xã hội quy định."
+                    }
+                ],
+                "child_ids": [
+                    "2d4c57ec-67dd-4846-a467-cc4da2d0f386",
+                    "7a19c0c2-41df-413d-a2ac-7370a2023da9",
+                    "d35cbc3b-c472-4d6e-a2df-df3761aaa4d5"
+                ]
+            },
+            {
+                "id": "387646f0-f871-4fb8-aad4-e401ee6a1469",
+                "rank": 5,
+                "page": 16,
+                "content": "7. Lãi suất cho vay",
+                "childs": [
+                    {
+                        "id": "7b1f6131-3108-458a-9a8d-a1ceb20cd78b",
+                        "rank": 6,
+                        "page": 16,
+                        "content": "7.1. Lãi suất cho vay ưu đãi đối với học sinh, sinh viên là 0,5%/tháng."
+                    },
+                    {
+                        "id": "aa8f8c7a-b8ce-412b-b376-022f7501bdfe",
+                        "rank": 6,
+                        "page": 16,
+                        "content": "7.2. Lãi suất nợ quá hạn được tính bằng 130% lãi suất khi cho vay."
+                    }
+                ],
+                "child_ids": [
+                    "7b1f6131-3108-458a-9a8d-a1ceb20cd78b",
+                    "aa8f8c7a-b8ce-412b-b376-022f7501bdfe"
+                ]
+            },
+            {
+                "id": "9220bcb5-90e3-4a55-9940-0b1359529117",
+                "rank": 5,
+                "page": 16,
+                "content": "8. Hồ sơ vay vốn, trình tự và thủ tục cho vay, trả nợ",
+                "childs": [
+                    {
+                        "id": "53b358f0-7d31-4452-99ed-2325f48cecb9",
+                        "rank": 1000,
+                        "page": 16,
+                        "content": "Ngân hàng Chính sách xã hội quy định hồ sơ vay vốn, trình tự và thủ tục cho vay, trả nợ bảo đảm đơn giản, rõ ràng, dễ thực hiện."
+                    }
+                ],
+                "child_ids": [
+                    "53b358f0-7d31-4452-99ed-2325f48cecb9"
+                ]
+            },
+            {
+                "id": "d8a1fd43-5495-46a1-89a4-a81d294f9bc3",
+                "rank": 5,
+                "page": 16,
+                "content": "9. Trả nợ gốc và lãi tiền vay",
+                "childs": [
+                    {
+                        "id": "89fa6a9f-fe15-4234-a483-6571b9e5f665",
+                        "rank": 6,
+                        "page": 16,
+                        "content": "9.1. Trong thời hạn phát tiền vay đối tượng được vay vốn chưa phải trừ nợ gốc và lãi; lãi tiền vay đựợc tính kể từ ngày đối tượng được vay vốn nhận món vay đầu tiên đến ngày trả hết nợ gốc."
+                    },
+                    {
+                        "id": "72e5e1b0-bd1a-4b81-bbbe-c298cbeb61c0",
+                        "rank": 6,
+                        "page": 16,
+                        "content": "9.2. Đối tượng được vay vốn phải trả nợ gốc và lãi tiền vay lần đầu tiên ngay sau khi học sinh, sinh viên có việc làm, có thu nhập nhưng không quá 12 tháng kể từ ngày học sinh, sinh viên kết thúc khoá học."
+                    },
+                    {
+                        "id": "8cc3060f-2c79-4531-b534-d5ea516afbb5",
+                        "rank": 6,
+                        "page": 16,
+                        "content": "9.3. Mức trả nợ mỗi lần do Ngân hàng Chính sách xã hội hướng dẫn và được thống nhất trong hợp đồng tín dụng."
+                    }
+                ],
+                "child_ids": [
+                    "89fa6a9f-fe15-4234-a483-6571b9e5f665",
+                    "72e5e1b0-bd1a-4b81-bbbe-c298cbeb61c0",
+                    "8cc3060f-2c79-4531-b534-d5ea516afbb5"
+                ]
+            },
+            {
+                "id": "e672a4de-a769-49d8-8a90-2a1e95dae8fa",
+                "rank": 5,
+                "page": 16,
+                "content": "10. Ưu đãi lãi suất trong trường hợp trả nợ trước hạn",
+                "childs": [
+                    {
+                        "id": "5d3a4a0a-e9a4-48c8-aa62-d623175c8c95",
+                        "rank": 1000,
+                        "page": 16,
+                        "content": "Trường hợp đối tượng vay vốn trả nợ trước hạn đã cam kết trong hợp đồng tín dụng lãi suất phải trả sẽ được giảm lãi vay. Ngân hàng Chính sách xã hội quy định cụ thể mức Ưu đãi lãi suất trong trường hợp trả nợ trước hạn."
+                    }
+                ],
+                "child_ids": [
+                    "5d3a4a0a-e9a4-48c8-aa62-d623175c8c95"
+                ]
+            },
+            {
+                "id": "2a6cce46-22bb-4ba0-87f1-307cc6b69382",
+                "rank": 5,
+                "page": 17,
+                "content": "11. Điều chỉnh kỳ hạn trả nợ, gia hạn trả nợ và chuyển nợ quá hạn",
+                "childs": [
+                    {
+                        "id": "f019e980-33a9-431b-aeac-04282f594789",
+                        "rank": 6,
+                        "page": 17,
+                        "content": "11.1. Đến kỳ trả nợ cuối cùng, người vay có khó khăn chưa trả được nợ, phải có văn bản đề nghị gia hạn nợ thì được Ngân hàng Chính sách xã hội xem xét cho gia hạn nợ cho đối tượng vay vốn; thời gian gia hạn nợ tối đa bằng 1/2 thời hạn trả nợ."
+                    },
+                    {
+                        "id": "7c22db17-4ea4-49b5-9bbb-7027af0f3645",
+                        "rank": 6,
+                        "page": 17,
+                        "content": "11.2. Trường hợp đối tượng được vay vốn không trả nợ đúng hạn theo kỳ hạn trả nợ cuối cùng và không được phép gia hạn nợ, Ngân hàng Chính sách xã hội chuyển thành nợ quá hạn. Ngân hàng Chính sách xã hội phối hợp với chính quyền địa phương, các tổ chức chính trị - xã hội có biện pháp thu hồi nợ."
+                    },
+                    {
+                        "id": "fadd5789-a3bc-493c-9b0b-af5974b941d7",
+                        "rank": 6,
+                        "page": 17,
+                        "content": "11.3. Ngân hàng Chính sách xã hội quy định cụ thể việc điều chỉnh kỳ hạn trả nợ, gia hạn trả nợ và chuyển nợ quá hạn."
+                    }
+                ],
+                "child_ids": [
+                    "f019e980-33a9-431b-aeac-04282f594789",
+                    "7c22db17-4ea4-49b5-9bbb-7027af0f3645",
+                    "fadd5789-a3bc-493c-9b0b-af5974b941d7"
+                ]
+            },
+            {
+                "id": "2482ed4b-7844-442b-90e7-0b7b5277b8ff",
+                "rank": 5,
+                "page": 17,
+                "content": "12. Xử lý rủi ro do nguyên nhân khách quan",
+                "childs": [
+                    {
+                        "id": "2dab5e6b-c428-4fd6-8904-5c3126350f5c",
+                        "rank": 1000,
+                        "page": 17,
+                        "content": "Việc xử lý nợ bị rủi ro do nguyên nhân khách quan được thực hiện theo quy định về quy chế xử lý nợ bị rủi ro tại Ngân hàng Chính sách xã hội."
+                    }
+                ],
+                "child_ids": [
+                    "2dab5e6b-c428-4fd6-8904-5c3126350f5c"
+                ]
+            },
+            {
+                "id": "5b254800-37ec-476c-928e-bd87c2ad33c4",
+                "rank": 5,
+                "page": 17,
+                "content": "13. Trách nhiệm của các cơ quan",
+                "childs": [
+                    {
+                        "id": "f9e1e0f9-2ec3-4acd-8929-fa7ffe911e40",
+                        "rank": 6,
+                        "page": 17,
+                        "content": "13.1. Trách nhiệm của nhà trường",
+                        "childs": [
+                            {
+                                "id": "c8ecb73c-8546-432a-ae57-3f401003d495",
+                                "rank": 1000,
+                                "page": 17,
+                                "content": "- Phối hợp với Ủy ban Nhân dân địa phương và Ngân hàng Chính sách xã hội tổ chức thực hiện chính sách tín dụng học sinh, sinh viên."
+                            },
+                            {
+                                "id": "67ae8b0a-0765-4f16-ac2f-0245cdf7d49e",
+                                "rank": 1000,
+                                "page": 17,
+                                "content": "- Giao cho Phòng Công tác chính trị - Sinh viên thực hiện xác nhận việc học sinh, sinh viên đang theo học tại trường có đủ điều kiện vay vốn quy định."
+                            }
+                        ],
+                        "child_ids": [
+                            "c8ecb73c-8546-432a-ae57-3f401003d495",
+                            "67ae8b0a-0765-4f16-ac2f-0245cdf7d49e"
+                        ]
+                    },
+                    {
+                        "id": "95113d6a-9c70-4df8-8722-a8f08c2bea39",
+                        "rank": 6,
+                        "page": 17,
+                        "content": "13.2. Trách nhiệm của địa phương",
+                        "childs": [
+                            {
+                                "id": "c518c0c8-069b-4149-9a02-595dc56ad361",
+                                "rank": 1000,
+                                "page": 17,
+                                "content": "- Ủy ban Nhân dân các tỉnh, thành phố trực thuộc Trung ương chỉ đạo các cơ quan chức năng và Ủy ban Nhân dân các cấp thực hiện chính sách tín dụng đối với học sinh, sinh viên theo đúng quy định."
+                            },
+                            {
+                                "id": "ad6bf88f-6589-44be-8bf5-7ab1292dc511",
+                                "rank": 1000,
+                                "page": 17,
+                                "content": "- Ngân hàng Chính sách xã hội chịu trách nhiệm hướng dẫn hồ sơ xin vay vốn, trình tự và thủ tục cho vay, kỳ hạn trả nợ, mức trả nợ, gia hạn trả nợ, chuyển nợ quá hạn đối với học sinh, sinh viên theo quy định. Tổ chức huy động vốn để bổ sung nguồn vốn cho vay đối với học sinh, sinh viên. Phối hợp chặt chẽ, thường xuyên với các trường đại học, cao đẳng, trung cấp chuyên nghiệp và các cơ sở đào tạo nghề trong quá trình cho vay để vốn vay sử dụng đúng mục đích, tạo điều kiện thuận lợi cho học sinh, sinh viên trong việc nhận tiền vay và đóng học phí."
+                            },
+                            {
+                                "id": "f354c3aa-5af1-47fc-8cb3-4b31c125c820",
+                                "rank": 1000,
+                                "page": 17,
+                                "content": "- Tổ chức, cá nhân sử dụng lao động là học sinh, sinh viên đã được vay vốn nhà nước, có trách nhiệm đôn đốc học sinh, sinh viên chuyển tiền về gia đình để trả nợ hoặc trực tiếp trả nợ Ngân hàng Chính sách xã hội."
+                            }
+                        ],
+                        "child_ids": [
+                            "c518c0c8-069b-4149-9a02-595dc56ad361",
+                            "ad6bf88f-6589-44be-8bf5-7ab1292dc511",
+                            "f354c3aa-5af1-47fc-8cb3-4b31c125c820"
+                        ]
+                    }
+                ],
+                "child_ids": [
+                    "f9e1e0f9-2ec3-4acd-8929-fa7ffe911e40",
+                    "95113d6a-9c70-4df8-8722-a8f08c2bea39"
+                ]
+            },
+            {
+                "id": "fc4c4bb3-e79a-46c9-bf2d-68fc6b184641",
+                "rank": 5,
+                "page": 17,
+                "content": "14. Xử lý vi phạm",
+                "childs": [
+                    {
+                        "id": "5c35a0a4-199d-45c9-8067-b24cb2d74d93",
+                        "rank": 1000,
+                        "page": 17,
+                        "content": "Các tổ chức, cá nhân thực hiện không đúng quy định về tín dụng đối với học sinh, sinh viên, tùy theo mức độ vi phạm sẽ xử lý theo quy định của pháp luật."
+                    }
+                ],
+                "child_ids": [
+                    "5c35a0a4-199d-45c9-8067-b24cb2d74d93"
+                ]
+            }
+        ],
+        "child_ids": [
+            "0273e716-1c42-4786-bc27-bdd8d257602e",
+            "69cab77b-ad9b-4eca-b8b5-57b3b70bbc51",
+            "8a13aec8-7688-4cac-b97b-ad1bd0a0200b",
+            "5a69d36a-52e1-4955-ad20-70c9834bb10d",
+            "171a309d-43dc-4f6e-ac0b-608760475711",
+            "0468e3fa-ea51-46b7-b5f0-ee8fd73717eb",
+            "387646f0-f871-4fb8-aad4-e401ee6a1469",
+            "9220bcb5-90e3-4a55-9940-0b1359529117",
+            "d8a1fd43-5495-46a1-89a4-a81d294f9bc3",
+            "e672a4de-a769-49d8-8a90-2a1e95dae8fa",
+            "2a6cce46-22bb-4ba0-87f1-307cc6b69382",
+            "2482ed4b-7844-442b-90e7-0b7b5277b8ff",
+            "5b254800-37ec-476c-928e-bd87c2ad33c4",
+            "fc4c4bb3-e79a-46c9-bf2d-68fc6b184641"
+        ]
+    }
+]

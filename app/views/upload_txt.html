@@ -96,23 +96,9 @@
       <h1>Upload TXT</h1>
       <form action="/upload/txt" method="POST" enctype="multipart/form-data">
         <div class="file-option">
-          <label for="chuong_dieu_khoan_diem">Cấu trúc chương điều, khoản, điểm</label>
-          <input type="file" id="chuong_dieu_khoan_diem" name="chuong_dieu_khoan_diem" accept=".txt" />
-        </div>
-
-        <div class="file-option">
-          <label for="dieu_khoan_diem">Cấu trúc điều, khoản, điểm</label>
-          <input type="file" id="dieu_khoan_diem" name="dieu_khoan_diem" accept=".txt" />
-        </div>
-
-        <div class="file-option">
-          <label for="khoan">Cấu trúc khoản</label>
-          <input type="file" id="khoan" name="khoan" accept=".txt" />
-        </div>
-
-        <div class="file-option">
-          <label for="bang">Cấu trúc bảng</label>
-          <input type="file" id="bang" name="bang" accept=".txt" />
+          <label for="files">Chọn tệp TXT</label>
+          <!-- Thêm thuộc tính 'multiple' cho phép tải lên nhiều tệp -->
+          <input type="file" id="files" name="files[]" accept=".txt" multiple />
         </div>
 
         <div class="button-container">
