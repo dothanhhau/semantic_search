@@ -41,7 +41,7 @@ class DocumentParts:
                 collection_name=DocumentParts.name,
                 data=vector,
                 limit=k,
-                output_fields=['content']
+                output_fields=['content', 'page', 'position', 'doc_id']
             )
             return res
         except Exception as e:
@@ -56,7 +56,7 @@ class DocumentParts:
                 partition_names=partition,
                 data=vector,
                 limit=k,
-                output_fields=['content']
+                output_fields=['content', 'page', 'position', 'doc_id']
             )
             return res
         except Exception as e:

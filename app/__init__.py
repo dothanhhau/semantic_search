@@ -13,14 +13,15 @@ try:
         uri=str(os.getenv('URL_MILVUS')), 
         token=str(os.getenv('TOKEN_MILVUS'))
     )
+    # client = MilvusClient(host="localhost", port="19530")
 except Exception as e:
     print(e)
 
 phoBert = AutoModel.from_pretrained(str(os.getenv("PHO_BERT")))
 try:
     vncorenlp = py_vncorenlp.VnCoreNLP(annotators=["wseg"], save_dir=str(os.getenv("VNCORE")))
-except ValueError as e:
-    print("JVM đã được khởi động, sẽ sử dụng đối tượng đã có sẵn.")
+except Exception as e:
+    print("JVM đã được khởi động, sẽ sử dụng đối tượng đã có sẵn.", e)
 phoBertTokenizer = AutoTokenizer.from_pretrained(str(os.getenv("PHO_BERT")))
 pytesseract.pytesseract.tesseract_cmd = str(os.getenv("TESSERACT"))
 

@@ -16,6 +16,12 @@ load_dotenv()
 
 upload_bp = Blueprint('upload', __name__, url_prefix='/upload')
 
+import numpy as np
+def ndarray_to_list(obj):
+    if isinstance(obj, np.ndarray):
+        return obj.tolist()  # Chuyển ndarray thành list
+    raise TypeError(f"Object of type {obj.__class__.__name__} is not serializable")
+
 @upload_bp.route('/pdf', methods=['GET', 'POST'])
 def upload_pdf():
     message = ''
@@ -179,6 +185,9 @@ def upload_txt():
                 # Xử lý dữ liệu để insert vào db
                 final_array = add_fields_doc_id(array, doc_id)
 
+                # with open(path_json, "w", encoding="utf-8") as f:
+                #     json.dump(final_array, f, default=ndarray_to_list, ensure_ascii=False, indent=4)
+
                 # if Document.load_collection():
                 #     Document.insert([{
                 #         "id": doc_id,
@@ -199,9 +208,9 @@ def upload_txt():
                     "vector": doc_vector,
                     "file_name": filename
                 }])
-
-                if DocumentParts.create_partition(doc_id):
-                    DocumentParts.insert(final_array, doc_id)
+                partiton = doc_id.replace("-", "_")
+                if DocumentParts.create_partition(partiton):
+                    DocumentParts.insert(final_array, partiton)
 
                 print("Dữ liệu đã được lưu vào file ", path_json)
                 # Bạn có thể xử lý `arr` ở đây nếu cần
