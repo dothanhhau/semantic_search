@@ -169,7 +169,9 @@
           <h3>Kết quả tìm kiếm:</h3>
           {% for y in x %}
             <div class="result-item">
-              <strong>ID:</strong> {{ y.id }}<br />
+              <strong>Tài liệu:</strong> {{ y.entity.doc_name }}<br />
+              <strong>Trang:</strong> {{ y.entity.page }}<br />
+              <strong>Vị trí:</strong> {{ y.entity.position }}<br />
               <strong>Khoảng cách:</strong> {{ y.distance }}<br />
               <strong>Nội dung:</strong> {{ y.entity.content }}
             </div>

@@ -5,8 +5,8 @@ class Document:
     name = "DOCUMENTS"
 
     @staticmethod
-    def search():
-        pass
+    def find_by_id(id):
+        return client.get(collection_name="DOCUMENTS", ids=id, output_fields=['name'])
 
     @staticmethod
     def load_collection():

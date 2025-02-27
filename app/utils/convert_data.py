@@ -9,7 +9,7 @@ re_ranks = [
     r"\$\$\$",            # Kiểm tra ký tự $$$
     r"[cC]hương\s.+:",  # Kiểm tra chữ "Chương"
     r"[IVXLCDM]+\.",     # Kiểm tra số La Mã (I. II. III. ...)
-    r"[đĐ]iều\s.+\.",   # Kiểm tra chữ "Điều"
+    r"[đĐ]iều\s\d+\.?",   # Kiểm tra chữ "Điều" theo sau là số, có thể có dấu chấm
     r"truonghopdacbiet",
     r"\d+\.\s",            # Kiểm tra dạng số nguyên "1."
     r"\d+\.\d+\.",       # Kiểm tra dạng số thập phân "1.1."
@@ -56,10 +56,10 @@ def array2json(data):
 
             res = {'id': id, 'rank': cur_rank, 'page': page, 'content': entity}
             
-            if len(subs) > 0:
-                sub_ids = [sub['id'] for sub in subs]
-                res['childs'] = subs
-                res['child_ids'] = sub_ids
+            # if len(subs) > 0:
+            sub_ids = [sub['id'] for sub in subs]
+            res['childs'] = subs
+            res['child_ids'] = sub_ids
 
             stack.append(res)
     
@@ -106,9 +106,12 @@ def add_fields_vector_and_position(data, position=None):
             rank += 2
         
         if rank != 1000:
-            match = re.search(re_ranks[rank], item['content'])
-            if match:
-                new_position.append(match.group())
+            if rank == 0:
+                new_position.append(item['content'].split('$$$')[1].strip())
+            else:
+                match = re.search(re_ranks[rank], item['content'])
+                if match:
+                    new_position.append(match.group())
         
         item['position'] = new_position
         

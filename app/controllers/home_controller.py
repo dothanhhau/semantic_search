@@ -10,7 +10,12 @@ home_bp = Blueprint('home', __name__, url_prefix='/')
 @home_bp.route('/', methods=['GET', 'POST'])
 def index():
     message = request.args.get('search', '')
-    partition = request.form.get("partition")
+    option = request.args.get("partition")
+    # print(option)
+    partition = ''
+    if option:
+        partition = option.replace("-", "_")
+
     res = []
     if message:
         vector = vectorize_text(message)
@@ -18,6 +23,9 @@ def index():
             res = DocumentParts.search_on_partition([vector], partition, 3)
         else:
             res = DocumentParts.search_all([vector], 3)
+        for x in res:
+            for y in x:
+                y['entity']['doc_name'] = Document.find_by_id(y['entity']['doc_id'])[0]['name']
 
     try:
         partitions = Document.get_all()
