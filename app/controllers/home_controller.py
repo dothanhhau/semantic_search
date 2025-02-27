@@ -10,17 +10,14 @@ home_bp = Blueprint('home', __name__, url_prefix='/')
 @home_bp.route('/', methods=['GET', 'POST'])
 def index():
     message = request.args.get('search', '')
-    option = request.args.get("partition")
-    # print(option)
-    partition = ''
-    if option:
-        partition = option.replace("-", "_")
+    selected_partitions = request.args.getlist("partition")
+    modified_partition  = [option.replace("-", "_") for option in selected_partitions]
 
     res = []
     if message:
         vector = vectorize_text(message)
-        if partition:
-            res = DocumentParts.search_on_partition([vector], partition, 3)
+        if len(modified_partition) > 0:
+            res = DocumentParts.search_on_partition([vector], modified_partition, 3)
         else:
             res = DocumentParts.search_all([vector], 3)
         for x in res:
@@ -34,4 +31,4 @@ def index():
     if not partitions:
         partitions = []
     
-    return render_template('index.html', title="Search Page", message=message, res=res, partitions=partitions)
+    return render_template('index.html', title="Search Page", message=message, res=res, partitions=partitions, selected_partitions=selected_partitions)
