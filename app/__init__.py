@@ -33,7 +33,9 @@ def create_app():
     with app.app_context():
         from .controllers.home_controller import home_bp
         from .controllers.upload_controller import upload_bp
+        from .controllers.show_pdf import show_bp
         app.register_blueprint(home_bp)
         app.register_blueprint(upload_bp)
+        app.register_blueprint(show_bp)
     
     return app

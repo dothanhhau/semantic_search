@@ -99,7 +99,7 @@
 
       .result-item {
         background-color: #f9f9f9;
-        padding: 15px;
+        padding: 15px 15px 30px 15px;
         border-radius: 8px;
         margin-bottom: 15px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -181,7 +181,8 @@
           <strong>Trang:</strong> {{ y.entity.page }}<br />
           <strong>Vị trí:</strong> {{ y.entity.position }}<br />
           <strong>Khoảng cách:</strong> {{ y.distance }}<br />
-          <strong>Nội dung:</strong> {{ y.entity.content }}
+          <strong>Nội dung:</strong> {{ y.entity.content }}<br />
+          <a style="float: right; margin-top: 8px; color: blue; text-decoration: none;" href="/show?file={{ y.entity.doc_name }}&page={{ y.entity.page }}">Hiển thị văn bản gốc</a>
         </div>
         {% endfor %} {% endfor %}
       </div>

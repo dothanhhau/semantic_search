@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiển thị tệp PDF</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            width: 100%;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <iframe src="./../static/quy_dinh_quy_che/pdf/{{ file }}#page={{ page }}" frameborder="0" width="100%" height="100%"></iframe>
+</body>
+</html>
