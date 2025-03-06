@@ -2,6 +2,7 @@ import re
 import os
 import uuid
 import json
+from datetime import datetime
 from app.services.tokenizer_service import vectorize_text
 folder_path = 'D:/WorkSpace/python/semantic_search/app/static/quy_dinh_quy_che/txt/'
 
@@ -36,7 +37,7 @@ def array2json(data):
         except Exception as e:
             if not entity: continue
             
-            id = str(uuid.uuid4())
+            id = str(uuid.uuid4()).replace("-", "_")
             subs = []
             sub_ids = []
             cur_rank = get_rank(entity)
@@ -121,8 +122,9 @@ def add_fields_vector_and_position(data, position=None):
     return data
 
 def add_fields_doc_id(data, doc_id):
-    for item in data:
+    for index, item in enumerate(data):
         item['doc_id'] = doc_id
+        item['key'] = index
     return data
 
 def json2array(data, result=None):
@@ -139,5 +141,33 @@ def json2array(data, result=None):
             json2array(item['childs'], result)
 
     return result
+
+def select_fields_to_save_array(array):
+    res = []
+    for x in array:
+        res.append({
+            'id': x['id'], 
+            'rank': x['rank'],
+            'content': x['content']
+        })
+    return res
+
+
+def datetime2string(date: datetime):
+    return date.strftime('%Y-%m-%d_%H-%M-%S')
+
+def format_type_of_filename(filename, type_of_file=''):
+    filename = filename.replace(".txt", "")
+    filename = filename.replace(".pdf", "")
+    filename = filename.replace(".json", "")
+    if type_of_file == 'txt':
+        filename += '.txt'
+    elif type_of_file == 'pdf':
+        filename += '.pdf'
+    elif type_of_file == 'json':
+        filename += '.json'
+
+    return filename
+
 # all()
 # print(os.getcwd())

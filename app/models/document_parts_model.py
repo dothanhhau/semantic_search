@@ -35,6 +35,30 @@ class DocumentParts:
             return False
 
     @staticmethod
+    def release_partition(partition):
+        try:
+            while True:
+                checkLoadCollection = client.get_load_state(
+                    collection_name=DocumentParts.name,
+                    partition_name=partition
+                )
+                if checkLoadCollection['state'] == LoadState.Loaded:
+                    client.release_partitions(
+                        collection_name=DocumentParts.name,
+                        partition_names=[partition]
+                    )
+                else:
+                    break
+            return True
+        except Exception as e:
+            print(f"Error releasing collection: {e}")
+            return False
+
+    @staticmethod
+    def find_by_id(id):
+        return client.get(collection_name=DocumentParts.name, ids=id)
+
+    @staticmethod
     def search_all(vector, k):
         try:
             res = client.search(
@@ -76,6 +100,21 @@ class DocumentParts:
             return False
 
     @staticmethod
+    def drop_partition(partition):
+        try:
+            if DocumentParts.release_partition(partition):
+                client.drop_partition(
+                    collection_name=DocumentParts.name,
+                    partition_name=partition
+                )
+                return True
+            else:
+                return False
+        except Exception as e:
+            print('Err', e)
+            return False
+
+    @staticmethod
     def get_children(id):
         return ''
 
@@ -100,11 +139,11 @@ class DocumentParts:
             return False
 
     @staticmethod
-    def insert(vectors, partition):
+    def insert(data, partition):
         try:
             client.insert(
                 collection_name=DocumentParts.name,
-                data=vectors,
+                data=data,
                 partition_name=partition
             )
             return True
@@ -113,24 +152,44 @@ class DocumentParts:
             return False
 
     @staticmethod
-    def upsert(vectors, partition):
+    def upsert(data, partition=''):
         try:
-            client.upsert(
-                collection_name=DocumentParts.name,
-                data=vectors,
-                partition_name=partition
-            )
-            return True
+            if partition:
+                client.upsert(
+                    collection_name=DocumentParts.name,
+                    data=data,
+                    partition_name=partition
+                )
+                return True
+            else:
+                client.upsert(
+                    collection_name=DocumentParts.name,
+                    data=data
+                )
         except Exception as e:
             print(f"Error inserting multiple vectors: {e}")
             return False
+
+    @staticmethod
+    def get_data_by_partition_id(partiton):
+        try:
+            filter_condition = f"doc_id == '{partiton}'"
+            return client.query(
+                collection_name=DocumentParts.name,
+                filter=filter_condition,
+                output_fields=['id', 'key', 'rank', 'content'],
+                limit=1000,
+            )
+        except Exception as e:
+            print(f"Error inserting multiple vectors: {e}")
+            return []
 
     @staticmethod
     def delete_one_by_id(id):
         try:
             client.delete(
                 collection_name=DocumentParts.name,
-                expr=f'id == {id}'
+                ids=[id]
             )
             return True
         except Exception as e:
