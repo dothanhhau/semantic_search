@@ -4,10 +4,12 @@ from pymilvus import DataType, MilvusClient
 
 load_dotenv()
 
-client = MilvusClient(
-    uri=str(os.getenv('URL_MILVUS')), 
-    token=str(os.getenv('TOKEN_MILVUS'))
-)
+# client = MilvusClient(
+#     uri=str(os.getenv('URL_MILVUS')), 
+#     token=str(os.getenv('TOKEN_MILVUS'))
+# )
+
+client = MilvusClient()
 
 schema_documents = client.create_schema(auto_id=False, enable_dynamic_field=True)
 
@@ -22,13 +24,22 @@ schema_document_parts = client.create_schema(auto_id=False, enable_dynamic_field
 
 # Thêm các trường vào schema của DOCUMENT_PARTS
 schema_document_parts.add_field(field_name="id", datatype=DataType.VARCHAR, max_length=255, is_primary=True)
-schema_document_parts.add_field(field_name="rank", datatype=DataType.INT16, nullable=True)  # Vector của DOCUMENT_PARTS.content
-schema_document_parts.add_field(field_name="page", datatype=DataType.INT16, nullable=True)  # Vector của DOCUMENT_PARTS.content
+schema_document_parts.add_field(field_name="rank", datatype=DataType.INT16, nullable=True) 
+schema_document_parts.add_field(field_name="key", datatype=DataType.INT16, nullable=True)
+schema_document_parts.add_field(field_name="page", datatype=DataType.INT16, nullable=True)  
 schema_document_parts.add_field(field_name="content", datatype=DataType.VARCHAR, max_length=65000)
-schema_document_parts.add_field(field_name="child_ids", datatype=DataType.ARRAY, element_type=DataType.VARCHAR, max_length=255, max_capacity=64, nullable=True, default_value=[])
+schema_document_parts.add_field(field_name="child_ids", datatype=DataType.ARRAY, element_type=DataType.VARCHAR, max_length=255, max_capacity=64, nullable=True)
 schema_document_parts.add_field(field_name="vector", datatype=DataType.FLOAT_VECTOR, dim=768)  # Vector của DOCUMENT_PARTS.content
 schema_document_parts.add_field(field_name="position", datatype=DataType.ARRAY, element_type=DataType.VARCHAR, max_length=255, max_capacity=64, nullable=True)
 schema_document_parts.add_field(field_name="doc_id", datatype=DataType.VARCHAR, max_length=255)
+
+# # Thêm các trường vào schema của QUESTIONS
+# schema_questions = client.create_schema(auto_id=False, enable_dynamic_field=True)
+
+# schema_questions.add_field(field_name="id", datatype=DataType.VARCHAR, max_length=255, is_primary=True)
+# schema_questions.add_field(field_name="content", datatype=DataType.VARCHAR, max_length=65000)
+# schema_questions.add_field(field_name="vector", datatype=DataType.FLOAT_VECTOR, dim=768)  # Vector của DOCUMENTS.name
+# schema_questions.add_field(field_name="type", datatype=DataType.INT64)
 
 # Set index params cho DOCUMENTS và DOCUMENT_PARTS
 index_params = client.prepare_index_params()

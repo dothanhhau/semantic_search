@@ -6,7 +6,19 @@ class Document:
 
     @staticmethod
     def find_by_id(id):
-        return client.get(collection_name="DOCUMENTS", ids=id, output_fields=['name'])
+        return client.get(collection_name=Document.name, ids=id, output_fields=['id', 'name', 'file_name', 'vector'])
+
+    @staticmethod
+    def delete_by_id(id):
+        try:
+            client.delete(
+                collection_name=Document.name,
+                ids=[id]
+            )
+            return True
+        except Exception as e:
+            print('Err', e)
+            return False
 
     @staticmethod
     def load_collection():
@@ -39,26 +51,41 @@ class Document:
             return False
 
     @staticmethod
-    def insert(vector):
+    def insert(data):
         try:
             client.insert(
                 collection_name=Document.name,
-                data=vector
+                data=data
             )
+            return True
         except Exception as e:
-            print(f"Error inserting single vector: {e}")
+            print(f"Error inserting vector: {e}")
             return False
 
     @staticmethod
-    def upsert(vector):
+    def upsert(data):
         try:
-            client.insert(
+            client.upsert(
                 collection_name=Document.name,
-                data=vector
+                data=data
+            )
+            return True
+        except Exception as e:
+            print(f"Error upserting vector: {e}")
+            return False
+
+    @staticmethod
+    def search_vector(vector, k=5):
+        try:
+            return client.search(
+                collection_name=Document.name,
+                data=vector,
+                output_fields=['id', 'name', 'file_name'],
+                limit=k
             )
         except Exception as e:
-            print(f"Error inserting single vector: {e}")
-            return False
+            print(f"Error upserting vector: {e}")
+            return []
 
     @staticmethod
     def get_all():
@@ -66,9 +93,9 @@ class Document:
             # Document.load_collection()
             return client.query(
                 collection_name=Document.name,
-                output_fields=["id", "name"],
+                output_fields=["id", "name", "file_name"],
                 limit=100,
-                )
+            )
         except Exception as e:
             print(f"Error getting all entities: {e}")
-            return None
+            return []
