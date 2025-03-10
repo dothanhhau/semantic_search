@@ -271,41 +271,52 @@
         if (tab === "viewReviewsTab") renderReviews();
       });
     });
+
+    // Logic chạy từng file
     document.getElementById("uploadForm").addEventListener("submit", async function(e) {
       e.preventDefault();
       const fileInput = document.getElementById("file");
-      const formData = new FormData()
-      const resultUpload= document.getElementById("resultUpload");
-      const btnSubmit = document.getElementById('submitLoading')
+      const resultUpload = document.getElementById("resultUpload");
+      const btnSubmit = document.getElementById('submitLoading');
 
-      if(fileInput.files.length > 0) {
-        btnSubmit.innerText = "Đang xử lý tệp..."
-        for (let i = 0; i < fileInput.files.length; i++) {
-          formData.append('files', fileInput.files[i]);
-        }
+      // Kiểm tra xem người dùng có chọn tệp hay không
+      if (fileInput.files.length > 0) {
+          btnSubmit.innerText = "Đang xử lý tệp...";  // Thông báo đang xử lý
+          resultUpload.innerHTML = '';  // Xóa kết quả trước đó
 
-        fetch('/upload/txt', {
-          method: 'POST',
-          body: formData    
-        })
-          .then(response => response.json())
-          .then(data => {
-            btnSubmit.innerText = "Tải lên"
-            resultUpload.innerHTML = '';
-            
-            data.message.forEach(item => {
-              const x = document.createElement('p')
-              x.innerHTML = `${item.file}    -    <strong>${item.status}</strong>`
-              resultUpload.appendChild(x)
-            })
+          // Duyệt qua từng file và gửi từng file một
+          for (let i = 0; i < fileInput.files.length; i++) {
+              const formData = new FormData();
+              formData.append('file', fileInput.files[i]);
 
-            fileInput.value = "";
-          })
+              // Gửi từng file lên server
+              await fetch('/upload/txt', {
+                  method: 'POST',
+                  body: formData
+              })
+                  .then(response => response.json())
+                  .then(data => {
+                      // Hiển thị kết quả cho từng file
+                      const x = document.createElement('p');
+                      x.innerHTML = `${data.file} - <strong>${data.status}</strong>`;
+                      resultUpload.appendChild(x);
+                  })
+                  .catch(error => {
+                      const x = document.createElement('p');
+                      x.innerHTML = `Lỗi khi xử lý ${fileInput.files[i].name}`;
+                      resultUpload.appendChild(x);
+                  });
+          }
+
+          // Đặt lại nội dung button và input file
+          btnSubmit.innerText = "Tải lên";
+          fileInput.value = "";
+      } else {
+          resultUpload.innerHTML = `<p>Bạn chưa upload tệp</p>`;
       }
-      else {
-        resultUpload.innerHTML = `<p>Bạn chưa upload tệp</p>`
-      }
-    });
+  });
+
+
     function viewOriginal(regName) {
       // Open a new tab with the original content.
       window.open(`/show?file=${regName}&page=1`, "_blank");
@@ -326,7 +337,7 @@
           .then(data => {
             setTimeout(() => {
               renderRegulations();
-            }, 500);
+            }, 400);
             deleteRegulationIndex = null;
           })
           .catch(err => {
