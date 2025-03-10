@@ -12,7 +12,8 @@ def home():
 
 @home_bp.route('/admin', methods=['GET'])
 def admin():
-    return render_template('quanly.html', title="Trang quản trị viên")
+    # return render_template('quanly.html', title="Trang quản trị viên")
+    return render_template('test.html', title="Trang quản trị viên")
 
 @home_bp.route('/search', methods=['POST'])
 def search():
@@ -37,3 +38,10 @@ def search():
         return jsonify(ans)
     except Exception as e:
         print("Lỗi", e)
+
+@home_bp.route('/show', methods=['GET'])
+def show():
+    file = request.args.get('file', '')
+    page = request.args.get('page', 1)
+
+    return render_template('show_pdf.html', file=file, page=page)

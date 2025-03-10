@@ -177,7 +177,7 @@ class DocumentParts:
             return client.query(
                 collection_name=DocumentParts.name,
                 filter=filter_condition,
-                output_fields=['id', 'key', 'rank', 'content'],
+                output_fields=['id', 'key', 'rank', 'content', 'page'],
                 limit=1000,
             )
         except Exception as e:

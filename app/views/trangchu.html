@@ -92,6 +92,10 @@
     .accordion-header { padding: 10px; cursor: pointer; background: #f1f1f1; font-weight: bold; }
     .accordion-content { padding: 10px; display: none; background: #fff; }
     /* Rating widget styles */
+    #displayRating, 
+    #messageThanks {
+      display: none;
+    }
     .rating-widget {
       text-align: center;
       margin: 20px auto;
@@ -153,10 +157,14 @@
   <div class="container">
     <header>
       <div class="logo-container">
-        <img src="logo_qnu.png" alt="Logo QNU" />
-        <img src="logo_cntt.png" alt="Logo Khoa CNTT" />
+        <a href="https://qnu.edu.vn/" target="_blank">
+          <img src="./../static/image/logo_qnu.png" alt="Logo QNU" />
+        </a>
+        <a href="https://kcntt.qnu.edu.vn/" target="_blank">
+          <img src="./../static/image/logo_kcntt.png" alt="Logo Khoa CNTT" />
+        </a>
       </div>
-      <h1>Tìm kiếm ngữ nghĩa</h1>
+      <h1>Tìm kiếm quy định ngữ nghĩa</h1>
       <div class="search-bar">
         <button id="openDrawerButton" class="open-drawer-button">
           Bộ lọc <span id="filterBadge" class="badge"></span>
@@ -179,7 +187,8 @@
         <div id="resultsContainer"></div>
       </section>
     </div>
-    <div class="rating-widget">
+    <div id="messageThanks" class="rating-widget">Cảm ơn bạn đã đánh giá</div>
+    <div id="displayRating" class="rating-widget">
       <p>Đánh giá chất lượng câu trả lời:</p>
       <div class="stars">
         <span class="star" data-value="1">&#9733;</span>
@@ -306,6 +315,9 @@
       const resultsContainer = document.getElementById("resultsContainer");
 
       function handleSearch() {
+        const messageThanks = document.getElementById('messageThanks');
+        messageThanks.style.display = "none";
+
         const query = queryInput.value;
         resultsContainer.innerHTML = "";
         let selectedFilters = [];
@@ -359,6 +371,9 @@
             } else {
               resultsContainer.innerHTML = "<p>Không có kết quả.</p>";
             }
+
+            const displayRating = document.getElementById('displayRating');
+            displayRating.style.display = 'block';
           })
           .catch(err => {
             console.error("API search failed", err);
@@ -429,15 +444,30 @@
       }
       sendFeedbackBtn.addEventListener('click', function() {
         const feedback = document.getElementById('feedbackInput').value;
+        const queryInput = document.getElementById("queryInput").value;
+
         // Optional: Call API to submit rating and feedback
-        // fetch('/api/feedback', { method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({ rating: selectedRating, feedback }) });
-        alert("Cảm ơn bạn đã gửi phản hồi!");
+        fetch('/api/questions/create', { 
+          method: 'POST', 
+          headers: {
+            'Content-Type': 'application/json'
+          }, 
+          body: JSON.stringify({ 
+            content: queryInput,
+            rating: selectedRating, 
+            feedback,
+          }) 
+        });
+        const displayRating = document.getElementById('displayRating');
         // Reset widget
         selectedRating = 0;
         highlightStars(selectedRating);
         ratingMessage.textContent = "";
         document.getElementById('feedbackInput').value = "";
         feedbackContainer.style.display = "none";
+        displayRating.style.display = "none";
+        const messageThanks = document.getElementById('messageThanks');
+        messageThanks.style.display = "block";
       });
       cancelFeedbackBtn.addEventListener('click', function() {
         // Reset feedback input without submitting

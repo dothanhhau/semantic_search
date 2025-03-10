@@ -4,16 +4,16 @@ from app.models.document_parts_model import DocumentParts
 from app.utils.convert_data import format_type_of_filename
 from app.services.tokenizer_service import vectorize_text
 
-documents_bp = Blueprint('documents', __name__, url_prefix='/api')
+documents_bp = Blueprint('documents', __name__, url_prefix='/api/documents')
 
-@documents_bp.route('/documents', methods=['GET'])
+@documents_bp.route('/', methods=['GET'])
 def get_all():
     data = Document.get_all()
     for x in data:
         x['file_name'] = format_type_of_filename(x['file_name'], 'pdf')
     return data
 
-@documents_bp.route('/documents/<id>', methods=['GET'])
+@documents_bp.route('/<id>', methods=['GET'])
 def get_document_by_id(id):
     data = Document.find_by_id(id)
     res = None
@@ -22,7 +22,7 @@ def get_document_by_id(id):
         res['file_name'] = format_type_of_filename(res['file_name'], 'pdf')
     return res
 
-@documents_bp.route('/documents/update', methods=['PATCH'])
+@documents_bp.route('/update', methods=['PATCH'])
 def update_document_by_id():
     data = request.get_json()
     res = Document.find_by_id(data['id'])
@@ -45,7 +45,7 @@ def update_document_by_id():
     else:
         return {"status": 404, "message": "ID không tồn tại"}
 
-@documents_bp.route('/documents/delete/<id>', methods=['DELETE'])
+@documents_bp.route('/delete/<id>', methods=['DELETE'])
 def delete_document_by_id(id):
     id = str(id)
     data = Document.find_by_id(id)

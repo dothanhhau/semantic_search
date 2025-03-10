@@ -4,12 +4,6 @@ from app.services.tokenizer_service import vectorize_text
 
 document_parts_bp = Blueprint('document_parts', __name__, url_prefix='/api/document_parts')
 
-@document_parts_bp.route('/partition/<id>', methods=['GET'])
-def get_document_by_partition(id):
-    data = DocumentParts.get_data_by_partition_id(id)
-    res = sorted(data, key=lambda x: x['key'])
-    return jsonify(res)
-
 @document_parts_bp.route('/<id>', methods=['GET'])
 def get_document_by_id(id):
     id = str(id)
@@ -17,6 +11,13 @@ def get_document_by_id(id):
     data[0]['vector'] = []
     print(data)
     return jsonify(data[0])
+    
+@document_parts_bp.route('/partition/<id>', methods=['GET'])
+def get_document_by_partition(id):
+    data = DocumentParts.get_data_by_partition_id(id)
+    res = sorted(data, key=lambda x: x['key'])
+    return jsonify(res)
+
 
 @document_parts_bp.route('/update/<id>', methods=['PATCH'])
 def update_document_by_id(id):
