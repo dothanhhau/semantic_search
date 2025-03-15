@@ -151,6 +151,27 @@
       background: none; border: none; font-size: 28px; position: absolute;
       top: 10px; right: 10px; cursor: pointer; color: #333;
     }
+    .formatted-content {
+      max-height: 50px; /* Giới hạn chiều cao */
+      overflow: hidden;
+      position: relative;
+      transition: max-height 0.3s ease-in-out;
+    }
+
+    .read-more {
+      display: block;
+      text-align: center;
+      color: #8d7575;
+      cursor: pointer;
+      font-weight: bold;
+      font-style: italic;
+      text-decoration: underline;
+      margin: 5px 0 -5px 0;
+    }
+
+    .read-more:hover {
+      opacity: 0.8;
+    }
   </style>
 </head>
 <body>
@@ -387,18 +408,35 @@
               // Nếu API trả về dữ liệu hợp lệ, hiển thị dữ liệu
               data.forEach(result => {
                 const div = document.createElement("div");
+                const formattedContent = result.content.replace(/\n/g, '<br>'); 
                 div.className = "result-item";
                 div.innerHTML = `<h3>${result.doc_name}</h3>
                   <p><strong>Trang:</strong> ${result.page} - <strong>Vị trí:</strong> ${result.position}</p>
                   <p><strong>Khoảng cách:</strong> ${result.distance}</p>
-                  <p>${result.content}</p>
+                  <div class="formatted-content">${formattedContent}</div>
                   <button class="original-btn" onclick="window.open('/show?file=${result.file_name}&page=${result.page}','_blank')">Xem văn bản gốc</button>`;
                 resultsContainer.appendChild(div);
               });
             } else {
               resultsContainer.innerHTML = "<p>Không có kết quả.</p>";
             }
+            document.querySelectorAll(".result-item").forEach(item => {
+              let content = item.querySelector(".formatted-content");
+              let readMore = document.createElement("span");
+              readMore.classList.add("read-more");
+              readMore.innerText = "Xem thêm";
+              item.appendChild(readMore);
 
+              readMore.addEventListener("click", function () {
+                if (content.style.maxHeight === "none") {
+                  content.style.maxHeight = "50px";
+                  readMore.innerText = "Xem thêm";
+                } else {
+                  content.style.maxHeight = "none";
+                  readMore.innerText = "Thu gọn";
+                }
+              });
+            });
             const displayRating = document.getElementById('displayRating');
             displayRating.style.display = 'block';
           })
@@ -504,6 +542,7 @@
         document.getElementById('feedbackInput').value = "";
         feedbackContainer.style.display = "none";
       });
+
     });
   </script>
 </body>

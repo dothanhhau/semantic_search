@@ -21,9 +21,20 @@ def is_txt_file(filename):
     return filename.lower().endswith('.txt')
 
 def write_file(folder, filename, type_of_file, data):
+    print(folder)
+    print(filename)
+    print(type_of_file)
+    print(data)
     filename = format_type_of_filename(filename, type_of_file)
     if type_of_file == 'txt':
-        print()
+        try:
+            print('ok')
+            with open(os.path.join(folder, filename), 'w', encoding='utf-8') as file:
+                file.write(data)
+            return True
+        except Exception as e:
+            print('Lỗi: ', e)
+            return False
     elif type_of_file == 'pdf':
         print()
     elif type_of_file == 'json':

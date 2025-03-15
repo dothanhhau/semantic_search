@@ -59,6 +59,54 @@ class DocumentParts:
         return client.get(collection_name=DocumentParts.name, ids=id)
 
     @staticmethod
+    def find_parent_id_has_rank_el_4(id):
+        x = DocumentParts.find_by_id(id)
+        if len(x):
+            x = x[0]
+            x['vector'] = []
+            if (x['id'] == x['parents_id']) or (x['rank'] < 5):
+                return x
+            else:
+                return DocumentParts.find_parent_id_has_rank_el_4(x['parents_id'])
+        else:
+            return {}
+
+    @staticmethod
+    def get_all_child_by_id(id):
+        x = DocumentParts.find_by_id(id)
+        res = []
+        if len(x):
+            x = x[0]
+            x.pop('vector', None)
+            res.append(x)
+            # x['child_ids'] = list(x['child_ids'])
+            if len(x['child_ids']):
+                for y in x['child_ids']:
+                    u = DocumentParts.get_all_child_by_id(y)
+                    res += u
+
+        return res
+    
+    @staticmethod
+    def get_childs(id):
+        id = str(id)
+        data = DocumentParts.get_all_child_by_id(id)
+        res = sorted(data, key=lambda x: x['key'])
+        content = ''
+        for x in res:
+            content += x['content']
+            content += '\n'
+        parents = res[0]
+
+        return {
+            'id': parents['id'],
+            'content': content,
+            'doc_id': parents['doc_id'],
+            'page': parents['page'],
+            'position': parents['position']
+        }
+
+    @staticmethod
     def search_all(vector, k):
         try:
             res = client.search(
@@ -102,14 +150,21 @@ class DocumentParts:
     @staticmethod
     def drop_partition(partition):
         try:
-            if DocumentParts.release_partition(partition):
-                client.drop_partition(
-                    collection_name=DocumentParts.name,
-                    partition_name=partition
-                )
-                return True
+            check = client.has_partition(
+                collection_name=DocumentParts.name,
+                partition_name=partition
+            )
+            if check:
+                if DocumentParts.release_partition(partition):
+                    client.drop_partition(
+                        collection_name=DocumentParts.name,
+                        partition_name=partition
+                    )
+                    return True
+                else:
+                    return False
             else:
-                return False
+                return True
         except Exception as e:
             print('Err', e)
             return False
@@ -177,7 +232,7 @@ class DocumentParts:
             return client.query(
                 collection_name=DocumentParts.name,
                 filter=filter_condition,
-                output_fields=['id', 'key', 'rank', 'content', 'page'],
+                output_fields=['id', 'key', 'rank', 'content', 'page', 'parents_id'],
                 limit=1000,
             )
         except Exception as e:

@@ -40,6 +40,7 @@ schema_document_parts.add_field(field_name="rank", datatype=DataType.INT16, null
 schema_document_parts.add_field(field_name="key", datatype=DataType.INT16, nullable=True)
 schema_document_parts.add_field(field_name="page", datatype=DataType.INT16, nullable=True)  
 schema_document_parts.add_field(field_name="content", datatype=DataType.VARCHAR, max_length=65000)
+schema_document_parts.add_field(field_name="parents_id", datatype=DataType.VARCHAR, max_length=255)
 schema_document_parts.add_field(field_name="child_ids", datatype=DataType.ARRAY, element_type=DataType.VARCHAR, max_length=255, max_capacity=255, nullable=True)
 schema_document_parts.add_field(field_name="vector", datatype=DataType.FLOAT_VECTOR, dim=768) 
 schema_document_parts.add_field(field_name="position", datatype=DataType.ARRAY, element_type=DataType.VARCHAR, max_length=64, max_capacity=64, nullable=True)
