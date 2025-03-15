@@ -156,13 +156,40 @@
 <body>
   <div class="container">
     <header>
-      <div class="logo-container">
-        <a href="https://qnu.edu.vn/" target="_blank">
-          <img src="./../static/image/logo_qnu.png" alt="Logo QNU" />
-        </a>
-        <a href="https://kcntt.qnu.edu.vn/" target="_blank">
-          <img src="./../static/image/logo_kcntt.png" alt="Logo Khoa CNTT" />
-        </a>
+      <div style="display: flex; justify-content: space-between;">
+        <div class="logo-container">
+          <a href="https://qnu.edu.vn/" target="_blank">
+            <img src="./../static/image/logo_qnu.png" alt="Logo QNU" />
+          </a>
+          <a href="https://kcntt.qnu.edu.vn/" target="_blank">
+            <img src="./../static/image/logo_kcntt.png" alt="Logo Khoa CNTT" />
+          </a>
+        </div>
+
+        <div>
+          <form action="/login" method="get">
+            <button style="
+            background: linear-gradient(135deg, #007bff, #0056b3);
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+          "
+            onmouseover="this.style.background='linear-gradient(135deg, #0056b3, #003f7f)'; this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 10px rgba(0, 0, 0, 0.2)';"
+            onmouseout="this.style.background='linear-gradient(135deg, #007bff, #0056b3)'; this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 6px rgba(0, 0, 0, 0.1)';"
+            onmousedown="this.style.transform='translateY(1px)'; this.style.boxShadow='0 3px 5px rgba(0, 0, 0, 0.15)';"
+            onmouseup="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 10px rgba(0, 0, 0, 0.2)';"
+          >
+            Đăng nhập
+          </button>
+          </form>
+
+        </div>
       </div>
       <h1>Tìm kiếm quy định ngữ nghĩa</h1>
       <div class="search-bar">

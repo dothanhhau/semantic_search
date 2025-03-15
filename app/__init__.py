@@ -10,11 +10,11 @@ load_dotenv()
 current_directory = os.getcwd()
 
 try:
-    client = MilvusClient(
-        uri=str(os.getenv('URL_MILVUS')), 
-        token=str(os.getenv('TOKEN_MILVUS'))
-    )
-    # client = MilvusClient(host="localhost", port="19530")
+    # client = MilvusClient(
+    #     uri=str(os.getenv('URL_MILVUS')), 
+    #     token=str(os.getenv('TOKEN_MILVUS'))
+    # )
+    client = MilvusClient(host="localhost", port="19530")
 except Exception as e:
     print(e)
 
@@ -38,10 +38,12 @@ def create_app():
         from .controllers.document_controller import documents_bp
         from .controllers.questions_controller import questions_bp
         from .controllers.document_parts_controller import document_parts_bp
+        from .controllers.auth_controller import auth_bp
         app.register_blueprint(home_bp)
         app.register_blueprint(upload_bp)
         app.register_blueprint(documents_bp)
         app.register_blueprint(questions_bp)
         app.register_blueprint(document_parts_bp)
+        app.register_blueprint(auth_bp)
     
     return app

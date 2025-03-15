@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+            width: 350px;
+            text-align: center;
+            transition: 0.3s ease-in-out;
+        }
+
+        .container:hover {
+            transform: scale(1.02);
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .input-field {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+
+        .input-field:focus {
+            border-color: #4facfe;
+            outline: none;
+            box-shadow: 0px 0px 8px rgba(79, 172, 254, 0.5);
+        }
+
+        button {
+            background: #4facfe;
+            color: white;
+            padding: 12px;
+            border: none;
+            width: 100%;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: #008CBA;
+        }
+
+        p {
+            margin-top: 15px;
+            font-size: 14px;
+        }
+
+        a {
+            color: #4facfe;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <script>
+        function submitForm(event) {
+            event.preventDefault();
+            let email = document.getElementById("email").value;
+            let password = document.getElementById("password").value;
+            let confirmPassword = document.getElementById("confirm_password").value;
+
+            if (password !== confirmPassword) {
+                alert("Mật khẩu xác nhận không khớp!");
+                return;
+            }
+
+            fetch("/register", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ email, password })
+            })
+            .then(response => response.json())
+            .then(data => {
+                alert(data.message);
+                if (data.status === 201) {
+                    window.location.href = "/login"; // Điều hướng đến trang đăng nhập
+                }
+            })
+            .catch(error => console.error("Lỗi:", error));
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h2>Đăng Ký</h2>
+        <form onsubmit="submitForm(event)">
+            <label for="email">Email:</label>
+            <input type="email" id="email" class="input-field" required>
+
+            <label for="password">Mật khẩu:</label>
+            <input type="password" id="password" class="input-field" required>
+
+            <label for="confirm_password">Xác nhận mật khẩu:</label>
+            <input type="password" id="confirm_password" class="input-field" required>
+
+            <button type="submit">Đăng ký</button>
+        </form>
+
+        <p>Đã có tài khoản? <a href="login.html">Đăng nhập</a></p>
+    </div>
+</body>
+</html>
