@@ -38,10 +38,12 @@ def create_app():
         from .controllers.document_controller import documents_bp
         from .controllers.questions_controller import questions_bp
         from .controllers.document_parts_controller import document_parts_bp
+        from .controllers.auth_controller import auth_bp
         app.register_blueprint(home_bp)
         app.register_blueprint(upload_bp)
         app.register_blueprint(documents_bp)
         app.register_blueprint(questions_bp)
         app.register_blueprint(document_parts_bp)
+        app.register_blueprint(auth_bp)
     
     return app

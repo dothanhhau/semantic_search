@@ -95,9 +95,10 @@
     }
     /* Style hiển thị page marker trong full content editor */
     #fullContentPages {
-      margin-bottom: 10px;
-      font-size: 14px;
-      color: #555;
+      margin-bottom: 15px;
+      font-size: 26px;
+      font-weight: bold;
+      text-align: center;
     }
     /* Mobile Styles */
     @media (max-width: 768px) {
@@ -404,7 +405,7 @@
           const namereg = document.getElementById(`titleDisplay-${regId}`).innerText;
           editForm.innerHTML = "";
           const elementNameReg = document.createElement('p');
-          elementNameReg.innerHTML = `<strong style="text-align:center; font-size:22px; display:block;">${namereg}</strong>`;
+          elementNameReg.innerHTML = `<strong id='${regId}' style="text-align:center; font-size:22px; display:block;">${namereg}</strong>`;
           editForm.appendChild(elementNameReg);
           
           for (let i = 0; i < reg.length; i++) {
@@ -543,6 +544,7 @@
     // Hàm lưu lại cấu trúc các entity (thứ tự & nội dung)
     function saveStructure() {
       const entities = document.querySelectorAll('#editContentForm .entity');
+      const doc_id = document.querySelector('#editContentForm p strong').id;
       let structure = [];
       entities.forEach((entity, index) => {
         let id = entity.getAttribute("id");
@@ -554,12 +556,14 @@
           const pElem = entity.querySelector("p");
           content = pElem ? pElem.innerText : "";
         }
-        structure.push({ id: id, content: content, order: index });
+        structure.push(content);
       });
-      fetch('/api/document_parts/restructure', {
+      fetch('/api/document_parts/restructure/' + doc_id, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ structure: structure })
+        body: JSON.stringify({
+          content: structure.join('\n\n') 
+        })
       })
       .then(response => response.json())
       .then(data => { alert("Cấu trúc đã được lưu!"); })
@@ -657,6 +661,10 @@
     // ----------------- Các hàm xử lý chỉnh sửa toàn bộ nội dung (Notepad) -----------------
     function openEditFullContent(regId) {
       currentRegulationId = regId;
+      const namereg = document.getElementById(`titleDisplay-${regId}`).innerText;
+      const doc_name = document.getElementById('fullContentPages');
+      doc_name.setAttribute('doc_id', regId);
+      doc_name.innerText = namereg;
       // Ẩn các tab hiện tại
       const tabs = document.querySelectorAll(".tab");
       tabs.forEach(t => t.classList.remove("active"));
@@ -694,19 +702,17 @@
 
     function saveFullContent() {
       const fullText = document.getElementById("fullContentEditor").value;
-      fetch('/api/document_parts/full_update', {
+      const doc_id = document.getElementById('fullContentPages').getAttribute('doc_id');
+      console.log('abc' + fullText)
+      fetch('/api/document_parts/restructure/' + doc_id, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          regulationId: currentRegulationId,
-          fullContent: fullText
+          content: fullText
         })
       })
       .then(response => response.json())
-      .then(data => {
-        alert("Nội dung đã được lưu!");
-        backToRegulationsFromFull();
-      })
+      .then(data => { alert("Cấu trúc đã được lưu!"); })
       .catch(err => { console.log(err); });
     }
 

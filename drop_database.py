@@ -1,33 +1,14 @@
-import os
-import argparse
-from dotenv import load_dotenv
-from pymilvus import DataType, MilvusClient
+from pymilvus import connections, utility
 
-# Tải các biến môi trường từ file .env
-load_dotenv()
+# Kết nối đến Milvus
+connections.connect("default", host="localhost", port="19530")
 
-# Khởi tạo argparse để nhận tham số từ dòng lệnh
-parser = argparse.ArgumentParser(description="Chọn client Milvus")
-parser.add_argument('client_type', choices=['local', 'server'], help="Chọn loại client Milvus")
-args = parser.parse_args()
+# Lấy danh sách tất cả collection
+collections = utility.list_collections()
 
-# Chọn client dựa trên tham số dòng lệnh
-if args.client_type == 'server':
-    client = MilvusClient(
-        uri=str(os.getenv('URL_MILVUS')), 
-        token=str(os.getenv('TOKEN_MILVUS'))
-    )
-else:
-    client = MilvusClient()
+# Xóa từng collection
+for collection in collections:
+    utility.drop_collection(collection)
+    print(f"Dropped collection: {collection}")
 
-client.drop_collection(
-    collection_name='DOCUMENTS'
-)
-
-client.drop_collection(
-    collection_name='DOCUMENT_PARTS'
-)
-
-client.drop_collection(
-    collection_name='QUESTIONS'
-)
+print("Done!")

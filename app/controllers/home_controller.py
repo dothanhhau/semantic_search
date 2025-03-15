@@ -29,13 +29,22 @@ def search():
         for x in res:
             for y in x:
                 doc = Document.find_by_id(y['entity']['doc_id'])[0]
+                tmp = DocumentParts.get_childs(y['id'])
                 y['entity']['doc_name'] = doc['name']
                 y['entity']['file_name'] = format_type_of_filename(doc['file_name'], 'pdf')
-                y['entity']['position'] = ' '.join(y['entity']['position'])
+                y['entity']['position'] = ' '.join(tmp['position'])
+                y['entity']['id'] = tmp['id']
+                y['entity']['page'] = tmp['page']
+                y['entity']['content'] = tmp['content']
                 y['entity']['distance'] = y['distance']
+
                 ans.append(y['entity'])
                 
+        # Nếu <= rank4 thì gọi hàm con
+        # Ngược lại tìm id cha gần nhất có rank <= 4 rồi làm lại bước trên
+        
         return jsonify(ans)
+    
     except Exception as e:
         print("Lỗi", e)
 

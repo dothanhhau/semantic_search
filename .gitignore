@@ -43,3 +43,8 @@ instance/
 
 # Tệp cấu hình của Flask
 instance/*
+
+./preload.py
+
+app/static/uploads/pdf/*.pdf
+app/static/uploads/txt/*.txt
