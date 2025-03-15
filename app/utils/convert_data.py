@@ -56,16 +56,22 @@ def array2json(data):
                 subs.append(stack.pop())
 
             res = {'id': id, 'rank': cur_rank, 'page': page, 'content': entity}
-            
-            # if len(subs) > 0:
+
             sub_ids = [sub['id'] for sub in subs]
             res['childs'] = subs
             res['child_ids'] = sub_ids
+
+            if len(subs) > 0:
+                for sub in subs:
+                    sub['parents_id'] = id
+            else:
+                res['parents_id'] = id
 
             stack.append(res)
     
     result = []
     for x in reversed(stack):
+        x['parents_id'] = x['id']
         result.append(x)
     return result
 

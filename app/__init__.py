@@ -10,11 +10,11 @@ load_dotenv()
 current_directory = os.getcwd()
 
 try:
-    client = MilvusClient(
-        uri=str(os.getenv('URL_MILVUS')), 
-        token=str(os.getenv('TOKEN_MILVUS'))
-    )
-    # client = MilvusClient(host="localhost", port="19530")
+    # client = MilvusClient(
+    #     uri=str(os.getenv('URL_MILVUS')), 
+    #     token=str(os.getenv('TOKEN_MILVUS'))
+    # )
+    client = MilvusClient(host="localhost", port="19530")
 except Exception as e:
     print(e)
 
