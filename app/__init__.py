@@ -5,6 +5,8 @@ import pytesseract
 from transformers import AutoModel, AutoTokenizer
 import py_vncorenlp
 from flask import Flask
+from flask import Flask
+from flask_jwt_extended import JWTManager
 
 load_dotenv()
 current_directory = os.getcwd()
@@ -31,6 +33,9 @@ pytesseract.pytesseract.tesseract_cmd = str(os.getenv("TESSERACT"))
 def create_app():
     # app.config.from_object('config')
     app = Flask(__name__, template_folder='views')
+
+    app.config["JWT_SECRET_KEY"] = "your_secret_key_here" 
+    jwt = JWTManager(app)
 
     with app.app_context():
         from .controllers.home_controller import home_bp

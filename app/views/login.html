@@ -9,10 +9,11 @@
 <body class="d-flex align-items-center justify-content-center vh-100 bg-light">
     <div class="card p-4 shadow-lg" style="width: 350px;">
         <h3 class="text-center">Đăng nhập</h3>
-        <form method="POST" action="/login">
+        <div id="error-message" class="alert alert-danger d-none"></div>
+        <form id="login-form">
             <div class="mb-3">
-                <label for="username" class="form-label">Tên đăng nhập</label>
-                <input type="text" class="form-control" id="username" name="username" required>
+                <label for="email" class="form-label">Tên đăng nhập</label>
+                <input type="text" class="form-control" id="email" name="email" required>
             </div>
             <div class="mb-3">
                 <label for="password" class="form-label">Mật khẩu</label>
@@ -21,5 +22,38 @@
             <button type="submit" class="btn btn-primary w-100">Đăng nhập</button>
         </form>
     </div>
+
+    <script>
+        document.getElementById("login-form").addEventListener("submit", async function(event) {
+            event.preventDefault(); // Ngăn chặn form gửi đi theo cách thông thường
+
+            const email = document.getElementById("email").value;
+            const password = document.getElementById("password").value;
+            const errorMessage = document.getElementById("error-message");
+
+            try {
+                const response = await fetch("/login", {
+                    method: "POST",
+                    headers: {
+                        "Accept": "application/json",  
+                        "Content-Type": "application/json"  
+                    },
+                    body: JSON.stringify({ email, password })
+                });
+
+                const data = await response.json();
+                if (response.ok) {
+                    localStorage.setItem("jwt_token", data.access_token); // Lưu JWT vào localStorage
+                    window.location.href = "/profile"; // Chuyển hướng sau khi đăng nhập thành công
+                } else {
+                    errorMessage.textContent = data.message || "Đăng nhập thất bại!";
+                    errorMessage.classList.remove("d-none");
+                }
+            } catch (error) {
+                errorMessage.textContent = "Lỗi kết nối đến server!";
+                errorMessage.classList.remove("d-none");
+            }
+        });
+    </script>
 </body>
 </html>

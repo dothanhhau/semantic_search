@@ -9,11 +9,11 @@ class AccountModel:
     @classmethod
     def create_account(cls, account):
         cls.load_collection()
-        hashed_password = hash_password(account["password"])
+
         account = {
             "id": str(uuid1()),
             "email": account["email"],
-            "password": hashed_password,
+            "password": account["password"],
             "role": int(account["role"]),
             "vector": {0: 0.0},  # Placeholder for future vector data
             "otp": ""

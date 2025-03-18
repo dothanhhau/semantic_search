@@ -2,6 +2,8 @@ from flask import Blueprint, request, jsonify, render_template
 from flask_login import login_user, logout_user, login_required, current_user
 from werkzeug.security import generate_password_hash, check_password_hash
 from app.models.accounts_model import AccountModel
+from flask_jwt_extended import create_access_token, get_jwt_identity, jwt_required
+import uuid
 
 auth_bp = Blueprint('auth', __name__, url_prefix='/')
 
@@ -26,8 +28,9 @@ def register():
         return jsonify({"status": 409, "message": "Email đã tồn tại"}), 409
     
     hashed_password = generate_password_hash(password)
+    print(f" Hashed Password: {hashed_password}")
     new_account = {
-        "id": email,  # Dùng email làm ID
+       "id": str(uuid.uuid1()),    
         "email": email,
         "password": hashed_password,
         "role": 1,
@@ -42,15 +45,14 @@ def login():
     data = request.get_json()
     email = data.get('email')
     password = data.get('password')
-    
-    if not email or not password:
-        return jsonify({"status": 400, "message": "Thiếu thông tin đăng nhập"}), 400
-    
+
     user = AccountModel.find_by_email(email)
-    if user and check_password_hash(user['password'], password):
-        login_user(user)
-        return jsonify({"status": 200, "message": "Đăng nhập thành công"})
+    if user and check_password_hash(user["password"], password):
+        access_token = create_access_token(identity={"id": user["id"], "email": user["email"], "role": user["role"]})
+        return jsonify({"status": 200, "message": "Đăng nhập thành công", "access_token": access_token})
+
     return jsonify({"status": 401, "message": "Email hoặc mật khẩu không đúng"}), 401
+
 
 @auth_bp.route('/logout', methods=['POST'])
 @login_required
@@ -58,14 +60,14 @@ def logout():
     logout_user()
     return jsonify({"status": 200, "message": "Đăng xuất thành công"})
 
+
 @auth_bp.route('/profile', methods=['GET'])
-@login_required
+@jwt_required()  # Dùng jwt_required thay vì login_required
 def profile():
+    user = get_jwt_identity()  # Lấy thông tin user từ token
+
     return jsonify({
         "status": 200,
-        "user": {
-            "id": current_user.id,
-            "email": current_user.email,
-            "role": current_user.role,
-        }
+        "user": user  # Trả về thông tin từ JWT
     })
+
