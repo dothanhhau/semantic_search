@@ -107,13 +107,16 @@ class DocumentParts:
         }
 
     @staticmethod
-    def search_all(vector, k):
+    def search_all(vector, k, next=0):
         try:
             res = client.search(
                 collection_name=DocumentParts.name,
                 data=vector,
                 limit=k,
-                output_fields=['content', 'page', 'position', 'doc_id']
+                output_fields=['content', 'page', 'position', 'doc_id', 'rank'],
+                search_params= {
+                    'offset': next
+                }
             )
             return res
         except Exception as e:
@@ -121,14 +124,17 @@ class DocumentParts:
             return []
 
     @staticmethod
-    def search_on_partition(vector, partition, k):
+    def search_on_partition(vector, partition, k, next=0):
         try:
             res = client.search(
                 collection_name=DocumentParts.name,
                 partition_names=partition,
                 data=vector,
                 limit=k,
-                output_fields=['content', 'page', 'position', 'doc_id']
+                output_fields=['content', 'page', 'position', 'doc_id', 'rank'],
+                search_params= {
+                    'offset': next
+                }
             )
             return res
         except Exception as e:
@@ -221,6 +227,7 @@ class DocumentParts:
                     collection_name=DocumentParts.name,
                     data=data
                 )
+                return True
         except Exception as e:
             print(f"Error inserting multiple vectors: {e}")
             return False

@@ -90,7 +90,7 @@ class Document:
     @staticmethod
     def get_all():
         try:
-            # Document.load_collection()
+            Document.load_collection()
             return client.query(
                 collection_name=Document.name,
                 output_fields=["id", "name", "file_name"],

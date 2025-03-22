@@ -36,7 +36,7 @@
     table th, table td { border: 1px solid #ccc; padding: 8px; text-align: left; }
     table th { background-color: #f0f0f0; }
     table td:nth-child(2) { min-width: 300px; }
-    .edit-btn { background-color: #fff; border: 1px solid #ccc; color: #333; float: right; height: 36px;
+    .edit-btn { background-color: #fff; border: 1px solid #ccc; color: #333; height: 36px; display: block;
       margin-left: 5px; padding: 4px 8px; cursor: pointer; transition: box-shadow 0.3s;
     }
     .action-btn { height: 36px; }
@@ -109,6 +109,56 @@
       .content { margin: 10px; padding: 15px; }
       table td:nth-child(2) { min-width: 150px; }
     }
+    .avatar {
+      position: relative;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: #ccc;
+      cursor: pointer;
+    }
+    .avatar:hover .menu_info {
+      display: block;
+    }
+    .avatar::before {
+      content: "";
+      display: block;
+      width: 108px;
+      position: absolute;
+      height: 20px;
+      top: 80%;
+      background-color: transparent;
+      right: 0;
+    }
+    .menu_info {
+      top: 100%;
+      right: 0;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+      position: absolute;
+      display: none;
+      width: 200px;
+      background-color: #fff;
+    }
+    .menu_info a {
+      width: 100%;
+      display: block;
+      padding: 12px 5px;
+      text-decoration: none;
+      color: #333;
+      border-bottom: 1px solid #ccc;
+    }
+    .menu_info a:first-child {
+      border-top-right-radius: 8px;
+      border-top-left-radius: 8px;
+    }
+    .menu_info a:last-child {
+      border-bottom-right-radius: 8px;
+      border-bottom-left-radius: 8px;
+    }
+    .menu_info a:hover {
+      background-color: #ccc;
+    }
   </style>
 </head>
 <body>
@@ -122,8 +172,12 @@
         </a>
     </div>
     <h1>Quản Lý Quy Định</h1>
-    <div class="logo-group">
-      <img src="https://via.placeholder.com/50?text=CNTT2" alt="">
+    <div class="logo-group avatar">
+      <!-- <img src="https://via.placeholder.com/50?text=CNTT2" alt=""> -->
+      <div class="menu_info">
+        <a href="/">Trang chủ</a>
+        <a id="logout" href="/">Đăng xuất</a>
+      </div>
     </div>
   </header>
   <div class="container">
@@ -137,7 +191,7 @@
     <div class="content">
       <!-- Tab upload -->
       <div id="uploadTab" class="tab active">
-        <h2>Tải lên tệp (PDF hoặc TXT)</h2>
+        <h2>Tải lên tệp (TXT)</h2>
         <form id="uploadForm">
           <input type="file" id="file" name="files[]" accept=".pdf,.txt" multiple />
           <button id="submitLoading" style="width: 200px; height: 36px; background: #e0e0e0; font-size: 16px; margin-top: 20px;" type="submit">Tải lên</button>
@@ -211,6 +265,14 @@
     </div>
   </div>
   <script>
+    const logout = document.getElementById('logout')
+
+    logout.addEventListener('click', (e) => {
+      e.preventDefault();
+      localStorage.removeItem('access_token');
+      window.location.href = '/'
+    })
+
     let currentRegulationId = null;
     
     async function apiFetchReviews() {
@@ -239,8 +301,8 @@
           regs.forEach((reg, index) => {
             const row = document.createElement("tr");
             row.innerHTML = `<td>${index + 1}</td>
-              <td style="width:100%;">
-                <span style="line-height:36px" id="titleDisplay-${reg.id}">${reg.name}</span>
+              <td style="width:100%; display: flex; justify-content: space-between; align-items: center; border: none; border-bottom: 1px solid #ccc;">
+                <span style="line-height:36px; display: block; width: calc(100% - 100px);" id="titleDisplay-${reg.id}">${reg.name}</span>
                 <input type="text" id="titleInput-${reg.id}" class="inline-input" style="display:none;" value="${reg.name}">
                 <button class="edit-btn" onclick="editTitle('${reg.id}')" id="editTitleBtn-${reg.id}">Chỉnh sửa</button>
                 <button class="edit-btn" onclick="saveTitle('${reg.id}')" id="saveTitleBtn-${reg.id}" style="display:none;">Lưu</button>
@@ -328,9 +390,10 @@
               const file = fileInput.files[i];
               const extension = file.name.split('.').pop().toLowerCase();
               let apiUrl = '';
-              if (extension === "pdf") {
-                apiUrl = '/upload/pdf';
-              } else if (extension === "txt") {
+              // if (extension === "pdf") {
+              //   apiUrl = '/upload/pdf';
+              // } else 
+              if (extension === "txt") {
                 apiUrl = '/upload/txt';
               } else {
                 const x = document.createElement('p');
@@ -405,7 +468,7 @@
           const namereg = document.getElementById(`titleDisplay-${regId}`).innerText;
           editForm.innerHTML = "";
           const elementNameReg = document.createElement('p');
-          elementNameReg.innerHTML = `<strong id='${regId}' style="text-align:center; font-size:22px; display:block;">${namereg}</strong>`;
+          elementNameReg.innerHTML = `<strong id='${regId}' style="text-align:center; font-size:22px; display:block; margin-bottom: 20px">${namereg}</strong>`;
           editForm.appendChild(elementNameReg);
           
           for (let i = 0; i < reg.length; i++) {
@@ -417,7 +480,12 @@
             div.setAttribute("draggable", "true");
             addDnDHandlers(div);
             let pElem = document.createElement("p");
-            pElem.innerText = sec.content;
+            if(sec.rank < 4) {
+              pElem.innerHTML = `<strong>${sec.content}</strong>`
+            }
+            else {
+              pElem.innerText = sec.content;
+            }
             let btnContainer = document.createElement("div");
             btnContainer.className = "entity-buttons";
             let editBtn = document.createElement("button");
@@ -479,7 +547,8 @@
     function addEntity() {
       const editForm = document.getElementById("editContentForm");
       const newEntity = document.createElement("div");
-      newEntity.setAttribute("id", "new-" + Date.now());
+      const id = "new-" + Date.now();
+      newEntity.setAttribute("id", id);
       newEntity.className = "entity";
       newEntity.setAttribute("draggable", "true");
       addDnDHandlers(newEntity);
@@ -500,7 +569,10 @@
       const deleteBtn = document.createElement("button");
       deleteBtn.className = "entity-btn entity-btn-delete";
       deleteBtn.innerText = "Xoá";
-      deleteBtn.onclick = function() { deleteEntity(newEntity.getAttribute("id")); };
+      deleteBtn.onclick = function() {
+        const rmEle = document.getElementById(id);
+        rmEle.remove() 
+      };
       btnContainer.appendChild(editBtn);
       btnContainer.appendChild(deleteBtn);
       newEntity.appendChild(btnContainer);
@@ -512,7 +584,8 @@
       const currentEntity = document.getElementById(entityId);
       if (currentEntity) {
         const newEntity = document.createElement("div");
-        newEntity.setAttribute("id", "new-" + Date.now());
+        const id = "new-" + Date.now();
+        newEntity.setAttribute("id", id);
         newEntity.className = "entity";
         newEntity.setAttribute("draggable", "true");
         addDnDHandlers(newEntity);
@@ -533,7 +606,10 @@
         const deleteBtn = document.createElement("button");
         deleteBtn.className = "entity-btn entity-btn-delete";
         deleteBtn.innerText = "Xoá";
-        deleteBtn.onclick = function() { deleteEntity(newEntity.getAttribute("id")); };
+        deleteBtn.onclick = function() {
+          const rmEle = document.getElementById(id);
+          rmEle.remove() 
+        };
         btnContainer.appendChild(editBtn);
         btnContainer.appendChild(deleteBtn);
         newEntity.appendChild(btnContainer);
@@ -611,7 +687,13 @@
           .then(response => response.json())
           .then(data => {
             const pElem = document.createElement("p");
-            pElem.innerText = newContent;
+            console.log(data)
+            if(data.data < 4) {
+              pElem.innerHTML = `<strong>${newContent}</strong>`
+            }
+            else {
+              pElem.innerText = newContent;
+            }
             textarea.remove();
             const cancelBtn = entityDiv.querySelector(".entity-btn-cancel");
             if(cancelBtn) cancelBtn.remove();

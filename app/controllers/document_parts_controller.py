@@ -21,6 +21,12 @@ def get_document_by_id(id):
     else:
         return jsonify(status=404, message='ID not found!')
     
+
+@document_parts_bp.route('/create', methods=['POST'])
+def create_entity():
+    
+    return ''
+
 @document_parts_bp.route('/partition/<id>', methods=['GET'])
 def get_document_by_partition(id):
     data = DocumentParts.get_data_by_partition_id(id)

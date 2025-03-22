@@ -21,10 +21,6 @@ def is_txt_file(filename):
     return filename.lower().endswith('.txt')
 
 def write_file(folder, filename, type_of_file, data):
-    print(folder)
-    print(filename)
-    print(type_of_file)
-    print(data)
     filename = format_type_of_filename(filename, type_of_file)
     if type_of_file == 'txt':
         try:

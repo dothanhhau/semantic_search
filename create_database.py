@@ -22,14 +22,19 @@ elif args.client_type == 'server':
 
 # Tiếp tục các bước còn lại trong mã của bạn
 
+dimention = 768 
+# dimention = 1024
+
 # Tạo schema cho DOCUMENTS
 schema_documents = client.create_schema(auto_id=False, enable_dynamic_field=True)
 
 # Thêm các trường vào schema của DOCUMENTS
 schema_documents.add_field(field_name="id", datatype=DataType.VARCHAR, max_length=255, is_primary=True)
 schema_documents.add_field(field_name="name", datatype=DataType.VARCHAR, max_length=255)
-schema_documents.add_field(field_name="vector", datatype=DataType.FLOAT_VECTOR, dim=768)  
+schema_documents.add_field(field_name="vector", datatype=DataType.FLOAT_VECTOR, dim=dimention)  
 schema_documents.add_field(field_name="file_name", datatype=DataType.VARCHAR, max_length=255)
+
+print('Create schema for DOCUMENTS success')
 
 # Tạo schema cho DOCUMENT_PARTS
 schema_document_parts = client.create_schema(auto_id=False, enable_dynamic_field=True)
@@ -37,24 +42,26 @@ schema_document_parts = client.create_schema(auto_id=False, enable_dynamic_field
 # Thêm các trường vào schema của DOCUMENT_PARTS
 schema_document_parts.add_field(field_name="id", datatype=DataType.VARCHAR, max_length=255, is_primary=True)
 schema_document_parts.add_field(field_name="rank", datatype=DataType.INT16, nullable=True) 
-schema_document_parts.add_field(field_name="key", datatype=DataType.INT16, nullable=True)
+schema_document_parts.add_field(field_name="key", datatype=DataType.DOUBLE, nullable=True)
 schema_document_parts.add_field(field_name="page", datatype=DataType.INT16, nullable=True)  
 schema_document_parts.add_field(field_name="content", datatype=DataType.VARCHAR, max_length=65000)
 schema_document_parts.add_field(field_name="parents_id", datatype=DataType.VARCHAR, max_length=255)
 schema_document_parts.add_field(field_name="child_ids", datatype=DataType.ARRAY, element_type=DataType.VARCHAR, max_length=255, max_capacity=255, nullable=True)
-schema_document_parts.add_field(field_name="vector", datatype=DataType.FLOAT_VECTOR, dim=768) 
-schema_document_parts.add_field(field_name="position", datatype=DataType.ARRAY, element_type=DataType.VARCHAR, max_length=64, max_capacity=64, nullable=True)
+schema_document_parts.add_field(field_name="vector", datatype=DataType.FLOAT_VECTOR, dim=dimention) 
+schema_document_parts.add_field(field_name="position", datatype=DataType.ARRAY, element_type=DataType.VARCHAR, max_length=255, max_capacity=255, nullable=True)
 schema_document_parts.add_field(field_name="doc_id", datatype=DataType.VARCHAR, max_length=255)
 
-# Thêm các trường vào schema của QUESTIONS
-# schema_questions = client.create_schema(auto_id=False, enable_dynamic_field=True)
+print('Create schema for DOCUMENT_PARTS success')
 
-# schema_questions.add_field(field_name="id", datatype=DataType.VARCHAR, max_length=255, is_primary=True)
-# schema_questions.add_field(field_name="content", datatype=DataType.VARCHAR, max_length=65000) # Câu hỏi
-# schema_questions.add_field(field_name="vector", datatype=DataType.FLOAT_VECTOR, dim=768) # Vector của câu hỏi
-# schema_questions.add_field(field_name="type", datatype=DataType.INT64, nullable=True) # Để lưu nhóm các câu hỏi tương tự chung 1 loại
-# schema_questions.add_field(field_name="rating", datatype=DataType.INT8, nullable=True) # Để lưu đánh giá chất lượng của câu trả lời
-# schema_questions.add_field(field_name="feedback", datatype=DataType.VARCHAR, max_length=65000, nullable=True) # Lưu phản hồi của người dùng
+# Thêm các trường vào schema của QUESTIONS
+schema_questions = client.create_schema(auto_id=False, enable_dynamic_field=True)
+
+schema_questions.add_field(field_name="id", datatype=DataType.VARCHAR, max_length=255, is_primary=True)
+schema_questions.add_field(field_name="content", datatype=DataType.VARCHAR, max_length=65000) # Câu hỏi
+schema_questions.add_field(field_name="vector", datatype=DataType.FLOAT_VECTOR, dim=dimention) # Vector của câu hỏi
+schema_questions.add_field(field_name="type", datatype=DataType.INT64, nullable=True) # Để lưu nhóm các câu hỏi tương tự chung 1 loại
+schema_questions.add_field(field_name="rating", datatype=DataType.INT8, nullable=True) # Để lưu đánh giá chất lượng của câu trả lời
+schema_questions.add_field(field_name="feedback", datatype=DataType.VARCHAR, max_length=65000, nullable=True) # Lưu phản hồi của người dùng
 # schema_questions.add_field(field_name="answer_rating", datatype=DataType.ARRAY, element_type=DataType.JSON, max_length=5, max_capacity=5, nullable=True)
 """
 Để lưu đánh giá chất lượng của từng câu trả lời của hệ thống
@@ -87,14 +94,20 @@ Cấu trúc json
 index_params = client.prepare_index_params()
 index_params.add_index(field_name="vector", index_type="IVF_FLAT", metric_type="COSINE", params={"nlist": 128})
 
+print('Prepare index success')
+
 # Tạo collection cho DOCUMENTS
 client.create_collection(collection_name="DOCUMENTS", schema=schema_documents, index_params=index_params)
+
+print('Create collection DOCUMENTS success')
 
 # Tạo collection cho DOCUMENT_PARTS
 client.create_collection(collection_name="DOCUMENT_PARTS", schema=schema_document_parts, index_params=index_params)
 
+print('Create collection DOCUMENT_PARTS success')
+
 # Tạo collection cho QUESTIONS
-# client.create_collection(collection_name="QUESTIONS", schema=schema_questions, index_params=index_params)
+client.create_collection(collection_name="QUESTIONS", schema=schema_questions, index_params=index_params)
 
 # # Thêm các trường vào schema của ACCOUNTS
 schema_questions = client.create_schema(auto_id=False, enable_dynamic_field=True)
@@ -103,11 +116,15 @@ schema_questions.add_field(field_name="id", datatype=DataType.VARCHAR, max_lengt
 schema_questions.add_field(field_name="email", datatype=DataType.VARCHAR, max_length=255)
 schema_questions.add_field(field_name="vector", datatype=DataType.SPARSE_FLOAT_VECTOR)
 schema_questions.add_field(field_name="password", datatype=DataType.VARCHAR, max_length=255)
-schema_questions.add_field(field_name="otp", datatype=DataType.VARCHAR, max_length=10)
+# schema_questions.add_field(field_name="otp", datatype=DataType.VARCHAR, max_length=10)
 schema_questions.add_field(field_name="role", datatype=DataType.INT8)
 
+print('Create schema for ACCOUNTS success')
 
 index_params_sparse_vector = client.prepare_index_params()
 index_params_sparse_vector.add_index(field_name="vector", index_type="SPARSE_INVERTED_INDEX", metric_type="IP", params={"nlist": 128})
+
 # Tạo collection cho ACCOUNTS
 client.create_collection(collection_name="ACCOUNTS", schema=schema_questions, index_params=index_params_sparse_vector)
+
+print('Create collection ACCOUNTS success')

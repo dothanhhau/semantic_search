@@ -156,6 +156,7 @@
       overflow: hidden;
       position: relative;
       transition: max-height 0.3s ease-in-out;
+      line-height: 22px;
     }
 
     .read-more {
@@ -172,6 +173,57 @@
     .read-more:hover {
       opacity: 0.8;
     }
+    
+    #avatar {
+      position: relative;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background-color: #ccc;
+      cursor: pointer;
+      display: none;
+    }
+    #avatar:hover .menu_info {
+      display: block;
+    }
+    #avatar::before {
+      content: "";
+      display: block;
+      width: 108px;
+      position: absolute;
+      height: 20px;
+      top: 80%;
+      background-color: transparent;
+      right: 0;
+    }
+    .menu_info {
+      top: 100%;
+      right: 0;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+      position: absolute;
+      display: none;
+      width: 200px;
+      background-color: #fff;
+      z-index: 1000;
+    }
+    .menu_info div {
+      width: 100%;
+      padding: 12px 5px;
+      color: #333;
+      border-bottom: 1px solid #ccc;
+    }
+    .menu_info div:first-child {
+      border-top-right-radius: 8px;
+      border-top-left-radius: 8px;
+    }
+    .menu_info div:last-child {
+      border-bottom-right-radius: 8px;
+      border-bottom-left-radius: 8px;
+    }
+    .menu_info div:hover {
+      background-color: #ccc;
+    }
   </style>
 </head>
 <body>
@@ -187,7 +239,7 @@
           </a>
         </div>
 
-        <div>
+        <div id="div_login">
           <form action="/login" method="get">
             <button style="
             background: linear-gradient(135deg, #007bff, #0056b3);
@@ -209,10 +261,16 @@
             Đăng nhập
           </button>
           </form>
+        </div>
 
+        <div id="avatar">
+          <div class="menu_info">
+            <div id="go_to_admin">Trang quản trị</div>
+            <div id="logout">Đăng xuất</div>
+          </div>
         </div>
       </div>
-      <h1>Tìm kiếm quy định ngữ nghĩa</h1>
+      <h1>Tìm kiếm quy định theo ngữ nghĩa</h1>
       <div class="search-bar">
         <button id="openDrawerButton" class="open-drawer-button">
           Bộ lọc <span id="filterBadge" class="badge"></span>
@@ -254,7 +312,7 @@
         </div>
       </div>
     </div>
-    <section class="faq" style="margin-top:20px;">
+    <section class="faq" style="margin-top:20px; display: none;">
       <h2>Câu hỏi thường gặp</h2>
       <div class="accordion">
         <div class="accordion-item">
@@ -278,7 +336,30 @@
     <div class="filter-list" id="filterListMobile"></div>
   </div>
   <script>
-    document.addEventListener("DOMContentLoaded", function() {
+    // document.addEventListener("DOMContentLoaded", function() {
+      const access_token = localStorage.getItem('access_token')
+      const div_login = document.getElementById('div_login')
+      const avatar = document.getElementById('avatar')
+      if(access_token) {
+        div_login.style.display = 'none';
+        avatar.style.display = 'block';
+      }
+      else {
+        div_login.style.display = 'block';
+        avatar.style.display = 'none';
+      }
+      const go_to_admin = document.getElementById('go_to_admin')
+      const logout = document.getElementById('logout')
+       
+      go_to_admin.addEventListener('click', () => {
+        window.location.href = `/admin?access_token=${access_token}`
+      })
+
+      logout.addEventListener('click', () => {
+        localStorage.removeItem('access_token');
+        window.location.href = '/'
+      })
+
       let filters = [];
       // Fetch filters from API (nếu API có, nếu không giữ giá trị mặc định)
       fetch("/api/documents")
@@ -543,7 +624,7 @@
         feedbackContainer.style.display = "none";
       });
 
-    });
+    // });
   </script>
 </body>
 </html>
