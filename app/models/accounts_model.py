@@ -16,7 +16,7 @@ class AccountModel:
             "password": hashed_password,
             "role": int(account["role"]),
             "vector": {0: 0.0},  # Placeholder for future vector data
-            "otp": ""
+            # "otp": ""
         }
         return client.insert(cls.name, [account])
 

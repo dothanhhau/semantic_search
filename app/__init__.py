@@ -1,5 +1,7 @@
+from datetime import timedelta
 import os
 from dotenv import load_dotenv
+from flask_jwt_extended import JWTManager
 from pymilvus import MilvusClient
 import pytesseract
 from transformers import AutoModel, AutoTokenizer
@@ -14,7 +16,7 @@ try:
     #     uri=str(os.getenv('URL_MILVUS')), 
     #     token=str(os.getenv('TOKEN_MILVUS'))
     # )
-    client = MilvusClient(host="localhost", port="19530")
+    client = MilvusClient()
 except Exception as e:
     print(e)
 
@@ -27,11 +29,12 @@ except Exception as e:
 phoBertTokenizer = AutoTokenizer.from_pretrained(str(os.getenv("PHO_BERT")))
 pytesseract.pytesseract.tesseract_cmd = str(os.getenv("TESSERACT"))
 
-
 def create_app():
     # app.config.from_object('config')
     app = Flask(__name__, template_folder='views')
-
+    app.config['JWT_SECRET_KEY'] = os.getenv('JWT_SECRET_KEY')
+    app.config["JWT_ACCESS_TOKEN_EXPIRES"] = timedelta(hours=1)
+    jwt = JWTManager(app)
     with app.app_context():
         from .controllers.home_controller import home_bp
         from .controllers.upload_controller import upload_bp

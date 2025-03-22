@@ -50,6 +50,8 @@ def array2json(data):
                         if pre - cur < 1:
                             cur_rank -= 2
                     except Exception as e:
+                        if stack[-1]['rank'] < 4:
+                            cur_rank -= 2
                         print(e)
 
             while len(stack) > 0 and stack[-1]['rank'] > cur_rank:

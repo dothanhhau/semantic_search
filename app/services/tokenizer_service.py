@@ -3,7 +3,7 @@ import numpy
 from app import phoBert, phoBertTokenizer, vncorenlp
 
 def vectorize_text(text):
-    arr_txt = vncorenlp.word_segment(text)
+    arr_txt = vncorenlp.word_segment(text.lower())
     inputs = phoBertTokenizer(arr_txt, return_tensors="pt", padding=True, truncation=True, max_length=256)
     with torch.no_grad():
         outputs = phoBert(**inputs)
