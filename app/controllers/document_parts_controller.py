@@ -3,8 +3,6 @@ from app.models.document_parts_model import DocumentParts
 from app.models.document_model import Document
 from app.services.tokenizer_service import vectorize_text
 from app.utils.convert_data import add_fields_doc_id, add_fields_vector_and_position, array2json, json2array
-from app.utils.file_util import write_file
-import os
 from dotenv import load_dotenv
 
 load_dotenv()

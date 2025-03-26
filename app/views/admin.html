@@ -1,588 +1,815 @@
 <!DOCTYPE html>
 <html lang="vi">
-<head>
-  <meta charset="UTF-8" />
-  <title>{{title}}</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <style>
-    /* Global & Desktop Styles */
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: Arial, sans-serif; background-color: #fafafa; color: #333; }
-    header { background-color: #ffffff; border-bottom: 1px solid #ddd; padding: 10px 20px; display: flex; align-items: center; justify-content: space-between; }
-    header .logo-group { display: flex; align-items: center; }
-    header .logo-group img { width: 50px; height: 50px; border-radius: 50%; margin-right: 10px; }
-    header h1 { font-size: 1.8rem; text-align: center; flex: 1; }
-    .container { display: flex; min-height: calc(100vh - 70px); }
-    .sidebar { width: 220px; background-color: #e0e0e0; padding: 20px; }
-    .sidebar ul { list-style: none; }
-    .sidebar li { padding: 10px 15px; margin-bottom: 10px; background-color: #fff; border-radius: 4px; cursor: pointer; transition: background 0.3s; }
-    .sidebar li.active, .sidebar li:hover { background-color: #d0eaff; }
-    .content { flex: 1; padding: 20px; background-color: #fff; margin: 20px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
-    .tab { display: none; }
-    .tab.active { display: block; }
-    h2, h3 { margin-bottom: 15px; }
-    input[type="file"], input[type="text"], textarea {
-      width: 100%; padding: 8px; margin-bottom: 10px;
-      border: 1px solid #ccc; border-radius: 4px; font-size: 1rem;
-    }
-    button { 
-      padding: 6px 10px; border: 1px solid #ccc; border-radius: 4px;
-      background-color: #fff; color: #333; cursor: pointer;
-      transition: box-shadow 0.3s; margin-right: 5px;
-    }
-    button:hover { box-shadow: 0 2px 5px rgba(0,0,0,0.5); }
-    .inline-input { width: calc(100% - 68px) !important; padding: 4px; border: 1px solid #ccc; border-radius: 4px; margin-bottom: 0 !important; }
-    table { width: 100%; border-collapse: collapse; margin-top: 10px; }
-    table th, table td { border: 1px solid #ccc; padding: 8px; text-align: left; }
-    table th { background-color: #f0f0f0; }
-    table td:nth-child(2) { min-width: 300px; }
-    .edit-btn { background-color: #fff; border: 1px solid #ccc; color: #333; height: 36px; display: block;
-      margin-left: 5px; padding: 4px 8px; cursor: pointer; transition: box-shadow 0.3s;
-    }
-    .action-btn { height: 36px; }
-    .edit-btn:hover { box-shadow: 0 2px 5px rgba(0,0,0,0.5); }
-    .edit-content-page { display: none; }
-    .edit-content-page.active { display: block; }
-    /* Entity styles in edit content page */
-    .entity {
-      padding: 10px; margin-bottom: 10px;
-      border: 1px solid transparent; background-color: #f9f9f9;
-      position: relative; transition: border 0.3s; cursor: move;
-    }
-    .entity:hover { border: 1px solid #ccc; }
-    .entity.over { border: 1px dashed #333; }
-    .entity-buttons { display: none; position: absolute; top: 5px; right: 5px; }
-    .entity:hover .entity-buttons { display: block; }
-    .entity-btn {
-      background-color: #fff; border: 1px solid #ccc; color: #333;
-      padding: 2px 6px; margin-left: 5px; cursor: pointer; transition: box-shadow 0.3s;
-    }
-    .entity-btn:hover { box-shadow: 0 2px 5px rgba(0,0,0,0.5); }
-    /* Style dành riêng cho page marker */
-    .entity.page-marker {
-      background-color: #b3cde0;
-      text-align: center;
-      font-weight: bold;
-    }
-    .action-buttons { margin-bottom: 15px; }
-    /* Confirm Modal */
-    .confirm-modal {
-      display: none; position: fixed; top: 0; left: 0; right: 0; bottom: 0;
-      background-color: rgba(0,0,0,0.5); justify-content: center; align-items: center; z-index: 1000;
-    }
-    .confirm-modal-content {
-      background: #fff; padding: 20px; border-radius: 8px; width: 300px; text-align: center;
-    }
-    .confirm-modal-buttons button {
-      margin: 10px; padding: 6px 12px; border: 1px solid #ccc; border-radius: 4px;
-      background-color: #fff; cursor: pointer; transition: box-shadow 0.3s;
-    }
-    .confirm-modal-buttons button:hover { box-shadow: 0 2px 5px rgba(0,0,0,0.5); }
-    #resultUpload { margin-top: 20px; }
-    /* Style cho full content editor (notepad) */
-    #fullContentEditor {
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      background: #fff;
-      padding: 10px;
-      font-family: monospace;
-      font-size: 16px;
-      line-height: 1.5;
-      width: 100%;
-      height: 80vh;
-      resize: vertical;
-      outline: none;
-    }
-    /* Style hiển thị page marker trong full content editor */
-    #fullContentPages {
-      margin-bottom: 15px;
-      font-size: 26px;
-      font-weight: bold;
-      text-align: center;
-    }
-    /* Mobile Styles */
-    @media (max-width: 768px) {
-      header { flex-direction: column; text-align: center; }
-      header .logo-group { margin-bottom: 10px; }
-      .container { flex-direction: column; }
-      .sidebar { width: 100%; padding: 10px; }
-      .content { margin: 10px; padding: 15px; }
-      table td:nth-child(2) { min-width: 150px; }
-    }
-    .avatar {
-      position: relative;
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
-      background-color: #ccc;
-      cursor: pointer;
-    }
-    .avatar:hover .menu_info {
-      display: block;
-    }
-    .avatar::before {
-      content: "";
-      display: block;
-      width: 108px;
-      position: absolute;
-      height: 20px;
-      top: 80%;
-      background-color: transparent;
-      right: 0;
-    }
-    .menu_info {
-      top: 100%;
-      right: 0;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-      position: absolute;
-      display: none;
-      width: 200px;
-      background-color: #fff;
-    }
-    .menu_info a {
-      width: 100%;
-      display: block;
-      padding: 12px 5px;
-      text-decoration: none;
-      color: #333;
-      border-bottom: 1px solid #ccc;
-    }
-    .menu_info a:first-child {
-      border-top-right-radius: 8px;
-      border-top-left-radius: 8px;
-    }
-    .menu_info a:last-child {
-      border-bottom-right-radius: 8px;
-      border-bottom-left-radius: 8px;
-    }
-    .menu_info a:hover {
-      background-color: #ccc;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <div class="logo-group">
+  <head>
+    <meta charset="UTF-8" />
+    <title>{{title}}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      /* Global & Desktop Styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #fafafa;
+        color: #333;
+      }
+      header {
+        background-color: #ffffff;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      header .logo-group {
+        display: flex;
+        align-items: center;
+      }
+      header .logo-group img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 10px;
+      }
+      header h1 {
+        font-size: 1.8rem;
+        text-align: center;
+        flex: 1;
+      }
+      .container {
+        display: flex;
+        min-height: calc(100vh - 70px);
+      }
+      .sidebar {
+        width: 220px;
+        background-color: #e0e0e0;
+        padding: 20px;
+      }
+      .sidebar ul {
+        list-style: none;
+      }
+      .sidebar li {
+        padding: 10px 15px;
+        margin-bottom: 10px;
+        background-color: #fff;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background 0.3s;
+      }
+      .sidebar li.active,
+      .sidebar li:hover {
+        background-color: #d0eaff;
+      }
+      .content {
+        flex: 1;
+        padding: 20px;
+        background-color: #fff;
+        margin: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      }
+      .tab {
+        display: none;
+      }
+      .tab.active {
+        display: block;
+      }
+      h2,
+      h3 {
+        margin-bottom: 15px;
+      }
+      input[type="file"],
+      input[type="text"],
+      textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 1rem;
+      }
+      button {
+        padding: 6px 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color: #fff;
+        color: #333;
+        cursor: pointer;
+        transition: box-shadow 0.3s;
+        margin-right: 5px;
+      }
+      button:hover {
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+      }
+      .inline-input {
+        width: calc(100% - 68px) !important;
+        padding: 4px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-bottom: 0 !important;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+      }
+      table th,
+      table td {
+        border: 1px solid #ccc;
+        padding: 8px;
+        text-align: left;
+      }
+      table th {
+        background-color: #f0f0f0;
+      }
+      table td:nth-child(2) {
+        min-width: 300px;
+      }
+      .edit-btn {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        color: #333;
+        height: 36px;
+        display: block;
+        margin-left: 5px;
+        padding: 4px 8px;
+        cursor: pointer;
+        transition: box-shadow 0.3s;
+      }
+      .action-btn {
+        height: 36px;
+      }
+      .edit-btn:hover {
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+      }
+      .edit-content-page {
+        display: none;
+      }
+      .edit-content-page.active {
+        display: block;
+      }
+      /* Entity styles in edit content page */
+      .entity {
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid transparent;
+        background-color: #f9f9f9;
+        position: relative;
+        transition: border 0.3s;
+        cursor: move;
+      }
+      .entity:hover {
+        border: 1px solid #ccc;
+      }
+      .entity.over {
+        border: 1px dashed #333;
+      }
+      .entity-buttons {
+        display: none;
+        position: absolute;
+        top: 5px;
+        right: 5px;
+      }
+      .entity:hover .entity-buttons {
+        display: block;
+      }
+      .entity-btn {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        color: #333;
+        padding: 2px 6px;
+        margin-left: 5px;
+        cursor: pointer;
+        transition: box-shadow 0.3s;
+      }
+      .entity-btn:hover {
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+      }
+      /* Style dành riêng cho page marker */
+      .entity.page-marker {
+        background-color: #b3cde0;
+        text-align: center;
+        font-weight: bold;
+      }
+      .action-buttons {
+        margin-bottom: 15px;
+      }
+      /* Confirm Modal */
+      .confirm-modal {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+      }
+      .confirm-modal-content {
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        width: 300px;
+        text-align: center;
+      }
+      .confirm-modal-buttons button {
+        margin: 10px;
+        padding: 6px 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color: #fff;
+        cursor: pointer;
+        transition: box-shadow 0.3s;
+      }
+      .confirm-modal-buttons button:hover {
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+      }
+      #resultUpload {
+        margin-top: 20px;
+      }
+      /* Style cho full content editor (notepad) */
+      #fullContentEditor {
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background: #fff;
+        padding: 10px;
+        font-family: monospace;
+        font-size: 16px;
+        line-height: 1.5;
+        width: 100%;
+        height: 80vh;
+        resize: vertical;
+        outline: none;
+      }
+      /* Style hiển thị page marker trong full content editor */
+      #fullContentPages {
+        margin-bottom: 15px;
+        font-size: 26px;
+        font-weight: bold;
+        text-align: center;
+      }
+      /* Mobile Styles */
+      @media (max-width: 768px) {
+        header {
+          flex-direction: column;
+          text-align: center;
+        }
+        header .logo-group {
+          margin-bottom: 10px;
+        }
+        .container {
+          flex-direction: column;
+        }
+        .sidebar {
+          width: 100%;
+          padding: 10px;
+        }
+        .content {
+          margin: 10px;
+          padding: 15px;
+        }
+        table td:nth-child(2) {
+          min-width: 150px;
+        }
+      }
+      .avatar {
+        position: relative;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #ccc;
+        cursor: pointer;
+      }
+      .avatar:hover .menu_info {
+        display: block;
+      }
+      .avatar::before {
+        content: "";
+        display: block;
+        width: 108px;
+        position: absolute;
+        height: 20px;
+        top: 80%;
+        background-color: transparent;
+        right: 0;
+      }
+      .menu_info {
+        top: 100%;
+        right: 0;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        position: absolute;
+        display: none;
+        width: 200px;
+        background-color: #fff;
+      }
+      .menu_info a {
+        width: 100%;
+        display: block;
+        padding: 12px 5px;
+        text-decoration: none;
+        color: #333;
+        border-bottom: 1px solid #ccc;
+      }
+      .menu_info a:first-child {
+        border-top-right-radius: 8px;
+        border-top-left-radius: 8px;
+      }
+      .menu_info a:last-child {
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+      }
+      .menu_info a:hover {
+        background-color: #ccc;
+      }
+      .export_reviews:hover {
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo-group">
         <a href="https://qnu.edu.vn/" target="_blank">
-            <img src="./../static/image/logo_qnu.png" alt="Logo QNU">
+          <img src="./../static/image/logo_qnu.png" alt="Logo QNU" />
         </a>
         <a href="https://kcntt.qnu.edu.vn/" target="_blank">
-            <img src="./../static/image/logo_kcntt.png" alt="Logo CNTT">
+          <img src="./../static/image/logo_kcntt.png" alt="Logo CNTT" />
         </a>
-    </div>
-    <h1>Quản Lý Quy Định</h1>
-    <div class="logo-group avatar">
-      <!-- <img src="https://via.placeholder.com/50?text=CNTT2" alt=""> -->
-      <div class="menu_info">
-        <a href="/">Trang chủ</a>
-        <a id="logout" href="/">Đăng xuất</a>
       </div>
-    </div>
-  </header>
-  <div class="container">
-    <div class="sidebar">
-      <ul id="menu">
-        <li class="active" data-tab="uploadTab">Upload File</li>
-        <li data-tab="viewRegulationsTab">Xem Quy Định</li>
-        <li data-tab="viewReviewsTab">Xem Đánh Giá</li>
-      </ul>
-    </div>
-    <div class="content">
-      <!-- Tab upload -->
-      <div id="uploadTab" class="tab active">
-        <h2>Tải lên tệp (TXT)</h2>
-        <form id="uploadForm">
-          <input type="file" id="file" name="files[]" accept=".pdf,.txt" multiple />
-          <button id="submitLoading" style="width: 200px; height: 36px; background: #e0e0e0; font-size: 16px; margin-top: 20px;" type="submit">Tải lên</button>
-        </form>
-        <div id="resultUpload"></div>
-      </div>
-      <!-- Tab xem quy định -->
-      <div id="viewRegulationsTab" class="tab">
-        <h2>Danh sách Quy Định</h2>
-        <p>Số lượng quy định: <strong id="regulationCount">0</strong></p>
-        <table>
-          <thead>
-            <tr>
-              <th>Mã</th>
-              <th>Tên Quy Định</th>
-              <th>Hành động</th>
-            </tr>
-          </thead>
-          <tbody id="regulationTable"></tbody>
-        </table>
-      </div>
-      <!-- Tab xem đánh giá -->
-      <div id="viewReviewsTab" class="tab">
-        <h2>Danh sách Đánh Giá</h2>
-        <table>
-          <thead>
-            <tr>
-              <th>Mã Quy Định</th>
-              <th>Tên Quy Định</th>
-              <th>Đánh Giá</th>
-            </tr>
-          </thead>
-          <tbody id="reviewsTable"></tbody>
-        </table>
-      </div>
-      <!-- Trang chỉnh sửa nội dung quy định (entity) -->
-      <div id="editContentPage" class="edit-content-page">
-        <div class="action-buttons">
-          <button onclick="goBackToRegulations()">Quay lại</button>
-          <button onclick="addEntity()">Thêm mới entity</button>
-          <button onclick="saveStructure()">Tái cấu trúc</button>
+      <h1>Quản Lý Quy Định</h1>
+      <div class="logo-group avatar">
+        <!-- <img src="https://via.placeholder.com/50?text=CNTT2" alt=""> -->
+        <div class="menu_info">
+          <a href="/">Trang chủ</a>
+          <a id="logout" href="/">Đăng xuất</a>
         </div>
-        <h3>Chỉnh sửa nội dung quy định</h3>
-        <div id="editContentForm"></div>
       </div>
-      <!-- Trang chỉnh sửa toàn bộ nội dung quy định (Notepad) -->
-      <div id="editFullContentPage" class="edit-content-page">
-        <div class="action-buttons">
-          <button onclick="backToRegulationsFromFull()">Quay lại</button>
-          <button onclick="saveFullContent()">Lưu</button>
+    </header>
+    <div class="container">
+      <div class="sidebar">
+        <ul id="menu">
+          <li class="active" data-tab="uploadTab">Upload File</li>
+          <li data-tab="viewRegulationsTab">Xem Quy Định</li>
+          <li data-tab="viewReviewsTab">Xem Đánh Giá</li>
+        </ul>
+      </div>
+      <div class="content">
+        <!-- Tab upload -->
+        <div id="uploadTab" class="tab active">
+          <h2>Tải lên tệp (TXT)</h2>
+          <form id="uploadForm">
+            <input
+              type="file"
+              id="file"
+              name="files[]"
+              accept=".pdf,.txt"
+              multiple
+            />
+            <button
+              id="submitLoading"
+              style="
+                width: 200px;
+                height: 36px;
+                background: #e0e0e0;
+                font-size: 16px;
+                margin-top: 20px;
+              "
+              type="submit"
+            >
+              Tải lên
+            </button>
+          </form>
+          <div id="resultUpload"></div>
         </div>
-        <h3>Chỉnh sửa toàn bộ nội dung quy định</h3>
-        <!-- Hiển thị danh sách các trang (page markers) -->
-        <div id="fullContentPages"></div>
-        <textarea id="fullContentEditor" placeholder="Nhập nội dung quy định..."></textarea>
+        <!-- Tab xem quy định -->
+        <div id="viewRegulationsTab" class="tab">
+          <h2>Danh sách Quy Định</h2>
+          <p>Số lượng quy định: <strong id="regulationCount">0</strong></p>
+          <table>
+            <thead>
+              <tr>
+                <th>Mã</th>
+                <th>Tên Quy Định</th>
+                <th>Hành động</th>
+              </tr>
+            </thead>
+            <tbody id="regulationTable"></tbody>
+          </table>
+        </div>
+        <!-- Tab xem đánh giá -->
+        <div id="viewReviewsTab" class="tab">
+          <h2 style="display: inline-block">Danh sách Đánh Giá</h2>
+          <a class="export_reviews"
+            style="
+              float: right;
+              padding: 6px 12px;
+              border: 1px solid #ccc;
+              border-radius: 5px;
+              text-decoration: none;
+              color: #333;
+            "
+            href="/api/questions/export_reviews"
+            >Xuất Excel</a
+          >
+          <table>
+            <thead>
+              <tr>
+                <th>STT</th>
+                <th>Câu hỏi</th>
+                <th>Đánh giá</th>
+                <th>Nhận xét</th>
+              </tr>
+            </thead>
+            <tbody id="reviewsTable"></tbody>
+          </table>
+        </div>
+        <!-- Trang chỉnh sửa nội dung quy định (entity) -->
+        <div id="editContentPage" class="edit-content-page">
+          <div class="action-buttons">
+            <button onclick="goBackToRegulations()">Quay lại</button>
+            <button onclick="addEntity()">Thêm mới entity</button>
+            <button onclick="saveStructure()">Tái cấu trúc</button>
+          </div>
+          <h3>Chỉnh sửa nội dung quy định</h3>
+          <div id="editContentForm"></div>
+        </div>
+        <!-- Trang chỉnh sửa toàn bộ nội dung quy định (Notepad) -->
+        <div id="editFullContentPage" class="edit-content-page">
+          <div class="action-buttons">
+            <button onclick="backToRegulationsFromFull()">Quay lại</button>
+            <button onclick="saveFullContent()">Lưu</button>
+          </div>
+          <h3>Chỉnh sửa toàn bộ nội dung quy định</h3>
+          <!-- Hiển thị danh sách các trang (page markers) -->
+          <div id="fullContentPages"></div>
+          <textarea
+            id="fullContentEditor"
+            placeholder="Nhập nội dung quy định..."
+          ></textarea>
+        </div>
       </div>
     </div>
-  </div>
-  <div id="confirmModal" class="confirm-modal">
-    <div class="confirm-modal-content">
-      <p>Bạn có chắc muốn xoá quy định này không?</p>
-      <div class="confirm-modal-buttons">
-        <button id="confirmYesBtn">Xóa</button>
-        <button id="confirmNoBtn">Hủy</button>
+    <div id="confirmModal" class="confirm-modal">
+      <div class="confirm-modal-content">
+        <p>Bạn có chắc muốn xoá quy định này không?</p>
+        <div class="confirm-modal-buttons">
+          <button id="confirmYesBtn">Xóa</button>
+          <button id="confirmNoBtn">Hủy</button>
+        </div>
       </div>
     </div>
-  </div>
-  <div id="loadingModal" class="confirm-modal">
-    <div class="confirm-modal-content">
-      <p>Đang xử lý...</p>
+    <div id="loadingModal" class="confirm-modal">
+      <div class="confirm-modal-content">
+        <p>Đang xử lý...</p>
+      </div>
     </div>
-  </div>
-  <script>
-    const logout = document.getElementById('logout')
+    <script>
+      const logout = document.getElementById("logout");
 
-    logout.addEventListener('click', (e) => {
-      e.preventDefault();
-      localStorage.removeItem('access_token');
-      window.location.href = '/'
-    })
-
-    let currentRegulationId = null;
-    
-    async function apiFetchReviews() {
-      return new Promise((resolve) => {
-        setTimeout(() => {
-          resolve([
-            { regulationId: 1, title: "Quy định A", review: "Tốt" },
-            { regulationId: 1, title: "Quy định A", review: "Rất hay" },
-            { regulationId: 2, title: "Quy định B", review: "Đủ" },
-            { regulationId: 2, title: "Quy định B", review: "Chưa rõ" }
-          ]);
-        }, 500);
+      logout.addEventListener("click", (e) => {
+        e.preventDefault();
+        localStorage.removeItem("access_token");
+        window.location.href = "/";
       });
-    }
 
-    /* UI functions */
-    function renderRegulations() {
-      const table = document.getElementById("regulationTable");
-      table.innerHTML = "";
-      fetch('/api/documents')
-        .then(response => response.json())
-        .then(data => {
-          document.getElementById("loadingModal").style.display = "none";
-          const regs = data;
-          document.getElementById("regulationCount").innerText = regs.length;
-          regs.forEach((reg, index) => {
-            const row = document.createElement("tr");
-            row.innerHTML = `<td>${index + 1}</td>
+      let currentRegulationId = null;
+
+      /* UI functions */
+      function renderRegulations() {
+        const table = document.getElementById("regulationTable");
+        table.innerHTML = "";
+        fetch("/api/documents")
+          .then((response) => response.json())
+          .then((data) => {
+            document.getElementById("loadingModal").style.display = "none";
+            const regs = data;
+            document.getElementById("regulationCount").innerText = regs.length;
+            regs.forEach((reg, index) => {
+              const row = document.createElement("tr");
+              row.innerHTML = `<td>${index + 1}</td>
               <td style="width:100%; display: flex; justify-content: space-between; align-items: center; border: none; border-bottom: 1px solid #ccc;">
-                <span style="line-height:36px; display: block; width: calc(100% - 100px);" id="titleDisplay-${reg.id}">${reg.name}</span>
-                <input type="text" id="titleInput-${reg.id}" class="inline-input" style="display:none;" value="${reg.name}">
-                <button class="edit-btn" onclick="editTitle('${reg.id}')" id="editTitleBtn-${reg.id}">Chỉnh sửa</button>
-                <button class="edit-btn" onclick="saveTitle('${reg.id}')" id="saveTitleBtn-${reg.id}" style="display:none;">Lưu</button>
+                <span style="line-height:36px; display: block; width: calc(100% - 100px);" id="titleDisplay-${
+                  reg.id
+                }">${reg.name}</span>
+                <input type="text" id="titleInput-${
+                  reg.id
+                }" class="inline-input" style="display:none;" value="${
+                reg.name
+              }">
+                <button class="edit-btn" onclick="editTitle('${
+                  reg.id
+                }')" id="editTitleBtn-${reg.id}">Chỉnh sửa</button>
+                <button class="edit-btn" onclick="saveTitle('${
+                  reg.id
+                }')" id="saveTitleBtn-${
+                reg.id
+              }" style="display:none;">Lưu</button>
               </td>
               <td style="width:fit-content">
                 <div style="display:flex;">
-                    <button style="white-space: nowrap;" class="action-btn" onclick="openEditFullContent('${reg.id}')">Chỉnh sửa toàn bộ nội dung</button>
-                    <button style="white-space: nowrap;" class="action-btn" onclick="openEditContent('${reg.id}')">Chỉnh sửa một phần nội dung</button>
-                    <button style="white-space: nowrap;" class="action-btn" onclick="viewOriginal('${reg.file_name}')">Xem văn bản gốc</button>
-                    <button style="white-space: nowrap;" class="action-btn" onclick="confirmDelete('${reg.id}')">Xóa quy định</button>
+                    <button style="white-space: nowrap;" class="action-btn" onclick="openEditFullContent('${
+                      reg.id
+                    }')">Chỉnh sửa toàn bộ nội dung</button>
+                    <button style="white-space: nowrap;" class="action-btn" onclick="openEditContent('${
+                      reg.id
+                    }')">Chỉnh sửa một phần nội dung</button>
+                    <button style="white-space: nowrap;" class="action-btn" onclick="viewOriginal('${
+                      reg.file_name
+                    }')">Xem văn bản gốc</button>
+                    <button style="white-space: nowrap;" class="action-btn" onclick="confirmDelete('${
+                      reg.id
+                    }')">Xóa quy định</button>
                     
                 </div>
               </td>`;
-            table.appendChild(row);
+              table.appendChild(row);
+            });
+          })
+          .catch((err) => {
+            console.log(err);
           });
-        })
-        .catch(err => { console.log(err); });
-    }
-
-    async function renderReviews() {
-      const reviews = await apiFetchReviews();
-      const table = document.getElementById("reviewsTable");
-      table.innerHTML = "";
-      reviews.forEach((r) => {
-        const row = document.createElement("tr");
-        row.innerHTML = `<td>${r.regulationId}</td>
-          <td>${r.title}</td>
-          <td>${r.review}</td>`;
-        table.appendChild(row);
-      });
-      if (table.innerHTML === "") {
-        table.innerHTML = `<tr><td colspan="3" style="text-align:center;">Chưa có đánh giá nào.</td></tr>`;
       }
-    }
-    function editTitle(index) {
-      document.getElementById("titleDisplay-" + index).style.display = "none";
-      document.getElementById("titleInput-" + index).style.display = "inline-block";
-      document.getElementById("editTitleBtn-" + index).style.display = "none";
-      document.getElementById("saveTitleBtn-" + index).style.display = "inline-block";
-    }
-    function saveTitle(index) {
-      const newTitle = document.getElementById("titleInput-" + index).value;
-      document.getElementById("titleDisplay-" + index).innerText = newTitle;
-      document.getElementById("titleDisplay-" + index).style.display = "inline-block";
-      document.getElementById("titleInput-" + index).style.display = "none";
-      document.getElementById("editTitleBtn-" + index).style.display = "inline-block";
-      document.getElementById("saveTitleBtn-" + index).style.display = "none";
-      fetch('/api/documents/update', {
-        method: 'PATCH',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ id: index, name: newTitle })
-      })
-      .then(response => response.json())
-      .catch(err => { console.log(err); });
-    }
-    var menuItems = document.querySelectorAll("#menu li");
-    menuItems.forEach(item => {
-      item.addEventListener("click", function() {
-        menuItems.forEach(i => i.classList.remove("active"));
-        this.classList.add("active");
-        const tab = this.getAttribute("data-tab");
-        const tabs = document.querySelectorAll(".tab");
-        tabs.forEach(t => t.classList.remove("active"));
-        document.getElementById("editContentPage").classList.remove("active");
-        document.getElementById("editFullContentPage").classList.remove("active");
-        document.getElementById(tab).classList.add("active");
-        if (tab === "uploadTab") {
-          document.getElementById("resultUpload").innerHTML = '';
-        }
-        if (tab === "viewRegulationsTab") renderRegulations();
-        if (tab === "viewReviewsTab") renderReviews();
-      });
-    });
 
-    // Xử lý upload file (pdf và txt)
-    document.getElementById("uploadForm").addEventListener("submit", async function(e) {
-      e.preventDefault();
-      const fileInput = document.getElementById("file");
-      const resultUpload = document.getElementById("resultUpload");
-      const btnSubmit = document.getElementById('submitLoading');
-      if (fileInput.files.length > 0) {
-          btnSubmit.innerText = "Đang xử lý tệp...";
-          resultUpload.innerHTML = '';
-          for (let i = 0; i < fileInput.files.length; i++) {
+      function renderReviews() {
+        fetch("/api/questions")
+          .then((response) => response.json())
+          .then((data) => {
+            console.log(data);
+            const table = document.getElementById("reviewsTable");
+            table.innerHTML = "";
+            data.forEach((r, index) => {
+              const row = document.createElement("tr");
+              row.innerHTML = `<td>${index + 1}</td>
+              <td>${r.content}</td>
+              <td>${r.rating}</td>
+              <td>${r.feedback}</td>`;
+              table.appendChild(row);
+            });
+            if (table.innerHTML === "") {
+              table.innerHTML = `<tr><td colspan="3" style="text-align:center;">Chưa có đánh giá nào.</td></tr>`;
+            }
+          })
+          .catch((err) => {
+            console.log(err);
+          });
+      }
+      function editTitle(index) {
+        document.getElementById("titleDisplay-" + index).style.display = "none";
+        document.getElementById("titleInput-" + index).style.display =
+          "inline-block";
+        document.getElementById("editTitleBtn-" + index).style.display = "none";
+        document.getElementById("saveTitleBtn-" + index).style.display =
+          "inline-block";
+      }
+      function saveTitle(index) {
+        const newTitle = document.getElementById("titleInput-" + index).value;
+        document.getElementById("titleDisplay-" + index).innerText = newTitle;
+        document.getElementById("titleDisplay-" + index).style.display =
+          "inline-block";
+        document.getElementById("titleInput-" + index).style.display = "none";
+        document.getElementById("editTitleBtn-" + index).style.display =
+          "inline-block";
+        document.getElementById("saveTitleBtn-" + index).style.display = "none";
+        fetch("/api/documents/update", {
+          method: "PATCH",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ id: index, name: newTitle }),
+        })
+          .then((response) => response.json())
+          .catch((err) => {
+            console.log(err);
+          });
+      }
+      var menuItems = document.querySelectorAll("#menu li");
+      menuItems.forEach((item) => {
+        item.addEventListener("click", function () {
+          menuItems.forEach((i) => i.classList.remove("active"));
+          this.classList.add("active");
+          const tab = this.getAttribute("data-tab");
+          const tabs = document.querySelectorAll(".tab");
+          tabs.forEach((t) => t.classList.remove("active"));
+          document.getElementById("editContentPage").classList.remove("active");
+          document
+            .getElementById("editFullContentPage")
+            .classList.remove("active");
+          document.getElementById(tab).classList.add("active");
+          if (tab === "uploadTab") {
+            document.getElementById("resultUpload").innerHTML = "";
+          }
+          if (tab === "viewRegulationsTab") renderRegulations();
+          if (tab === "viewReviewsTab") renderReviews();
+        });
+      });
+
+      // Xử lý upload file (pdf và txt)
+      document
+        .getElementById("uploadForm")
+        .addEventListener("submit", async function (e) {
+          e.preventDefault();
+          const fileInput = document.getElementById("file");
+          const resultUpload = document.getElementById("resultUpload");
+          const btnSubmit = document.getElementById("submitLoading");
+          if (fileInput.files.length > 0) {
+            btnSubmit.innerText = "Đang xử lý tệp...";
+            resultUpload.innerHTML = "";
+            for (let i = 0; i < fileInput.files.length; i++) {
               const file = fileInput.files[i];
-              const extension = file.name.split('.').pop().toLowerCase();
-              let apiUrl = '';
+              const extension = file.name.split(".").pop().toLowerCase();
+              let apiUrl = "";
               // if (extension === "pdf") {
               //   apiUrl = '/upload/pdf';
-              // } else 
+              // } else
               if (extension === "txt") {
-                apiUrl = '/upload/txt';
+                apiUrl = "/upload/txt";
               } else {
-                const x = document.createElement('p');
+                const x = document.createElement("p");
                 x.innerHTML = `Tệp ${file.name} không được hỗ trợ.`;
                 resultUpload.appendChild(x);
                 continue;
               }
               const formData = new FormData();
-              formData.append('file', file);
-              await fetch(apiUrl, { method: 'POST', body: formData })
-                  .then(response => response.json())
-                  .then(data => {
-                      const x = document.createElement('p');
-                      x.innerHTML = `${data.file} - <strong>${data.status}</strong>`;
-                      resultUpload.appendChild(x);
-                  })
-                  .catch(error => {
-                      const x = document.createElement('p');
-                      x.innerHTML = `Lỗi khi xử lý ${file.name}`;
-                      resultUpload.appendChild(x);
-                  });
+              formData.append("file", file);
+              await fetch(apiUrl, { method: "POST", body: formData })
+                .then((response) => response.json())
+                .then((data) => {
+                  const x = document.createElement("p");
+                  x.innerHTML = `${data.file} - <strong>${data.status}</strong>`;
+                  x.style.marginBottom = '8px'
+                  resultUpload.appendChild(x);
+                })
+                .catch((error) => {
+                  const x = document.createElement("p");
+                  x.innerHTML = `Lỗi khi xử lý ${file.name}`;
+                  resultUpload.appendChild(x);
+                });
+            }
+            btnSubmit.innerText = "Tải lên";
+            fileInput.value = "";
+          } else {
+            resultUpload.innerHTML = `<p>Bạn chưa upload tệp</p>`;
           }
-          btnSubmit.innerText = "Tải lên";
-          fileInput.value = "";
-      } else {
-          resultUpload.innerHTML = `<p>Bạn chưa upload tệp</p>`;
-      }
-    });
+        });
 
-    function viewOriginal(regName) {
-      window.open(`/show?file=${regName}&page=1`, "_blank");
-    }
-    let deleteRegulationIndex = null;
-    function confirmDelete(index) {
-      deleteRegulationIndex = index;
-      document.getElementById("confirmModal").style.display = "flex";
-    }
-    document.getElementById("confirmYesBtn").addEventListener("click", function() {
-      document.getElementById("confirmModal").style.display = "none";
-      document.getElementById("loadingModal").style.display = "flex";
-      if (deleteRegulationIndex !== null) {
-        fetch('/api/documents/delete/' + deleteRegulationIndex, { method: 'DELETE' })
-          .then(response => response.json())
-          .then(data => {
-            setTimeout(() => { renderRegulations(); }, 400);
-            deleteRegulationIndex = null;
+      function viewOriginal(regName) {
+        window.open(`/show?file=${regName}&page=1`, "_blank");
+      }
+      let deleteRegulationIndex = null;
+      function confirmDelete(index) {
+        deleteRegulationIndex = index;
+        document.getElementById("confirmModal").style.display = "flex";
+      }
+      document
+        .getElementById("confirmYesBtn")
+        .addEventListener("click", function () {
+          document.getElementById("confirmModal").style.display = "none";
+          document.getElementById("loadingModal").style.display = "flex";
+          if (deleteRegulationIndex !== null) {
+            fetch("/api/documents/delete/" + deleteRegulationIndex, {
+              method: "DELETE",
+            })
+              .then((response) => response.json())
+              .then((data) => {
+                setTimeout(() => {
+                  renderRegulations();
+                }, 400);
+                deleteRegulationIndex = null;
+              })
+              .catch((err) => {
+                console.log(err);
+              });
+          }
+        });
+      document
+        .getElementById("confirmNoBtn")
+        .addEventListener("click", function () {
+          deleteRegulationIndex = null;
+          document.getElementById("confirmModal").style.display = "none";
+        });
+
+      // ----------------- Các hàm liên quan đến chỉnh sửa nội dung (entity) -----------------
+      async function openEditContent(regId) {
+        currentRegulationId = regId;
+        const tabs = document.querySelectorAll(".tab");
+        tabs.forEach((t) => t.classList.remove("active"));
+        document.getElementById("editContentPage").classList.add("active");
+        renderEntities(regId);
+      }
+
+      // Hàm hiển thị danh sách entity (dữ liệu có trường page)
+      function renderEntities(regId) {
+        fetch("/api/document_parts/partition/" + regId)
+          .then((response) => response.json())
+          .then((data) => {
+            const reg = data;
+            const editForm = document.getElementById("editContentForm");
+            const namereg = document.getElementById(
+              `titleDisplay-${regId}`
+            ).innerText;
+            editForm.innerHTML = "";
+            const elementNameReg = document.createElement("p");
+            elementNameReg.innerHTML = `<strong id='${regId}' style="text-align:center; font-size:22px; display:block; margin-bottom: 20px">${namereg}</strong>`;
+            editForm.appendChild(elementNameReg);
+
+            for (let i = 0; i < reg.length; i++) {
+              let sec = reg[i];
+              // Tạo entity thông thường
+              let div = document.createElement("div");
+              div.setAttribute("id", sec.id);
+              div.className = "entity";
+              div.setAttribute("draggable", "true");
+              addDnDHandlers(div);
+              let pElem = document.createElement("p");
+              if (sec.rank < 4) {
+                pElem.innerHTML = `<strong>${sec.content}</strong>`;
+              } else {
+                pElem.innerText = sec.content;
+              }
+              let btnContainer = document.createElement("div");
+              btnContainer.className = "entity-buttons";
+              let editBtn = document.createElement("button");
+              editBtn.className = "entity-btn entity-btn-edit";
+              editBtn.innerText = "Chỉnh sửa";
+              editBtn.onclick = function () {
+                editEntity(sec.id);
+              };
+              let deleteBtn = document.createElement("button");
+              deleteBtn.className = "entity-btn entity-btn-delete";
+              deleteBtn.innerText = "Xoá";
+              deleteBtn.onclick = function () {
+                deleteEntity(sec.id);
+              };
+              let addBtn = document.createElement("button");
+              addBtn.className = "entity-btn entity-btn-add";
+              addBtn.innerText = "Thêm";
+              addBtn.onclick = function () {
+                addEntityBelow(sec.id);
+              };
+              btnContainer.appendChild(editBtn);
+              btnContainer.appendChild(deleteBtn);
+              btnContainer.appendChild(addBtn);
+              div.appendChild(pElem);
+              div.appendChild(btnContainer);
+              editForm.appendChild(div);
+
+              // Kiểm tra: nếu đây là phần cuối cùng hoặc nếu page của phần hiện tại khác với phần tiếp theo thì chèn marker
+              if (
+                i === reg.length - 1 ||
+                (i < reg.length - 1 && sec.page !== reg[i + 1].page)
+              ) {
+                let markerText = sec.page;
+                let pageMarker = document.createElement("div");
+                pageMarker.setAttribute(
+                  "id",
+                  "pageMarker-" + markerText + "-" + Date.now()
+                );
+                pageMarker.className = "entity page-marker";
+                pageMarker.setAttribute("draggable", "true");
+                addDnDHandlers(pageMarker);
+                let markerPElem = document.createElement("p");
+                markerPElem.innerText = markerText;
+                let markerBtnContainer = document.createElement("div");
+                markerBtnContainer.className = "entity-buttons";
+                let markerEditBtn = document.createElement("button");
+                markerEditBtn.className = "entity-btn entity-btn-edit";
+                markerEditBtn.innerText = "Chỉnh sửa";
+                markerEditBtn.onclick = function () {
+                  editEntity(pageMarker.getAttribute("id"));
+                };
+                let markerDeleteBtn = document.createElement("button");
+                markerDeleteBtn.className = "entity-btn entity-btn-delete";
+                markerDeleteBtn.innerText = "Xoá";
+                markerDeleteBtn.onclick = function () {
+                  deleteEntity(pageMarker.getAttribute("id"));
+                };
+                let markerAddBtn = document.createElement("button");
+                markerAddBtn.className = "entity-btn entity-btn-add";
+                markerAddBtn.innerText = "Thêm";
+                markerAddBtn.onclick = function () {
+                  addEntityBelow(pageMarker.getAttribute("id"));
+                };
+                markerBtnContainer.appendChild(markerEditBtn);
+                markerBtnContainer.appendChild(markerDeleteBtn);
+                markerBtnContainer.appendChild(markerAddBtn);
+                pageMarker.appendChild(markerPElem);
+                pageMarker.appendChild(markerBtnContainer);
+                editForm.appendChild(pageMarker);
+              }
+            }
           })
-          .catch(err => { console.log(err); });
+          .catch((err) => {
+            console.log(err);
+          });
       }
-    });
-    document.getElementById("confirmNoBtn").addEventListener("click", function() {
-      deleteRegulationIndex = null;
-      document.getElementById("confirmModal").style.display = "none";
-    });
 
-    // ----------------- Các hàm liên quan đến chỉnh sửa nội dung (entity) -----------------
-    async function openEditContent(regId) {
-      currentRegulationId = regId;
-      const tabs = document.querySelectorAll(".tab");
-      tabs.forEach(t => t.classList.remove("active"));
-      document.getElementById("editContentPage").classList.add("active");
-      renderEntities(regId);
-    }
-
-    // Hàm hiển thị danh sách entity (dữ liệu có trường page)
-    function renderEntities(regId) {
-      fetch('/api/document_parts/partition/' + regId)
-        .then(response => response.json())
-        .then(data => {
-          const reg = data;
-          const editForm = document.getElementById("editContentForm");
-          const namereg = document.getElementById(`titleDisplay-${regId}`).innerText;
-          editForm.innerHTML = "";
-          const elementNameReg = document.createElement('p');
-          elementNameReg.innerHTML = `<strong id='${regId}' style="text-align:center; font-size:22px; display:block; margin-bottom: 20px">${namereg}</strong>`;
-          editForm.appendChild(elementNameReg);
-          
-          for (let i = 0; i < reg.length; i++) {
-            let sec = reg[i];
-            // Tạo entity thông thường
-            let div = document.createElement("div");
-            div.setAttribute("id", sec.id);
-            div.className = "entity";
-            div.setAttribute("draggable", "true");
-            addDnDHandlers(div);
-            let pElem = document.createElement("p");
-            if(sec.rank < 4) {
-              pElem.innerHTML = `<strong>${sec.content}</strong>`
-            }
-            else {
-              pElem.innerText = sec.content;
-            }
-            let btnContainer = document.createElement("div");
-            btnContainer.className = "entity-buttons";
-            let editBtn = document.createElement("button");
-            editBtn.className = "entity-btn entity-btn-edit";
-            editBtn.innerText = "Chỉnh sửa";
-            editBtn.onclick = function() { editEntity(sec.id); };
-            let deleteBtn = document.createElement("button");
-            deleteBtn.className = "entity-btn entity-btn-delete";
-            deleteBtn.innerText = "Xoá";
-            deleteBtn.onclick = function() { deleteEntity(sec.id); };
-            let addBtn = document.createElement("button");
-            addBtn.className = "entity-btn entity-btn-add";
-            addBtn.innerText = "Thêm";
-            addBtn.onclick = function() { addEntityBelow(sec.id); };
-            btnContainer.appendChild(editBtn);
-            btnContainer.appendChild(deleteBtn);
-            btnContainer.appendChild(addBtn);
-            div.appendChild(pElem);
-            div.appendChild(btnContainer);
-            editForm.appendChild(div);
-            
-            // Kiểm tra: nếu đây là phần cuối cùng hoặc nếu page của phần hiện tại khác với phần tiếp theo thì chèn marker
-            if (i === reg.length - 1 || (i < reg.length - 1 && sec.page !== reg[i+1].page)) {
-              let markerText = sec.page;
-              let pageMarker = document.createElement("div");
-              pageMarker.setAttribute("id", "pageMarker-" + markerText + "-" + Date.now());
-              pageMarker.className = "entity page-marker";
-              pageMarker.setAttribute("draggable", "true");
-              addDnDHandlers(pageMarker);
-              let markerPElem = document.createElement("p");
-              markerPElem.innerText = markerText;
-              let markerBtnContainer = document.createElement("div");
-              markerBtnContainer.className = "entity-buttons";
-              let markerEditBtn = document.createElement("button");
-              markerEditBtn.className = "entity-btn entity-btn-edit";
-              markerEditBtn.innerText = "Chỉnh sửa";
-              markerEditBtn.onclick = function() { editEntity(pageMarker.getAttribute("id")); };
-              let markerDeleteBtn = document.createElement("button");
-              markerDeleteBtn.className = "entity-btn entity-btn-delete";
-              markerDeleteBtn.innerText = "Xoá";
-              markerDeleteBtn.onclick = function() { deleteEntity(pageMarker.getAttribute("id")); };
-              let markerAddBtn = document.createElement("button");
-              markerAddBtn.className = "entity-btn entity-btn-add";
-              markerAddBtn.innerText = "Thêm";
-              markerAddBtn.onclick = function() { addEntityBelow(pageMarker.getAttribute("id")); };
-              markerBtnContainer.appendChild(markerEditBtn);
-              markerBtnContainer.appendChild(markerDeleteBtn);
-              markerBtnContainer.appendChild(markerAddBtn);
-              pageMarker.appendChild(markerPElem);
-              pageMarker.appendChild(markerBtnContainer);
-              editForm.appendChild(pageMarker);
-            }
-          }
-        })
-        .catch(err => { console.log(err); });
-    }
-
-    // Hàm thêm entity mới ở cuối danh sách
-    function addEntity() {
-      const editForm = document.getElementById("editContentForm");
-      const newEntity = document.createElement("div");
-      const id = "new-" + Date.now();
-      newEntity.setAttribute("id", id);
-      newEntity.className = "entity";
-      newEntity.setAttribute("draggable", "true");
-      addDnDHandlers(newEntity);
-      const ta = document.createElement("textarea");
-      ta.value = "";
-      ta.placeholder = "Nhập nội dung mới..."
-      ta.style.width = "100%";
-      ta.style.padding = "8px";
-      ta.style.border = "1px solid #ccc";
-      ta.style.borderRadius = "4px";
-      newEntity.appendChild(ta);
-      const btnContainer = document.createElement("div");
-      btnContainer.className = "entity-buttons";
-      const editBtn = document.createElement("button");
-      editBtn.className = "entity-btn entity-btn-edit";
-      editBtn.innerText = "Lưu";
-      editBtn.onclick = function() { editEntity(newEntity.getAttribute("id")); };
-      const deleteBtn = document.createElement("button");
-      deleteBtn.className = "entity-btn entity-btn-delete";
-      deleteBtn.innerText = "Xoá";
-      deleteBtn.onclick = function() {
-        const rmEle = document.getElementById(id);
-        rmEle.remove() 
-      };
-      btnContainer.appendChild(editBtn);
-      btnContainer.appendChild(deleteBtn);
-      newEntity.appendChild(btnContainer);
-      editForm.appendChild(newEntity);
-    }
-
-    // Hàm thêm entity mới ngay bên dưới entity hiện tại
-    function addEntityBelow(entityId) {
-      const currentEntity = document.getElementById(entityId);
-      if (currentEntity) {
+      // Hàm thêm entity mới ở cuối danh sách
+      function addEntity() {
+        const editForm = document.getElementById("editContentForm");
         const newEntity = document.createElement("div");
         const id = "new-" + Date.now();
         newEntity.setAttribute("id", id);
@@ -591,7 +818,7 @@
         addDnDHandlers(newEntity);
         const ta = document.createElement("textarea");
         ta.value = "";
-        ta.placeholder = "Nhập nội dung mới..."
+        ta.placeholder = "Nhập nội dung mới...";
         ta.style.width = "100%";
         ta.style.padding = "8px";
         ta.style.border = "1px solid #ccc";
@@ -602,263 +829,343 @@
         const editBtn = document.createElement("button");
         editBtn.className = "entity-btn entity-btn-edit";
         editBtn.innerText = "Lưu";
-        editBtn.onclick = function() { editEntity(newEntity.getAttribute("id")); };
+        editBtn.onclick = function () {
+          editEntity(newEntity.getAttribute("id"));
+        };
         const deleteBtn = document.createElement("button");
         deleteBtn.className = "entity-btn entity-btn-delete";
         deleteBtn.innerText = "Xoá";
-        deleteBtn.onclick = function() {
+        deleteBtn.onclick = function () {
           const rmEle = document.getElementById(id);
-          rmEle.remove() 
+          rmEle.remove();
         };
         btnContainer.appendChild(editBtn);
         btnContainer.appendChild(deleteBtn);
         newEntity.appendChild(btnContainer);
-        currentEntity.parentNode.insertBefore(newEntity, currentEntity.nextSibling);
+        editForm.appendChild(newEntity);
       }
-    }
 
-    // Hàm lưu lại cấu trúc các entity (thứ tự & nội dung)
-    function saveStructure() {
-      const entities = document.querySelectorAll('#editContentForm .entity');
-      const doc_id = document.querySelector('#editContentForm p strong').id;
-      let structure = [];
-      entities.forEach((entity, index) => {
-        let id = entity.getAttribute("id");
-        let content = "";
-        const ta = entity.querySelector("textarea");
-        if (ta) {
-          content = ta.value;
-        } else {
-          const pElem = entity.querySelector("p");
-          content = pElem ? pElem.innerText : "";
-        }
-        structure.push(content);
-      });
-      fetch('/api/document_parts/restructure/' + doc_id, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          content: structure.join('\n\n') 
-        })
-      })
-      .then(response => response.json())
-      .then(data => { alert("Cấu trúc đã được lưu!"); })
-      .catch(err => { console.log(err); });
-    }
-
-    // Hàm chuyển đổi giữa chế độ xem và chỉnh sửa nội dung entity, với thêm nút Cancel
-    function editEntity(regId) {
-      const entityDiv = document.getElementById(regId);
-      if (!entityDiv) return;
-      const textarea = entityDiv.querySelector("textarea");
-      if (textarea) {
-        // Đang ở chế độ chỉnh sửa, khi nhấn Save sẽ lưu thay đổi
-        const newContent = textarea.value;
-        entityDiv.querySelector(".entity-btn-edit").innerText = "Đang lưu";
-        if(regId.startsWith("new-")) {
-          fetch('/api/document_parts/create', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-              content: newContent,
-              regulationId: currentRegulationId
-            })
-          })
-          .then(response => response.json())
-          .then(data => {
-            const newId = data.newId;
-            entityDiv.setAttribute("id", newId);
-            const pElem = document.createElement("p");
-            pElem.innerText = newContent;
-            textarea.remove();
-            // Xóa nút Cancel sau khi lưu
-            const cancelBtn = entityDiv.querySelector(".entity-btn-cancel");
-            if(cancelBtn) cancelBtn.remove();
-            entityDiv.insertBefore(pElem, entityDiv.querySelector(".entity-buttons"));
-            entityDiv.querySelector(".entity-btn-edit").innerText = "Chỉnh sửa";
-          })
-          .catch(err => { console.log(err); });
-        } else {
-          fetch('/api/document_parts/update/' + regId, {
-            method: 'PATCH',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ content: newContent })
-          })
-          .then(response => response.json())
-          .then(data => {
-            const pElem = document.createElement("p");
-            console.log(data)
-            if(data.data < 4) {
-              pElem.innerHTML = `<strong>${newContent}</strong>`
-            }
-            else {
-              pElem.innerText = newContent;
-            }
-            textarea.remove();
-            const cancelBtn = entityDiv.querySelector(".entity-btn-cancel");
-            if(cancelBtn) cancelBtn.remove();
-            entityDiv.insertBefore(pElem, entityDiv.querySelector(".entity-buttons"));
-            entityDiv.querySelector(".entity-btn-edit").innerText = "Chỉnh sửa";
-          })
-          .catch(err => { console.log(err); });
-        }
-      } else {
-        // Chuyển sang chế độ chỉnh sửa: xoá phần hiển thị ban đầu, lưu nội dung gốc và tạo textarea, đồng thời thêm nút Cancel.
-        const pElem = entityDiv.querySelector("p");
-        const currentContent = pElem ? pElem.innerText : "";
-        if(pElem) {
-          entityDiv.setAttribute("data-original", currentContent);
-          pElem.remove();
-        }
-        const ta = document.createElement("textarea");
-        ta.value = currentContent;
-        ta.style.width = "100%";
-        ta.style.padding = "8px";
-        ta.style.border = "1px solid #ccc";
-        ta.style.borderRadius = "4px";
-        entityDiv.insertBefore(ta, entityDiv.querySelector(".entity-buttons"));
-        const editBtn = entityDiv.querySelector(".entity-btn-edit");
-        editBtn.innerText = "Lưu";
-        // Thêm nút Cancel nếu chưa tồn tại
-        let cancelBtn = entityDiv.querySelector(".entity-btn-cancel");
-        if (!cancelBtn) {
-          cancelBtn = document.createElement("button");
-          cancelBtn.className = "entity-btn entity-btn-cancel";
-          cancelBtn.innerText = "Huỷ";
-          cancelBtn.onclick = function() {
-            ta.remove();
-            cancelBtn.remove();
-            const original = entityDiv.getAttribute("data-original") || "";
-            const newPElem = document.createElement("p");
-            newPElem.innerText = original;
-            entityDiv.insertBefore(newPElem, entityDiv.querySelector(".entity-buttons"));
-            editBtn.innerText = "Chỉnh sửa";
+      // Hàm thêm entity mới ngay bên dưới entity hiện tại
+      function addEntityBelow(entityId) {
+        const currentEntity = document.getElementById(entityId);
+        if (currentEntity) {
+          const newEntity = document.createElement("div");
+          const id = "new-" + Date.now();
+          newEntity.setAttribute("id", id);
+          newEntity.className = "entity";
+          newEntity.setAttribute("draggable", "true");
+          addDnDHandlers(newEntity);
+          const ta = document.createElement("textarea");
+          ta.value = "";
+          ta.placeholder = "Nhập nội dung mới...";
+          ta.style.width = "100%";
+          ta.style.padding = "8px";
+          ta.style.border = "1px solid #ccc";
+          ta.style.borderRadius = "4px";
+          newEntity.appendChild(ta);
+          const btnContainer = document.createElement("div");
+          btnContainer.className = "entity-buttons";
+          const editBtn = document.createElement("button");
+          editBtn.className = "entity-btn entity-btn-edit";
+          editBtn.innerText = "Lưu";
+          editBtn.onclick = function () {
+            editEntity(newEntity.getAttribute("id"));
           };
-          const btnContainer = entityDiv.querySelector(".entity-buttons");
-          btnContainer.appendChild(cancelBtn);
+          const deleteBtn = document.createElement("button");
+          deleteBtn.className = "entity-btn entity-btn-delete";
+          deleteBtn.innerText = "Xoá";
+          deleteBtn.onclick = function () {
+            const rmEle = document.getElementById(id);
+            rmEle.remove();
+          };
+          btnContainer.appendChild(editBtn);
+          btnContainer.appendChild(deleteBtn);
+          newEntity.appendChild(btnContainer);
+          currentEntity.parentNode.insertBefore(
+            newEntity,
+            currentEntity.nextSibling
+          );
         }
       }
-    }
 
-    // ----------------- Các hàm xử lý chỉnh sửa toàn bộ nội dung (Notepad) -----------------
-    function openEditFullContent(regId) {
-      currentRegulationId = regId;
-      const namereg = document.getElementById(`titleDisplay-${regId}`).innerText;
-      const doc_name = document.getElementById('fullContentPages');
-      doc_name.setAttribute('doc_id', regId);
-      doc_name.innerText = namereg;
-      // Ẩn các tab hiện tại
-      const tabs = document.querySelectorAll(".tab");
-      tabs.forEach(t => t.classList.remove("active"));
-      // Ẩn trang chỉnh sửa entity nếu đang hiển thị
-      document.getElementById("editContentPage").classList.remove("active");
-      // Hiển thị trang chỉnh sửa toàn bộ nội dung
-      document.getElementById("editFullContentPage").classList.add("active");
-      // Lấy dữ liệu các entity của quy định và ghép thành một chuỗi
-      fetch('/api/document_parts/partition/' + regId)
-        .then(response => response.json())
-        .then(data => {
+      // Hàm lưu lại cấu trúc các entity (thứ tự & nội dung)
+      function saveStructure() {
+        const entities = document.querySelectorAll("#editContentForm .entity");
+        const doc_id = document.querySelector("#editContentForm p strong").id;
+        let structure = [];
+        entities.forEach((entity, index) => {
+          let id = entity.getAttribute("id");
+          let content = "";
+          const ta = entity.querySelector("textarea");
+          if (ta) {
+            content = ta.value;
+          } else {
+            const pElem = entity.querySelector("p");
+            content = pElem ? pElem.innerText : "";
+          }
+          structure.push(content);
+        });
+        fetch("/api/document_parts/restructure/" + doc_id, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            content: structure.join("\n\n"),
+          }),
+        })
+          .then((response) => response.json())
+          .then((data) => {
+            alert("Cấu trúc đã được lưu!");
+          })
+          .catch((err) => {
+            console.log(err);
+          });
+      }
+
+      // Hàm chuyển đổi giữa chế độ xem và chỉnh sửa nội dung entity, với thêm nút Cancel
+      function editEntity(regId) {
+        const entityDiv = document.getElementById(regId);
+        if (!entityDiv) return;
+        const textarea = entityDiv.querySelector("textarea");
+        if (textarea) {
+          // Đang ở chế độ chỉnh sửa, khi nhấn Save sẽ lưu thay đổi
+          const newContent = textarea.value;
+          entityDiv.querySelector(".entity-btn-edit").innerText = "Đang lưu";
+          if (regId.startsWith("new-")) {
+            fetch("/api/document_parts/create", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({
+                content: newContent,
+                regulationId: currentRegulationId,
+              }),
+            })
+              .then((response) => response.json())
+              .then((data) => {
+                const newId = data.newId;
+                entityDiv.setAttribute("id", newId);
+                const pElem = document.createElement("p");
+                pElem.innerText = newContent;
+                textarea.remove();
+                // Xóa nút Cancel sau khi lưu
+                const cancelBtn = entityDiv.querySelector(".entity-btn-cancel");
+                if (cancelBtn) cancelBtn.remove();
+                entityDiv.insertBefore(
+                  pElem,
+                  entityDiv.querySelector(".entity-buttons")
+                );
+                entityDiv.querySelector(".entity-btn-edit").innerText =
+                  "Chỉnh sửa";
+              })
+              .catch((err) => {
+                console.log(err);
+              });
+          } else {
+            fetch("/api/document_parts/update/" + regId, {
+              method: "PATCH",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ content: newContent }),
+            })
+              .then((response) => response.json())
+              .then((data) => {
+                const pElem = document.createElement("p");
+                console.log(data);
+                if (data.data < 4) {
+                  pElem.innerHTML = `<strong>${newContent}</strong>`;
+                } else {
+                  pElem.innerText = newContent;
+                }
+                textarea.remove();
+                const cancelBtn = entityDiv.querySelector(".entity-btn-cancel");
+                if (cancelBtn) cancelBtn.remove();
+                entityDiv.insertBefore(
+                  pElem,
+                  entityDiv.querySelector(".entity-buttons")
+                );
+                entityDiv.querySelector(".entity-btn-edit").innerText =
+                  "Chỉnh sửa";
+              })
+              .catch((err) => {
+                console.log(err);
+              });
+          }
+        } else {
+          // Chuyển sang chế độ chỉnh sửa: xoá phần hiển thị ban đầu, lưu nội dung gốc và tạo textarea, đồng thời thêm nút Cancel.
+          const pElem = entityDiv.querySelector("p");
+          const currentContent = pElem ? pElem.innerText : "";
+          if (pElem) {
+            entityDiv.setAttribute("data-original", currentContent);
+            pElem.remove();
+          }
+          const ta = document.createElement("textarea");
+          ta.value = currentContent;
+          ta.style.width = "100%";
+          ta.style.padding = "8px";
+          ta.style.border = "1px solid #ccc";
+          ta.style.borderRadius = "4px";
+          entityDiv.insertBefore(
+            ta,
+            entityDiv.querySelector(".entity-buttons")
+          );
+          const editBtn = entityDiv.querySelector(".entity-btn-edit");
+          editBtn.innerText = "Lưu";
+          // Thêm nút Cancel nếu chưa tồn tại
+          let cancelBtn = entityDiv.querySelector(".entity-btn-cancel");
+          if (!cancelBtn) {
+            cancelBtn = document.createElement("button");
+            cancelBtn.className = "entity-btn entity-btn-cancel";
+            cancelBtn.innerText = "Huỷ";
+            cancelBtn.onclick = function () {
+              ta.remove();
+              cancelBtn.remove();
+              const original = entityDiv.getAttribute("data-original") || "";
+              const newPElem = document.createElement("p");
+              newPElem.innerText = original;
+              entityDiv.insertBefore(
+                newPElem,
+                entityDiv.querySelector(".entity-buttons")
+              );
+              editBtn.innerText = "Chỉnh sửa";
+            };
+            const btnContainer = entityDiv.querySelector(".entity-buttons");
+            btnContainer.appendChild(cancelBtn);
+          }
+        }
+      }
+
+      // ----------------- Các hàm xử lý chỉnh sửa toàn bộ nội dung (Notepad) -----------------
+      function openEditFullContent(regId) {
+        currentRegulationId = regId;
+        const namereg = document.getElementById(
+          `titleDisplay-${regId}`
+        ).innerText;
+        const doc_name = document.getElementById("fullContentPages");
+        doc_name.setAttribute("doc_id", regId);
+        doc_name.innerText = namereg;
+        // Ẩn các tab hiện tại
+        const tabs = document.querySelectorAll(".tab");
+        tabs.forEach((t) => t.classList.remove("active"));
+        // Ẩn trang chỉnh sửa entity nếu đang hiển thị
+        document.getElementById("editContentPage").classList.remove("active");
+        // Hiển thị trang chỉnh sửa toàn bộ nội dung
+        document.getElementById("editFullContentPage").classList.add("active");
+        // Lấy dữ liệu các entity của quy định và ghép thành một chuỗi
+        fetch("/api/document_parts/partition/" + regId)
+          .then((response) => response.json())
+          .then((data) => {
             const editor = document.getElementById("fullContentEditor");
             // Lưu nội dung gốc để huỷ
-            
-            let fullText = '';
-            for(let i = 0; i < data.length; i++) {
-                fullText += data[i].content;
-                fullText += '\n\n';
-                if (i === data.length - 1 || (i < data.length - 1 && data[i].page !== data[i+1].page)) {
-                    fullText += data[i].page;
-                    if(i !== data.length - 1) fullText += '\n\n';
-                }
+
+            let fullText = "";
+            for (let i = 0; i < data.length; i++) {
+              fullText += data[i].content;
+              fullText += "\n\n";
+              if (
+                i === data.length - 1 ||
+                (i < data.length - 1 && data[i].page !== data[i + 1].page)
+              ) {
+                fullText += data[i].page;
+                if (i !== data.length - 1) fullText += "\n\n";
+              }
             }
             editor.value = fullText;
             editor.setAttribute("data-original", fullText);
-        })
-        .catch(err => { console.log(err); });
-    }
-
-    function backToRegulationsFromFull() {
-      document.getElementById("editFullContentPage").classList.remove("active");
-      document.getElementById("viewRegulationsTab").classList.add("active");
-      renderRegulations();
-    }
-
-    function saveFullContent() {
-      const fullText = document.getElementById("fullContentEditor").value;
-      const doc_id = document.getElementById('fullContentPages').getAttribute('doc_id');
-      console.log('abc' + fullText)
-      fetch('/api/document_parts/restructure/' + doc_id, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          content: fullText
-        })
-      })
-      .then(response => response.json())
-      .then(data => { alert("Cấu trúc đã được lưu!"); })
-      .catch(err => { console.log(err); });
-    }
-
-    function cancelFullContent() {
-      const editor = document.getElementById("fullContentEditor");
-      const original = editor.getAttribute("data-original");
-      editor.value = original;
-      alert("Đã huỷ thay đổi!");
-    }
-
-    function goBackToRegulations() {
-      document.getElementById("editContentPage").classList.remove("active");
-      document.getElementById("viewRegulationsTab").classList.add("active");
-      renderRegulations();
-    }
-
-    // ------------- Các hàm xử lý kéo thả (drag & drop) ----------------
-    let dragSrcEl = null;
-    function handleDragStart(e) {
-      dragSrcEl = this;
-      e.dataTransfer.effectAllowed = 'move';
-      e.dataTransfer.setData('text/html', this.innerHTML);
-      this.style.opacity = '0.4';
-    }
-    function handleDragOver(e) {
-      if (e.preventDefault) e.preventDefault();
-      e.dataTransfer.dropEffect = 'move';
-      return false;
-    }
-    function handleDragEnter(e) {
-      this.classList.add('over');
-    }
-    function handleDragLeave(e) {
-      this.classList.remove('over');
-    }
-    function handleDrop(e) {
-      if (e.stopPropagation) e.stopPropagation();
-      if (dragSrcEl !== this) {
-        const parent = this.parentNode;
-        let srcIndex = Array.from(parent.children).indexOf(dragSrcEl);
-        let targetIndex = Array.from(parent.children).indexOf(this);
-        if (srcIndex < targetIndex) {
-          parent.insertBefore(dragSrcEl, this.nextSibling);
-        } else {
-          parent.insertBefore(dragSrcEl, this);
-        }
+          })
+          .catch((err) => {
+            console.log(err);
+          });
       }
-      return false;
-    }
-    function handleDragEnd(e) {
-      this.style.opacity = '1';
-      const entities = document.querySelectorAll('.entity');
-      entities.forEach(function(entity) {
-        entity.classList.remove('over');
-      });
-    }
-    function addDnDHandlers(elem) {
-      elem.addEventListener('dragstart', handleDragStart, false);
-      elem.addEventListener('dragenter', handleDragEnter, false);
-      elem.addEventListener('dragover', handleDragOver, false);
-      elem.addEventListener('dragleave', handleDragLeave, false);
-      elem.addEventListener('drop', handleDrop, false);
-      elem.addEventListener('dragend', handleDragEnd, false);
-    }
-  </script>
-</body>
+
+      function backToRegulationsFromFull() {
+        document
+          .getElementById("editFullContentPage")
+          .classList.remove("active");
+        document.getElementById("viewRegulationsTab").classList.add("active");
+        renderRegulations();
+      }
+
+      function saveFullContent() {
+        const fullText = document.getElementById("fullContentEditor").value;
+        const doc_id = document
+          .getElementById("fullContentPages")
+          .getAttribute("doc_id");
+        console.log("abc" + fullText);
+        fetch("/api/document_parts/restructure/" + doc_id, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            content: fullText,
+          }),
+        })
+          .then((response) => response.json())
+          .then((data) => {
+            alert("Cấu trúc đã được lưu!");
+          })
+          .catch((err) => {
+            console.log(err);
+          });
+      }
+
+      function cancelFullContent() {
+        const editor = document.getElementById("fullContentEditor");
+        const original = editor.getAttribute("data-original");
+        editor.value = original;
+        alert("Đã huỷ thay đổi!");
+      }
+
+      function goBackToRegulations() {
+        document.getElementById("editContentPage").classList.remove("active");
+        document.getElementById("viewRegulationsTab").classList.add("active");
+        renderRegulations();
+      }
+
+      // ------------- Các hàm xử lý kéo thả (drag & drop) ----------------
+      let dragSrcEl = null;
+      function handleDragStart(e) {
+        dragSrcEl = this;
+        e.dataTransfer.effectAllowed = "move";
+        e.dataTransfer.setData("text/html", this.innerHTML);
+        this.style.opacity = "0.4";
+      }
+      function handleDragOver(e) {
+        if (e.preventDefault) e.preventDefault();
+        e.dataTransfer.dropEffect = "move";
+        return false;
+      }
+      function handleDragEnter(e) {
+        this.classList.add("over");
+      }
+      function handleDragLeave(e) {
+        this.classList.remove("over");
+      }
+      function handleDrop(e) {
+        if (e.stopPropagation) e.stopPropagation();
+        if (dragSrcEl !== this) {
+          const parent = this.parentNode;
+          let srcIndex = Array.from(parent.children).indexOf(dragSrcEl);
+          let targetIndex = Array.from(parent.children).indexOf(this);
+          if (srcIndex < targetIndex) {
+            parent.insertBefore(dragSrcEl, this.nextSibling);
+          } else {
+            parent.insertBefore(dragSrcEl, this);
+          }
+        }
+        return false;
+      }
+      function handleDragEnd(e) {
+        this.style.opacity = "1";
+        const entities = document.querySelectorAll(".entity");
+        entities.forEach(function (entity) {
+          entity.classList.remove("over");
+        });
+      }
+      function addDnDHandlers(elem) {
+        elem.addEventListener("dragstart", handleDragStart, false);
+        elem.addEventListener("dragenter", handleDragEnter, false);
+        elem.addEventListener("dragover", handleDragOver, false);
+        elem.addEventListener("dragleave", handleDragLeave, false);
+        elem.addEventListener("drop", handleDrop, false);
+        elem.addEventListener("dragend", handleDragEnd, false);
+      }
+    </script>
+  </body>
 </html>

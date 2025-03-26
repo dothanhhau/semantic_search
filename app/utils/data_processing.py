@@ -1,42 +1,22 @@
+from app import word_dict
+import string
 import re
 
-class TextProcessor:
-    @staticmethod
-    def clean(text):
-        return re.sub(r'\s+', ' ', text).strip()
+def clean_text(text):
+    # Thay thế dấu câu bằng khoảng trắng
+    text = text.translate(str.maketrans(string.punctuation, ' ' * len(string.punctuation)))
     
-    @staticmethod
-    def standardize(text):
-        standardizedText = text.replace("~", "").replace("“", "") \
-                                .replace(":", ".").replace("”", "") \
-                                .replace('"', "").replace("'", "") \
-                                .replace("!", ".").replace("?", ".") \
-                                .replace("+", "").replace(",", "") \
-                                .replace("(", "").replace(")", "") \
-                                .replace("-", "")
-        return standardizedText.lower()
-
+    # Loại bỏ khoảng trắng thừa và chuyển về chữ thường
+    text = re.sub(r'\s+', ' ', text).strip().lower()
     
-    @staticmethod
-    def extract_content(text, re_extractor):
-        pattern = re.compile(re_extractor, re.DOTALL)
-        matches = pattern.findall(text)
+    return text
 
-        parts = []
-        for match in matches:
-            part_type = match[0].strip()
-            content = match[1].strip()
-
-            parts.append(f"{part_type} {content}")
-
-        if './.' in parts[-1]:
-            parts[-1] = parts[-1].split('./.')[0] + '.'
-        
-        return parts
-    
-    @staticmethod
-    def split_documents(text, separator):
-        parts = text.split(separator)
-        documents = [part.strip() for part in parts if part.strip()]
-        documents = [separator + " " + doc for doc in documents]
-        return documents
+def verify_question(question: str):
+    question = clean_text(question)
+    arr = question.split(' ')
+    if len(arr) < 2: return False
+    cnt = 0
+    for x in arr:
+        if x not in word_dict:
+            cnt += 1
+    return (cnt*2 < len(arr))

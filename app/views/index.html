@@ -483,43 +483,49 @@
           })
         })
           .then(response => response.json())
-          .then(data => {
-            if (data && Array.isArray(data)) {
-              resultsContainer.innerHTML = "";
-              // Nếu API trả về dữ liệu hợp lệ, hiển thị dữ liệu
-              data.forEach(result => {
-                const div = document.createElement("div");
-                const formattedContent = result.content.replace(/\n/g, '<br>'); 
-                div.className = "result-item";
-                div.innerHTML = `<h3>${result.doc_name}</h3>
-                  <p><strong>Trang:</strong> ${result.page} - <strong>Vị trí:</strong> ${result.position}</p>
-                  <p><strong>Khoảng cách:</strong> ${result.distance}</p>
-                  <div class="formatted-content">${formattedContent}</div>
-                  <button class="original-btn" onclick="window.open('/show?file=${result.file_name}&page=${result.page}','_blank')">Xem văn bản gốc</button>`;
-                resultsContainer.appendChild(div);
-              });
-            } else {
-              resultsContainer.innerHTML = "<p>Không có kết quả.</p>";
-            }
-            document.querySelectorAll(".result-item").forEach(item => {
-              let content = item.querySelector(".formatted-content");
-              let readMore = document.createElement("span");
-              readMore.classList.add("read-more");
-              readMore.innerText = "Xem thêm";
-              item.appendChild(readMore);
-
-              readMore.addEventListener("click", function () {
-                if (content.style.maxHeight === "none") {
-                  content.style.maxHeight = "50px";
+          .then(res => {
+            if(res.status === 200) {
+              data = res.data
+              if (data.length > 0 && Array.isArray(data)) {
+                resultsContainer.innerHTML = "";
+                // Nếu API trả về dữ liệu hợp lệ, hiển thị dữ liệu
+                data.forEach(result => {
+                  const div = document.createElement("div");
+                  const formattedContent = result.content.replace(/\n/g, '<br>'); 
+                  div.className = "result-item";
+                  div.innerHTML = `<h3>${result.doc_name}</h3>
+                    <p><strong>Trang:</strong> ${result.page} - <strong>Vị trí:</strong> ${result.position}</p>
+                    <p><strong>Khoảng cách:</strong> ${result.distance}</p>
+                    <div class="formatted-content">${formattedContent}</div>
+                    <button class="original-btn" onclick="window.open('/show?file=${result.file_name}&page=${result.page}','_blank')">Xem văn bản gốc</button>`;
+                  resultsContainer.appendChild(div);
+                });
+                document.querySelectorAll(".result-item").forEach(item => {
+                  let content = item.querySelector(".formatted-content");
+                  let readMore = document.createElement("span");
+                  readMore.classList.add("read-more");
                   readMore.innerText = "Xem thêm";
-                } else {
-                  content.style.maxHeight = "none";
-                  readMore.innerText = "Thu gọn";
-                }
-              });
-            });
-            const displayRating = document.getElementById('displayRating');
-            displayRating.style.display = 'block';
+                  item.appendChild(readMore);
+
+                  readMore.addEventListener("click", function () {
+                    if (content.style.maxHeight === "none") {
+                      content.style.maxHeight = "50px";
+                      readMore.innerText = "Xem thêm";
+                    } else {
+                      content.style.maxHeight = "none";
+                      readMore.innerText = "Thu gọn";
+                    }
+                  });
+                });
+                const displayRating = document.getElementById('displayRating');
+                displayRating.setAttribute('id_question', res.id)
+                displayRating.style.display = 'block';
+              } else {
+                resultsContainer.innerHTML = "<p>Không có kết quả.</p>";
+              }
+            } else {
+              resultsContainer.innerHTML = "<p>Câu hỏi của bạn không hợp lý. Vui lòng nhập lại!</p>";
+            }
           })
           .catch(err => {
             console.error("API search failed", err);
@@ -590,27 +596,29 @@
       }
       sendFeedbackBtn.addEventListener('click', function() {
         const feedback = document.getElementById('feedbackInput').value;
-        const queryInput = document.getElementById("queryInput").value;
-
-        // Optional: Call API to submit rating and feedback
-        fetch('/api/questions/create', { 
-          method: 'POST', 
-          headers: {
-            'Content-Type': 'application/json'
-          }, 
-          body: JSON.stringify({ 
-            content: queryInput,
-            rating: selectedRating, 
-            feedback,
-          }) 
-        });
         const displayRating = document.getElementById('displayRating');
+
+        id_ques = displayRating.getAttribute('id_question');
+        if(id_ques) {
+          // Optional: Call API to submit rating and feedback
+          fetch('/api/questions/update/' + id_ques, { 
+            method: 'PATCH', 
+            headers: {
+              'Content-Type': 'application/json'
+            }, 
+            body: JSON.stringify({
+              rating: selectedRating,
+              feedback,
+            }) 
+          });
+        }
         // Reset widget
         selectedRating = 0;
         highlightStars(selectedRating);
         ratingMessage.textContent = "";
         document.getElementById('feedbackInput').value = "";
         feedbackContainer.style.display = "none";
+        displayRating.removeAttribute('id_question');
         displayRating.style.display = "none";
         const messageThanks = document.getElementById('messageThanks');
         messageThanks.style.display = "block";
