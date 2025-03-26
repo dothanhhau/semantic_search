@@ -29,6 +29,16 @@ except Exception as e:
 phoBertTokenizer = AutoTokenizer.from_pretrained(str(os.getenv("PHO_BERT")))
 pytesseract.pytesseract.tesseract_cmd = str(os.getenv("TESSERACT"))
 
+with open(os.path.join(current_directory, 'app', 'static', 'unique_words.txt'), "r", encoding="utf-8") as f:
+    content = f.read()
+    words = content.split("\n")
+
+word_dict = {}
+for word in words:
+    word = word.strip()
+    if word and word not in word_dict:
+        word_dict[word] = True  
+
 def create_app():
     # app.config.from_object('config')
     app = Flask(__name__, template_folder='views')

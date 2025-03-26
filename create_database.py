@@ -110,14 +110,14 @@ print('Create collection DOCUMENT_PARTS success')
 client.create_collection(collection_name="QUESTIONS", schema=schema_questions, index_params=index_params)
 
 # # Thêm các trường vào schema của ACCOUNTS
-schema_questions = client.create_schema(auto_id=False, enable_dynamic_field=True)
+schema_accounts = client.create_schema(auto_id=False, enable_dynamic_field=True)
 
-schema_questions.add_field(field_name="id", datatype=DataType.VARCHAR, max_length=255, is_primary=True)
-schema_questions.add_field(field_name="email", datatype=DataType.VARCHAR, max_length=255)
-schema_questions.add_field(field_name="vector", datatype=DataType.SPARSE_FLOAT_VECTOR)
-schema_questions.add_field(field_name="password", datatype=DataType.VARCHAR, max_length=255)
-# schema_questions.add_field(field_name="otp", datatype=DataType.VARCHAR, max_length=10)
-schema_questions.add_field(field_name="role", datatype=DataType.INT8)
+schema_accounts.add_field(field_name="id", datatype=DataType.VARCHAR, max_length=255, is_primary=True)
+schema_accounts.add_field(field_name="email", datatype=DataType.VARCHAR, max_length=255)
+schema_accounts.add_field(field_name="vector", datatype=DataType.SPARSE_FLOAT_VECTOR)
+schema_accounts.add_field(field_name="password", datatype=DataType.VARCHAR, max_length=255)
+# schema_accounts.add_field(field_name="otp", datatype=DataType.VARCHAR, max_length=10)
+schema_accounts.add_field(field_name="role", datatype=DataType.INT8)
 
 print('Create schema for ACCOUNTS success')
 
@@ -125,6 +125,6 @@ index_params_sparse_vector = client.prepare_index_params()
 index_params_sparse_vector.add_index(field_name="vector", index_type="SPARSE_INVERTED_INDEX", metric_type="IP", params={"nlist": 128})
 
 # Tạo collection cho ACCOUNTS
-client.create_collection(collection_name="ACCOUNTS", schema=schema_questions, index_params=index_params_sparse_vector)
+client.create_collection(collection_name="ACCOUNTS", schema=schema_accounts, index_params=index_params_sparse_vector)
 
 print('Create collection ACCOUNTS success')

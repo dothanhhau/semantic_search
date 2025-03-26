@@ -1,9 +1,12 @@
+import uuid
 from flask import Blueprint, redirect, render_template, request, jsonify
 from flask_jwt_extended import decode_token, get_jwt, verify_jwt_in_request
 from app.models.document_parts_model import DocumentParts
 from app.models.document_model import Document
+from app.models.questions_model import Questions
 from app.services.tokenizer_service import vectorize_text
 from app.utils.convert_data import format_type_of_filename
+from app.utils.data_processing import verify_question
 
 home_bp = Blueprint('home', __name__, url_prefix='/')
 
@@ -37,8 +40,24 @@ def admin():
 def search():
     try:
         data = request.get_json()
+
+        question = data['question']
+
+        if not verify_question(question):
+            return jsonify(status=300, )
+
         partitions = data['partitions']
-        vector = vectorize_text(data['question'])
+        vector = vectorize_text(question)
+
+        id_question = str(uuid.uuid4()).replace("-", "_")
+        Questions.insert([{
+            "id": id_question,
+            "vector": vector,
+            "content": question,
+            "type": 0,
+            "rating": 0,
+            "feedback": ''
+        }])
 
         ans = []
         i = 0
@@ -73,7 +92,7 @@ def search():
                     if len(ans) >= 5: break
             i += 1
         
-        return jsonify(ans)
+        return jsonify(status=200, data=ans, id=id_question)
     
     except Exception as e:
         print("Lỗi", e)
