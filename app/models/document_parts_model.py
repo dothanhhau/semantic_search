@@ -1,5 +1,6 @@
 from app import client
 from pymilvus.client.types import LoadState
+from pymilvus import AnnSearchRequest, WeightedRanker
 
 class DocumentParts:
     name = 'DOCUMENT_PARTS'
@@ -56,7 +57,11 @@ class DocumentParts:
 
     @staticmethod
     def find_by_id(id):
-        return client.get(collection_name=DocumentParts.name, ids=id)
+        return client.get(
+            collection_name=DocumentParts.name, 
+            ids=id,
+            # output_fields=['content', 'page', 'position', 'doc_id', 'rank']
+        )
 
     @staticmethod
     def find_parent_id_has_rank_el_4(id):
@@ -88,13 +93,16 @@ class DocumentParts:
         return res
     
     @staticmethod
-    def get_childs(id):
+    def get_childs(id, id_child):
         id = str(id)
         data = DocumentParts.get_all_child_by_id(id)
         res = sorted(data, key=lambda x: x['key'])
         content = ''
         for x in res:
-            content += x['content']
+            if x['id'] == id_child:
+                content += f'<mark>{x['content']}</mark>'
+            else:
+                content += x['content']
             content += '\n'
         parents = res[0]
 
@@ -113,6 +121,7 @@ class DocumentParts:
                 collection_name=DocumentParts.name,
                 data=vector,
                 limit=k,
+                anns_field='vector',
                 output_fields=['content', 'page', 'position', 'doc_id', 'rank'],
                 search_params= {
                     'offset': next
@@ -130,6 +139,7 @@ class DocumentParts:
                 collection_name=DocumentParts.name,
                 partition_names=partition,
                 data=vector,
+                anns_field='vector',
                 limit=k,
                 output_fields=['content', 'page', 'position', 'doc_id', 'rank'],
                 search_params= {
@@ -140,6 +150,61 @@ class DocumentParts:
         except Exception as e:
             print(f"Error during partitioned search: {e}")
             return []
+
+    @staticmethod
+    def full_text_search(text, partition, k, next=0):
+        search_params = {
+            'params': {'drop_ratio_search': 0.2}, # Proportion of small vector values to ignore during the search
+            'offset': next
+        }
+        
+        return client.search(
+            collection_name=DocumentParts.name, 
+            partition_names=partition,
+            data=text,
+            anns_field='sparse_vector',
+            limit=k,
+            search_params=search_params,
+            output_fields=['content', 'page', 'position', 'doc_id', 'rank'],
+        )
+    
+    def hybrid_search(vector, text, partition, k, next=0):
+
+        search_param_1 = {
+            "data": vector,
+            "anns_field": "vector",
+            "param": {
+                "metric_type": "COSINE",
+                "params": {"nprobe": 10}
+            },
+            "limit": 25
+        }
+        request_1 = AnnSearchRequest(**search_param_1)
+
+        search_param_2 = {
+            "data": text,
+            "anns_field": "sparse_vector",
+            "param": {
+                "metric_type": "BM25",
+            },
+            "limit": 25
+        }
+        request_2 = AnnSearchRequest(**search_param_2)
+
+        reqs = [request_1, request_2]
+        ranker = WeightedRanker(0.8, 0.3) 
+        res = client.hybrid_search(
+            collection_name=DocumentParts.name,
+            partition_names=partition,
+            reqs=reqs,                
+            ranker=ranker,
+            limit=k,
+            output_fields=['content', 'page', 'position', 'doc_id', 'rank'],
+            search_params= {
+                'offset': next
+            }
+        )
+        return res
 
     @staticmethod
     def create_partition(partition):

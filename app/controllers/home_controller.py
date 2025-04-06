@@ -44,7 +44,7 @@ def search():
         question = data['question']
 
         if not verify_question(question):
-            return jsonify(status=300, )
+            return jsonify(status=300, message='Câu hỏi không hợp lệ')
 
         partitions = data['partitions']
         vector = vectorize_text(question)
@@ -59,16 +59,23 @@ def search():
             "feedback": ''
         }])
 
+        option = data['search_option']
+        length = len(option)
         ans = []
         i = 0
+        pre = len(ans)
         while len(ans) < 5:
-            if len(partitions) > 0:
+            if (length == 0) or (length == 1 and option[0] == 'vector_search'):
                 res = DocumentParts.search_on_partition([vector], partitions, 5, i*5)
+            elif length == 2:
+                res = DocumentParts.hybrid_search([vector], [question], partitions, 5, i*5)
             else:
-                res = DocumentParts.search_all([vector], 5, i*5)
+                res = DocumentParts.full_text_search([question], partitions, 5, i*5)
+                
             if not res[0]: break
             for x in res:
                 for y in x:
+                    id_child = y['id']
                     doc = Document.find_by_id(y['entity']['doc_id'])[0]
                     if y['entity']['rank'] > 4:
                         parents = DocumentParts.find_parent_id_has_rank_el_4(y['id'])
@@ -79,7 +86,7 @@ def search():
                             check = True
                             break
                     if check: continue
-                    tmp = DocumentParts.get_childs(y['id'])
+                    tmp = DocumentParts.get_childs(y['id'], id_child)
                     y['entity']['doc_name'] = doc['name']
                     y['entity']['file_name'] = format_type_of_filename(doc['file_name'], 'pdf')
                     y['entity']['position'] = '-'.join(tmp['position'])
@@ -90,10 +97,13 @@ def search():
 
                     ans.append(y['entity'])
                     if len(ans) >= 5: break
+            cur = len(ans)
+            if pre == cur: break
+            pre = cur
             i += 1
         
         return jsonify(status=200, data=ans, id=id_question)
-    
+
     except Exception as e:
         print("Lỗi", e)
 
