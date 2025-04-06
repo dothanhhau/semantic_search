@@ -51,6 +51,13 @@ def upload_txt():
         # write_file(folder_path, filename, 'json', final_array)
         # write_file(folder_path, filename, 'json', final_json)
 
+        if DocumentParts.create_partition(doc_id):
+            if not DocumentParts.insert(final_array, doc_id):
+                return jsonify({
+                    'file': file.filename,
+                    'status': 'Thất bại'
+                }), 500
+
         # Lưu vào database
         if not Document.insert([{
             "id": doc_id,
@@ -63,13 +70,6 @@ def upload_txt():
                 'status': 'Thất bại'
             }), 500
         
-        if DocumentParts.create_partition(doc_id):
-            if not DocumentParts.insert(final_array, doc_id):
-                return jsonify({
-                    'file': file.filename,
-                    'status': 'Thất bại'
-                }), 500
-
         return jsonify({
             'file': file.filename,
             'status': 'Thành công'
