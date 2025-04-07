@@ -49,4 +49,4 @@ instance/*
 app/static/uploads/pdf/*.pdf
 app/static/uploads/txt/*.txt
 app/static/uploads/txt/*.json
-*.ipynb
+# *.ipynb
