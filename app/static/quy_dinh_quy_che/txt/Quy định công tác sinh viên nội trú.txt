@@ -31,7 +31,6 @@ Chương I: QUY ĐỊNH CHUNG
 7. Có các loại hình dịch vụ và các điều kiện đảm bảo sinh hoạt của SV nội trú.
 
 Điều 4. Đối tượng ưu tiên tiếp nhận ở nội trú
-
 Khi tiếp nhận SV vào ở nội trú, trong trường hợp số người có nguyện vọng vào ở nội trú lớn hơn khả năng tiếp nhận của ký túc xá thì thứ tự ưu tiên theo đối tượng SV như sau:
 
 1
@@ -101,7 +100,6 @@ Chương II: QUYỀN VÀ NGHĨA VỤ CỦA SINH VIÊN NỘI TRÚ
 Chương III: NỘI DUNG CÔNG TÁC SINH VIÊN NỘI TRÚ
 
 Điều 8. Tiếp nhận SV vào ở nội trú
-
 Căn cứ đơn xin ở nội trú của SV viết theo mẫu của nhà trường; Đối tượng ưu tiên theo quy định tại Điều 4 có xác nhận hợp lệ kèm theo và điều kiện của ký túc xá, TT HTSV&QHDN xem xét, ký hợp đồng sắp xếp chỗ ở nội trú với SV.
 
 Điều 9. Công tác quản lý SV nội trú
@@ -159,7 +157,6 @@ Căn cứ đơn xin ở nội trú của SV viết theo mẫu của nhà trườ
 Chương IV: TỔ CHỨC, QUẢN LÝ
 
 Điều 13. Hệ thống tổ chức, quản lý công tác sinh viên nội trú
-
 Hệ thống tổ chức, quản lý công tác sinh viên nội trú của trường gồm có Hiệu trưởng, TT HTSV&QHDN, Phòng Công tác chính trị - Sinh viên, viên chức làm công tác quản lý ký túc xá.
 
 4

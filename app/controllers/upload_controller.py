@@ -48,7 +48,7 @@ def upload_txt():
 
         final_array = add_fields_doc_id(array, doc_id)
 
-        # write_file(folder_path, filename, 'json', final_array)
+        write_file(folder_path, filename, 'json', final_array)
         # write_file(folder_path, filename, 'json', final_json)
 
         if DocumentParts.create_partition(doc_id):

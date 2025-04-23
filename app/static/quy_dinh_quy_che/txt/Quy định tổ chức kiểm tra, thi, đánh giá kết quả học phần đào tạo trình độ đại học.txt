@@ -100,7 +100,6 @@ a) Trong thời gian học hoặc trong thời gian thi kết thúc học phần
 4
 
 b) Sinh viên không thể dự kiểm tra đánh giá quá trình hoặc thi kết thúc học phần vì những lý do chính đáng, được Trưởng khoa quản lý ngành đào tạo, Trưởng bộ môn thuộc Trường và Phòng Khảo thí và Bảo đảm chất lượng chấp thuận.
-
 Khi nhận điểm I, trừ các trường hợp đặc biệt do Hiệu trưởng quy định, trong thời gian tối đa là 02 học kỳ chính tiếp theo, sinh viên phải làm đơn đăng ký dự thi để hoàn tất học phần còn nợ. Sau khi thi, điểm I sẽ được chuyển đổi thành điểm mà sinh viên đạt được. Nếu qua 02 học kỳ chính sinh viên không đăng ký dự thi thì điểm I sẽ bị đổi thành điểm 0 (không).
 
 9. Việc xếp loại theo mức điểm X được áp dụng đối với những học phần mà Phòng Đào tạo đại học của Trường chưa nhận được báo cáo kết quả học tập của sinh viên từ Khoa quản lý học phần, Bộ môn thuộc Trường chuyển qua.
@@ -419,7 +418,6 @@ b) Phòng Khảo thí và Bảo đảm chất lượng in bài thi của sinh vi
 Chương V: XỬ LÝ VI PHẠM
 
 Điều 20. Xử lý đối với viên chức, người lao động vi phạm quy chế thi
-
 Viên chức, người lao động tham gia công tác tổ chức thi nếu có hành vi vi phạm, tùy theo mức độ sẽ bị xử lý theo quy định của pháp luật về viên chức và các quy chế, quy định hiện hành.
 
 1. Khiển trách đối với người vi phạm một trong các lỗi sau và đã được nhắc nhở nhưng tiếp tục vi phạm: Ra đề thi, đáp án không đúng các mẫu quy định; ghi sai mã và tên học phần; bỏ nhằm bì đề thi và đáp án; đi coi thi muộn giờ so với quy định; không ký tên vào giấy thi, giấy nháp của sinh viên; không tập trung làm nhiệm vụ trong khi coi thi (CBCT ngồi không đúng vị trí, nói chuyện riêng) hoặc bỏ vị trí đi làm việc riêng, trong một học kỳ bỏ 01 buổi coi thi không có lý do chính đáng, không báo cáo đơn vị tổ chức thi; chấm thi, nhập điểm muộn so với quy định.
@@ -433,7 +431,6 @@ Viên chức, người lao động tham gia công tác tổ chức thi nếu có
 4. Viên chức làm mất bài thi của sinh viên khi thu bài, vận chuyển và bảo quản bài thi, chấm thi hoặc có những sai phạm khác trong công tác tổ chức thi, tùy theo tính chất, mức độ vi phạm sẽ bị xử lý kỷ luật theo một trong các hình thức kỷ luật quy định tại Điều này.
 
 Điều 21. Xử lý đối với sinh viên vi phạm quy chế thi 
-
 Đối với những sinh viên vi phạm quy chế thi đều phải lập biên bản (theo mẫu), ghi rõ hình thức kỷ luật và tùy mức độ sẽ xử lý kỷ luật theo các hình thức sau đây:
 
 1. Khiển trách

@@ -31,7 +31,6 @@ Chương I: QUY ĐỊNH CHUNG
 6. Các đơn vị có liên quan cần chủ động hoặc phối hợp với các đơn vị chức năng triển khai các loại khảo sát đúng mục đích, đối tượng để công tác lấy ý kiến phản hồi có tính chất khách quan, đảm bảo độ tin cậy và mang lại hiệu quả cao.  
 
 Điều 4. Công cụ khảo sát  
-
 Bộ công cụ khảo sát (Phiếu khảo sát) do Phòng Khảo thí và Bảo đảm chất lượng (KT&BĐCL) và các đơn vị phối hợp xây dựng và được Hội đồng Đảm bảo chất lượng giáo dục của Trường góp ý và thông qua. Nội dung của các loại phiếu khảo sát có thể được thay đổi tùy theo mục tiêu khảo sát của năm học. Các phần mềm được sử dụng để hỗ trợ khảo sát: Phần mềm E-survey; Google Forms; SPSS; Excel.  
 
 Điều 5. Quy trình lấy ý kiến
@@ -45,7 +44,6 @@ Bộ công cụ khảo sát (Phiếu khảo sát) do Phòng Khảo thí và Bả
 7. Lưu trữ các văn bản và dữ liệu khảo sát.
 
 Điều 6. Công tác lưu trữ dữ liệu, kết quả khảo sát
-
 Dữ liệu, kết quả của từng đợt khảo sát được lưu trữ bằng văn bản và file mềm tại Phòng KT&BĐCL và các đơn vị liên quan để phục vụ cho công tác kiểm định chất lượng cấp CSGD và cấp CTĐT.
 
 3
@@ -67,27 +65,22 @@ c. Tạo thêm kênh thông tin giúp GV tự điều chỉnh hoạt động gi�
 d. Tăng cường tinh thần trách nhiệm của người học với quyền lợi, nghĩa vụ học tập và rèn luyện của bản thân; tạo điều kiện để người học phản ánh tâm tư, nguyện vọng, ý kiến của mình về hoạt động giảng dạy, hướng dẫn của GV cũng như các hoạt động khác của Nhà trường.
 
 2. Đối tượng khảo sát:
-
 Hoạt động giảng dạy học phần lý thuyết và hoạt động hướng dẫn thực hành, thí nghiệm của GV trong 01 học kỳ của năm học.
 
 3. Đối tượng tham gia khảo sát:
-
 Tất cả người học các hệ, bậc đào tạo của Trường ĐHQN.
 
 4. Hình thức khảo sát:
-
 Người học đăng nhập vào tài khoản cá nhân (online) để trả lời Phiếu khảo sát đối với các học phần đã học sau khi có điểm thi học phần.
 
 5. Nội dung khảo sát:
 
 a. Về hoạt động giảng dạy các học phần lý thuyết:
-
 Công tác chuẩn bị giảng dạy, nội dung và phương pháp giảng dạy; Học liệu phục vụ giảng dạy, học tập và thời gian giảng dạy của GV; Trách nhiệm và sự nhiệt tình của GV; Khả năng khuyến khích sáng tạo và tư duy độc lập của người học; Sự công bằng, khách quan của GV trong kiểm tra đánh giá quá trình và đánh giá kết quả học tập; Năng lực của GV trong tư vấn và tổ chức, hướng dẫn hoạt động học tập và nghiên cứu của người học; Tác phong sư phạm của GV; Mức độ hài lòng của người học và các ý kiến góp ý khác.
 
 4
 
 b. Về hoạt động hướng dẫn thực hành, thí nghiệm:
-
 Nội dung và phương pháp hướng dẫn thực hành, thí nghiệm của GV; Tài liệu phục vụ thực hành, thí nghiệm; Trách nhiệm, thái độ, sự nhiệt tình của GV đối với người học; Sự công bằng của GV trong hoạt động kiểm tra đánh giá kết quả học tập; Năng lực của GV trong tư vấn, tổ chức, hướng dẫn cho người học về an toàn lao động, cách xử lý tình huống liên quan đến nội dung thực hành; Mức độ hài lòng của người học và các ý kiến góp ý khác.
 
 6. Công cụ khảo sát:
@@ -284,9 +277,7 @@ b. Giúp Nhà trường, khoa có thông tin tổng thể về nguồn nhân l�
 4. Hình thức khảo sát: Thu thập ý kiến trực tiếp, qua phiếu khảo sát, qua email, điện thoại hoặc qua web.
 
 5. Nội dung khảo sát:
-
 Thông tin về THVL (theo quy định của Bộ GD&ĐT); mức độ đáp ứng của CTĐT đối với yêu cầu công việc; mức độ hải lòng của người học, các ý kiến đóng góp để nâng cao chất lượng đào tạo và một số thông tin cá nhân.
-
 Ngoài các nội dung trên, các đơn vị có thể bố sung thêm nội dung khảo sát khác theo nhu cầu thực tế.
 
 6. Công cụ khảo sát: Phiếu khảo sát: BM05_DHQN_KS.SVTN (thường xuyên được cập nhật, điều chỉnh).
@@ -332,9 +323,7 @@ b. Tăng cường mỗi liên kết giữa Nhà trường, cựu người học 
 4. Hình thức khảo sát: Thu thập ý kiến trực tiếp, qua phiếu khảo sát, qua email hoặc qua web.
 
 2. Nội dung khảo sát:
-
 Thông tin chung về cựu người học, tỖ chức, cơ quan, doanh nghiệp trả lời khảo sát; Thông tin về người học tốt nghiệp CTĐTđược tổ chức, cơ quan, doanh nghiệp tuyển dụng (ngành, số lượng, vị trí công tác,...); Mức độ hài lòng của các bên liên quan về chất lượng người học tốt nghiệp CTĐT;    Các đánh giá và ý kiến để xuất của cựu người học, tô chức, cơ quan, doanh nghiệp đối với chuẩn đầu ra và CTĐT của ngành.
-
 Ngoài các nội dung trên, các Khoa/Bộ môn có thể bổ sung thêm nội dung khảo sát khác theo nhu cầu thực tế.
 
 6. Công cụ khảo sát:
