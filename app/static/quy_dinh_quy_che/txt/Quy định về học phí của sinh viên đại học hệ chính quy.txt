@@ -19,13 +19,11 @@ b) Học phí công bố nêu trên không bao gồm học phí các học phầ
 3. Trường hợp Nhà nước chưa quy định mức học phí sau năm học 2020 - 2021, thì mức học phí các năm học sau đó sẽ được quy định theo mức học phí năm học 2020 - 2021 và có điều chỉnh tăng 10% theo từng năm (theo đúng lộ trình tăng của Nghị định 86/2015/NĐ-CP).  
 
 4. Học phí của từng học kỳ  
-
 Học phí từng học kỳ của mỗi sinh viên sẽ không giống nhau vì phụ thuộc vào số lượng tín chỉ theo học phần đã đăng ký và mức học phí theo tín chỉ của từng ngành học.  
 
 5. Mức học phí theo tín chỉ  
 
 a) Đối với các học phần học lần đầu trong khung chương trình đào tạo:  
-
 Mức học phí một tín chỉ bằng (=) Tổng học phí toàn khóa học đã công bố theo quy định chia (/) Tổng số tín chỉ toàn khóa học (theo khung chương trình đào tạo).  
 
 b) Đối với các học phần học lại, học cải thiện điểm: Thực hiện theo quy định của nhà trường cho từng năm học.  
@@ -43,11 +41,9 @@ b) Đối với các học phần học lại, học cải thiện điểm: Th�
 4. Sinh viên có nghĩa vụ theo dõi các thông báo về danh sách sinh viên chưa hoàn thành học phí và phản hồi cho Phòng Kế hoạch - Tài chính nếu có sai sót trước ngày hết hạn nộp học phí ít nhất 10 ngày.  
 
 Điều 4. Phân kỳ nộp học phí  
-
 Nhà trường thực hiện thu học phí theo từng học kỳ.  
 
 1. Sinh viên mới nhập học  
-
 Nộp 100% học phí học kỳ 1 theo Thông báo khi làm thủ tục nhập học sau khi đã trừ tiền miễn, giảm học phí (nếu có) theo quy định tại Điều 7 của Quy định này.  
 
 2. Sinh viên đang học tại Trường  
@@ -67,26 +63,20 @@ c) Thông báo nộp học phí cho mỗi học kỳ sẽ được đăng trên 
 Điều 6. Phương thức đóng học phí  
 
 1. Nộp bằng tiền mặt tại Trường  
-
 Chỉ áp dụng đối với tân sinh viên khi làm thủ tục nhập học.  
 
 2. Nộp qua ngân hàng  
-
 - Áp dụng đối với tất cả sinh viên đã học xong một học kỳ.  
 - Sinh viên nộp học phí qua ngân hàng: nộp qua hệ thống Ngân hàng Thương mại Cổ phần Đầu tư và Phát triển Việt Nam - BIDV.  
-
 Thông tin tài khoản chi tiết như sau:  
-
 Người nhận tiền: TRƯỜNG ĐẠI HỌC QUY NHƠN  
 Số tài khoản: 5801 000 111 8348  
 Tên ngân hàng: Ngân hàng TMCP Đầu tư & Phát triển Việt Nam – Chi nhánh Bình Định (BIDV Bình Định)  
-
 - Phương thức nộp tiền qua ngân hàng: có bảng Hướng dẫn nộp học phí kèm theo.  
 
 Điều 7. Miễn giảm học phí  
 
 1. Sinh viên thuộc diện được miễn, giảm học phí; mức miễn, giảm; hồ sơ, thủ tục miễn, giảm.  
-
 Thực hiện theo Thông tư Liên tịch số 09/2016/TTLT-BGDĐT-BTC-BLĐTBXH ngày 30/3/2016 của Liên Bộ Giáo dục và Đào tạo, Bộ Tài chính, Bộ Lao động - Thương binh và Xã hội về việc hướng dẫn thực hiện một số điều của Nghị định số 86/2015/NĐ-CP ngày 02/10/2015 của Thủ tướng Chính phủ Quy định về cơ chế thu, quản lý học phí đối với cơ sở giáo dục thuộc hệ thống giáo dục quốc dân và chính sách miễn, giảm học phí, hỗ trợ chi phí học tập từ năm học 2015 - 2016 đến năm học 2020 - 2021.  
 
 2
@@ -100,7 +90,6 @@ b) Trong quá trình học tập: Theo quy định của Nhà nước, miễn gi
 Điều 8. Rút học phí hoặc bảo lưu học phí đã nộp
 
 1. Đối với sinh viên mới nhập học
-
 Sinh viên vừa trúng tuyển vào trường và đã hoàn tất thủ tục nhập học, nhưng vì nhiều lí do có nguyện vọng nghỉ học, thì nhà trường sẽ hoàn lại học phí theo mức cụ thể như sau:
 
 a) Sinh viên rút hồ sơ nhập học trong thời gian 30 ngày tính từ ngày nộp tiền sẽ bị trừ 1 tháng học phí (tính theo mức thu của Nghị định 86/2015/NĐ-CP ngày 02/10/2015 của Chính phủ).
@@ -112,7 +101,6 @@ c) Nếu quá 60 ngày kể từ ngày nộp tiền, nhà trường sẽ không 
 d) Đối với sinh viên xin nghỉ học vì lí do khách quan như: gia cảnh khó khăn do cha, mẹ hoặc người nuôi dưỡng trực tiếp qua đời hoặc do thiên tai (có xác nhận của UBND quận, huyện trở lên) hoặc bị bệnh nặng (có xác nhận của cơ quan y tế cấp quận, huyện); bản thân bị ốm đau hoặc tai nạn buộc phải điều trị với thời gian dài có giấy xác nhận của cơ quan y tế cấp quận, huyện trở lên, thì được hoàn trả 100% học phí đã nộp.
 
 2. Đối với sinh viên đang theo học tại Trường
-
 Khi sinh viên có nguyện vọng tạm dừng học tập hoặc xin thôi học và được nhà trường chấp nhận thì được hoàn trả hoặc bảo lưu học phí như sau:
 
 a) Sinh viên tạm dừng học tập hoặc xin thôi học vì lí do khách quan như: gia cảnh khó khăn do cha mẹ hoặc người nuôi dưỡng trực tiếp qua đời hoặc do thiên tai (có xác nhận của UBND quận, huyện trở lên) hoặc bị bệnh nặng (có xác nhận của cơ quan y tế cấp quận, huyện); bản thân bị ốm đau hoặc tai nạn buộc phải điều trị với thời gian dài có giấy xác nhận của cơ quan y tế cấp quận, huyện trở lên, thì được hoàn trả 100% học phí đã nộp hoặc bảo lưu.
@@ -120,11 +108,8 @@ a) Sinh viên tạm dừng học tập hoặc xin thôi học vì lí do khách 
 3
 
 b) Sinh viên tạm dừng học tập hoặc xin thôi học vì công việc cá nhân thì sẽ bị trừ học phí đã nộp như sau:
-
 - Đến 60 ngày kể từ ngày học đầu tiên sẽ được hoàn trả 100% học phí đã nộp hoặc được bảo lưu.
-
 - Trên 60 ngày đến 75 ngày kể từ ngày học đầu tiên sẽ được hoàn trả 50% học phí đã nộp hoặc được bảo lưu.
-
 - Trên 75 ngày kể từ ngày học đầu tiên sẽ không được hoàn trả học phí đã nộp.
 
 3. Sinh viên được hoàn trả 100% học phí hoặc bảo lưu học phí đã đóng cho các lớp học phần bị hủy bởi nhà trường.
@@ -132,31 +117,19 @@ b) Sinh viên tạm dừng học tập hoặc xin thôi học vì công việc c
 4. Thời gian giải quyết hoàn học phí: 01 tuần sau khi Phòng Kế hoạch - Tài chính nhận được đầy đủ hồ sơ xin hoàn học phí của sinh viên. Hồ sơ gồm:
 
 a) Đối với sinh viên mới nhập học:
-
 - Bản chính Biên lai (Hóa đơn) thu tiền học phí của nhà trường.
-
 - Giấy Biên nhận khi nhập học.
-
 - Đơn xin thôi học và nhận lại học phí có xác nhận của Phòng Đào tạo đại học và được Hiệu trưởng phê duyệt.
 
 b) Đối với sinh viên đang theo học:
-
 - Trường hợp xin thôi học:
-
 + Bản chính Biên lai (Hóa đơn) thu tiền học phí của nhà trường.
-
 + Thẻ sinh viên hoặc Giấy CMND photo.
-
 + Giấy xác nhận đã hoàn trả giáo trình.
-
 + Bản chính và bản photo quyết định thôi học.
-
 - Trường hợp đang học nhưng xin hoàn số thừa học phí:
-
 + Bản photo Biên lai (Hóa đơn) thu tiền học phí của nhà trường (nếu có).
-
 + Bản photo Thẻ sinh viên hoặc Giấy CMND.
-
 + Đơn xin hoàn học phí.
 
 Điều 9. Xử lý đối với trường hợp sinh viên còn nợ học phí hoặc quá hạn nộp học phí
@@ -166,21 +139,16 @@ a) Sinh viên còn nợ học phí sẽ không được đăng ký các học ph
 b) Sinh viên còn nợ học phí sẽ không được xét tốt nghiệp và không được xét học bổng khuyến khích học tập.
 
 c) Nhà trường sẽ xóa các học phần sinh viên đã đăng ký, nếu hết thời hạn thu học phí, nhưng sinh viên vẫn chưa nộp. Cụ thể như sau:
-
 - Đối với các học phần học trong học kỳ chính: trong vòng 60 ngày kể từ ngày học đầu tiên của kỳ học.
+- Đối với các học phần học trong học kỳ phụ: trong vòng 15 ngày kể từ ngày kết thúc đăng ký các học phần của kỳ phụ.
 
 4
-
-- Đối với các học phần học trong học kỳ phụ: trong vòng 15 ngày kể từ ngày kết thúc đăng ký các học phần của kỳ phụ.
 
 d) Thời gian đào tạo kéo dài vì nợ học phí sẽ tính vào thời gian đào tạo tối đa của sinh viên theo Quy chế.
 
 đ) Sinh viên còn nợ học phí kéo dài, Nhà trường sẽ xử lý kỷ luật bằng các hình thức như sau:
-
 - Xử lý bằng hình thức Khiển trách đối với sinh viên nợ học phí quá 01 (một) học kỳ.
-
 - Xử lý bằng hình thức Cảnh cáo đối với sinh viên nợ học phí quá 02 (hai) học kỳ.
-
 - Xử lý bằng hình thức Buộc thôi học đối với sinh viên nợ học phí quá 03 (ba) học kỳ.
 
 Điều 10. Tổ chức thực hiện
@@ -206,21 +174,17 @@ b) Sinh viên còn nợ học phí sẽ không được xét học bổng khuy�
 $$$ TRÍCH QUY ĐỊNH Về học bổng khuyến khích học tập đối với sinh viên trong các cơ sở giáo dục đại học và trung cấp chuyên nghiệp thuộc hệ thống giáo dục quốc dân
 
 1. Đối tượng được xét, cấp học bổng khuyến khích học tập là học sinh, sinh viên đang học trong các đại học, học viện, trường đại học, trường cao đẳng, trường trung cấp chuyên nghiệp hệ giáo dục chính quy công lập và các trường đại học, trường cao đẳng, trường trung cấp chuyên nghiệp hệ giáo dục chính quy ngoài công lập. 
-
 Học sinh, sinh viên thuộc diện hưởng học bổng chính sách, học sinh, sinh viên thuộc diện trợ cấp xã hội và học sinh, sinh viên diện chính sách ưu đãi theo quy định hiện hành nếu đạt kết quả học tập, rèn luyện vào diện được xét, cấp học bổng thì được xét, cấp học bổng khuyến khích học tập như những học sinh, sinh viên khác.
 
 2. Tiêu chuẩn và mức xét, cấp học bổng khuyến khích học tập
-
 Học sinh, sinh viên có kết quả học tập, rèn luyện từ loại khá trở lên, không bị kỷ luật từ mức khiển trách trở lên trong học kỳ xét học bổng thì được xét, cấp học bổng khuyến khích học tập trong phạm vi quỹ học bổng khuyến khích học tập của trường theo các mức sau:
 
 a) Mức học bổng loại Khá: Có điểm trung bình chung học tập đạt loại Khá trở lên và điểm rèn luyện đạt loại Khá trở lên. Mức học bổng tối thiểu bằng hoặc cao hơn mức trần học phí hiện hành của ngành nghề mà học sinh, sinh viên đó phải đóng tại trường do Hiệu trưởng quy định. 
-
 Đối với những ngành nghề đào tạo không thu học phí thì áp dụng theo mức trần học phí được Nhà nước cấp bù cho nhóm ngành đào tạo của Trường.
 
 b) Mức học bổng loại Giỏi: Có điểm trung bình chung học tập đạt loại Giỏi trở lên và điểm rèn luyện đạt loại Tốt trở lên. Mức học bổng cao hơn loại Khá và do Hiệu trưởng quy định.
 
 c) Mức học bổng loại Xuất sắc: Có điểm trung bình chung học tập đạt loại Xuất sắc và điểm rèn luyện đạt loại Xuất sắc. Mức học bổng cao hơn loại Giỏi và do Hiệu trưởng quy định.
-
 Điểm trung bình chung học tập được xác định theo quy định hiện hành của Quy chế đào tạo đại học và cao đẳng hệ chính quy, Quy chế đào tạo trung cấp chuyên nghiệp hệ chính quy do Bộ Giáo dục và Đào tạo ban hành (chỉ được lấy điểm thi, kiểm tra hết môn học lần thứ nhất, trong đó không có điểm thi dưới 5,0 hoặc kiểm tra hết môn học không đạt). Kết quả rèn luyện được xác định theo quy định của Quy chế đánh giá kết quả rèn luyện hiện hành do Bộ Giáo dục và Đào tạo ban hành.
 
 d) Học bổng khuyến khích học tập được cấp theo từng học kỳ và cấp 10 tháng trong năm học.
@@ -234,7 +198,6 @@ a) Hiệu trưởng nhà trường căn cứ vào quỹ học bổng khuyến kh
 6
 
 b) Hiệu trưởng căn cứ vào kết quả học tập và rèn luyện của học sinh, sinh viên tiến hành xét, cấp học bổng theo thứ tự từ loại Xuất sắc trở xuống đến hết số suất học bổng đã được xác định.
-
 Học sinh, sinh viên đào tạo theo học chế tín chỉ được xét, cấp học bổng khuyến khích học tập theo số lượng tín chỉ (15 tín chỉ được tính tương đương với một học kỳ). Thủ tục và tiêu chuẩn xét, cấp học bổng khuyến khích học tập theo học chế tín chỉ thực hiện như thủ tục và tiêu chuẩn xét, cấp học bổng khuyến khích học tập theo học kỳ.
 
 $$$ QUY ĐỊNH VỀ HỌC PHÍ VÀ HƯỚNG DẪN MIỄN, GIẢM HỌC PHÍ
@@ -244,115 +207,71 @@ Căn cứ Thông tư liên tịch số 09/2016/TTLT-BGDĐT-BTC-BLĐTBXH ngày 30
 I. HỌC PHÍ ĐỐI VỚI CÁC CƠ SỞ GIÁO DỤC
 
 1. Mức trần học phí đối với các chương trình đào tạo đại trà trình độ đại học tại các cơ sở giáo dục công lập chưa tự bảo đảm kinh phí chi thường xuyên và chi đầu tư áp dụng theo các khối ngành, chuyên ngành đào tạo từ năm học 2015 - 2016 đến năm học 2020 - 2021 như sau:
-
 Khối ngành, chuyên ngành đào tạo:
 
 Khoa học xã hội, kinh tế, luật; nông, lâm, thủy sản
-
 - Năm học 2015-2016 là 610
-
 - Năm học 2016-2017 là 670
-
 - Năm học 2017-2018 là 740
-
 - Năm học 2018-2019 là 810
-
 - Năm học 2019-2020 là 890
-
 - Năm học 2020-2021 là 980
 
 Khoa học tự nhiên; kỹ thuật, công nghệ; thể dục thể thao, nghệ thuật; khách sạn, du lịch
-
 - Năm học 2015-2016 là 720
-
 - Năm học 2016-2017 là 790
-
 - Năm học 2017-2018 là 870
-
 - Năm học 2018-2019 là 960
-
 - Năm học 2019-2020 là 1.060
-
 - Năm học 2020-2021 là 1.170
 
 Y dược
-
 - Năm học 2015-2016 là 880
-
 - Năm học 2016-2017 là 970
-
 - Năm học 2017-2018 là 1.070
-
 - Năm học 2018-2019 là 1.180
-
 - Năm học 2019-2020 là 1.300
-
 - Năm học 2020-2021 là 1.430
 
 2. Mức trần học phí đối với đào tạo thạc sĩ, tiến sĩ từ năm học 2015 - 2016 đến năm 
 học 2020 - 2021 được xác định bằng mức trần học phí quy định tại Khoản 1, Điều này 
 nhân (x) hệ số sau đây: 
-
 Trình độ đào tạo và hệ số so với đại học:
-
 - Đào tạo thạc sĩ: Hệ số 1,5
-
 - Đào tạo tiến sĩ: Hệ số 2,5
 
 7
 
 3. Mức trần học phí đối với các chương trình đào tạo đại trà trình độ cao đẳng, trung cấp tại các cơ sở giáo dục công lập chưa tự bảo đảm kinh phí chi thường xuyên và chi đầu tư như sau:
-
 Đơn vị: 1.000 đồng/tháng/sinh viên 
-
 NHÓM NGÀNH, NGHỀ:
 
 Khoa học xã hội, kinh tế, luật; nông, lâm, thủy sản 
- 
 - Năm học 2015-2016 thì trung cấp là 430, cao đẳng là 490  
-
 - Năm học 2016-2017 thì trung cấp là 470, cao đẳng là 540  
-
 - Năm học 2017-2018 thì trung cấp là 520, cao đẳng là 590  
-
 - Năm học 2018-2019 thì trung cấp là 570, cao đẳng là 650  
-
 - Năm học 2019-2020 thì trung cấp là 620, cao đẳng là 710  
-
 - Năm học 2020-2021 thì trung cấp là 690, cao đẳng là 780  
 
 Khoa học tự nhiên; kỹ thuật, công nghệ; thể dục thể thao, nghệ thuật; khách sạn, du lịch  
-
 - Năm học 2015-2016 thì trung cấp là 500, cao đẳng là 580  
-
 - Năm học 2016-2017 thì trung cấp là 550, cao đẳng là 630  
-
 - Năm học 2017-2018 thì trung cấp là 610, cao đẳng là 700  
-
 - Năm học 2018-2019 thì trung cấp là 670, cao đẳng là 770  
-
 - Năm học 2019-2020 thì trung cấp là 740, cao đẳng là 850  
-
 - Năm học 2020-2021 thì trung cấp là 820, cao đẳng là 940  
 
 Y dược  
-
 - Năm học 2015-2016 thì trung cấp là 620, cao đẳng là 700  
-
 - Năm học 2016-2017 thì trung cấp là 680, cao đẳng là 780  
-
 - Năm học 2017-2018 thì trung cấp là 750, cao đẳng là 860  
-
 - Năm học 2018-2019 thì trung cấp là 830, cao đẳng là 940  
-
 - Năm học 2019-2020 thì trung cấp là 910, cao đẳng là 1.040  
-
 - Năm học 2020-2021 thì trung cấp là 1.000, cao đẳng là 1.140  
 
 4. Học phí đào tạo tính theo tín chỉ, mô-đun: Mức thu học phí của một tín chỉ, mô-đun được xác định căn cứ vào tổng thu học phí của toàn khóa học theo nhóm ngành, nghề đào tạo và tổng số tín chỉ, mô-đun toàn khóa theo công thức dưới đây:
-
 Học phí tín chỉ, mô-đun = (Tổng học phí toàn khóa) / (Tổng số tín chỉ, mô-đun toàn khóa)
-
 Tổng học phí toàn khóa = mức thu học phí 1 sinh viên/1 tháng x 10 tháng x số năm học.  
 
 II. ĐỐI TƯỢNG VÀ HỒ SƠ XÉT MIỄN, GIẢM HỌC PHÍ
@@ -360,95 +279,59 @@ II. ĐỐI TƯỢNG VÀ HỒ SƠ XÉT MIỄN, GIẢM HỌC PHÍ
 ĐỐI TƯỢNG ĐƯỢC MIỄN 100% HỌC PHÍ
 
 1. Sinh viên là con của người có công với cách mạng
-
 - Đối tượng:
-
 + Con của người hoạt động cách mạng trước ngày 01/01/1945 (nếu có).
-
 + Con của người hoạt động cách mạng từ ngày 01/01/1945 đến khởi nghĩa tháng Tám năm 1945 (nếu có).
-
 + Con của Anh hùng Lực lượng vũ trang Nhân dân; Anh hùng Lao động trong thời kỳ kháng chiến.
-
 + Con của liệt sĩ; thương binh, người hưởng chính sách như thương binh; bệnh binh.
-
 + Con của người hoạt động kháng chiến bị nhiễm chất độc hóa học.
-
 - Hồ sơ cần chuẩn bị:
-
 + Đơn đề nghị miễn giảm học phí (MGHP).
-
 + Giấy xác nhận thuộc đối tượng có công với cách mạng từ cơ quan quản lý.
-
 + Giấy tờ chứng minh người có công (giấy chứng nhận liệt sĩ, thương binh...).
 
 8
 
 2. Sinh viên bị tàn tật, khuyến tật thuộc diện hộ cận nghèo theo quy định của Thủ tướng Chính phủ. 
-
 - Hồ sơ cần chuẩn bị:
-
 + Đơn đề nghị MGHP.
-
 + Giấy xác nhận khuyết tật do UBND xã cấp hoặc Quyết định trợ cấp xã hội của UBND huyện.
-
 + Bản sao sổ hoặc giấy chứng nhận hộ nghèo/hộ cận nghèo.
 
 3. Sinh viên là người dân tộc thiểu số thuộc hộ nghèo và hộ cận nghèo
-
 - Hồ sơ cần chuẩn bị:
-
 + Đơn đề nghị MGHP.
-
 + Bản sao giấy khai sinh hoặc giấy chứng nhận dân tộc thiểu số.
-
 + Bản sao sổ hoặc giấy chứng nhận hộ nghèo/hộ cận nghèo.
 
 4. Sinh viên là người dân tộc thiểu số rất ít người
-
 - Đối tượng:
-
 + Các dân tộc: La Hủ, La Ha, Pà Thẻn, Lự, Ngái, Chứt, Lô Lô, Mảng, Cống, Cờ Lao, Bố Y, Si La, Pu Péo, Rơ Măm, Brâu, Ơ Đu.
-
 + Có hộ khẩu thường trú tại vùng kinh tế - xã hội khó khăn hoặc đặc biệt khó khăn.
-
 - Hồ sơ cần chuẩn bị:
-
 + Đơn đề nghị MGHP.
-
 + Bản sao giấy khai sinh hoặc giấy chứng nhận dân tộc thiểu số.
-
 + Bản sao Sổ hộ khẩu thường trú.
 
 ĐỐI TƯỢNG ĐƯỢC GIẢM 70% HỌC PHÍ
 
 5. Sinh viên là người dân tộc thiểu số (không phải dân tộc thiểu số rất ít người) ở vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn theo quy định của cơ quan có thẩm quyền.
-
 - Hồ sơ cần chuẩn bị:
-
 + Đơn đề nghị MGHP.
-
 + Bản sao giấy khai sinh hoặc giấy chứng nhận dân tộc thiểu số.
-
 + Bản sao Sổ hộ khẩu thường trú.
 
 ĐỐI TƯỢNG ĐƯỢC GIẢM 50% HỌC PHÍ
 
 6. Sinh viên là con cán bộ, công nhân, viên chức mà cha hoặc mẹ bị tai nạn lao động hoặc mắc bệnh nghề nghiệp được hưởng trợ cấp thường xuyên.
-
 - Hồ sơ cần chuẩn bị:
-
 + Đơn đề nghị MGHP.
-
 + Bản sao Sổ hưởng trợ cấp hàng tháng của bố/mẹ do tổ chức bảo hiểm xã hội cấp.
 
 III. QUY ĐỊNH VỀ MIỄN, GIẢM HỌC PHÍ  
-
 - Thời gian sinh viên bị kỷ luật ngừng học hoặc buộc thôi học, học lưu ban, học lại, học bổ sung thì sẽ không được xét miễn, giảm học phí.  
-
 - Sinh viên thuộc diện MGHP mà cùng một lúc được hưởng nhiều chính sách hỗ trợ khác nhau thì chỉ được hưởng một chế độ ưu đãi cao nhất.  
-
 - Sinh viên thuộc diện MGHP nếu đồng thời học ở nhiều cơ sở giáo dục hoặc nhiều khoa, nhiều ngành trong cùng một trường thì được hưởng một chế độ ưu đãi.  
-
 - Không áp dụng chế độ ưu đãi về MGHP đối với sinh viên trong trường hợp đã hưởng chế độ này tại một cơ sở giáo dục nghề nghiệp hoặc cơ sở giáo dục đại học, nay tiếp tục học thêm ở một cơ sở giáo dục nghề nghiệp và giáo dục đại học khác cùng cấp học và trình độ đào tạo.  
 
 9
@@ -458,31 +341,20 @@ IV. NỘP HỒ SƠ MIỄN, GIẢM HỌC PHÍ
 1. Sinh viên thuộc diện miễn, giảm học phí làm đơn (theo mẫu thống nhất của Trường), kèm theo giấy tờ chứng minh đối tượng được xét miễn, giảm học phí và nộp cho Phòng Công tác chính trị - Sinh viên theo đúng thời gian quy định để Phòng Công tác chính trị - Sinh viên tổng hợp, thẩm định và trình Ban Giám hiệu quyết định.  
 
 2. Thời gian và phương thức nộp đơn xét miễn, giảm học phí:  
-
 Thời gian nộp đơn: Chậm nhất sau 30 ngày kể từ ngày nhà trường thông báo  
-
 + Học kỳ I: Từ ngày 15/09 đến 15/10 hàng năm  
-
 + Học kỳ II: Từ ngày 15/01 đến 15/02 hàng năm  
-
 Sinh viên nộp đơn xét miễn, giảm học phí trực tiếp cho phòng Công tác chính trị - Sinh viên tại phòng 36 tòa nhà 15 tầng theo thời gian trên. Trường sẽ không nhận đơn miễn, giảm học phí nếu các giấy tờ kèm theo không hợp lệ và không nộp đơn theo đúng thời gian quy định.  
 
 3. Đối với sinh viên thuộc đối tượng 1, 2, 4, 5, 6 chỉ nộp đơn một lần trong suốt khóa học. Riêng sinh viên là người dân tộc thiểu số thuộc hộ nghèo và hộ cận nghèo phải làm đơn và bổ sung hồ sơ (giấy xác nhận hộ nghèo, hộ cận nghèo) theo từng năm.  
 
 4. Các văn bản liên quan đến danh mục vùng, địa bàn có điều kiện kinh tế - xã hội khó khăn và đặc biệt khó khăn:  
-
 + Quyết định số 539/QĐ-TTg ngày 01/4/2013 của Thủ tướng Chính phủ.  
-
 + Quyết định số 2405/QĐ-TTg ngày 10/12/2013 của Thủ tướng Chính phủ.  
-
 + Quyết định số 582/QĐ-UBDT ngày 18/12/2013 của Bộ trưởng, Chủ nhiệm Ủy ban Dân tộc.  
-
 + Quyết định số 130/QĐ-UBDT ngày 08/5/2014 của Bộ trưởng, Chủ nhiệm Ủy ban Dân tộc.  
-
 + Quyết định số 495/QĐ-TTg ngày 08/4/2014 của Thủ tướng Chính phủ.  
-
 + Quyết định số 1049/QĐ-TTg ngày 26/6/2014 của Thủ tướng Chính phủ.  
-
 + Nghị quyết số 30a/2008/NQ-CP ngày 27 tháng 12 năm 2008 của Chính phủ và Quyết định số 1791/QĐ-TTg ngày 01/10/2013 của Thủ tướng Chính phủ.  
 
 6. Sinh viên cần trao đổi thông tin về miễn, giảm học phí vui lòng liên hệ email pctsv@qnu.edu.vn, điện thoại: 0256.3646142./.
@@ -508,7 +380,6 @@ $$$ HƯỚNG DẪN THỰC HIỆN CHẾ ĐỘ TRỢ CẤP XÃ HỘI
 $$$ Trường Đại học Quy Nhơn hướng dẫn thực hiện chế độ Trợ cấp xã hội dành cho sinh viên hệ chính quy Trường Đại học Quy Nhơn như sau
 
 I. ĐỐI TƯỢNG VÀ PHẠM VI ÁP DỤNG TRỢ CẤP XÃ HỘI  
-
 Đối tượng được hưởng trợ cấp xã hội là học sinh, sinh viên đang học tại các trường đào tạo công lập hệ chính quy tập trung - dài hạn trong nước thuộc các diện sau đây:  
 
 1. Học sinh, sinh viên là người dân tộc ít người ở vùng cao. Căn cứ để xác định người dân tộc ít người là giấy khai sinh bản gốc, hoặc giấy kết hôn của bố mẹ (nếu giấy khai sinh bản gốc bị thất lạc), trong đó có ghi bố hoặc mẹ là người dân tộc ít người. Người dân tộc ít người ở vùng cao là người dân tộc ít người liên tục sống ở vùng cao hoặc có hộ khẩu thường trú ở vùng cao ít nhất từ 3 năm trở lên (tính đến thời điểm vào học tại trường đào tạo).  
@@ -522,9 +393,7 @@ I. ĐỐI TƯỢNG VÀ PHẠM VI ÁP DỤNG TRỢ CẤP XÃ HỘI
 4. Học sinh, sinh viên có hoàn cảnh đặc biệt khó khăn về kinh tế, vượt khó học tập là những người mà gia đình của họ thuộc diện hộ nghèo phải xuất trình giấy chứng nhận là học sinh, sinh viên thuộc hộ nghèo do Ủy ban Nhân dân cấp xã xác nhận theo mẫu giấy chứng nhận ban hành kèm theo Thông tư liên tịch số 18/2009/TTLT/BGDĐT-BTC-BLĐTBXH, ngày 03 tháng 8 năm 2009.  
 
 II. MỨC HƯỞNG TRỢ CẤP XÃ HỘI  
-
 - Các đối tượng 1 hưởng mức trợ cấp xã hội là 140.000 đồng/tháng  
-
 - Các đối tượng 2, 3, 4 hưởng mức trợ cấp xã hội là 100.000 đồng/tháng  
 
 III. THỜI GIAN, HỒ SƠ TRỢ CẤP XÃ HỘI  
@@ -532,7 +401,6 @@ III. THỜI GIAN, HỒ SƠ TRỢ CẤP XÃ HỘI
 1. Thời gian nộp hồ sơ: Chậm nhất 30 ngày kể từ ngày nhà trường thông báo.  
 
 2. Hồ sơ trợ cấp xã hội:  
-
 ĐỐI TƯỢNG TCXH VÀ DANH MỤC HỒ SƠ NỘP THEO ĐỐI TƯỢNG
 
 Đối tượng 1: Sinh viên là người dân tộc ít người ở vùng cao.
@@ -567,7 +435,6 @@ $$$ HƯỚNG DẪN THỰC HIỆN CHẾ ĐỘ HỖ TRỢ CHI PHÍ HỌC TẬP
 Ngày 11/11/2013, Thủ tướng Chính phủ đã ban hành Quyết định số 66/2013/QĐ-TTg về việc Quy định chính sách hỗ trợ chi phí học tập đối với sinh viên là người dân tộc thiểu số học tại các cơ sở giáo dục đại học (có hiệu lực từ ngày 01/01/2014). Thông tư liên tịch số 35/2014/TTLT-BGDĐT-BTC ngày 15/10/2014.  
 
 1. Đối tượng áp dụng  
-
 Quyết định này quy định chính sách hỗ trợ chi phí học tập đối với sinh viên là người dân tộc thiểu số thuộc hộ nghèo, hộ cận nghèo theo quy định của Nhà nước, thi đỗ vào học đại học, cao đẳng hệ chính quy tại các cơ sở giáo dục đại học, bao gồm: đại học, học viện, trường đại học, trường cao đẳng (không áp dụng đối với sinh viên: Cử tuyển, các đối tượng chính sách được xét tuyển, đào tạo theo địa chỉ, đào tạo liên thông, văn bằng hai và học đại học, cao đẳng sau khi hoàn thành chương trình dự bị đại học).  
 
 2. Mức hỗ trợ chi phí học tập  
@@ -581,15 +448,10 @@ Sinh viên bỏ học hoặc bị kỷ luật buộc thôi học thì không đ�
 Sinh viên bị đình chỉ học tập (có thời hạn) thì không được nhận kinh phí hỗ trợ chi phí học tập trong thời gian bị đình chỉ, trừ trường hợp dừng học do ốm đau, tai nạn, học lại, lưu ban hoặc dừng học vì lý do khách quan được nhà trường xác nhận. Trường hợp sinh viên đã nhận kinh phí hỗ trợ chi phí học tập mà bị đình chỉ học tập thì cơ sở giáo dục đại học công lập, Phòng Lao động - Thương binh và Xã hội thực hiện khấu trừ số tiền tương ứng với số tháng bị đình chỉ học tập vào kỳ học tiếp theo sau khi sinh viên nhập học lại.  
 
 3. Hồ sơ bao gồm:  
-
 - Đơn đề nghị hỗ trợ chi phí học tập (theo mẫu);  
-
 - Giấy chứng nhận hộ nghèo, hộ cận nghèo do Ủy ban Nhân dân xã, phường, thị trấn cấp (bản sao có công chứng);  
-
 - Giấy khai sinh (bản sao có công chứng);  
-
 Sinh viên thuộc diện hỗ trợ chi phí học tập chỉ phải nộp hồ sơ 01 lần vào đầu năm học. Trong năm học, nếu gia đình sinh viên thuộc diện đã thoát nghèo thì sinh viên có trách nhiệm nộp văn bản chứng nhận hộ đã thoát nghèo để dừng việc chi trả chi phí học tập cho kỳ tiếp theo.  
-
 Đối với sinh viên chưa thuộc diện hỗ trợ chi phí học tập, nếu trong năm học, gia đình sinh viên được bổ sung diện hộ nghèo, hộ cận nghèo thì nộp hồ sơ bổ sung đối tượng hưởng chính sách làm căn cứ chi trả chi phí học tập trong kỳ tiếp theo. Thời gian được hưởng theo hiệu lực của Giấy chứng nhận hộ nghèo, hộ cận nghèo.  
 
 13
@@ -601,11 +463,9 @@ Trường hợp trong quá trình học tập, sinh viên thuộc đối tượn
 $$$ TRÍCH QUY ĐỊNH VỀ TÍN DỤNG ĐỐI VỚI HỌC SINH, SINH VIÊN
 
 1. Phạm vi áp dụng
-
 Chính sách tín dụng đối với học sinh, sinh viên nhằm hỗ trợ cho học sinh, sinh viên có hoàn cảnh khó khăn trong việc trang trải chi phí học tập và sinh hoạt, bao gồm: tiền học phí, chi phí mua sách vở, phương tiện học tập, chi phí ăn, ở, đi lại.
 
 2. Đối tượng được vay vốn
-
 Học sinh, sinh viên có hoàn cảnh khó khăn theo học tại các trường đại học (hoặc tương đương đại học), cao đẳng, trung cấp chuyên nghiệp và tại các cơ sở đào tạo nghề được thành lập và hoạt động theo quy định của pháp luật Việt Nam, gồm:   
 
 2.1. Học sinh, sinh viên mồ côi cả cha lẫn mẹ hoặc chỉ mồ côi cha hoặc mẹ nhưng người còn lại không có khả năng lao động. 
@@ -655,7 +515,6 @@ Học sinh, sinh viên có hoàn cảnh khó khăn theo học tại các trườ
 7.2. Lãi suất nợ quá hạn được tính bằng 130% lãi suất khi cho vay.
 
 8. Hồ sơ vay vốn, trình tự và thủ tục cho vay, trả nợ
-
 Ngân hàng Chính sách xã hội quy định hồ sơ vay vốn, trình tự và thủ tục cho vay, trả nợ bảo đảm đơn giản, rõ ràng, dễ thực hiện.
 
 9. Trả nợ gốc và lãi tiền vay
@@ -667,7 +526,6 @@ Ngân hàng Chính sách xã hội quy định hồ sơ vay vốn, trình tự v
 9.3. Mức trả nợ mỗi lần do Ngân hàng Chính sách xã hội hướng dẫn và được thống nhất trong hợp đồng tín dụng.
 
 10. Ưu đãi lãi suất trong trường hợp trả nợ trước hạn
-
 Trường hợp đối tượng vay vốn trả nợ trước hạn đã cam kết trong hợp đồng tín dụng lãi suất phải trả sẽ được giảm lãi vay. Ngân hàng Chính sách xã hội quy định cụ thể mức Ưu đãi lãi suất trong trường hợp trả nợ trước hạn.
 
 16
@@ -681,27 +539,20 @@ Trường hợp đối tượng vay vốn trả nợ trước hạn đã cam k�
 11.3. Ngân hàng Chính sách xã hội quy định cụ thể việc điều chỉnh kỳ hạn trả nợ, gia hạn trả nợ và chuyển nợ quá hạn.
 
 12. Xử lý rủi ro do nguyên nhân khách quan
-
 Việc xử lý nợ bị rủi ro do nguyên nhân khách quan được thực hiện theo quy định về quy chế xử lý nợ bị rủi ro tại Ngân hàng Chính sách xã hội.
 
 13. Trách nhiệm của các cơ quan
 
 13.1. Trách nhiệm của nhà trường
-
 - Phối hợp với Ủy ban Nhân dân địa phương và Ngân hàng Chính sách xã hội tổ chức thực hiện chính sách tín dụng học sinh, sinh viên.
-
 - Giao cho Phòng Công tác chính trị - Sinh viên thực hiện xác nhận việc học sinh, sinh viên đang theo học tại trường có đủ điều kiện vay vốn quy định.
 
 13.2. Trách nhiệm của địa phương
-
 - Ủy ban Nhân dân các tỉnh, thành phố trực thuộc Trung ương chỉ đạo các cơ quan chức năng và Ủy ban Nhân dân các cấp thực hiện chính sách tín dụng đối với học sinh, sinh viên theo đúng quy định.
-
 - Ngân hàng Chính sách xã hội chịu trách nhiệm hướng dẫn hồ sơ xin vay vốn, trình tự và thủ tục cho vay, kỳ hạn trả nợ, mức trả nợ, gia hạn trả nợ, chuyển nợ quá hạn đối với học sinh, sinh viên theo quy định. Tổ chức huy động vốn để bổ sung nguồn vốn cho vay đối với học sinh, sinh viên. Phối hợp chặt chẽ, thường xuyên với các trường đại học, cao đẳng, trung cấp chuyên nghiệp và các cơ sở đào tạo nghề trong quá trình cho vay để vốn vay sử dụng đúng mục đích, tạo điều kiện thuận lợi cho học sinh, sinh viên trong việc nhận tiền vay và đóng học phí.
-
 - Tổ chức, cá nhân sử dụng lao động là học sinh, sinh viên đã được vay vốn nhà nước, có trách nhiệm đôn đốc học sinh, sinh viên chuyển tiền về gia đình để trả nợ hoặc trực tiếp trả nợ Ngân hàng Chính sách xã hội.
 
 14. Xử lý vi phạm
-
 Các tổ chức, cá nhân thực hiện không đúng quy định về tín dụng đối với học sinh, sinh viên, tùy theo mức độ vi phạm sẽ xử lý theo quy định của pháp luật.
 
 17

@@ -46,13 +46,10 @@ c) Học phần trước: Học phần A là học phần trước của học p
 d) Học phần tương đương là một hay một nhóm học phần thuộc chương trình đào tạo của một ngành khác đang đào tạo tại trường, được phép tích lũy để thay cho một hay một nhóm học phần trong chương trình đào tạo của ngành, chuyên ngành.
 
 đ) Học phần thay thế là học phần được sử dụng để thay thế cho một học phần có trong chương trình nhưng nay không còn tổ chức giảng dạy nữa hoặc là một học phần tự chọn thay cho học phần tự chọn khác.
-
 Các học phần tương đương, học phần thay thế có số tín chỉ lớn hơn hoặc bằng số tín chỉ của học phần được xem xét do khoa quản lý ngành đào tạo đề xuất và được Hiệu trưởng phê duyệt.
 
 e) Học phần điều kiện là học phần mà sinh viên phải hoàn thành mới được xét tốt nghiệp nhưng điểm của học phần này không tính vào điểm trung bình chung học kỳ và điểm trung bình chung tích lũy.
-
 Các học phần điều kiện gồm: Giáo dục thể chất, Giáo dục quốc phòng - an ninh. Riêng ngành Giáo dục thể chất chỉ có Giáo dục quốc phòng - an ninh là học phần điều kiện.
-
 Đánh giá việc hoàn thành các học phần điều kiện xem chi tiết tại khoản 2, Điều 17 của Quy chế này.
 
 3. Tín chỉ được sử dụng để xác định khối lượng học tập của chương trình đào tạo, của mỗi thành phần hoặc của mỗi học phần trong chương trình đào tạo. Một tín chỉ được tính tương đương 50 giờ học tập định mức của người học, bao gồm cả thời gian dự giờ giảng, giờ học có hướng dẫn, tự học, nghiên cứu, trải nghiệm và dự kiểm tra, đánh giá. Một tín chỉ yêu cầu thực hiện tối thiểu 15 giờ giảng hoặc 30 giờ thực hành, thí nghiệm, thảo luận đối với hoạt động dạy học trên lớp; 45 giờ làm tiểu luận, bài tập lớn hoặc đồ án, khoá luận tốt nghiệp, thực tập tại cơ sở. Trong đó một giờ trên lớp được tính bằng 50 phút.
@@ -182,7 +179,6 @@ Học kỳ phụ: Sinh viên đăng ký khối lượng học tập tối đa kh
 - Sinh viên (đặc biệt là lớp trưởng các lớp sinh viên) có trách nhiệm theo dõi các thông báo về thời điểm, quy trình, thủ tục đăng ký học trên website của Phòng Đào tạo đại học, của Trường, trên bảng tin của khoa, của Phòng Công tác chính trị và Sinh viên, trên các giảng đường để đăng ký học phần kịp thời, đúng quy định.
 
 2. Đào tạo vừa làm vừa học:
-
 Đầu mỗi kỳ học, căn cứ chương trình đào tạo, Nhà trường thông báo kế hoạch học tập, danh sách các học phần, số lượng tín chỉ của mỗi học phần, hình thức kiểm tra và thời gian kết thúc học phần. Sinh viên tham gia học tập theo thời khóa biểu do Nhà trường quy định.
 
 Điều 10. Tổ chức giảng dạy và học tập
@@ -206,43 +202,29 @@ b) Đối với đào tạo chính quy và vừa làm vừa học, tối đa 30%
 3. Phân công giảng viên giảng dạy:
 
 a) Nguyên tắc phân công giảng viên giảng dạy, giảng viên hướng dẫn thí nghiệm, thực hành, thực tập, đồ án, khóa luận và thực hiện các hoạt động học tập khác:
-
 - Việc phân công giảng dạy phải được công khai, minh bạch, công bằng, hợp lý;
-
 - Đảm bảo số giờ giảng dạy định mức cho giảng viên;
 
 b) Tổ chức phân công giảng viên giảng dạy các lớp học phần:
-
 - Căn cứ chương trình đào tạo, kế hoạch đào tạo năm học, số lượng sinh viên, Phòng Đào tạo đại học lập kế hoạch mở các lớp học phần;
-
 - Khoa quản lý ngành đào tạo đề xuất bổ sung, điều chỉnh kế hoạch mở lớp học phần và được sự thống nhất của Nhà trường;
-
 - Khoa quản lý ngành đào tạo đề xuất giảng viên do khoa quản lý, giảng dạy một số lớp học phần được mở cho chương trình đào tạo của khoa;
-
 - Khoa quản lý học phần phân công giảng viên cho các lớp học phần do khoa quản lý;
-
 - Phòng Đào tạo đại học kiểm tra, thống kê giờ giảng được phân công và báo cáo Hiệu trưởng trước khi tổ chức cho sinh viên đăng ký học phần. Tùy thuộc số lượng sinh viên đăng ký, Phòng Đào tạo đại học phối hợp với các khoa để điều chỉnh các lớp học phần, hoàn thiện kế hoạch.
 
 c) Trách nhiệm của các đơn vị: Phải thực hiện đúng các nguyên tắc phân công giảng dạy. Khi tổ chức phân công giảng dạy phải công khai khối lượng giảng dạy dự kiến của từng giảng viên, giải quyết các ý kiến đề xuất của giảng viên (nếu có) trước khi cập nhật lên hệ thống đăng ký giảng dạy của Nhà trường.
 
 4. Trách nhiệm và quyền hạn của giảng viên:
-
 Giảng dạy, hướng dẫn thí nghiệm, thực hành, thực tập, đồ án, khóa luận, kiểm tra, đánh giá theo đúng đề cương chi tiết học phần và kế hoạch giảng dạy đã được phê duyệt;
-
 Được bảo đảm trang thiết bị, phương tiện, điều kiện để tổ chức giảng dạy.
 
 11
 
 5. Trách nhiệm và quyền hạn của sinh viên khi tham gia hoạt động học tập:
-
 - Thực hiện đúng quy chế đào tạo và các quy định của giảng viên giảng dạy lớp học phần công bố trong đề cương chi tiết;
-
 - Tôn trọng giảng viên, viên chức và người hợp đồng lao động của Trường; đoàn kết giúp đỡ lẫn nhau trong học tập và rèn luyện;
-
 - Nộp học phí và các khoản thu khác theo quy định;
-
 - Được tôn trọng và đối xử bình đẳng, bảo đảm điều kiện học tập, tham gia hoạt động khoa học, công nghệ và khởi nghiệp, hoạt động rèn luyện kỹ năng hoàn thiện bản thân;
-
 - Được sử dụng trang thiết bị, phương tiện phục vụ các hoạt động học tập, nghiên cứu khoa học, văn hóa, thể dục, thể thao của Nhà trường.
 
 6. Lấy ý kiến phản hồi của người học:
@@ -345,7 +327,6 @@ Sinh viên không dự đánh giá quá trình học tập, nếu không có lý
 4. Thi vấn đáp kết thúc học phần phải do hai giảng viên thực hiện. Điểm thi vấn đáp được công bố công khai sau mỗi buổi thi. Trong trường hợp hai giảng viên chấm thi không thống nhất được điểm, các giảng viên chấm thi trình Trưởng bộ môn hoặc Trưởng khoa quyết định.
 
 5. Sinh viên xin tạm thời hoãn thi đúng thủ tục theo quy định thì được dự thi, đánh giá ở học kỳ chính hoặc học kỳ phụ sau đó (nếu có) và được tính điểm lần đầu.
-
 Sinh viên vắng mặt trong buổi thi, đánh giá không có lý do chính đáng phải nhận điểm 0 (không).
 
 6. Đối với đào tạo vừa làm vừa học được tổ chức thi lại, đánh giá lại lần 2. Điểm học phần sau khi thi lại, đánh giá lại chỉ giới hạn ở mức điểm C.
@@ -355,35 +336,24 @@ Sinh viên vắng mặt trong buổi thi, đánh giá không có lý do chính �
 1. Sinh viên được đăng ký làm đồ án, khoá luận tốt nghiệp được quy định như sau:
 
 a) Điều kiện để sinh viên được đăng ký làm đồ án hoặc khoá luận tốt nghiệp:
-
 - Đối với các ngành đào tạo kỹ sư: tính đến hết học kỳ 8, không quá 10 tín chỉ chưa đạt (không tính các học phần Giáo dục thể chất, Giáo dục quốc phòng - an ninh).
-
 - Đối với các ngành đào tạo còn lại: điểm trung bình chung học tập đến hết học kỳ 6 đạt từ 7,00 trở lên. Số lượng khoá luận tốt nghiệp không vượt quá 20% số lượng sinh viên năm cuối của ngành đó.
+- Thời hạn các khoa nộp danh sách sinh viên được giao đồ án, khoá luận tốt nghiệp và giảng viên hướng dẫn cho Nhà trường chậm nhất là 30 ngày trước khi bắt đầu học kỳ mới.
 
 15
 
-- Thời hạn các khoa nộp danh sách sinh viên được giao đồ án, khoá luận tốt nghiệp và giảng viên hướng dẫn cho Nhà trường chậm nhất là 30 ngày trước khi bắt đầu học kỳ mới.
-
 b) Thủ tục giao đồ án, khoá luận tốt nghiệp:
-
 - Căn cứ điểm a khoản 1 Điều này, khoa quản lý ngành đào tạo xét và đề xuất danh sách sinh viên được giao đồ án, khoá luận tốt nghiệp; danh sách đề tài, giảng viên hướng dẫn.
-
 - Các sinh viên dự kiến được giao đề tài, dưới sự hướng dẫn của giảng viên, viết đề cương đồ án, khoá luận tốt nghiệp theo mẫu quy định.
-
 - Khoa quản lý ngành đào tạo tổ chức duyệt đề cương đồ án, khoá luận tốt nghiệp, nộp danh sách sinh viên nhận đồ án, khoá luận tốt nghiệp và giảng viên hướng dẫn do khoa đề nghị cho Nhà trường ra quyết định.
 
 2. Đối với một số ngành đào tạo đòi hỏi phải dành nhiều thời gian cho thí nghiệm hoặc khảo sát để sinh viên hoàn thành đồ án, khoá luận tốt nghiệp, thời gian làm đồ án, khoá luận tốt nghiệp có thể kết hợp với thời gian thực tập chuyên môn cuối khoá.
 
 Điều 15. Đánh giá đồ án, khoá luận tốt nghiệp
-
 - Đánh giá đồ án, khoá luận tốt nghiệp được thực hiện bởi hội đồng do Hiệu trưởng quyết định thành lập.
-
 - Số thành viên của hội đồng gồm 03 người: Chủ tịch, ủy viên phản biện và thư ký (người hướng dẫn không tham gia hội đồng). Hội đồng tổ chức bảo vệ và đánh giá đồ án, khoá luận tốt nghiệp khi có đầy đủ các thành viên.
-
 - Hội đồng chấm đồ án, khoá luận tốt nghiệp do Khoa đề xuất, Phòng Khảo thí và Bảo đảm chất lượng trình Hiệu trưởng quyết định.
-
 - Điểm đánh giá khoá luận, đồ án tốt nghiệp là trung bình cộng các điểm thành phần của các thành viên hội đồng và người hướng dẫn ([Điểm người hướng dẫn + Điểm các thành viên hội đồng (3 cột điểm)]/4). Điểm thành phần được chấm theo thang điểm 10, lấy đến một chữ số thập phân. Điểm đánh giá khoá luận, đồ án tốt nghiệp tính theo thang điểm 10, làm tròn lấy một chữ số thập phân và được quy đổi theo thang điểm chữ theo quy định tại khoản 7 Điều 11 của Quy chế này.
-
 Việc tổ chức bảo vệ và đánh giá đồ án, khoá luận được thực hiện trực tuyến khi đáp ứng thêm các điều kiện sau đây:
 
 a) Việc đánh giá được thực hiện thông qua một hội đồng chuyên môn gồm ít nhất 3 thành viên.
@@ -431,15 +401,10 @@ Từ 1,0 đến cận 2,0: Yếu;
 Dưới 1,0: Kém.
 
 3. Sinh viên được xếp trình độ năm học căn cứ số tín chỉ tích lũy được từ đầu khóa học (gọi tắt là N) và số tín chỉ trung bình một năm học theo kế hoạch học tập chuẩn (gọi tắt là Y), cụ thể như sau:
-
 a) Trình độ năm thứ nhất: N < Y;
-
 b) Trình độ năm thứ hai: Y < N < 2Y;
-
 c) Trình độ năm thứ ba: 2Y < N < 3Y;
-
 d) Trình độ năm thứ tư: 3Y < N < 4Y;
-
 đ) Trình độ năm thứ năm: 4Y < N < 5Y.
 
 4. Kết quả học tập trong học kỳ phụ được gộp vào kết quả học tập trong học kỳ chính ngay trước học kỳ phụ để xếp hạng sinh viên về học lực.
@@ -449,15 +414,11 @@ d) Trình độ năm thứ tư: 3Y < N < 4Y;
 1. Đào tạo theo tín chỉ:
 
 a) Cuối mỗi học kỳ chính, sinh viên bị cảnh báo học tập nếu thuộc vào một trong các điều kiện sau đây:
-
 - Điểm trung bình học kỳ đạt dưới 0,8 đối với học kỳ đầu của khóa học, dưới 1,0 đối với các học kỳ tiếp theo;
-
 - Điểm trung bình tích lũy đạt dưới 1,2 đối với sinh viên trình độ năm thứ nhất, dưới 1,4 đối với sinh viên trình độ năm thứ hai, dưới 1,6 đối với sinh viên trình độ năm thứ ba hoặc dưới 1,8 đối với sinh viên các năm tiếp theo.
 
 b) Sinh viên bị buộc thôi học nếu thuộc một trong những trường hợp sau đây:
-
 - Sinh viên đã bị cảnh báo 2 lần liên tiếp nhưng học kỳ tiếp theo vẫn rơi vào trường hợp nêu ở điểm a Khoản 1 của Điều này;
-
 - Vượt quá thời gian tối đa được phép học tại Trường quy định tại khoản 5 Điều 2 của Quy chế này.
 
 c) Chậm nhất là một tháng sau khi có quyết định buộc thôi học, Phòng Công tác chính trị và Sinh viên thông báo cho gia đình sinh viên. Sinh viên thuộc diện bị buộc thôi học theo quy định tại điểm b khoản 1 của Điều này, trong vòng 02 năm được quyền xin xét chuyển qua các chương trình đào tạo hình thức vừa làm vừa học hoặc chương trình đào tạo ở trình độ thấp hơn tương ứng hoặc tham gia xét tuyển vào khóa mới và được bảo lưu một phần kết quả học tập ở chương trình cũ. Hiệu trưởng xem xét quyết định cho bảo lưu kết quả học tập đối với từng trường hợp cụ thể.
@@ -467,17 +428,12 @@ c) Chậm nhất là một tháng sau khi có quyết định buộc thôi học
 2. Đào tạo theo niên chế:
 
 a) Cuối mỗi năm học, sinh viên được đánh giá đạt tiến độ học tập bình thường và được học tiếp lên năm học sau nếu đạt cả hai điều kiện:
-
 - Điểm trung bình năm học đạt từ 1,0 trở lên đối với năm học thứ nhất, từ 1,2 trở lên đối với năm thứ hai và từ 1,4 đối với năm thứ ba trở đi;
-
 - Số tín chỉ nợ đọng từ đầu khóa không vượt quá 16.
 
 b) Sinh viên bị buộc thôi học trong các trường hợp:
-
 - Điểm trung bình năm học đạt dưới 0,8;
-
 - Điểm trung bình tích lũy đạt dưới 1,2 sau 2 năm học, dưới 1,4 sau 3 năm học và dưới 1,6 từ sau 4 năm học trở đi;
-
 - Thời gian học tập vượt quá giới hạn theo quy định tại khoản 5 Điều 2 của Quy chế này.
 
 c) Sinh viên không thuộc diện quy định tại điểm a và b, khoản 2 Điều này được xếp lớp học cùng khóa sau để cải thiện kết quả học tập.
@@ -511,7 +467,6 @@ c) Tại thời điểm xét tốt nghiệp không bị truy cứu trách nhiệ
 d) Có đơn gửi Phòng Đào tạo đại học đề nghị được xét tốt nghiệp trong trường hợp đủ điều kiện tốt nghiệp sớm so với thời gian đào tạo.
 
 2. Hội đồng xét tốt nghiệp căn cứ các điều kiện công nhận tốt nghiệp quy định tại khoản 1 Điều này để lập danh sách những sinh viên đủ điều kiện tốt nghiệp.
-
 Hội đồng xét tốt nghiệp do Hiệu trưởng hoặc Phó Hiệu trưởng được Hiệu trưởng ủy quyền làm Chủ tịch, Trưởng Phòng đào tạo đại học làm Thư ký và các thành viên là các trưởng khoa, trưởng phòng liên quan.
 
 3. Căn cứ đề nghị của Hội đồng xét tốt nghiệp, Hiệu trưởng ký quyết định công nhận tốt nghiệp cho sinh viên.
@@ -553,11 +508,8 @@ d) Vì lý do cá nhân khác nhưng đã học tối thiểu 01 học kỳ ở 
 3. Sinh viên được xin thôi học vì lý do cá nhân, trừ trường hợp bị xem xét buộc thôi học hoặc xem xét kỷ luật. Những sinh viên này muốn quay trở lại học phải dự tuyển đầu vào như những thí sinh khác.
 
 4. Thủ tục xin nghỉ học tạm thời, tiếp nhận trở lại học và cho thôi học:
-
 - Thủ tục để được nghỉ học tạm thời: Sinh viên viết đơn có xác nhận của khoa quản lý ngành đào tạo kèm với minh chứng lý do nghỉ học tạm thời nộp cho Phòng Đào tạo đại học. Hiệu trưởng quyết định cho từng trường hợp cụ thể;
-
 - Thủ tục xin trở lại học: Sinh viên nghỉ học tạm thời, khi muốn trở lại học tiếp tại Trường, trước khi bắt đầu học kỳ mới ít nhất một tuần, phải viết đơn nộp cho Phòng Đào tạo đại học để trình Hiệu trưởng quyết định.
-
 - Cho thôi học: Căn cứ vào điều kiện riêng, sinh viên có thể làm đơn xin thôi học và nộp cho Phòng Đào tạo đại học. Hiệu trưởng quyết định cho từng trường hợp cụ thể.
 
 21

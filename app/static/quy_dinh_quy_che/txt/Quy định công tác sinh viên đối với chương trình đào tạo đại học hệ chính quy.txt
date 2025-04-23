@@ -123,29 +123,22 @@ Nội dung, hình thức và mức khen thưởng thường xuyên do Hiệu tr�
 2. Thi đua, khen thưởng toàn diện, định kỳ đối với cá nhân và tập thể lớp sinh viên được tiến hành vào cuối năm học, khóa học. Cụ thể:
 
 a) Đối với cá nhân:
-
 - Danh hiệu cá nhân gồm 3 loại: Khá, Giỏi, Xuất sắc.
-
 - Tiêu chuẩn xếp loại:
 + Đạt danh hiệu sinh viên Khá: Xếp loại học tập và rèn luyện từ khá trở lên;
 + Đạt danh hiệu sinh viên Giỏi: Xếp loại học tập từ giỏi trở lên và xếp loại rèn luyện từ tốt trở lên;
 + Đạt danh hiệu sinh viên Xuất sắc: Xếp loại học tập và rèn luyện loại xuất sắc. (Điểm xếp loại học tập tính theo thang điểm 10).
-
 - Danh hiệu cá nhân được lưu vào hồ sơ quản lý sinh viên.
-
 - Không xét khen thưởng đối với sinh viên bị kỷ luật hoặc có điểm kết thúc học phần trong năm học đó dưới mức trung bình.
 
 b) Đối với tập thể lớp sinh viên:
-
 - Danh hiệu tập thể lớp sinh viên gồm 2 loại: Lớp sinh viên Tiên tiến và Lớp sinh viên Xuất sắc. Cụ thể như sau:
-
 b1. Danh hiệu Lớp sinh viên Tiên tiến
 Tiêu chuẩn:
 + Có từ 25% sinh viên đạt danh hiệu sinh viên Khá trở lên;
 + Có cá nhân đạt danh hiệu sinh viên Giỏi trở lên;
 + Không có cá nhân xếp loại học tập kém hoặc rèn luyện kém, bị kỷ luật từ mức cảnh cáo trở lên;
 + Tập thể đoàn kết, giúp đỡ lẫn nhau trong học tập, rèn luyện, tổ chức nhiều hoạt động thi đua và tích cực hưởng ứng phong trào thi đua trong nhà trường.
-
 b2. Danh hiệu Lớp sinh viên Xuất sắc
 Tiêu chuẩn:
 + Đạt các tiêu chuẩn của danh hiệu tập thể Tiên tiến;
@@ -195,7 +188,6 @@ b) Chủ nhiệm lớp sinh viên (CVHT) chủ trì họp với tập thể lớ
 c) Khoa xem xét, đề nghị lên Hội đồng khen thưởng và kỷ luật sinh viên của Trường;
 
 d) Hội đồng khen thưởng và kỷ luật sinh viên Trường tổ chức họp để xét kỷ luật, thành phần bao gồm: các thành viên của Hội đồng, đại diện tập thể lớp sinh viên có sinh viên vi phạm và sinh viên có hành vi vi phạm. Sinh viên vi phạm kỷ luật đã được mời mà không đến dự (nếu không có lý do chính đáng), không có bản tự kiểm điểm thì Hội đồng vẫn tiến hành họp và xét thêm khuyết điểm thiếu ý thức tổ chức kỷ luật.
-
 Hội đồng kiến nghị áp dụng hình thức kỷ luật, đề nghị Hiệu trưởng ra quyết định kỷ luật bằng văn bản.
 
 2. Hồ sơ xử lý kỷ luật của sinh viên:
@@ -233,7 +225,6 @@ c) Các ủy viên: là đại diện các khoa, phòng, ban có liên quan; Đo
 2. Hiệu trưởng nhà trường ra quyết định thành lập và quy định cụ thể về chức năng, nhiệm vụ, tổ chức và hoạt động của Hội đồng khen thưởng và kỷ luật sinh viên.
 
 Điều 13. Quyền khiếu nại về khen thưởng, kỷ luật
-
 Cá nhân và tập thể sinh viên nếu xét thấy các hình thức khen thưởng và kỷ luật không thỏa đáng, có quyền khiếu nại lên các phòng, ban chức năng hoặc Hiệu trưởng nhà trường; nếu nhà trường đã xem xét lại mà chưa thỏa đáng có thể khiếu nại lên cấp có thẩm quyền theo quy định của pháp luật về khiếu nại, tố cáo.
 
 Chương IV: NỘI DUNG CÔNG TÁC SINH VIÊN
@@ -293,7 +284,6 @@ c) Hướng dẫn, kiểm tra, giám sát việc thực hiện các quy chế, q
 d) Tham mưu, theo dõi và tổng hợp việc xử lý kỷ luật sinh viên vi phạm theo quy định.
 
 3. Công tác sinh viên nội trú, ngoại trú
-
 Tổ chức thực hiện các nội dung, biện pháp công tác sinh viên nội trú, ngoại trú theo quy định của Bộ Giáo dục và Đào tạo.
 
 4. Công tác bảo đảm an ninh, trật tự trường học
@@ -310,11 +300,9 @@ Tuyên truyền, hướng dẫn, theo dõi, tổng hợp và giải quyết các
 Điều 16. Hỗ trợ và dịch vụ sinh viên
 
 1. Tư vấn học tập
-
 Tư vấn, hỗ trợ sinh viên xây dựng kế hoạch, phương pháp học tập phù hợp với mục tiêu và năng lực; cung cấp thông tin về chương trình đào tạo, hướng dẫn sinh viên tiếp cận các nguồn lực (về học thuật, tài chính, kỹ thuật...) nhằm nâng cao khả năng, học tập hiệu quả.
 
 2. Công tác hướng nghiệp, tư vấn việc làm
-
 Tổ chức thực hiện các nội dung, biện pháp công tác tư vấn hướng nghiệp, việc làm theo quy định của Bộ Giáo dục và Đào tạo.
 
 3. Tư vấn tâm lý, chăm sóc sức khỏe
@@ -324,21 +312,17 @@ a) Tư vấn, hỗ trợ sinh viên khi gặp phải các vấn đề về tâm 
 b) Tổ chức khám sức khỏe đầu vào và định kỳ cho sinh viên; tư vấn, tổ chức cho sinh viên thực hiện Luật bảo hiểm y tế; sơ, cấp cứu, khám chữa bệnh ban đầu cho sinh viên.
 
 4. Hỗ trợ tài chính
-
 Phối hợp với các tổ chức, cá nhân hảo tâm xây dựng, quản lý các quỹ học bổng; tổ chức trao học bổng tài trợ cho sinh viên xuất sắc, sinh viên có hoàn cảnh gia đình khó khăn.
 
 5. Hỗ trợ đặc biệt
-
 Triển khai dịch vụ công tác xã hội trong trường học, tạo điều kiện giúp đỡ sinh viên khuyết tật, sinh viên diện chính sách, có hoàn cảnh đặc biệt khó khăn.
 
 6. Tổ chức, quản lý các dịch vụ sinh viên
-
 Tổ chức dịch vụ cho sinh viên như: Internet, điện thoại, nhà ăn, căng tin, trông giữ xe, sân chơi, bãi tập, thiết chế văn hóa....
 
 Chương V: HỆ THỐNG TỔ CHỨC, QUẢN LÝ
 
 Điều 17. Hệ thống tổ chức, quản lý công tác sinh viên
-
 Hệ thống tổ chức, quản lý công tác sinh viên của nhà trường gồm: Hiệu trưởng nhà trường, phòng Công tác sinh viên, khoa, chủ nhiệm lớp sinh viên (CVHT) và lớp sinh viên.
 
 Điều 18. Hiệu trưởng nhà trường
@@ -360,11 +344,9 @@ Hệ thống tổ chức, quản lý công tác sinh viên của nhà trường 
 1. Phòng Công tác sinh viên là đơn vị giữ vai trò đầu mối, chủ trì tham mưu, tổng hợp giúp Hiệu trưởng về công tác sinh viên của nhà trường. Các khoa có trách nhiệm trực tiếp tổ chức, quản lý và triển khai thực hiện công tác sinh viên tại đơn vị.
 
 2. Chủ nhiệm lớp sinh viên
-
 Căn cứ điều kiện cụ thể, Trưởng khoa phân công giảng viên làm công tác chủ nhiệm lớp sinh viên để hỗ trợ quản lý, hướng dẫn các hoạt động học tập và rèn luyện của lớp sinh viên.
 
 3. Cố vấn học tập
-
 Căn cứ điều kiện cụ thể, Trưởng khoa phân công giảng viên kiêm nhiệm công tác cố vấn học tập cho sinh viên để tư vấn, hướng dẫn sinh viên thực hiện tốt quy chế, quy định về đào tạo; có thể phân công một giảng viên kiêm nhiệm công tác cố vấn học tập và chủ nhiệm lớp sinh viên.
 
 Điều 20. Lớp sinh viên
@@ -385,7 +367,6 @@ b) Nhiệm vụ của ban cán sự lớp sinh viên:
 10
 
 c) Quyền lợi của ban cán sự lớp sinh viên:
-
 Được ưu tiên cộng điểm rèn luyện và các chế độ khác theo quy định của trường.
 
 Điều 21. Lớp học phần
